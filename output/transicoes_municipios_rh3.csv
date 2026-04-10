@@ -1,0 +1,1046 @@
+﻿municipio,cod_ibge,transicao,periodo,area_ha
+Valença,3306107,Floresta_para_Pastagem,1985-2000,2817.681588196667
+Valença,3306107,Pastagem_para_Floresta,1985-2000,633.7073509592344
+Valença,3306107,Floresta_para_Agricultura,1985-2000,1.7402231395244598
+Valença,3306107,Floresta_para_Urbano,1985-2000,0.994815431535244
+Valença,3306107,Pastagem_para_Urbano,1985-2000,199.0330875664949
+Valença,3306107,Agricultura_para_Urbano,1985-2000,149.3883733600378
+Valença,3306107,VegNativa_para_Antropico,1985-2000,4727.715523658313
+Valença,3306107,Antropico_para_VegNativa,1985-2000,3157.8050323470834
+Valença,3306107,Pastagem_para_Agricultura,1985-2000,1.1598104536533356
+Valença,3306107,Silvicultura_para_Floresta,1985-2000,17.63239191969236
+Valença,3306107,Floresta_para_Silvicultura,1985-2000,0.7458105012774467
+Pinheiral,3303955,Floresta_para_Pastagem,1985-2000,174.09385926965987
+Pinheiral,3303955,Pastagem_para_Floresta,1985-2000,37.22344055958821
+Pinheiral,3303955,Floresta_para_Agricultura,1985-2000,0.0
+Pinheiral,3303955,Floresta_para_Urbano,1985-2000,0.0
+Pinheiral,3303955,Pastagem_para_Urbano,1985-2000,128.72196408781934
+Pinheiral,3303955,Agricultura_para_Urbano,1985-2000,36.91883596970754
+Pinheiral,3303955,VegNativa_para_Antropico,1985-2000,257.05758666746755
+Pinheiral,3303955,Antropico_para_VegNativa,1985-2000,195.67497865645333
+Pinheiral,3303955,Pastagem_para_Agricultura,1985-2000,0.0
+Pinheiral,3303955,Silvicultura_para_Floresta,1985-2000,0.0
+Pinheiral,3303955,Floresta_para_Silvicultura,1985-2000,0.0
+Rio Claro,3304409,Floresta_para_Pastagem,1985-2000,18.673090908690995
+Rio Claro,3304409,Pastagem_para_Floresta,1985-2000,13.136479132900051
+Rio Claro,3304409,Floresta_para_Agricultura,1985-2000,0.0
+Rio Claro,3304409,Floresta_para_Urbano,1985-2000,0.0
+Rio Claro,3304409,Pastagem_para_Urbano,1985-2000,2.7274475693702698
+Rio Claro,3304409,Agricultura_para_Urbano,1985-2000,0.6256121832366083
+Rio Claro,3304409,VegNativa_para_Antropico,1985-2000,89.836795796191
+Rio Claro,3304409,Antropico_para_VegNativa,1985-2000,57.23193467227268
+Rio Claro,3304409,Pastagem_para_Agricultura,1985-2000,0.0
+Rio Claro,3304409,Silvicultura_para_Floresta,1985-2000,0.0
+Rio Claro,3304409,Floresta_para_Silvicultura,1985-2000,0.0
+Barra do Piraí,3300308,Floresta_para_Pastagem,1985-2000,2331.4596284920976
+Barra do Piraí,3300308,Pastagem_para_Floresta,1985-2000,542.6573438611392
+Barra do Piraí,3300308,Floresta_para_Agricultura,1985-2000,0.0
+Barra do Piraí,3300308,Floresta_para_Urbano,1985-2000,6.870549112558365
+Barra do Piraí,3300308,Pastagem_para_Urbano,1985-2000,163.04282286687226
+Barra do Piraí,3300308,Agricultura_para_Urbano,1985-2000,161.1150856641578
+Barra do Piraí,3300308,VegNativa_para_Antropico,1985-2000,3544.154347203673
+Barra do Piraí,3300308,Antropico_para_VegNativa,1985-2000,1517.6194087572244
+Barra do Piraí,3300308,Pastagem_para_Agricultura,1985-2000,1.5736423581838608
+Barra do Piraí,3300308,Silvicultura_para_Floresta,1985-2000,57.99052569430833
+Barra do Piraí,3300308,Floresta_para_Silvicultura,1985-2000,2.319336026906967
+Vassouras,3306206,Floresta_para_Pastagem,1985-2000,403.8432349995656
+Vassouras,3306206,Pastagem_para_Floresta,1985-2000,306.91034385547334
+Vassouras,3306206,Floresta_para_Agricultura,1985-2000,14.162635438144209
+Vassouras,3306206,Floresta_para_Urbano,1985-2000,1.1592231914401054
+Vassouras,3306206,Pastagem_para_Urbano,1985-2000,76.94077180325985
+Vassouras,3306206,Agricultura_para_Urbano,1985-2000,111.56481429189444
+Vassouras,3306206,VegNativa_para_Antropico,1985-2000,879.242086134179
+Vassouras,3306206,Antropico_para_VegNativa,1985-2000,1963.80374481082
+Vassouras,3306206,Pastagem_para_Agricultura,1985-2000,10.102947548031809
+Vassouras,3306206,Silvicultura_para_Floresta,1985-2000,0.0
+Vassouras,3306206,Floresta_para_Silvicultura,1985-2000,0.0
+Rio das Flores,3304508,Floresta_para_Pastagem,1985-2000,555.0281213057976
+Rio das Flores,3304508,Pastagem_para_Floresta,1985-2000,127.45251299984317
+Rio das Flores,3304508,Floresta_para_Agricultura,1985-2000,0.0
+Rio das Flores,3304508,Floresta_para_Urbano,1985-2000,0.3317986130714416
+Rio das Flores,3304508,Pastagem_para_Urbano,1985-2000,27.69955139607191
+Rio das Flores,3304508,Agricultura_para_Urbano,1985-2000,30.60737008601427
+Rio das Flores,3304508,VegNativa_para_Antropico,1985-2000,1020.8999523133624
+Rio das Flores,3304508,Antropico_para_VegNativa,1985-2000,1775.565481243969
+Rio das Flores,3304508,Pastagem_para_Agricultura,1985-2000,0.0
+Rio das Flores,3304508,Silvicultura_para_Floresta,1985-2000,0.0
+Rio das Flores,3304508,Floresta_para_Silvicultura,1985-2000,0.0
+Porto Real,3304110,Floresta_para_Pastagem,1985-2000,15.234532542526722
+Porto Real,3304110,Pastagem_para_Floresta,1985-2000,3.003191834834276
+Porto Real,3304110,Floresta_para_Agricultura,1985-2000,0.0
+Porto Real,3304110,Floresta_para_Urbano,1985-2000,1.2419370636343956
+Porto Real,3304110,Pastagem_para_Urbano,1985-2000,497.42814548427566
+Porto Real,3304110,Agricultura_para_Urbano,1985-2000,71.36991473322405
+Porto Real,3304110,VegNativa_para_Antropico,1985-2000,48.35904384693679
+Porto Real,3304110,Antropico_para_VegNativa,1985-2000,36.140291439142885
+Porto Real,3304110,Pastagem_para_Agricultura,1985-2000,4.105034504626312
+Porto Real,3304110,Silvicultura_para_Floresta,1985-2000,0.0
+Porto Real,3304110,Floresta_para_Silvicultura,1985-2000,0.0
+Quatis,3304128,Floresta_para_Pastagem,1985-2000,693.6473199038237
+Quatis,3304128,Pastagem_para_Floresta,1985-2000,49.87601275742054
+Quatis,3304128,Floresta_para_Agricultura,1985-2000,0.0
+Quatis,3304128,Floresta_para_Urbano,1985-2000,0.0
+Quatis,3304128,Pastagem_para_Urbano,1985-2000,77.17597202956676
+Quatis,3304128,Agricultura_para_Urbano,1985-2000,22.27514112740755
+Quatis,3304128,VegNativa_para_Antropico,1985-2000,2090.7176536120032
+Quatis,3304128,Antropico_para_VegNativa,1985-2000,660.6360596335109
+Quatis,3304128,Pastagem_para_Agricultura,1985-2000,0.0
+Quatis,3304128,Silvicultura_para_Floresta,1985-2000,0.0
+Quatis,3304128,Floresta_para_Silvicultura,1985-2000,0.0
+Paraíba do Sul,3303708,Floresta_para_Pastagem,1985-2000,383.5772400054277
+Paraíba do Sul,3303708,Pastagem_para_Floresta,1985-2000,134.6433404167493
+Paraíba do Sul,3303708,Floresta_para_Agricultura,1985-2000,0.0
+Paraíba do Sul,3303708,Floresta_para_Urbano,1985-2000,0.1658675223588943
+Paraíba do Sul,3303708,Pastagem_para_Urbano,1985-2000,123.6663424372673
+Paraíba do Sul,3303708,Agricultura_para_Urbano,1985-2000,134.11286417172823
+Paraíba do Sul,3303708,VegNativa_para_Antropico,1985-2000,789.6711849902483
+Paraíba do Sul,3303708,Antropico_para_VegNativa,1985-2000,2074.102736192649
+Paraíba do Sul,3303708,Pastagem_para_Agricultura,1985-2000,0.0
+Paraíba do Sul,3303708,Silvicultura_para_Floresta,1985-2000,0.0
+Paraíba do Sul,3303708,Floresta_para_Silvicultura,1985-2000,0.0
+Resende,3304201,Floresta_para_Pastagem,1985-2000,1675.3982044397032
+Resende,3304201,Pastagem_para_Floresta,1985-2000,641.502682031019
+Resende,3304201,Floresta_para_Agricultura,1985-2000,0.0
+Resende,3304201,Floresta_para_Urbano,1985-2000,5.877192854881287
+Resende,3304201,Pastagem_para_Urbano,1985-2000,721.9788967434681
+Resende,3304201,Agricultura_para_Urbano,1985-2000,216.2478021916221
+Resende,3304201,VegNativa_para_Antropico,1985-2000,4451.489575119609
+Resende,3304201,Antropico_para_VegNativa,1985-2000,3681.503715563201
+Resende,3304201,Pastagem_para_Agricultura,1985-2000,45.64880258426362
+Resende,3304201,Silvicultura_para_Floresta,1985-2000,0.0
+Resende,3304201,Floresta_para_Silvicultura,1985-2000,234.3509709941113
+Comendador Levy Gasparian,3300951,Floresta_para_Pastagem,1985-2000,102.8396981050863
+Comendador Levy Gasparian,3300951,Pastagem_para_Floresta,1985-2000,29.895257731863097
+Comendador Levy Gasparian,3300951,Floresta_para_Agricultura,1985-2000,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Urbano,1985-2000,0.664112314581871
+Comendador Levy Gasparian,3300951,Pastagem_para_Urbano,1985-2000,28.64303245395422
+Comendador Levy Gasparian,3300951,Agricultura_para_Urbano,1985-2000,55.52769572241049
+Comendador Levy Gasparian,3300951,VegNativa_para_Antropico,1985-2000,244.7891163188745
+Comendador Levy Gasparian,3300951,Antropico_para_VegNativa,1985-2000,526.9379271646341
+Comendador Levy Gasparian,3300951,Pastagem_para_Agricultura,1985-2000,0.0
+Comendador Levy Gasparian,3300951,Silvicultura_para_Floresta,1985-2000,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Silvicultura,1985-2000,0.0
+Três Rios,3306008,Floresta_para_Pastagem,1985-2000,23.0028362938002
+Três Rios,3306008,Pastagem_para_Floresta,1985-2000,23.55785950620969
+Três Rios,3306008,Floresta_para_Agricultura,1985-2000,0.0
+Três Rios,3306008,Floresta_para_Urbano,1985-2000,0.7467376962304115
+Três Rios,3306008,Pastagem_para_Urbano,1985-2000,242.2977903598956
+Três Rios,3306008,Agricultura_para_Urbano,1985-2000,170.08585322043473
+Três Rios,3306008,VegNativa_para_Antropico,1985-2000,73.53366498979285
+Três Rios,3306008,Antropico_para_VegNativa,1985-2000,226.3579290641873
+Três Rios,3306008,Pastagem_para_Agricultura,1985-2000,0.0
+Três Rios,3306008,Silvicultura_para_Floresta,1985-2000,0.0
+Três Rios,3306008,Floresta_para_Silvicultura,1985-2000,0.0
+Paty do Alferes,3303856,Floresta_para_Pastagem,1985-2000,259.4106655149192
+Paty do Alferes,3303856,Pastagem_para_Floresta,1985-2000,141.8720659549914
+Paty do Alferes,3303856,Floresta_para_Agricultura,1985-2000,0.0
+Paty do Alferes,3303856,Floresta_para_Urbano,1985-2000,0.2483684793114662
+Paty do Alferes,3303856,Pastagem_para_Urbano,1985-2000,110.2812432175758
+Paty do Alferes,3303856,Agricultura_para_Urbano,1985-2000,84.15883556709571
+Paty do Alferes,3303856,VegNativa_para_Antropico,1985-2000,579.1862867013497
+Paty do Alferes,3303856,Antropico_para_VegNativa,1985-2000,1500.0065210370162
+Paty do Alferes,3303856,Pastagem_para_Agricultura,1985-2000,3.3369278251832606
+Paty do Alferes,3303856,Silvicultura_para_Floresta,1985-2000,0.0
+Paty do Alferes,3303856,Floresta_para_Silvicultura,1985-2000,0.0
+Itatiaia,3302254,Floresta_para_Pastagem,1985-2000,99.25788877904417
+Itatiaia,3302254,Pastagem_para_Floresta,1985-2000,171.00731192879817
+Itatiaia,3302254,Floresta_para_Agricultura,1985-2000,0.0
+Itatiaia,3302254,Floresta_para_Urbano,1985-2000,1.2418617829680445
+Itatiaia,3302254,Pastagem_para_Urbano,1985-2000,200.11322564704747
+Itatiaia,3302254,Agricultura_para_Urbano,1985-2000,114.34401974470592
+Itatiaia,3302254,VegNativa_para_Antropico,1985-2000,389.38033933998906
+Itatiaia,3302254,Antropico_para_VegNativa,1985-2000,742.3020303934811
+Itatiaia,3302254,Pastagem_para_Agricultura,1985-2000,2.64866840839386
+Itatiaia,3302254,Silvicultura_para_Floresta,1985-2000,0.0
+Itatiaia,3302254,Floresta_para_Silvicultura,1985-2000,0.3313478007912636
+Piraí,3304003,Floresta_para_Pastagem,1985-2000,486.6549190091153
+Piraí,3304003,Pastagem_para_Floresta,1985-2000,68.507384641264
+Piraí,3304003,Floresta_para_Agricultura,1985-2000,0.0
+Piraí,3304003,Floresta_para_Urbano,1985-2000,0.0
+Piraí,3304003,Pastagem_para_Urbano,1985-2000,45.60883348113766
+Piraí,3304003,Agricultura_para_Urbano,1985-2000,41.71522362127025
+Piraí,3304003,VegNativa_para_Antropico,1985-2000,662.6687975539589
+Piraí,3304003,Antropico_para_VegNativa,1985-2000,270.895139213666
+Piraí,3304003,Pastagem_para_Agricultura,1985-2000,0.0
+Piraí,3304003,Silvicultura_para_Floresta,1985-2000,0.0
+Piraí,3304003,Floresta_para_Silvicultura,1985-2000,0.7444140240550041
+Barra Mansa,3300407,Floresta_para_Pastagem,1985-2000,891.5546598561546
+Barra Mansa,3300407,Pastagem_para_Floresta,1985-2000,200.79668863637767
+Barra Mansa,3300407,Floresta_para_Agricultura,1985-2000,0.0
+Barra Mansa,3300407,Floresta_para_Urbano,1985-2000,11.25141428910634
+Barra Mansa,3300407,Pastagem_para_Urbano,1985-2000,201.43719928288
+Barra Mansa,3300407,Agricultura_para_Urbano,1985-2000,300.6511764078164
+Barra Mansa,3300407,VegNativa_para_Antropico,1985-2000,2597.068206098588
+Barra Mansa,3300407,Antropico_para_VegNativa,1985-2000,1445.7972431895191
+Barra Mansa,3300407,Pastagem_para_Agricultura,1985-2000,3.724144034087658
+Barra Mansa,3300407,Silvicultura_para_Floresta,1985-2000,2.959735860018169
+Barra Mansa,3300407,Floresta_para_Silvicultura,1985-2000,0.0
+Mendes,3302809,Floresta_para_Pastagem,1985-2000,25.549979111785984
+Mendes,3302809,Pastagem_para_Floresta,1985-2000,23.129173377039383
+Mendes,3302809,Floresta_para_Agricultura,1985-2000,0.0
+Mendes,3302809,Floresta_para_Urbano,1985-2000,0.0
+Mendes,3302809,Pastagem_para_Urbano,1985-2000,2.83223625637737
+Mendes,3302809,Agricultura_para_Urbano,1985-2000,2.0469699255683844
+Mendes,3302809,VegNativa_para_Antropico,1985-2000,63.918829964598
+Mendes,3302809,Antropico_para_VegNativa,1985-2000,83.57475233612693
+Mendes,3302809,Pastagem_para_Agricultura,1985-2000,0.0
+Mendes,3302809,Silvicultura_para_Floresta,1985-2000,0.0
+Mendes,3302809,Floresta_para_Silvicultura,1985-2000,0.0
+Volta Redonda,3306305,Floresta_para_Pastagem,1985-2000,275.4362053318057
+Volta Redonda,3306305,Pastagem_para_Floresta,1985-2000,97.07289293005186
+Volta Redonda,3306305,Floresta_para_Agricultura,1985-2000,0.0
+Volta Redonda,3306305,Floresta_para_Urbano,1985-2000,3.3085094273966904
+Volta Redonda,3306305,Pastagem_para_Urbano,1985-2000,380.1202684519922
+Volta Redonda,3306305,Agricultura_para_Urbano,1985-2000,344.90808054267205
+Volta Redonda,3306305,VegNativa_para_Antropico,1985-2000,799.9420180976393
+Volta Redonda,3306305,Antropico_para_VegNativa,1985-2000,530.4653802534822
+Volta Redonda,3306305,Pastagem_para_Agricultura,1985-2000,0.0
+Volta Redonda,3306305,Silvicultura_para_Floresta,1985-2000,3.000853512626068
+Volta Redonda,3306305,Floresta_para_Silvicultura,1985-2000,32.37352278828621
+Miguel Pereira,3302908,Floresta_para_Pastagem,1985-2000,28.136127159496155
+Miguel Pereira,3302908,Pastagem_para_Floresta,1985-2000,11.147361163327506
+Miguel Pereira,3302908,Floresta_para_Agricultura,1985-2000,0.0
+Miguel Pereira,3302908,Floresta_para_Urbano,1985-2000,8.194979295134544
+Miguel Pereira,3302908,Pastagem_para_Urbano,1985-2000,162.316048871419
+Miguel Pereira,3302908,Agricultura_para_Urbano,1985-2000,223.11459045649744
+Miguel Pereira,3302908,VegNativa_para_Antropico,1985-2000,101.7641286362036
+Miguel Pereira,3302908,Antropico_para_VegNativa,1985-2000,143.8009010547224
+Miguel Pereira,3302908,Pastagem_para_Agricultura,1985-2000,0.0
+Miguel Pereira,3302908,Silvicultura_para_Floresta,1985-2000,0.0
+Miguel Pereira,3302908,Floresta_para_Silvicultura,1985-2000,0.0
+Valença,3306107,Floresta_para_Pastagem,2000-2010,817.8399922777332
+Valença,3306107,Pastagem_para_Floresta,2000-2010,445.1466316455427
+Valença,3306107,Floresta_para_Agricultura,2000-2010,0.0
+Valença,3306107,Floresta_para_Urbano,2000-2010,0.0
+Valença,3306107,Pastagem_para_Urbano,2000-2010,81.90919359773397
+Valença,3306107,Agricultura_para_Urbano,2000-2010,41.2834115922451
+Valença,3306107,VegNativa_para_Antropico,2000-2010,2267.9520453500686
+Valença,3306107,Antropico_para_VegNativa,2000-2010,2180.2802826152124
+Valença,3306107,Pastagem_para_Agricultura,2000-2010,0.0828326418995857
+Valença,3306107,Silvicultura_para_Floresta,2000-2010,1.9897369965910912
+Valença,3306107,Floresta_para_Silvicultura,2000-2010,3.2319784834980965
+Pinheiral,3303955,Floresta_para_Pastagem,2000-2010,42.88713060494732
+Pinheiral,3303955,Pastagem_para_Floresta,2000-2010,56.69739758433665
+Pinheiral,3303955,Floresta_para_Agricultura,2000-2010,0.0
+Pinheiral,3303955,Floresta_para_Urbano,2000-2010,0.0
+Pinheiral,3303955,Pastagem_para_Urbano,2000-2010,31.85895361751318
+Pinheiral,3303955,Agricultura_para_Urbano,2000-2010,7.549824315426396
+Pinheiral,3303955,VegNativa_para_Antropico,2000-2010,112.02255340203932
+Pinheiral,3303955,Antropico_para_VegNativa,2000-2010,153.2147747142934
+Pinheiral,3303955,Pastagem_para_Agricultura,2000-2010,0.0
+Pinheiral,3303955,Silvicultura_para_Floresta,2000-2010,0.0
+Pinheiral,3303955,Floresta_para_Silvicultura,2000-2010,0.0
+Rio Claro,3304409,Floresta_para_Pastagem,2000-2010,6.208670857198098
+Rio Claro,3304409,Pastagem_para_Floresta,2000-2010,2.332623479559141
+Rio Claro,3304409,Floresta_para_Agricultura,2000-2010,0.0
+Rio Claro,3304409,Floresta_para_Urbano,2000-2010,0.0
+Rio Claro,3304409,Pastagem_para_Urbano,2000-2010,0.4132414534687996
+Rio Claro,3304409,Agricultura_para_Urbano,2000-2010,0.9919327795505524
+Rio Claro,3304409,VegNativa_para_Antropico,2000-2010,66.05134613221767
+Rio Claro,3304409,Antropico_para_VegNativa,2000-2010,68.33210528580581
+Rio Claro,3304409,Pastagem_para_Agricultura,2000-2010,0.0
+Rio Claro,3304409,Silvicultura_para_Floresta,2000-2010,0.0
+Rio Claro,3304409,Floresta_para_Silvicultura,2000-2010,0.0
+Barra do Piraí,3300308,Floresta_para_Pastagem,2000-2010,666.4658343111474
+Barra do Piraí,3300308,Pastagem_para_Floresta,2000-2010,375.1142492058231
+Barra do Piraí,3300308,Floresta_para_Agricultura,2000-2010,0.0
+Barra do Piraí,3300308,Floresta_para_Urbano,2000-2010,2.5656461268663406
+Barra do Piraí,3300308,Pastagem_para_Urbano,2000-2010,41.2244705211006
+Barra do Piraí,3300308,Agricultura_para_Urbano,2000-2010,35.0974992737174
+Barra do Piraí,3300308,VegNativa_para_Antropico,2000-2010,1506.9050365862015
+Barra do Piraí,3300308,Antropico_para_VegNativa,2000-2010,1007.2806632037256
+Barra do Piraí,3300308,Pastagem_para_Agricultura,2000-2010,0.0
+Barra do Piraí,3300308,Silvicultura_para_Floresta,2000-2010,0.662697933614254
+Barra do Piraí,3300308,Floresta_para_Silvicultura,2000-2010,0.5797600969672203
+Vassouras,3306206,Floresta_para_Pastagem,2000-2010,239.02130520066208
+Vassouras,3306206,Pastagem_para_Floresta,2000-2010,258.8123628397198
+Vassouras,3306206,Floresta_para_Agricultura,2000-2010,0.0
+Vassouras,3306206,Floresta_para_Urbano,2000-2010,0.0
+Vassouras,3306206,Pastagem_para_Urbano,2000-2010,37.44568130373955
+Vassouras,3306206,Agricultura_para_Urbano,2000-2010,14.32858094573021
+Vassouras,3306206,VegNativa_para_Antropico,2000-2010,839.9059259928324
+Vassouras,3306206,Antropico_para_VegNativa,2000-2010,1036.2392814184811
+Vassouras,3306206,Pastagem_para_Agricultura,2000-2010,0.4969101175665855
+Vassouras,3306206,Silvicultura_para_Floresta,2000-2010,0.0
+Vassouras,3306206,Floresta_para_Silvicultura,2000-2010,0.082877367734909
+Rio das Flores,3304508,Floresta_para_Pastagem,2000-2010,195.1169984144031
+Rio das Flores,3304508,Pastagem_para_Floresta,2000-2010,239.94702298597372
+Rio das Flores,3304508,Floresta_para_Agricultura,2000-2010,0.0
+Rio das Flores,3304508,Floresta_para_Urbano,2000-2010,0.0
+Rio das Flores,3304508,Pastagem_para_Urbano,2000-2010,27.95335402339697
+Rio das Flores,3304508,Agricultura_para_Urbano,2000-2010,8.322721134009315
+Rio das Flores,3304508,VegNativa_para_Antropico,2000-2010,672.3663567207316
+Rio das Flores,3304508,Antropico_para_VegNativa,2000-2010,1042.586419909608
+Rio das Flores,3304508,Pastagem_para_Agricultura,2000-2010,0.0
+Rio das Flores,3304508,Silvicultura_para_Floresta,2000-2010,0.0
+Rio das Flores,3304508,Floresta_para_Silvicultura,2000-2010,2.569530136883259
+Porto Real,3304110,Floresta_para_Pastagem,2000-2010,0.1655792966485023
+Porto Real,3304110,Pastagem_para_Floresta,2000-2010,3.7553671049136734
+Porto Real,3304110,Floresta_para_Agricultura,2000-2010,0.0
+Porto Real,3304110,Floresta_para_Urbano,2000-2010,0.0
+Porto Real,3304110,Pastagem_para_Urbano,2000-2010,118.54028168054772
+Porto Real,3304110,Agricultura_para_Urbano,2000-2010,33.28483136743307
+Porto Real,3304110,VegNativa_para_Antropico,2000-2010,7.219242923662943
+Porto Real,3304110,Antropico_para_VegNativa,2000-2010,57.11949449438675
+Porto Real,3304110,Pastagem_para_Agricultura,2000-2010,0.5796747133135796
+Porto Real,3304110,Silvicultura_para_Floresta,2000-2010,0.0
+Porto Real,3304110,Floresta_para_Silvicultura,2000-2010,0.0
+Quatis,3304128,Floresta_para_Pastagem,2000-2010,47.84315759811332
+Quatis,3304128,Pastagem_para_Floresta,2000-2010,49.465132692339374
+Quatis,3304128,Floresta_para_Agricultura,2000-2010,0.0
+Quatis,3304128,Floresta_para_Urbano,2000-2010,0.0
+Quatis,3304128,Pastagem_para_Urbano,2000-2010,27.73706296086312
+Quatis,3304128,Agricultura_para_Urbano,2000-2010,2.768781487117796
+Quatis,3304128,VegNativa_para_Antropico,2000-2010,435.44501320597
+Quatis,3304128,Antropico_para_VegNativa,2000-2010,784.4461818944883
+Quatis,3304128,Pastagem_para_Agricultura,2000-2010,0.0
+Quatis,3304128,Silvicultura_para_Floresta,2000-2010,0.0
+Quatis,3304128,Floresta_para_Silvicultura,2000-2010,0.0
+Paraíba do Sul,3303708,Floresta_para_Pastagem,2000-2010,159.07023646881186
+Paraíba do Sul,3303708,Pastagem_para_Floresta,2000-2010,203.62343443062372
+Paraíba do Sul,3303708,Floresta_para_Agricultura,2000-2010,0.0
+Paraíba do Sul,3303708,Floresta_para_Urbano,2000-2010,0.0
+Paraíba do Sul,3303708,Pastagem_para_Urbano,2000-2010,82.9423808157444
+Paraíba do Sul,3303708,Agricultura_para_Urbano,2000-2010,41.3779455218245
+Paraíba do Sul,3303708,VegNativa_para_Antropico,2000-2010,665.3837569528642
+Paraíba do Sul,3303708,Antropico_para_VegNativa,2000-2010,1215.899510052274
+Paraíba do Sul,3303708,Pastagem_para_Agricultura,2000-2010,0.0
+Paraíba do Sul,3303708,Silvicultura_para_Floresta,2000-2010,0.0
+Paraíba do Sul,3303708,Floresta_para_Silvicultura,2000-2010,1.161871202290058
+Resende,3304201,Floresta_para_Pastagem,2000-2010,499.4287961905494
+Resende,3304201,Pastagem_para_Floresta,2000-2010,742.6277893173929
+Resende,3304201,Floresta_para_Agricultura,2000-2010,0.0
+Resende,3304201,Floresta_para_Urbano,2000-2010,0.0
+Resende,3304201,Pastagem_para_Urbano,2000-2010,333.5660777375979
+Resende,3304201,Agricultura_para_Urbano,2000-2010,26.28881032449357
+Resende,3304201,VegNativa_para_Antropico,2000-2010,2113.859802171676
+Resende,3304201,Antropico_para_VegNativa,2000-2010,3246.9371580959823
+Resende,3304201,Pastagem_para_Agricultura,2000-2010,0.0016254043462229
+Resende,3304201,Silvicultura_para_Floresta,2000-2010,30.06289362162352
+Resende,3304201,Floresta_para_Silvicultura,2000-2010,163.3455676741752
+Comendador Levy Gasparian,3300951,Floresta_para_Pastagem,2000-2010,39.36182474572869
+Comendador Levy Gasparian,3300951,Pastagem_para_Floresta,2000-2010,22.680226513947925
+Comendador Levy Gasparian,3300951,Floresta_para_Agricultura,2000-2010,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Urbano,2000-2010,0.0
+Comendador Levy Gasparian,3300951,Pastagem_para_Urbano,2000-2010,19.59264662861824
+Comendador Levy Gasparian,3300951,Agricultura_para_Urbano,2000-2010,8.405113991948904
+Comendador Levy Gasparian,3300951,VegNativa_para_Antropico,2000-2010,179.99327574474555
+Comendador Levy Gasparian,3300951,Antropico_para_VegNativa,2000-2010,257.7658467087676
+Comendador Levy Gasparian,3300951,Pastagem_para_Agricultura,2000-2010,0.0
+Comendador Levy Gasparian,3300951,Silvicultura_para_Floresta,2000-2010,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Silvicultura,2000-2010,0.0
+Três Rios,3306008,Floresta_para_Pastagem,2000-2010,20.54355570346701
+Três Rios,3306008,Pastagem_para_Floresta,2000-2010,10.081598248435002
+Três Rios,3306008,Floresta_para_Agricultura,2000-2010,0.0
+Três Rios,3306008,Floresta_para_Urbano,2000-2010,0.0
+Três Rios,3306008,Pastagem_para_Urbano,2000-2010,77.63868023814524
+Três Rios,3306008,Agricultura_para_Urbano,2000-2010,30.622183963656425
+Três Rios,3306008,VegNativa_para_Antropico,2000-2010,81.55754221631031
+Três Rios,3306008,Antropico_para_VegNativa,2000-2010,97.03907781193652
+Três Rios,3306008,Pastagem_para_Agricultura,2000-2010,0.0
+Três Rios,3306008,Silvicultura_para_Floresta,2000-2010,0.0
+Três Rios,3306008,Floresta_para_Silvicultura,2000-2010,0.0
+Paty do Alferes,3303856,Floresta_para_Pastagem,2000-2010,261.40070912478603
+Paty do Alferes,3303856,Pastagem_para_Floresta,2000-2010,75.66604775967551
+Paty do Alferes,3303856,Floresta_para_Agricultura,2000-2010,0.0
+Paty do Alferes,3303856,Floresta_para_Urbano,2000-2010,0.0827964097261428
+Paty do Alferes,3303856,Pastagem_para_Urbano,2000-2010,79.0121386638459
+Paty do Alferes,3303856,Agricultura_para_Urbano,2000-2010,19.295261062681675
+Paty do Alferes,3303856,VegNativa_para_Antropico,2000-2010,797.9890443306344
+Paty do Alferes,3303856,Antropico_para_VegNativa,2000-2010,427.7788748852179
+Paty do Alferes,3303856,Pastagem_para_Agricultura,2000-2010,1.6560258641839027
+Paty do Alferes,3303856,Silvicultura_para_Floresta,2000-2010,0.0
+Paty do Alferes,3303856,Floresta_para_Silvicultura,2000-2010,0.0
+Itatiaia,3302254,Floresta_para_Pastagem,2000-2010,138.46609901724494
+Itatiaia,3302254,Pastagem_para_Floresta,2000-2010,25.081479750573635
+Itatiaia,3302254,Floresta_para_Agricultura,2000-2010,0.0
+Itatiaia,3302254,Floresta_para_Urbano,2000-2010,0.0
+Itatiaia,3302254,Pastagem_para_Urbano,2000-2010,71.59328335523605
+Itatiaia,3302254,Agricultura_para_Urbano,2000-2010,18.361126789450644
+Itatiaia,3302254,VegNativa_para_Antropico,2000-2010,352.8318618213429
+Itatiaia,3302254,Antropico_para_VegNativa,2000-2010,462.4101600598764
+Itatiaia,3302254,Pastagem_para_Agricultura,2000-2010,0.0
+Itatiaia,3302254,Silvicultura_para_Floresta,2000-2010,0.0
+Itatiaia,3302254,Floresta_para_Silvicultura,2000-2010,0.828462153673172
+Piraí,3304003,Floresta_para_Pastagem,2000-2010,67.42412728535778
+Piraí,3304003,Pastagem_para_Floresta,2000-2010,30.19155219255709
+Piraí,3304003,Floresta_para_Agricultura,2000-2010,0.0
+Piraí,3304003,Floresta_para_Urbano,2000-2010,0.0
+Piraí,3304003,Pastagem_para_Urbano,2000-2010,18.8964525446588
+Piraí,3304003,Agricultura_para_Urbano,2000-2010,5.887329235322335
+Piraí,3304003,VegNativa_para_Antropico,2000-2010,199.21704913342705
+Piraí,3304003,Antropico_para_VegNativa,2000-2010,144.49845096366664
+Piraí,3304003,Pastagem_para_Agricultura,2000-2010,0.0
+Piraí,3304003,Silvicultura_para_Floresta,2000-2010,0.0
+Piraí,3304003,Floresta_para_Silvicultura,2000-2010,0.0
+Barra Mansa,3300407,Floresta_para_Pastagem,2000-2010,96.49197556353084
+Barra Mansa,3300407,Pastagem_para_Floresta,2000-2010,244.59680193440585
+Barra Mansa,3300407,Floresta_para_Agricultura,2000-2010,0.0
+Barra Mansa,3300407,Floresta_para_Urbano,2000-2010,0.1654649898409843
+Barra Mansa,3300407,Pastagem_para_Urbano,2000-2010,25.31632085889578
+Barra Mansa,3300407,Agricultura_para_Urbano,2000-2010,37.14812871813774
+Barra Mansa,3300407,VegNativa_para_Antropico,2000-2010,712.4248225725748
+Barra Mansa,3300407,Antropico_para_VegNativa,2000-2010,1296.2442111957312
+Barra Mansa,3300407,Pastagem_para_Agricultura,2000-2010,0.4962800145149231
+Barra Mansa,3300407,Silvicultura_para_Floresta,2000-2010,0.8690125624923145
+Barra Mansa,3300407,Floresta_para_Silvicultura,2000-2010,0.0828105434775352
+Mendes,3302809,Floresta_para_Pastagem,2000-2010,15.277123680886096
+Mendes,3302809,Pastagem_para_Floresta,2000-2010,6.954301080545958
+Mendes,3302809,Floresta_para_Agricultura,2000-2010,0.0
+Mendes,3302809,Floresta_para_Urbano,2000-2010,0.0
+Mendes,3302809,Pastagem_para_Urbano,2000-2010,0.014605998116381
+Mendes,3302809,Agricultura_para_Urbano,2000-2010,0.0
+Mendes,3302809,VegNativa_para_Antropico,2000-2010,54.67570803428399
+Mendes,3302809,Antropico_para_VegNativa,2000-2010,41.14652665508728
+Mendes,3302809,Pastagem_para_Agricultura,2000-2010,0.0
+Mendes,3302809,Silvicultura_para_Floresta,2000-2010,0.0
+Mendes,3302809,Floresta_para_Silvicultura,2000-2010,0.0
+Volta Redonda,3306305,Floresta_para_Pastagem,2000-2010,25.087601593984107
+Volta Redonda,3306305,Pastagem_para_Floresta,2000-2010,98.95711871876436
+Volta Redonda,3306305,Floresta_para_Agricultura,2000-2010,0.0
+Volta Redonda,3306305,Floresta_para_Urbano,2000-2010,0.4136667400598526
+Volta Redonda,3306305,Pastagem_para_Urbano,2000-2010,107.6263912320137
+Volta Redonda,3306305,Agricultura_para_Urbano,2000-2010,32.43733064085245
+Volta Redonda,3306305,VegNativa_para_Antropico,2000-2010,202.9316376508451
+Volta Redonda,3306305,Antropico_para_VegNativa,2000-2010,575.3417148797242
+Volta Redonda,3306305,Pastagem_para_Agricultura,2000-2010,0.0
+Volta Redonda,3306305,Silvicultura_para_Floresta,2000-2010,52.94696254090352
+Volta Redonda,3306305,Floresta_para_Silvicultura,2000-2010,21.362515926361084
+Miguel Pereira,3302908,Floresta_para_Pastagem,2000-2010,19.61711175190468
+Miguel Pereira,3302908,Pastagem_para_Floresta,2000-2010,4.447610952369138
+Miguel Pereira,3302908,Floresta_para_Agricultura,2000-2010,0.0
+Miguel Pereira,3302908,Floresta_para_Urbano,2000-2010,0.7450977712869644
+Miguel Pereira,3302908,Pastagem_para_Urbano,2000-2010,33.355940074342136
+Miguel Pereira,3302908,Agricultura_para_Urbano,2000-2010,43.29138336818592
+Miguel Pereira,3302908,VegNativa_para_Antropico,2000-2010,77.32330384815441
+Miguel Pereira,3302908,Antropico_para_VegNativa,2000-2010,64.34522922234792
+Miguel Pereira,3302908,Pastagem_para_Agricultura,2000-2010,0.0
+Miguel Pereira,3302908,Silvicultura_para_Floresta,2000-2010,0.0
+Miguel Pereira,3302908,Floresta_para_Silvicultura,2000-2010,0.0
+Valença,3306107,Floresta_para_Pastagem,2010-2020,504.3268188619438
+Valença,3306107,Pastagem_para_Floresta,2010-2020,432.7855540420495
+Valença,3306107,Floresta_para_Agricultura,2010-2020,0.0
+Valença,3306107,Floresta_para_Urbano,2010-2020,0.829137921333313
+Valença,3306107,Pastagem_para_Urbano,2010-2020,47.998371466994286
+Valença,3306107,Agricultura_para_Urbano,2010-2020,26.944234661757942
+Valença,3306107,VegNativa_para_Antropico,2010-2020,1616.7661456359074
+Valença,3306107,Antropico_para_VegNativa,2010-2020,2406.093234282031
+Valença,3306107,Pastagem_para_Agricultura,2010-2020,9.864905565977097
+Valença,3306107,Silvicultura_para_Floresta,2010-2020,9.369102649390696
+Valença,3306107,Floresta_para_Silvicultura,2010-2020,18.15403223782777
+Pinheiral,3303955,Floresta_para_Pastagem,2010-2020,26.99349679201841
+Pinheiral,3303955,Pastagem_para_Floresta,2010-2020,43.508653101792525
+Pinheiral,3303955,Floresta_para_Agricultura,2010-2020,0.0
+Pinheiral,3303955,Floresta_para_Urbano,2010-2020,4.053301937878132
+Pinheiral,3303955,Pastagem_para_Urbano,2010-2020,73.05578608065844
+Pinheiral,3303955,Agricultura_para_Urbano,2010-2020,17.542152635753155
+Pinheiral,3303955,VegNativa_para_Antropico,2010-2020,85.4296670075725
+Pinheiral,3303955,Antropico_para_VegNativa,2010-2020,192.28224454317603
+Pinheiral,3303955,Pastagem_para_Agricultura,2010-2020,0.0
+Pinheiral,3303955,Silvicultura_para_Floresta,2010-2020,0.0
+Pinheiral,3303955,Floresta_para_Silvicultura,2010-2020,0.0
+Rio Claro,3304409,Floresta_para_Pastagem,2010-2020,4.485848746200403
+Rio Claro,3304409,Pastagem_para_Floresta,2010-2020,1.4879404306411743
+Rio Claro,3304409,Floresta_para_Agricultura,2010-2020,0.0
+Rio Claro,3304409,Floresta_para_Urbano,2010-2020,0.0
+Rio Claro,3304409,Pastagem_para_Urbano,2010-2020,0.0
+Rio Claro,3304409,Agricultura_para_Urbano,2010-2020,0.0
+Rio Claro,3304409,VegNativa_para_Antropico,2010-2020,65.64057652024077
+Rio Claro,3304409,Antropico_para_VegNativa,2010-2020,37.4988272155909
+Rio Claro,3304409,Pastagem_para_Agricultura,2010-2020,0.0
+Rio Claro,3304409,Silvicultura_para_Floresta,2010-2020,0.0
+Rio Claro,3304409,Floresta_para_Silvicultura,2010-2020,0.0
+Barra do Piraí,3300308,Floresta_para_Pastagem,2010-2020,289.55020857979264
+Barra do Piraí,3300308,Pastagem_para_Floresta,2010-2020,250.82008904803035
+Barra do Piraí,3300308,Floresta_para_Agricultura,2010-2020,0.0
+Barra do Piraí,3300308,Floresta_para_Urbano,2010-2020,0.6626266688108444
+Barra do Piraí,3300308,Pastagem_para_Urbano,2010-2020,64.15576882660389
+Barra do Piraí,3300308,Agricultura_para_Urbano,2010-2020,67.10382135083861
+Barra do Piraí,3300308,VegNativa_para_Antropico,2010-2020,792.9058251909473
+Barra do Piraí,3300308,Antropico_para_VegNativa,2010-2020,1090.9481946137898
+Barra do Piraí,3300308,Pastagem_para_Agricultura,2010-2020,8.44324816763401
+Barra do Piraí,3300308,Silvicultura_para_Floresta,2010-2020,4.388885609805584
+Barra do Piraí,3300308,Floresta_para_Silvicultura,2010-2020,3.7249114587903023
+Vassouras,3306206,Floresta_para_Pastagem,2010-2020,225.04924221117707
+Vassouras,3306206,Pastagem_para_Floresta,2010-2020,175.39130461341608
+Vassouras,3306206,Floresta_para_Agricultura,2010-2020,0.082800805568695
+Vassouras,3306206,Floresta_para_Urbano,2010-2020,0.1656111925840377
+Vassouras,3306206,Pastagem_para_Urbano,2010-2020,27.49851458519697
+Vassouras,3306206,Agricultura_para_Urbano,2010-2020,36.363103322684765
+Vassouras,3306206,VegNativa_para_Antropico,2010-2020,914.5152741166308
+Vassouras,3306206,Antropico_para_VegNativa,2010-2020,1080.3652545993818
+Vassouras,3306206,Pastagem_para_Agricultura,2010-2020,56.88389415586112
+Vassouras,3306206,Silvicultura_para_Floresta,2010-2020,9.536616161202684
+Vassouras,3306206,Floresta_para_Silvicultura,2010-2020,0.1657056137919426
+Rio das Flores,3304508,Floresta_para_Pastagem,2010-2020,168.55765941169332
+Rio das Flores,3304508,Pastagem_para_Floresta,2010-2020,334.97612730331866
+Rio das Flores,3304508,Floresta_para_Agricultura,2010-2020,0.0
+Rio das Flores,3304508,Floresta_para_Urbano,2010-2020,0.0
+Rio das Flores,3304508,Pastagem_para_Urbano,2010-2020,6.055054873228073
+Rio das Flores,3304508,Agricultura_para_Urbano,2010-2020,6.553104631602764
+Rio das Flores,3304508,VegNativa_para_Antropico,2010-2020,562.25777287603
+Rio das Flores,3304508,Antropico_para_VegNativa,2010-2020,1616.611776851731
+Rio das Flores,3304508,Pastagem_para_Agricultura,2010-2020,0.0
+Rio das Flores,3304508,Silvicultura_para_Floresta,2010-2020,7.464749060571194
+Rio das Flores,3304508,Floresta_para_Silvicultura,2010-2020,2.40566286444664
+Porto Real,3304110,Floresta_para_Pastagem,2010-2020,11.667467742048055
+Porto Real,3304110,Pastagem_para_Floresta,2010-2020,2.483598262071609
+Porto Real,3304110,Floresta_para_Agricultura,2010-2020,0.0
+Porto Real,3304110,Floresta_para_Urbano,2010-2020,0.0
+Porto Real,3304110,Pastagem_para_Urbano,2010-2020,97.1189341545105
+Porto Real,3304110,Agricultura_para_Urbano,2010-2020,41.97814713418484
+Porto Real,3304110,VegNativa_para_Antropico,2010-2020,31.550434807761043
+Porto Real,3304110,Antropico_para_VegNativa,2010-2020,29.23259346412093
+Porto Real,3304110,Pastagem_para_Agricultura,2010-2020,10.429624930024149
+Porto Real,3304110,Silvicultura_para_Floresta,2010-2020,0.0
+Porto Real,3304110,Floresta_para_Silvicultura,2010-2020,0.0
+Quatis,3304128,Floresta_para_Pastagem,2010-2020,47.55973768184582
+Quatis,3304128,Pastagem_para_Floresta,2010-2020,12.317623966552464
+Quatis,3304128,Floresta_para_Agricultura,2010-2020,0.0
+Quatis,3304128,Floresta_para_Urbano,2010-2020,0.0
+Quatis,3304128,Pastagem_para_Urbano,2010-2020,14.408500164747238
+Quatis,3304128,Agricultura_para_Urbano,2010-2020,6.293741145905327
+Quatis,3304128,VegNativa_para_Antropico,2010-2020,428.9858207796427
+Quatis,3304128,Antropico_para_VegNativa,2010-2020,414.0024364447477
+Quatis,3304128,Pastagem_para_Agricultura,2010-2020,0.0
+Quatis,3304128,Silvicultura_para_Floresta,2010-2020,0.0
+Quatis,3304128,Floresta_para_Silvicultura,2010-2020,0.0
+Paraíba do Sul,3303708,Floresta_para_Pastagem,2010-2020,142.81648123799
+Paraíba do Sul,3303708,Pastagem_para_Floresta,2010-2020,197.36854265227035
+Paraíba do Sul,3303708,Floresta_para_Agricultura,2010-2020,0.0
+Paraíba do Sul,3303708,Floresta_para_Urbano,2010-2020,0.0829345434904098
+Paraíba do Sul,3303708,Pastagem_para_Urbano,2010-2020,48.522252418100834
+Paraíba do Sul,3303708,Agricultura_para_Urbano,2010-2020,40.561817318201065
+Paraíba do Sul,3303708,VegNativa_para_Antropico,2010-2020,583.975858385481
+Paraíba do Sul,3303708,Antropico_para_VegNativa,2010-2020,1458.3754586272964
+Paraíba do Sul,3303708,Pastagem_para_Agricultura,2010-2020,1.3312534306563584
+Paraíba do Sul,3303708,Silvicultura_para_Floresta,2010-2020,2.406208910048008
+Paraíba do Sul,3303708,Floresta_para_Silvicultura,2010-2020,1.0782682746648788
+Resende,3304201,Floresta_para_Pastagem,2010-2020,201.83147271892017
+Resende,3304201,Pastagem_para_Floresta,2010-2020,126.8485015129634
+Resende,3304201,Floresta_para_Agricultura,2010-2020,0.0
+Resende,3304201,Floresta_para_Urbano,2010-2020,0.3311270326375961
+Resende,3304201,Pastagem_para_Urbano,2010-2020,317.4523054882884
+Resende,3304201,Agricultura_para_Urbano,2010-2020,58.026457434717344
+Resende,3304201,VegNativa_para_Antropico,2010-2020,1594.7737422701482
+Resende,3304201,Antropico_para_VegNativa,2010-2020,1840.300457238537
+Resende,3304201,Pastagem_para_Agricultura,2010-2020,12.73352866812664
+Resende,3304201,Silvicultura_para_Floresta,2010-2020,25.03516439921131
+Resende,3304201,Floresta_para_Silvicultura,2010-2020,285.55112746910135
+Comendador Levy Gasparian,3300951,Floresta_para_Pastagem,2010-2020,72.5877255684897
+Comendador Levy Gasparian,3300951,Pastagem_para_Floresta,2010-2020,31.3478753264336
+Comendador Levy Gasparian,3300951,Floresta_para_Agricultura,2010-2020,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Urbano,2010-2020,0.0
+Comendador Levy Gasparian,3300951,Pastagem_para_Urbano,2010-2020,20.662651952575235
+Comendador Levy Gasparian,3300951,Agricultura_para_Urbano,2010-2020,12.900555124762011
+Comendador Levy Gasparian,3300951,VegNativa_para_Antropico,2010-2020,204.65970990202007
+Comendador Levy Gasparian,3300951,Antropico_para_VegNativa,2010-2020,304.51126619039803
+Comendador Levy Gasparian,3300951,Pastagem_para_Agricultura,2010-2020,1.240656144303434
+Comendador Levy Gasparian,3300951,Silvicultura_para_Floresta,2010-2020,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Silvicultura,2010-2020,0.0
+Três Rios,3306008,Floresta_para_Pastagem,2010-2020,11.53888045043922
+Três Rios,3306008,Pastagem_para_Floresta,2010-2020,19.501433350145817
+Três Rios,3306008,Floresta_para_Agricultura,2010-2020,0.0
+Três Rios,3306008,Floresta_para_Urbano,2010-2020,0.0829855874180793
+Três Rios,3306008,Pastagem_para_Urbano,2010-2020,116.71295686311582
+Três Rios,3306008,Agricultura_para_Urbano,2010-2020,49.52202972503854
+Três Rios,3306008,VegNativa_para_Antropico,2010-2020,58.82672012915798
+Três Rios,3306008,Antropico_para_VegNativa,2010-2020,223.32804607188
+Três Rios,3306008,Pastagem_para_Agricultura,2010-2020,0.0
+Três Rios,3306008,Silvicultura_para_Floresta,2010-2020,0.0
+Três Rios,3306008,Floresta_para_Silvicultura,2010-2020,0.0
+Paty do Alferes,3303856,Floresta_para_Pastagem,2010-2020,130.70997939477948
+Paty do Alferes,3303856,Pastagem_para_Floresta,2010-2020,47.61032856957001
+Paty do Alferes,3303856,Floresta_para_Agricultura,2010-2020,0.0
+Paty do Alferes,3303856,Floresta_para_Urbano,2010-2020,0.4139845669269562
+Paty do Alferes,3303856,Pastagem_para_Urbano,2010-2020,121.74002666026354
+Paty do Alferes,3303856,Agricultura_para_Urbano,2010-2020,36.52622295109665
+Paty do Alferes,3303856,VegNativa_para_Antropico,2010-2020,641.6884636871663
+Paty do Alferes,3303856,Antropico_para_VegNativa,2010-2020,462.7035011201805
+Paty do Alferes,3303856,Pastagem_para_Agricultura,2010-2020,9.038887823329253
+Paty do Alferes,3303856,Silvicultura_para_Floresta,2010-2020,1.732171011847608
+Paty do Alferes,3303856,Floresta_para_Silvicultura,2010-2020,4.887695997953415
+Itatiaia,3302254,Floresta_para_Pastagem,2010-2020,12.333115056157112
+Itatiaia,3302254,Pastagem_para_Floresta,2010-2020,2.648913227021694
+Itatiaia,3302254,Floresta_para_Agricultura,2010-2020,0.0
+Itatiaia,3302254,Floresta_para_Urbano,2010-2020,0.9931948035955428
+Itatiaia,3302254,Pastagem_para_Urbano,2010-2020,175.54526582360268
+Itatiaia,3302254,Agricultura_para_Urbano,2010-2020,43.54972766918294
+Itatiaia,3302254,VegNativa_para_Antropico,2010-2020,207.80100200973888
+Itatiaia,3302254,Antropico_para_VegNativa,2010-2020,299.5860847052406
+Itatiaia,3302254,Pastagem_para_Agricultura,2010-2020,3.0625924691557884
+Itatiaia,3302254,Silvicultura_para_Floresta,2010-2020,0.0828500166535377
+Itatiaia,3302254,Floresta_para_Silvicultura,2010-2020,27.654560536146164
+Piraí,3304003,Floresta_para_Pastagem,2010-2020,44.13920306642266
+Piraí,3304003,Pastagem_para_Floresta,2010-2020,42.01962814351508
+Piraí,3304003,Floresta_para_Agricultura,2010-2020,0.0
+Piraí,3304003,Floresta_para_Urbano,2010-2020,0.0
+Piraí,3304003,Pastagem_para_Urbano,2010-2020,35.06653871387243
+Piraí,3304003,Agricultura_para_Urbano,2010-2020,14.307303071022034
+Piraí,3304003,VegNativa_para_Antropico,2010-2020,117.83174625661442
+Piraí,3304003,Antropico_para_VegNativa,2010-2020,233.3094622065624
+Piraí,3304003,Pastagem_para_Agricultura,2010-2020,0.8271270990371704
+Piraí,3304003,Silvicultura_para_Floresta,2010-2020,0.0
+Piraí,3304003,Floresta_para_Silvicultura,2010-2020,0.0
+Barra Mansa,3300407,Floresta_para_Pastagem,2010-2020,118.95569198414977
+Barra Mansa,3300407,Pastagem_para_Floresta,2010-2020,30.05511209736852
+Barra Mansa,3300407,Floresta_para_Agricultura,2010-2020,0.0
+Barra Mansa,3300407,Floresta_para_Urbano,2010-2020,0.6618399024009705
+Barra Mansa,3300407,Pastagem_para_Urbano,2010-2020,57.41094786673784
+Barra Mansa,3300407,Agricultura_para_Urbano,2010-2020,107.14008051902056
+Barra Mansa,3300407,VegNativa_para_Antropico,2010-2020,653.3988411602728
+Barra Mansa,3300407,Antropico_para_VegNativa,2010-2020,675.1359518374297
+Barra Mansa,3300407,Pastagem_para_Agricultura,2010-2020,5.046795345842838
+Barra Mansa,3300407,Silvicultura_para_Floresta,2010-2020,3.727301545441151
+Barra Mansa,3300407,Floresta_para_Silvicultura,2010-2020,7.949659757053151
+Mendes,3302809,Floresta_para_Pastagem,2010-2020,4.833321270346642
+Mendes,3302809,Pastagem_para_Floresta,2010-2020,10.853128857238618
+Mendes,3302809,Floresta_para_Agricultura,2010-2020,0.0
+Mendes,3302809,Floresta_para_Urbano,2010-2020,0.0
+Mendes,3302809,Pastagem_para_Urbano,2010-2020,0.5793827548623085
+Mendes,3302809,Agricultura_para_Urbano,2010-2020,0.0827690586447715
+Mendes,3302809,VegNativa_para_Antropico,2010-2020,30.0518012956077
+Mendes,3302809,Antropico_para_VegNativa,2010-2020,49.80179379784009
+Mendes,3302809,Pastagem_para_Agricultura,2010-2020,0.0
+Mendes,3302809,Silvicultura_para_Floresta,2010-2020,0.0
+Mendes,3302809,Floresta_para_Silvicultura,2010-2020,0.0
+Volta Redonda,3306305,Floresta_para_Pastagem,2010-2020,109.46750331258072
+Volta Redonda,3306305,Pastagem_para_Floresta,2010-2020,11.392895833417482
+Volta Redonda,3306305,Floresta_para_Agricultura,2010-2020,0.0
+Volta Redonda,3306305,Floresta_para_Urbano,2010-2020,3.9719106182456017
+Volta Redonda,3306305,Pastagem_para_Urbano,2010-2020,160.25093007832766
+Volta Redonda,3306305,Agricultura_para_Urbano,2010-2020,100.97535887608926
+Volta Redonda,3306305,VegNativa_para_Antropico,2010-2020,439.1427472266495
+Volta Redonda,3306305,Antropico_para_VegNativa,2010-2020,176.4989771245449
+Volta Redonda,3306305,Pastagem_para_Agricultura,2010-2020,0.0
+Volta Redonda,3306305,Silvicultura_para_Floresta,2010-2020,28.980288073420525
+Volta Redonda,3306305,Floresta_para_Silvicultura,2010-2020,12.670027269890491
+Miguel Pereira,3302908,Floresta_para_Pastagem,2010-2020,1.9314103970048475
+Miguel Pereira,3302908,Pastagem_para_Floresta,2010-2020,7.435589576147351
+Miguel Pereira,3302908,Floresta_para_Agricultura,2010-2020,0.0
+Miguel Pereira,3302908,Floresta_para_Urbano,2010-2020,1.076095387339592
+Miguel Pereira,3302908,Pastagem_para_Urbano,2010-2020,29.33067152438795
+Miguel Pereira,3302908,Agricultura_para_Urbano,2010-2020,35.17218243050225
+Miguel Pereira,3302908,VegNativa_para_Antropico,2010-2020,36.21701084661717
+Miguel Pereira,3302908,Antropico_para_VegNativa,2010-2020,90.0267710631969
+Miguel Pereira,3302908,Pastagem_para_Agricultura,2010-2020,6.375479154288769
+Miguel Pereira,3302908,Silvicultura_para_Floresta,2010-2020,0.0
+Miguel Pereira,3302908,Floresta_para_Silvicultura,2010-2020,0.0
+Valença,3306107,Floresta_para_Pastagem,2020-2023,133.64389966179928
+Valença,3306107,Pastagem_para_Floresta,2020-2023,231.65676158444555
+Valença,3306107,Floresta_para_Agricultura,2020-2023,0.0
+Valença,3306107,Floresta_para_Urbano,2020-2023,0.0828506499528884
+Valença,3306107,Pastagem_para_Urbano,2020-2023,15.91886755079031
+Valença,3306107,Agricultura_para_Urbano,2020-2023,10.527763098478315
+Valença,3306107,VegNativa_para_Antropico,2020-2023,439.315280537804
+Valença,3306107,Antropico_para_VegNativa,2020-2023,2032.804363964206
+Valença,3306107,Pastagem_para_Agricultura,2020-2023,0.0
+Valença,3306107,Silvicultura_para_Floresta,2020-2023,0.0
+Valença,3306107,Floresta_para_Silvicultura,2020-2023,7.958954967558384
+Pinheiral,3303955,Floresta_para_Pastagem,2020-2023,5.708006694912911
+Pinheiral,3303955,Pastagem_para_Floresta,2020-2023,10.276339651848756
+Pinheiral,3303955,Floresta_para_Agricultura,2020-2023,0.0
+Pinheiral,3303955,Floresta_para_Urbano,2020-2023,0.6620141789317131
+Pinheiral,3303955,Pastagem_para_Urbano,2020-2023,3.22680177539587
+Pinheiral,3303955,Agricultura_para_Urbano,2020-2023,6.2880988866090775
+Pinheiral,3303955,VegNativa_para_Antropico,2020-2023,33.057757357201154
+Pinheiral,3303955,Antropico_para_VegNativa,2020-2023,109.71968564619036
+Pinheiral,3303955,Pastagem_para_Agricultura,2020-2023,0.0
+Pinheiral,3303955,Silvicultura_para_Floresta,2020-2023,0.0
+Pinheiral,3303955,Floresta_para_Silvicultura,2020-2023,0.0
+Rio Claro,3304409,Floresta_para_Pastagem,2020-2023,0.6612794250249863
+Rio Claro,3304409,Pastagem_para_Floresta,2020-2023,0.9715516924565912
+Rio Claro,3304409,Floresta_para_Agricultura,2020-2023,0.0
+Rio Claro,3304409,Floresta_para_Urbano,2020-2023,0.0
+Rio Claro,3304409,Pastagem_para_Urbano,2020-2023,0.0
+Rio Claro,3304409,Agricultura_para_Urbano,2020-2023,0.0
+Rio Claro,3304409,VegNativa_para_Antropico,2020-2023,6.894045631149236
+Rio Claro,3304409,Antropico_para_VegNativa,2020-2023,19.82605181146486
+Rio Claro,3304409,Pastagem_para_Agricultura,2020-2023,0.0
+Rio Claro,3304409,Silvicultura_para_Floresta,2020-2023,0.0
+Rio Claro,3304409,Floresta_para_Silvicultura,2020-2023,0.0
+Barra do Piraí,3300308,Floresta_para_Pastagem,2020-2023,56.29826972025867
+Barra do Piraí,3300308,Pastagem_para_Floresta,2020-2023,143.30301241667246
+Barra do Piraí,3300308,Floresta_para_Agricultura,2020-2023,0.0
+Barra do Piraí,3300308,Floresta_para_Urbano,2020-2023,0.4140339121222496
+Barra do Piraí,3300308,Pastagem_para_Urbano,2020-2023,14.13701282441616
+Barra do Piraí,3300308,Agricultura_para_Urbano,2020-2023,14.65489473938942
+Barra do Piraí,3300308,VegNativa_para_Antropico,2020-2023,327.42443283039563
+Barra do Piraí,3300308,Antropico_para_VegNativa,2020-2023,874.3540342510332
+Barra do Piraí,3300308,Pastagem_para_Agricultura,2020-2023,0.0
+Barra do Piraí,3300308,Silvicultura_para_Floresta,2020-2023,0.0
+Barra do Piraí,3300308,Floresta_para_Silvicultura,2020-2023,0.1656458526849746
+Vassouras,3306206,Floresta_para_Pastagem,2020-2023,37.14293032303161
+Vassouras,3306206,Pastagem_para_Floresta,2020-2023,129.8757815848963
+Vassouras,3306206,Floresta_para_Agricultura,2020-2023,0.0
+Vassouras,3306206,Floresta_para_Urbano,2020-2023,0.0
+Vassouras,3306206,Pastagem_para_Urbano,2020-2023,8.366507917642593
+Vassouras,3306206,Agricultura_para_Urbano,2020-2023,12.100962264660527
+Vassouras,3306206,VegNativa_para_Antropico,2020-2023,235.454117273028
+Vassouras,3306206,Antropico_para_VegNativa,2020-2023,1268.815054404385
+Vassouras,3306206,Pastagem_para_Agricultura,2020-2023,0.08280049264431
+Vassouras,3306206,Silvicultura_para_Floresta,2020-2023,0.0
+Vassouras,3306206,Floresta_para_Silvicultura,2020-2023,0.4972682595252991
+Rio das Flores,3304508,Floresta_para_Pastagem,2020-2023,51.886891931529135
+Rio das Flores,3304508,Pastagem_para_Floresta,2020-2023,134.98062480571224
+Rio das Flores,3304508,Floresta_para_Agricultura,2020-2023,0.0
+Rio das Flores,3304508,Floresta_para_Urbano,2020-2023,0.0
+Rio das Flores,3304508,Pastagem_para_Urbano,2020-2023,3.0691602677106857
+Rio das Flores,3304508,Agricultura_para_Urbano,2020-2023,3.5671601071953773
+Rio das Flores,3304508,VegNativa_para_Antropico,2020-2023,176.21833975253736
+Rio das Flores,3304508,Antropico_para_VegNativa,2020-2023,1086.5511050874989
+Rio das Flores,3304508,Pastagem_para_Agricultura,2020-2023,0.0
+Rio das Flores,3304508,Silvicultura_para_Floresta,2020-2023,0.1658369526267051
+Rio das Flores,3304508,Floresta_para_Silvicultura,2020-2023,6.439839264136904
+Porto Real,3304110,Floresta_para_Pastagem,2020-2023,0.0827679485082626
+Porto Real,3304110,Pastagem_para_Floresta,2020-2023,0.1655800640583038
+Porto Real,3304110,Floresta_para_Agricultura,2020-2023,0.0
+Porto Real,3304110,Floresta_para_Urbano,2020-2023,0.0
+Porto Real,3304110,Pastagem_para_Urbano,2020-2023,21.360125735402107
+Porto Real,3304110,Agricultura_para_Urbano,2020-2023,11.260000929236412
+Porto Real,3304110,VegNativa_para_Antropico,2020-2023,5.514892996876847
+Porto Real,3304110,Antropico_para_VegNativa,2020-2023,35.69315046910562
+Porto Real,3304110,Pastagem_para_Agricultura,2020-2023,0.0
+Porto Real,3304110,Silvicultura_para_Floresta,2020-2023,0.0
+Porto Real,3304110,Floresta_para_Silvicultura,2020-2023,0.0
+Quatis,3304128,Floresta_para_Pastagem,2020-2023,6.049350172281265
+Quatis,3304128,Pastagem_para_Floresta,2020-2023,14.664271637797356
+Quatis,3304128,Floresta_para_Agricultura,2020-2023,0.0
+Quatis,3304128,Floresta_para_Urbano,2020-2023,0.0828694030642509
+Quatis,3304128,Pastagem_para_Urbano,2020-2023,1.2420715913176537
+Quatis,3304128,Agricultura_para_Urbano,2020-2023,3.644336462020874
+Quatis,3304128,VegNativa_para_Antropico,2020-2023,107.6031721201013
+Quatis,3304128,Antropico_para_VegNativa,2020-2023,412.9714107997862
+Quatis,3304128,Pastagem_para_Agricultura,2020-2023,0.0
+Quatis,3304128,Silvicultura_para_Floresta,2020-2023,0.0
+Quatis,3304128,Floresta_para_Silvicultura,2020-2023,0.0
+Paraíba do Sul,3303708,Floresta_para_Pastagem,2020-2023,74.59528857481246
+Paraíba do Sul,3303708,Pastagem_para_Floresta,2020-2023,96.9379978658814
+Paraíba do Sul,3303708,Floresta_para_Agricultura,2020-2023,0.0
+Paraíba do Sul,3303708,Floresta_para_Urbano,2020-2023,0.0
+Paraíba do Sul,3303708,Pastagem_para_Urbano,2020-2023,6.054558515548706
+Paraíba do Sul,3303708,Agricultura_para_Urbano,2020-2023,4.2302690371871
+Paraíba do Sul,3303708,VegNativa_para_Antropico,2020-2023,232.6758200935581
+Paraíba do Sul,3303708,Antropico_para_VegNativa,2020-2023,1070.2786734747244
+Paraíba do Sul,3303708,Pastagem_para_Agricultura,2020-2023,0.0
+Paraíba do Sul,3303708,Silvicultura_para_Floresta,2020-2023,0.0
+Paraíba do Sul,3303708,Floresta_para_Silvicultura,2020-2023,1.2748201584991286
+Resende,3304201,Floresta_para_Pastagem,2020-2023,90.241625842043
+Resende,3304201,Pastagem_para_Floresta,2020-2023,29.367827827614896
+Resende,3304201,Floresta_para_Agricultura,2020-2023,0.0
+Resende,3304201,Floresta_para_Urbano,2020-2023,0.4141003862023353
+Resende,3304201,Pastagem_para_Urbano,2020-2023,19.78187995404005
+Resende,3304201,Agricultura_para_Urbano,2020-2023,18.12702401727438
+Resende,3304201,VegNativa_para_Antropico,2020-2023,599.3721424891669
+Resende,3304201,Antropico_para_VegNativa,2020-2023,955.040758424559
+Resende,3304201,Pastagem_para_Agricultura,2020-2023,0.4931679530763158
+Resende,3304201,Silvicultura_para_Floresta,2020-2023,0.0
+Resende,3304201,Floresta_para_Silvicultura,2020-2023,0.0828073993325233
+Comendador Levy Gasparian,3300951,Floresta_para_Pastagem,2020-2023,36.029604241251945
+Comendador Levy Gasparian,3300951,Pastagem_para_Floresta,2020-2023,11.201184209918274
+Comendador Levy Gasparian,3300951,Floresta_para_Agricultura,2020-2023,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Urbano,2020-2023,0.0
+Comendador Levy Gasparian,3300951,Pastagem_para_Urbano,2020-2023,2.1586011424660683
+Comendador Levy Gasparian,3300951,Agricultura_para_Urbano,2020-2023,2.6633741802736823
+Comendador Levy Gasparian,3300951,VegNativa_para_Antropico,2020-2023,62.70985352887827
+Comendador Levy Gasparian,3300951,Antropico_para_VegNativa,2020-2023,180.69594614274945
+Comendador Levy Gasparian,3300951,Pastagem_para_Agricultura,2020-2023,0.0
+Comendador Levy Gasparian,3300951,Silvicultura_para_Floresta,2020-2023,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Silvicultura,2020-2023,0.0
+Três Rios,3306008,Floresta_para_Pastagem,2020-2023,3.4021236449480057
+Três Rios,3306008,Pastagem_para_Floresta,2020-2023,8.493440199453456
+Três Rios,3306008,Floresta_para_Agricultura,2020-2023,0.0
+Três Rios,3306008,Floresta_para_Urbano,2020-2023,0.0
+Três Rios,3306008,Pastagem_para_Urbano,2020-2023,6.721764422953129
+Três Rios,3306008,Agricultura_para_Urbano,2020-2023,2.489353746175766
+Três Rios,3306008,VegNativa_para_Antropico,2020-2023,28.04191727644088
+Três Rios,3306008,Antropico_para_VegNativa,2020-2023,107.634034428877
+Três Rios,3306008,Pastagem_para_Agricultura,2020-2023,0.0
+Três Rios,3306008,Silvicultura_para_Floresta,2020-2023,0.0
+Três Rios,3306008,Floresta_para_Silvicultura,2020-2023,0.0
+Paty do Alferes,3303856,Floresta_para_Pastagem,2020-2023,34.443464117511816
+Paty do Alferes,3303856,Pastagem_para_Floresta,2020-2023,22.64772701263428
+Paty do Alferes,3303856,Floresta_para_Agricultura,2020-2023,0.0
+Paty do Alferes,3303856,Floresta_para_Urbano,2020-2023,0.0828086584806442
+Paty do Alferes,3303856,Pastagem_para_Urbano,2020-2023,8.088138754081491
+Paty do Alferes,3303856,Agricultura_para_Urbano,2020-2023,4.554190114140511
+Paty do Alferes,3303856,VegNativa_para_Antropico,2020-2023,197.10136313654627
+Paty do Alferes,3303856,Antropico_para_VegNativa,2020-2023,428.51012012453054
+Paty do Alferes,3303856,Pastagem_para_Agricultura,2020-2023,0.0
+Paty do Alferes,3303856,Silvicultura_para_Floresta,2020-2023,0.0
+Paty do Alferes,3303856,Floresta_para_Silvicultura,2020-2023,0.4143329411745071
+Itatiaia,3302254,Floresta_para_Pastagem,2020-2023,3.5590358152985573
+Itatiaia,3302254,Pastagem_para_Floresta,2020-2023,0.579645648598671
+Itatiaia,3302254,Floresta_para_Agricultura,2020-2023,0.0
+Itatiaia,3302254,Floresta_para_Urbano,2020-2023,0.0827891826629638
+Itatiaia,3302254,Pastagem_para_Urbano,2020-2023,2.8970416337251663
+Itatiaia,3302254,Agricultura_para_Urbano,2020-2023,16.54806275841068
+Itatiaia,3302254,VegNativa_para_Antropico,2020-2023,128.7436698054274
+Itatiaia,3302254,Antropico_para_VegNativa,2020-2023,99.22577017291503
+Itatiaia,3302254,Pastagem_para_Agricultura,2020-2023,0.0
+Itatiaia,3302254,Silvicultura_para_Floresta,2020-2023,0.0
+Itatiaia,3302254,Floresta_para_Silvicultura,2020-2023,0.0827841535210609
+Piraí,3304003,Floresta_para_Pastagem,2020-2023,9.662853327656492
+Piraí,3304003,Pastagem_para_Floresta,2020-2023,26.016303876802034
+Piraí,3304003,Floresta_para_Agricultura,2020-2023,0.0
+Piraí,3304003,Floresta_para_Urbano,2020-2023,0.0
+Piraí,3304003,Pastagem_para_Urbano,2020-2023,1.48867579549551
+Piraí,3304003,Agricultura_para_Urbano,2020-2023,4.135316543281078
+Piraí,3304003,VegNativa_para_Antropico,2020-2023,48.12654064101916
+Piraí,3304003,Antropico_para_VegNativa,2020-2023,196.86510546651544
+Piraí,3304003,Pastagem_para_Agricultura,2020-2023,0.0
+Piraí,3304003,Silvicultura_para_Floresta,2020-2023,0.0
+Piraí,3304003,Floresta_para_Silvicultura,2020-2023,1.0753288641572
+Barra Mansa,3300407,Floresta_para_Pastagem,2020-2023,42.81585425778347
+Barra Mansa,3300407,Pastagem_para_Floresta,2020-2023,30.761262374356683
+Barra Mansa,3300407,Floresta_para_Agricultura,2020-2023,0.0
+Barra Mansa,3300407,Floresta_para_Urbano,2020-2023,1.4890862181782722
+Barra Mansa,3300407,Pastagem_para_Urbano,2020-2023,17.289998039603233
+Barra Mansa,3300407,Agricultura_para_Urbano,2020-2023,28.52127882978496
+Barra Mansa,3300407,VegNativa_para_Antropico,2020-2023,197.37484654272885
+Barra Mansa,3300407,Antropico_para_VegNativa,2020-2023,933.1622384778428
+Barra Mansa,3300407,Pastagem_para_Agricultura,2020-2023,0.0
+Barra Mansa,3300407,Silvicultura_para_Floresta,2020-2023,0.0
+Barra Mansa,3300407,Floresta_para_Silvicultura,2020-2023,0.0
+Mendes,3302809,Floresta_para_Pastagem,2020-2023,0.5793545618653297
+Mendes,3302809,Pastagem_para_Floresta,2020-2023,4.124289904973087
+Mendes,3302809,Floresta_para_Agricultura,2020-2023,0.0
+Mendes,3302809,Floresta_para_Urbano,2020-2023,0.0
+Mendes,3302809,Pastagem_para_Urbano,2020-2023,1.5726308897137642
+Mendes,3302809,Agricultura_para_Urbano,2020-2023,0.7387733870277218
+Mendes,3302809,VegNativa_para_Antropico,2020-2023,11.355756462321562
+Mendes,3302809,Antropico_para_VegNativa,2020-2023,39.67507881530943
+Mendes,3302809,Pastagem_para_Agricultura,2020-2023,0.0
+Mendes,3302809,Silvicultura_para_Floresta,2020-2023,0.0
+Mendes,3302809,Floresta_para_Silvicultura,2020-2023,0.0
+Volta Redonda,3306305,Floresta_para_Pastagem,2020-2023,11.484481488811037
+Volta Redonda,3306305,Pastagem_para_Floresta,2020-2023,8.814186685546941
+Volta Redonda,3306305,Floresta_para_Agricultura,2020-2023,0.0
+Volta Redonda,3306305,Floresta_para_Urbano,2020-2023,1.572369948029518
+Volta Redonda,3306305,Pastagem_para_Urbano,2020-2023,20.18683885037899
+Volta Redonda,3306305,Agricultura_para_Urbano,2020-2023,18.63784208069829
+Volta Redonda,3306305,VegNativa_para_Antropico,2020-2023,49.75352074065629
+Volta Redonda,3306305,Antropico_para_VegNativa,2020-2023,293.2483558857849
+Volta Redonda,3306305,Pastagem_para_Agricultura,2020-2023,0.0
+Volta Redonda,3306305,Silvicultura_para_Floresta,2020-2023,0.0
+Volta Redonda,3306305,Floresta_para_Silvicultura,2020-2023,0.4139751195907593
+Miguel Pereira,3302908,Floresta_para_Pastagem,2020-2023,0.2483622059226036
+Miguel Pereira,3302908,Pastagem_para_Floresta,2020-2023,2.212139533489358
+Miguel Pereira,3302908,Floresta_para_Agricultura,2020-2023,0.0
+Miguel Pereira,3302908,Floresta_para_Urbano,2020-2023,0.1655719205737114
+Miguel Pereira,3302908,Pastagem_para_Urbano,2020-2023,5.077596051085229
+Miguel Pereira,3302908,Agricultura_para_Urbano,2020-2023,6.870605207979679
+Miguel Pereira,3302908,VegNativa_para_Antropico,2020-2023,13.687105807749662
+Miguel Pereira,3302908,Antropico_para_VegNativa,2020-2023,57.16577828544027
+Miguel Pereira,3302908,Pastagem_para_Agricultura,2020-2023,0.0827968791127204
+Miguel Pereira,3302908,Silvicultura_para_Floresta,2020-2023,0.0
+Miguel Pereira,3302908,Floresta_para_Silvicultura,2020-2023,0.0
+Valença,3306107,Floresta_para_Pastagem,1985-2023,3456.1287504239704
+Valença,3306107,Pastagem_para_Floresta,1985-2023,2316.6054920485794
+Valença,3306107,Floresta_para_Agricultura,1985-2023,0.0
+Valença,3306107,Floresta_para_Urbano,1985-2023,2.9014088809490204
+Valença,3306107,Pastagem_para_Urbano,1985-2023,337.39659591019154
+Valença,3306107,Agricultura_para_Urbano,1985-2023,228.8925072923303
+Valença,3306107,VegNativa_para_Antropico,1985-2023,5887.748914248189
+Valença,3306107,Antropico_para_VegNativa,1985-2023,6608.617024549783
+Valença,3306107,Pastagem_para_Agricultura,1985-2023,10.029566958546638
+Valença,3306107,Silvicultura_para_Floresta,1985-2023,9.856059267386502
+Valença,3306107,Floresta_para_Silvicultura,1985-2023,22.95885355770588
+Pinheiral,3303955,Floresta_para_Pastagem,1985-2023,124.90818600233864
+Pinheiral,3303955,Pastagem_para_Floresta,1985-2023,140.96478371742893
+Pinheiral,3303955,Floresta_para_Agricultura,1985-2023,0.0
+Pinheiral,3303955,Floresta_para_Urbano,1985-2023,3.970290333032608
+Pinheiral,3303955,Pastagem_para_Urbano,1985-2023,243.23760144833253
+Pinheiral,3303955,Agricultura_para_Urbano,1985-2023,61.01502435411893
+Pinheiral,3303955,VegNativa_para_Antropico,1985-2023,282.4798494285228
+Pinheiral,3303955,Antropico_para_VegNativa,1985-2023,437.2801578398722
+Pinheiral,3303955,Pastagem_para_Agricultura,1985-2023,0.0
+Pinheiral,3303955,Silvicultura_para_Floresta,1985-2023,0.0
+Pinheiral,3303955,Floresta_para_Silvicultura,1985-2023,0.8273441940546036
+Rio Claro,3304409,Floresta_para_Pastagem,1985-2023,52.20376116595432
+Rio Claro,3304409,Pastagem_para_Floresta,1985-2023,43.74517004934012
+Rio Claro,3304409,Floresta_para_Agricultura,1985-2023,0.0
+Rio Claro,3304409,Floresta_para_Urbano,1985-2023,0.0
+Rio Claro,3304409,Pastagem_para_Urbano,1985-2023,3.801978021860122
+Rio Claro,3304409,Agricultura_para_Urbano,1985-2023,0.9562559637661072
+Rio Claro,3304409,VegNativa_para_Antropico,1985-2023,160.21657365870243
+Rio Claro,3304409,Antropico_para_VegNativa,1985-2023,114.68272856403804
+Rio Claro,3304409,Pastagem_para_Agricultura,1985-2023,0.0
+Rio Claro,3304409,Silvicultura_para_Floresta,1985-2023,0.0
+Rio Claro,3304409,Floresta_para_Silvicultura,1985-2023,0.0
+Barra do Piraí,3300308,Floresta_para_Pastagem,1985-2023,2572.0225421959576
+Barra do Piraí,3300308,Pastagem_para_Floresta,1985-2023,1239.7052601027722
+Barra do Piraí,3300308,Floresta_para_Agricultura,1985-2023,0.413843534886837
+Barra do Piraí,3300308,Floresta_para_Urbano,1985-2023,21.52476450800896
+Barra do Piraí,3300308,Pastagem_para_Urbano,1985-2023,282.3102347843203
+Barra do Piraí,3300308,Agricultura_para_Urbano,1985-2023,255.9511436211712
+Barra do Piraí,3300308,VegNativa_para_Antropico,1985-2023,4462.610136008381
+Barra do Piraí,3300308,Antropico_para_VegNativa,1985-2023,2777.7351417291693
+Barra do Piraí,3300308,Pastagem_para_Agricultura,1985-2023,4.47043177485466
+Barra do Piraí,3300308,Silvicultura_para_Floresta,1985-2023,53.01219205710233
+Barra do Piraí,3300308,Floresta_para_Silvicultura,1985-2023,4.5542993247509
+Vassouras,3306206,Floresta_para_Pastagem,1985-2023,561.758127785927
+Vassouras,3306206,Pastagem_para_Floresta,1985-2023,1236.3857797647515
+Vassouras,3306206,Floresta_para_Agricultura,1985-2023,0.4140274301171303
+Vassouras,3306206,Floresta_para_Urbano,1985-2023,2.9040864838396803
+Vassouras,3306206,Pastagem_para_Urbano,1985-2023,140.14195585995913
+Vassouras,3306206,Agricultura_para_Urbano,1985-2023,178.00118179619312
+Vassouras,3306206,VegNativa_para_Antropico,1985-2023,1258.916976081361
+Vassouras,3306206,Antropico_para_VegNativa,1985-2023,3725.960764766296
+Vassouras,3306206,Pastagem_para_Agricultura,1985-2023,53.32252675587056
+Vassouras,3306206,Silvicultura_para_Floresta,1985-2023,0.0
+Vassouras,3306206,Floresta_para_Silvicultura,1985-2023,0.3313018977642059
+Rio das Flores,3304508,Floresta_para_Pastagem,1985-2023,692.067203118842
+Rio das Flores,3304508,Pastagem_para_Floresta,1985-2023,1016.5232177201732
+Rio das Flores,3304508,Floresta_para_Agricultura,1985-2023,0.0
+Rio das Flores,3304508,Floresta_para_Urbano,1985-2023,0.3317986130714416
+Rio das Flores,3304508,Pastagem_para_Urbano,1985-2023,63.53233027458191
+Rio das Flores,3304508,Agricultura_para_Urbano,1985-2023,49.54757971979824
+Rio das Flores,3304508,VegNativa_para_Antropico,1985-2023,1174.5867154815326
+Rio das Flores,3304508,Antropico_para_VegNativa,1985-2023,4254.26371487087
+Rio das Flores,3304508,Pastagem_para_Agricultura,1985-2023,0.0
+Rio das Flores,3304508,Silvicultura_para_Floresta,1985-2023,0.0
+Rio das Flores,3304508,Floresta_para_Silvicultura,1985-2023,2.735619187355041
+Porto Real,3304110,Floresta_para_Pastagem,1985-2023,9.1396864475865
+Porto Real,3304110,Pastagem_para_Floresta,1985-2023,18.90867111250466
+Porto Real,3304110,Floresta_para_Agricultura,1985-2023,0.0
+Porto Real,3304110,Floresta_para_Urbano,1985-2023,3.146386533975601
+Porto Real,3304110,Pastagem_para_Urbano,1985-2023,758.9691305823186
+Porto Real,3304110,Agricultura_para_Urbano,1985-2023,129.4799642931597
+Porto Real,3304110,VegNativa_para_Antropico,1985-2023,39.78131029766564
+Porto Real,3304110,Antropico_para_VegNativa,1985-2023,103.21394331659758
+Porto Real,3304110,Pastagem_para_Agricultura,1985-2023,10.926599219441414
+Porto Real,3304110,Silvicultura_para_Floresta,1985-2023,0.0
+Porto Real,3304110,Floresta_para_Silvicultura,1985-2023,0.0
+Quatis,3304128,Floresta_para_Pastagem,1985-2023,728.2493126203035
+Quatis,3304128,Pastagem_para_Floresta,1985-2023,282.08288722283703
+Quatis,3304128,Floresta_para_Agricultura,1985-2023,0.0
+Quatis,3304128,Floresta_para_Urbano,1985-2023,0.0
+Quatis,3304128,Pastagem_para_Urbano,1985-2023,120.89680610597134
+Quatis,3304128,Agricultura_para_Urbano,1985-2023,36.71820105428205
+Quatis,3304128,VegNativa_para_Antropico,1985-2023,2274.2323721484227
+Quatis,3304128,Antropico_para_VegNativa,1985-2023,1477.4621291207625
+Quatis,3304128,Pastagem_para_Agricultura,1985-2023,0.0
+Quatis,3304128,Silvicultura_para_Floresta,1985-2023,0.0
+Quatis,3304128,Floresta_para_Silvicultura,1985-2023,0.0
+Paraíba do Sul,3303708,Floresta_para_Pastagem,1985-2023,571.7391050935669
+Paraíba do Sul,3303708,Pastagem_para_Floresta,1985-2023,1065.5708517168082
+Paraíba do Sul,3303708,Floresta_para_Agricultura,1985-2023,0.0
+Paraíba do Sul,3303708,Floresta_para_Urbano,1985-2023,2.0737947821617126
+Paraíba do Sul,3303708,Pastagem_para_Urbano,1985-2023,259.9411794766784
+Paraíba do Sul,3303708,Agricultura_para_Urbano,1985-2023,214.22806427589816
+Paraíba do Sul,3303708,VegNativa_para_Antropico,1985-2023,1002.2524285199888
+Paraíba do Sul,3303708,Antropico_para_VegNativa,1985-2023,4536.522735826408
+Paraíba do Sul,3303708,Pastagem_para_Agricultura,1985-2023,1.327020213007927
+Paraíba do Sul,3303708,Silvicultura_para_Floresta,1985-2023,0.9128665700554848
+Paraíba do Sul,3303708,Floresta_para_Silvicultura,1985-2023,2.1569647639989853
+Resende,3304201,Floresta_para_Pastagem,1985-2023,1842.349229321468
+Resende,3304201,Pastagem_para_Floresta,1985-2023,1980.7314893604785
+Resende,3304201,Floresta_para_Agricultura,1985-2023,0.0
+Resende,3304201,Floresta_para_Urbano,1985-2023,6.125531286001205
+Resende,3304201,Pastagem_para_Urbano,1985-2023,1414.296329226856
+Resende,3304201,Agricultura_para_Urbano,1985-2023,283.4442060201776
+Resende,3304201,VegNativa_para_Antropico,1985-2023,5948.049140027722
+Resende,3304201,Antropico_para_VegNativa,1985-2023,6883.767264448661
+Resende,3304201,Pastagem_para_Agricultura,1985-2023,11.499709660399194
+Resende,3304201,Silvicultura_para_Floresta,1985-2023,0.0
+Resende,3304201,Floresta_para_Silvicultura,1985-2023,674.0591098459912
+Comendador Levy Gasparian,3300951,Floresta_para_Pastagem,1985-2023,250.68439336556432
+Comendador Levy Gasparian,3300951,Pastagem_para_Floresta,1985-2023,224.93316478039705
+Comendador Levy Gasparian,3300951,Floresta_para_Agricultura,1985-2023,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Urbano,1985-2023,0.664112314581871
+Comendador Levy Gasparian,3300951,Pastagem_para_Urbano,1985-2023,55.79069063067436
+Comendador Levy Gasparian,3300951,Agricultura_para_Urbano,1985-2023,92.1145719041719
+Comendador Levy Gasparian,3300951,VegNativa_para_Antropico,1985-2023,376.5008441334553
+Comendador Levy Gasparian,3300951,Antropico_para_VegNativa,1985-2023,954.8457680298128
+Comendador Levy Gasparian,3300951,Pastagem_para_Agricultura,1985-2023,0.7473230510950089
+Comendador Levy Gasparian,3300951,Silvicultura_para_Floresta,1985-2023,0.0
+Comendador Levy Gasparian,3300951,Floresta_para_Silvicultura,1985-2023,0.0
+Três Rios,3306008,Floresta_para_Pastagem,1985-2023,36.822000923402165
+Três Rios,3306008,Pastagem_para_Floresta,1985-2023,122.60291680144329
+Três Rios,3306008,Floresta_para_Agricultura,1985-2023,0.0
+Três Rios,3306008,Floresta_para_Urbano,1985-2023,0.9126797541975976
+Três Rios,3306008,Pastagem_para_Urbano,1985-2023,447.8644014082995
+Três Rios,3306008,Agricultura_para_Urbano,1985-2023,235.36395832945905
+Três Rios,3306008,VegNativa_para_Antropico,1985-2023,99.2119217578687
+Três Rios,3306008,Antropico_para_VegNativa,1985-2023,501.64791103320965
+Três Rios,3306008,Pastagem_para_Agricultura,1985-2023,0.0
+Três Rios,3306008,Silvicultura_para_Floresta,1985-2023,0.0
+Três Rios,3306008,Floresta_para_Silvicultura,1985-2023,0.0
+Paty do Alferes,3303856,Floresta_para_Pastagem,1985-2023,581.1364096744973
+Paty do Alferes,3303856,Pastagem_para_Floresta,1985-2023,373.33787062828446
+Paty do Alferes,3303856,Floresta_para_Agricultura,1985-2023,0.0
+Paty do Alferes,3303856,Floresta_para_Urbano,1985-2023,2.9807751327753067
+Paty do Alferes,3303856,Pastagem_para_Urbano,1985-2023,298.5030672913965
+Paty do Alferes,3303856,Agricultura_para_Urbano,1985-2023,158.85945414646585
+Paty do Alferes,3303856,VegNativa_para_Antropico,1985-2023,1145.432992144075
+Paty do Alferes,3303856,Antropico_para_VegNativa,1985-2023,1748.668220613225
+Paty do Alferes,3303856,Pastagem_para_Agricultura,1985-2023,7.879412794814391
+Paty do Alferes,3303856,Silvicultura_para_Floresta,1985-2023,0.0
+Paty do Alferes,3303856,Floresta_para_Silvicultura,1985-2023,2.9820784851908684
+Itatiaia,3302254,Floresta_para_Pastagem,1985-2023,230.6919571244541
+Itatiaia,3302254,Pastagem_para_Floresta,1985-2023,295.8234200169643
+Itatiaia,3302254,Floresta_para_Agricultura,1985-2023,0.0
+Itatiaia,3302254,Floresta_para_Urbano,1985-2023,3.062840521335602
+Itatiaia,3302254,Pastagem_para_Urbano,1985-2023,464.38788645787565
+Itatiaia,3302254,Agricultura_para_Urbano,1985-2023,172.09803828865873
+Itatiaia,3302254,VegNativa_para_Antropico,1985-2023,654.3107398175727
+Itatiaia,3302254,Antropico_para_VegNativa,1985-2023,1178.8193556739425
+Itatiaia,3302254,Pastagem_para_Agricultura,1985-2023,3.0625924691557884
+Itatiaia,3302254,Silvicultura_para_Floresta,1985-2023,0.0
+Itatiaia,3302254,Floresta_para_Silvicultura,1985-2023,28.56525941938162
+Piraí,3304003,Floresta_para_Pastagem,1985-2023,447.7931133750608
+Piraí,3304003,Pastagem_para_Floresta,1985-2023,219.85013000480097
+Piraí,3304003,Floresta_para_Agricultura,1985-2023,0.0
+Piraí,3304003,Floresta_para_Urbano,1985-2023,0.2481230869889259
+Piraí,3304003,Pastagem_para_Urbano,1985-2023,108.83444796035104
+Piraí,3304003,Agricultura_para_Urbano,1985-2023,56.78259939262097
+Piraí,3304003,VegNativa_para_Antropico,1985-2023,700.6777970992762
+Piraí,3304003,Antropico_para_VegNativa,1985-2023,518.9806925850171
+Piraí,3304003,Pastagem_para_Agricultura,1985-2023,0.8271270990371704
+Piraí,3304003,Silvicultura_para_Floresta,1985-2023,0.0
+Piraí,3304003,Floresta_para_Silvicultura,1985-2023,4.135693192481995
+Barra Mansa,3300407,Floresta_para_Pastagem,1985-2023,964.1422656766632
+Barra Mansa,3300407,Pastagem_para_Floresta,1985-2023,731.4032607548086
+Barra Mansa,3300407,Floresta_para_Agricultura,1985-2023,0.0
+Barra Mansa,3300407,Floresta_para_Urbano,1985-2023,16.545943399299595
+Barra Mansa,3300407,Pastagem_para_Urbano,1985-2023,322.1358715476943
+Barra Mansa,3300407,Agricultura_para_Urbano,1985-2023,434.9289798735404
+Barra Mansa,3300407,VegNativa_para_Antropico,1985-2023,2794.7237607586912
+Barra Mansa,3300407,Antropico_para_VegNativa,1985-2023,2979.817671341785
+Barra Mansa,3300407,Pastagem_para_Agricultura,1985-2023,5.046795345842838
+Barra Mansa,3300407,Silvicultura_para_Floresta,1985-2023,3.828748422510484
+Barra Mansa,3300407,Floresta_para_Silvicultura,1985-2023,3.725022822355523
+Mendes,3302809,Floresta_para_Pastagem,1985-2023,19.65380148802902
+Mendes,3302809,Pastagem_para_Floresta,1985-2023,59.76078844526235
+Mendes,3302809,Floresta_para_Agricultura,1985-2023,0.0
+Mendes,3302809,Floresta_para_Urbano,1985-2023,0.1593917423019222
+Mendes,3302809,Pastagem_para_Urbano,1985-2023,4.502231496367969
+Mendes,3302809,Agricultura_para_Urbano,1985-2023,3.2057450316408103
+Mendes,3302809,VegNativa_para_Antropico,1985-2023,95.1569831011926
+Mendes,3302809,Antropico_para_VegNativa,1985-2023,149.48120726022665
+Mendes,3302809,Pastagem_para_Agricultura,1985-2023,0.0
+Mendes,3302809,Silvicultura_para_Floresta,1985-2023,0.0
+Mendes,3302809,Floresta_para_Silvicultura,1985-2023,0.0
+Volta Redonda,3306305,Floresta_para_Pastagem,1985-2023,224.92354579246523
+Volta Redonda,3306305,Pastagem_para_Floresta,1985-2023,259.6024244383562
+Volta Redonda,3306305,Floresta_para_Agricultura,1985-2023,0.0
+Volta Redonda,3306305,Floresta_para_Urbano,1985-2023,10.010262395529184
+Volta Redonda,3306305,Pastagem_para_Urbano,1985-2023,666.5353753296768
+Volta Redonda,3306305,Agricultura_para_Urbano,1985-2023,487.8311409548803
+Volta Redonda,3306305,VegNativa_para_Antropico,1985-2023,898.713207314704
+Volta Redonda,3306305,Antropico_para_VegNativa,1985-2023,981.02118484261
+Volta Redonda,3306305,Pastagem_para_Agricultura,1985-2023,0.0
+Volta Redonda,3306305,Silvicultura_para_Floresta,1985-2023,10.4942375515898
+Volta Redonda,3306305,Floresta_para_Silvicultura,1985-2023,17.555497190823747
+Miguel Pereira,3302908,Floresta_para_Pastagem,1985-2023,19.44551919841884
+Miguel Pereira,3302908,Pastagem_para_Floresta,1985-2023,51.85929183226591
+Miguel Pereira,3302908,Floresta_para_Agricultura,1985-2023,0.0
+Miguel Pereira,3302908,Floresta_para_Urbano,1985-2023,13.41012354195118
+Miguel Pereira,3302908,Pastagem_para_Urbano,1985-2023,223.0168943645031
+Miguel Pereira,3302908,Agricultura_para_Urbano,1985-2023,307.8965495133225
+Miguel Pereira,3302908,VegNativa_para_Antropico,1985-2023,122.8907064015959
+Miguel Pereira,3302908,Antropico_para_VegNativa,1985-2023,248.4928765283496
+Miguel Pereira,3302908,Pastagem_para_Agricultura,1985-2023,4.885124161839485
+Miguel Pereira,3302908,Silvicultura_para_Floresta,1985-2023,0.0
+Miguel Pereira,3302908,Floresta_para_Silvicultura,1985-2023,0.0
