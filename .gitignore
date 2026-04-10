@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+output/slides_img/
+output/slides_img_clara/
+output/capturas_painel/
+output/*.pdf
+output/*.pptx
+gerar_apresentacao.py
+notebook_lm/
+.streamlit/secrets.toml

@@ -1,0 +1,2269 @@
+﻿municipio,cod_ibge,ano,classe,area_ha
+Valença,3306107,1985,Floresta,32531.87411670626
+Valença,3306107,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,1985,Silvicultura,51.74569172277754
+Valença,3306107,1985,Pastagem,68094.55221442442
+Valença,3306107,1985,Agricultura,0.0
+Valença,3306107,1985,Mosaico_Agropecuario,27938.725511378798
+Valença,3306107,1985,Area_Urbana,526.5851798688079
+Valença,3306107,1985,Mineracao,0.0
+Valença,3306107,1985,Agua,455.1391818022612
+Valença,3306107,1985,Area_Nao_Vegetada,365.1725183090158
+Valença,3306107,1985,Aquicultura,0.0
+Valença,3306107,1985,Nao_Observado,0.0
+Pinheiral,3303955,1985,Floresta,1999.656119556462
+Pinheiral,3303955,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,1985,Silvicultura,0.0
+Pinheiral,3303955,1985,Pastagem,4331.463771929107
+Pinheiral,3303955,1985,Agricultura,0.0
+Pinheiral,3303955,1985,Mosaico_Agropecuario,1585.5221191513174
+Pinheiral,3303955,1985,Area_Urbana,178.44130687105886
+Pinheiral,3303955,1985,Mineracao,0.0
+Pinheiral,3303955,1985,Agua,120.74644691809718
+Pinheiral,3303955,1985,Area_Nao_Vegetada,9.308395954002352
+Pinheiral,3303955,1985,Aquicultura,0.0
+Pinheiral,3303955,1985,Nao_Observado,0.0
+Rio Claro,3304409,1985,Floresta,567.8637886353565
+Rio Claro,3304409,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,1985,Silvicultura,0.0
+Rio Claro,3304409,1985,Pastagem,2390.2166546880862
+Rio Claro,3304409,1985,Agricultura,0.053470979543293225
+Rio Claro,3304409,1985,Mosaico_Agropecuario,827.3845688129757
+Rio Claro,3304409,1985,Area_Urbana,2.987930619424465
+Rio Claro,3304409,1985,Mineracao,0.0
+Rio Claro,3304409,1985,Agua,1.322451837360859
+Rio Claro,3304409,1985,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,1985,Aquicultura,0.0
+Rio Claro,3304409,1985,Nao_Observado,0.0
+Barra do Piraí,3300308,1985,Floresta,17707.296989682058
+Barra do Piraí,3300308,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,1985,Silvicultura,75.3977739260185
+Barra do Piraí,3300308,1985,Pastagem,24594.48780288288
+Barra do Piraí,3300308,1985,Agricultura,0.0
+Barra do Piraí,3300308,1985,Mosaico_Agropecuario,10346.754629939387
+Barra do Piraí,3300308,1985,Area_Urbana,510.19086940227197
+Barra do Piraí,3300308,1985,Mineracao,0.0
+Barra do Piraí,3300308,1985,Agua,551.6088520566625
+Barra do Piraí,3300308,1985,Area_Nao_Vegetada,33.648510045280645
+Barra do Piraí,3300308,1985,Aquicultura,0.0
+Barra do Piraí,3300308,1985,Nao_Observado,0.0
+Vassouras,3306206,1985,Floresta,9338.225966425856
+Vassouras,3306206,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,1985,Silvicultura,0.0
+Vassouras,3306206,1985,Pastagem,28576.21659664892
+Vassouras,3306206,1985,Agricultura,0.0
+Vassouras,3306206,1985,Mosaico_Agropecuario,12320.715196722747
+Vassouras,3306206,1985,Area_Urbana,359.5729507878423
+Vassouras,3306206,1985,Mineracao,0.0
+Vassouras,3306206,1985,Agua,573.2483137194433
+Vassouras,3306206,1985,Area_Nao_Vegetada,47.82123804787795
+Vassouras,3306206,1985,Aquicultura,0.0
+Vassouras,3306206,1985,Nao_Observado,0.0
+Rio das Flores,3304508,1985,Floresta,8836.227969004798
+Rio das Flores,3304508,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,1985,Silvicultura,0.7460593730211258
+Rio das Flores,3304508,1985,Pastagem,24264.76284344647
+Rio das Flores,3304508,1985,Agricultura,0.0
+Rio das Flores,3304508,1985,Mosaico_Agropecuario,14302.142824234415
+Rio das Flores,3304508,1985,Area_Urbana,30.854108199477196
+Rio das Flores,3304508,1985,Mineracao,0.0
+Rio das Flores,3304508,1985,Agua,400.6014855305351
+Rio das Flores,3304508,1985,Area_Nao_Vegetada,4.644408762454987
+Rio das Flores,3304508,1985,Aquicultura,0.0
+Rio das Flores,3304508,1985,Nao_Observado,0.0
+Porto Real,3304110,1985,Floresta,269.1056613719933
+Porto Real,3304110,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,1985,Silvicultura,0.0
+Porto Real,3304110,1985,Pastagem,3358.834019199655
+Porto Real,3304110,1985,Agricultura,0.0
+Porto Real,3304110,1985,Mosaico_Agropecuario,1041.6445396697109
+Porto Real,3304110,1985,Area_Urbana,259.62891232201866
+Porto Real,3304110,1985,Mineracao,0.0
+Porto Real,3304110,1985,Agua,138.57049769493293
+Porto Real,3304110,1985,Area_Nao_Vegetada,21.193860784173012
+Porto Real,3304110,1985,Aquicultura,0.0
+Porto Real,3304110,1985,Nao_Observado,0.0
+Quatis,3304128,1985,Floresta,7462.125286671751
+Quatis,3304128,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,1985,Silvicultura,1.4085433781147003
+Quatis,3304128,1985,Pastagem,12078.95462427054
+Quatis,3304128,1985,Agricultura,0.0
+Quatis,3304128,1985,Mosaico_Agropecuario,8342.10925147016
+Quatis,3304128,1985,Area_Urbana,95.72518847882748
+Quatis,3304128,1985,Mineracao,0.0
+Quatis,3304128,1985,Agua,166.98450510402523
+Quatis,3304128,1985,Area_Nao_Vegetada,320.83876327469073
+Quatis,3304128,1985,Aquicultura,0.0
+Quatis,3304128,1985,Nao_Observado,0.0
+Paraíba do Sul,3303708,1985,Floresta,6110.044912886241
+Paraíba do Sul,3303708,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,1985,Silvicultura,1.8252795487642288
+Paraíba do Sul,3303708,1985,Pastagem,24144.918656175072
+Paraíba do Sul,3303708,1985,Agricultura,0.0
+Paraíba do Sul,3303708,1985,Mosaico_Agropecuario,12385.920717092611
+Paraíba do Sul,3303708,1985,Area_Urbana,312.21978692394845
+Paraíba do Sul,3303708,1985,Mineracao,0.0
+Paraíba do Sul,3303708,1985,Agua,414.30121754320226
+Paraíba do Sul,3303708,1985,Area_Nao_Vegetada,49.01217187870951
+Paraíba do Sul,3303708,1985,Aquicultura,0.0
+Paraíba do Sul,3303708,1985,Nao_Observado,0.0
+Resende,3304201,1985,Floresta,38618.007063157034
+Resende,3304201,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,1985,Silvicultura,0.0
+Resende,3304201,1985,Pastagem,41358.33426421551
+Resende,3304201,1985,Agricultura,0.04420863658774133
+Resende,3304201,1985,Mosaico_Agropecuario,22723.45070980016
+Resende,3304201,1985,Area_Urbana,1546.2029211881697
+Resende,3304201,1985,Mineracao,0.0
+Resende,3304201,1985,Agua,3341.3424280562185
+Resende,3304201,1985,Area_Nao_Vegetada,1950.6905923574266
+Resende,3304201,1985,Aquicultura,0.0
+Resende,3304201,1985,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,1985,Floresta,1750.8654030808045
+Comendador Levy Gasparian,3300951,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,1985,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,1985,Pastagem,5015.16590031219
+Comendador Levy Gasparian,3300951,1985,Agricultura,0.0
+Comendador Levy Gasparian,3300951,1985,Mosaico_Agropecuario,3716.5358998599295
+Comendador Levy Gasparian,3300951,1985,Area_Urbana,88.8730996808293
+Comendador Levy Gasparian,3300951,1985,Mineracao,0.0
+Comendador Levy Gasparian,3300951,1985,Agua,192.75865585079364
+Comendador Levy Gasparian,3300951,1985,Area_Nao_Vegetada,23.305165738773113
+Comendador Levy Gasparian,3300951,1985,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,1985,Nao_Observado,0.0
+Três Rios,3306008,1985,Floresta,710.1026217998534
+Três Rios,3306008,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,1985,Silvicultura,0.0
+Três Rios,3306008,1985,Pastagem,5591.0249749447485
+Três Rios,3306008,1985,Agricultura,0.0
+Três Rios,3306008,1985,Mosaico_Agropecuario,2328.628727281589
+Três Rios,3306008,1985,Area_Urbana,668.3797011467171
+Três Rios,3306008,1985,Mineracao,0.0
+Três Rios,3306008,1985,Agua,334.93472620175737
+Três Rios,3306008,1985,Area_Nao_Vegetada,42.271461811953905
+Três Rios,3306008,1985,Aquicultura,0.0
+Três Rios,3306008,1985,Nao_Observado,0.0
+Paty do Alferes,3303856,1985,Floresta,4464.915476985803
+Paty do Alferes,3303856,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,1985,Silvicultura,0.0
+Paty do Alferes,3303856,1985,Pastagem,15655.833026776514
+Paty do Alferes,3303856,1985,Agricultura,0.0
+Paty do Alferes,3303856,1985,Mosaico_Agropecuario,6830.9539923303255
+Paty do Alferes,3303856,1985,Area_Urbana,79.910086594522
+Paty do Alferes,3303856,1985,Mineracao,0.0
+Paty do Alferes,3303856,1985,Agua,10.601465120911598
+Paty do Alferes,3303856,1985,Area_Nao_Vegetada,40.03035847906973
+Paty do Alferes,3303856,1985,Aquicultura,0.0
+Paty do Alferes,3303856,1985,Nao_Observado,0.0
+Itatiaia,3302254,1985,Floresta,12170.134111425834
+Itatiaia,3302254,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,1985,Silvicultura,0.0
+Itatiaia,3302254,1985,Pastagem,5893.548850062338
+Itatiaia,3302254,1985,Agricultura,0.0
+Itatiaia,3302254,1985,Mosaico_Agropecuario,3427.400707639991
+Itatiaia,3302254,1985,Area_Urbana,471.12389591134644
+Itatiaia,3302254,1985,Mineracao,0.0
+Itatiaia,3302254,1985,Agua,769.2314823024115
+Itatiaia,3302254,1985,Area_Nao_Vegetada,1334.6653159614289
+Itatiaia,3302254,1985,Aquicultura,0.0
+Itatiaia,3302254,1985,Nao_Observado,0.0
+Piraí,3304003,1985,Floresta,3659.4031233563414
+Piraí,3304003,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,1985,Silvicultura,0.0
+Piraí,3304003,1985,Pastagem,4671.044334532292
+Piraí,3304003,1985,Agricultura,0.0
+Piraí,3304003,1985,Mosaico_Agropecuario,2016.9657497773574
+Piraí,3304003,1985,Area_Urbana,45.83388800919057
+Piraí,3304003,1985,Mineracao,0.0
+Piraí,3304003,1985,Agua,33.13722286326628
+Piraí,3304003,1985,Area_Nao_Vegetada,4.584800937859451
+Piraí,3304003,1985,Aquicultura,0.0
+Piraí,3304003,1985,Nao_Observado,0.0
+Barra Mansa,3300407,1985,Floresta,11318.54939310057
+Barra Mansa,3300407,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,1985,Silvicultura,3.8287484225104835
+Barra Mansa,3300407,1985,Pastagem,25212.133441929494
+Barra Mansa,3300407,1985,Agricultura,0.0
+Barra Mansa,3300407,1985,Mosaico_Agropecuario,15466.944137955086
+Barra Mansa,3300407,1985,Area_Urbana,2045.6715341839733
+Barra Mansa,3300407,1985,Mineracao,16.63480731844902
+Barra Mansa,3300407,1985,Agua,385.0530828831828
+Barra Mansa,3300407,1985,Area_Nao_Vegetada,189.1963126585764
+Barra Mansa,3300407,1985,Aquicultura,0.0
+Barra Mansa,3300407,1985,Nao_Observado,0.0
+Mendes,3302809,1985,Floresta,878.4040864952932
+Mendes,3302809,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,1985,Silvicultura,0.0
+Mendes,3302809,1985,Pastagem,913.066684158087
+Mendes,3302809,1985,Agricultura,0.0
+Mendes,3302809,1985,Mosaico_Agropecuario,414.5069569210211
+Mendes,3302809,1985,Area_Urbana,1.2415407001972198
+Mendes,3302809,1985,Mineracao,0.0
+Mendes,3302809,1985,Agua,0.0
+Mendes,3302809,1985,Area_Nao_Vegetada,0.047068872580341266
+Mendes,3302809,1985,Aquicultura,0.0
+Mendes,3302809,1985,Nao_Observado,0.0
+Volta Redonda,3306305,1985,Floresta,4602.284111314373
+Volta Redonda,3306305,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,1985,Silvicultura,12.647201055785015
+Volta Redonda,3306305,1985,Pastagem,6342.32290659056
+Volta Redonda,3306305,1985,Agricultura,0.0
+Volta Redonda,3306305,1985,Mosaico_Agropecuario,3722.29104563404
+Volta Redonda,3306305,1985,Area_Urbana,3105.882919697843
+Volta Redonda,3306305,1985,Mineracao,0.0
+Volta Redonda,3306305,1985,Agua,396.7695830769109
+Volta Redonda,3306305,1985,Area_Nao_Vegetada,28.133321650326252
+Volta Redonda,3306305,1985,Aquicultura,0.0
+Volta Redonda,3306305,1985,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,1985,Floresta,14.87502516858718
+Engenheiro Paulo de Frontin,3301801,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,1985,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,1985,Pastagem,65.97074072121407
+Engenheiro Paulo de Frontin,3301801,1985,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,1985,Mosaico_Agropecuario,11.920668631178492
+Engenheiro Paulo de Frontin,3301801,1985,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,1985,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,1985,Agua,1.0621684763069248
+Engenheiro Paulo de Frontin,3301801,1985,Area_Nao_Vegetada,0.11361845684986488
+Engenheiro Paulo de Frontin,3301801,1985,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,1985,Nao_Observado,0.0
+Miguel Pereira,3302908,1985,Floresta,1079.46640254303
+Miguel Pereira,3302908,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,1985,Silvicultura,0.0
+Miguel Pereira,3302908,1985,Pastagem,1216.2803720357967
+Miguel Pereira,3302908,1985,Agricultura,0.0
+Miguel Pereira,3302908,1985,Mosaico_Agropecuario,1167.2363209419104
+Miguel Pereira,3302908,1985,Area_Urbana,151.20939408233937
+Miguel Pereira,3302908,1985,Mineracao,0.0
+Miguel Pereira,3302908,1985,Agua,16.058122664690018
+Miguel Pereira,3302908,1985,Area_Nao_Vegetada,6.4521492918332415
+Miguel Pereira,3302908,1985,Aquicultura,0.0
+Miguel Pereira,3302908,1985,Nao_Observado,0.0
+Petrópolis,3303906,1985,Floresta,3.207559728564001
+Petrópolis,3303906,1985,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,1985,Silvicultura,0.0
+Petrópolis,3303906,1985,Pastagem,1.9521706653284094
+Petrópolis,3303906,1985,Agricultura,0.0
+Petrópolis,3303906,1985,Mosaico_Agropecuario,2.778511624710233
+Petrópolis,3303906,1985,Area_Urbana,0.0
+Petrópolis,3303906,1985,Mineracao,0.0
+Petrópolis,3303906,1985,Agua,0.0
+Petrópolis,3303906,1985,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,1985,Aquicultura,0.0
+Petrópolis,3303906,1985,Nao_Observado,0.0
+Valença,3306107,1990,Floresta,31480.86764503159
+Valença,3306107,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,1990,Silvicultura,53.25037163405442
+Valença,3306107,1990,Pastagem,78216.40836454899
+Valença,3306107,1990,Agricultura,0.0
+Valença,3306107,1990,Mosaico_Agropecuario,18859.77404650815
+Valença,3306107,1990,Area_Urbana,577.9196832758247
+Valença,3306107,1990,Mineracao,0.0
+Valença,3306107,1990,Agua,467.40239426928997
+Valença,3306107,1990,Area_Nao_Vegetada,308.17222144413813
+Valença,3306107,1990,Aquicultura,0.0
+Valença,3306107,1990,Nao_Observado,0.0
+Pinheiral,3303955,1990,Floresta,1886.1383366559064
+Pinheiral,3303955,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,1990,Silvicultura,0.0
+Pinheiral,3303955,1990,Pastagem,4263.8070404353075
+Pinheiral,3303955,1990,Agricultura,0.0
+Pinheiral,3303955,1990,Mosaico_Agropecuario,1704.9189913998625
+Pinheiral,3303955,1990,Area_Urbana,243.92004081612708
+Pinheiral,3303955,1990,Mineracao,0.0
+Pinheiral,3303955,1990,Agua,115.43138302532482
+Pinheiral,3303955,1990,Area_Nao_Vegetada,10.922368047517889
+Pinheiral,3303955,1990,Aquicultura,0.0
+Pinheiral,3303955,1990,Nao_Observado,0.0
+Rio Claro,3304409,1990,Floresta,537.5019879324177
+Rio Claro,3304409,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,1990,Silvicultura,0.0
+Rio Claro,3304409,1990,Pastagem,2548.556147663846
+Rio Claro,3304409,1990,Agricultura,0.053470979543293225
+Rio Claro,3304409,1990,Mosaico_Agropecuario,698.0017551466532
+Rio Claro,3304409,1990,Area_Urbana,3.7318204578815726
+Rio Claro,3304409,1990,Mineracao,0.0
+Rio Claro,3304409,1990,Agua,1.98368339240551
+Rio Claro,3304409,1990,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,1990,Aquicultura,0.0
+Rio Claro,3304409,1990,Nao_Observado,0.0
+Barra do Piraí,3300308,1990,Floresta,15811.695199566875
+Barra do Piraí,3300308,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,1990,Silvicultura,57.24912770028208
+Barra do Piraí,3300308,1990,Pastagem,25686.471385842186
+Barra do Piraí,3300308,1990,Agricultura,0.0
+Barra do Piraí,3300308,1990,Mosaico_Agropecuario,11026.377967722949
+Barra do Piraí,3300308,1990,Area_Urbana,668.1933566780652
+Barra do Piraí,3300308,1990,Mineracao,0.0
+Barra do Piraí,3300308,1990,Agua,542.4928151338712
+Barra do Piraí,3300308,1990,Area_Nao_Vegetada,26.905557468533516
+Barra do Piraí,3300308,1990,Aquicultura,0.0
+Barra do Piraí,3300308,1990,Nao_Observado,0.0
+Vassouras,3306206,1990,Floresta,10430.31073104485
+Vassouras,3306206,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,1990,Silvicultura,0.0
+Vassouras,3306206,1990,Pastagem,31422.78310063091
+Vassouras,3306206,1990,Agricultura,0.0
+Vassouras,3306206,1990,Mosaico_Agropecuario,8406.96515537573
+Vassouras,3306206,1990,Area_Urbana,397.4172192439437
+Vassouras,3306206,1990,Mineracao,0.0
+Vassouras,3306206,1990,Agua,551.405838210238
+Vassouras,3306206,1990,Area_Nao_Vegetada,6.542885676026344
+Vassouras,3306206,1990,Aquicultura,0.0
+Vassouras,3306206,1990,Nao_Observado,0.0
+Rio das Flores,3304508,1990,Floresta,9197.89932787924
+Rio das Flores,3304508,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,1990,Silvicultura,0.0
+Rio das Flores,3304508,1990,Pastagem,32875.013272314274
+Rio das Flores,3304508,1990,Agricultura,0.0
+Rio das Flores,3304508,1990,Mosaico_Agropecuario,5314.724939255094
+Rio das Flores,3304508,1990,Area_Urbana,48.10426212847233
+Rio das Flores,3304508,1990,Mineracao,0.0
+Rio das Flores,3304508,1990,Agua,403.40794352710816
+Rio das Flores,3304508,1990,Area_Nao_Vegetada,0.8299534469842911
+Rio das Flores,3304508,1990,Aquicultura,0.0
+Rio das Flores,3304508,1990,Nao_Observado,0.0
+Porto Real,3304110,1990,Floresta,240.35243089462045
+Porto Real,3304110,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,1990,Silvicultura,0.0
+Porto Real,3304110,1990,Pastagem,3472.3931169651582
+Porto Real,3304110,1990,Agricultura,0.0
+Porto Real,3304110,1990,Mosaico_Agropecuario,894.3802810330891
+Porto Real,3304110,1990,Area_Urbana,331.4073827550107
+Porto Real,3304110,1990,Mineracao,0.0
+Porto Real,3304110,1990,Agua,138.10834849581997
+Porto Real,3304110,1990,Area_Nao_Vegetada,12.087649717926979
+Porto Real,3304110,1990,Aquicultura,0.0
+Porto Real,3304110,1990,Nao_Observado,0.0
+Quatis,3304128,1990,Floresta,6166.598442352961
+Quatis,3304128,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,1990,Silvicultura,0.0
+Quatis,3304128,1990,Pastagem,13382.270881439386
+Quatis,3304128,1990,Agricultura,0.0
+Quatis,3304128,1990,Mosaico_Agropecuario,8358.505840089181
+Quatis,3304128,1990,Area_Urbana,137.29458694905043
+Quatis,3304128,1990,Mineracao,0.0
+Quatis,3304128,1990,Agua,161.40158911773977
+Quatis,3304128,1990,Area_Nao_Vegetada,262.57157225734466
+Quatis,3304128,1990,Aquicultura,0.0
+Quatis,3304128,1990,Nao_Observado,0.0
+Paraíba do Sul,3303708,1990,Floresta,6902.677023965998
+Paraíba do Sul,3303708,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,1990,Silvicultura,1.8256507962942123
+Paraíba do Sul,3303708,1990,Pastagem,29516.384975522287
+Paraíba do Sul,3303708,1990,Agricultura,0.0
+Paraíba do Sul,3303708,1990,Mosaico_Agropecuario,6229.880541403476
+Paraíba do Sul,3303708,1990,Area_Urbana,333.28729141933076
+Paraíba do Sul,3303708,1990,Mineracao,0.0
+Paraíba do Sul,3303708,1990,Agua,409.38287302577027
+Paraíba do Sul,3303708,1990,Area_Nao_Vegetada,24.887235082685947
+Paraíba do Sul,3303708,1990,Aquicultura,0.0
+Paraíba do Sul,3303708,1990,Nao_Observado,0.0
+Resende,3304201,1990,Floresta,38404.05103060026
+Resende,3304201,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,1990,Silvicultura,0.0
+Resende,3304201,1990,Pastagem,44139.767456568195
+Resende,3304201,1990,Agricultura,0.015925485041795993
+Resende,3304201,1990,Mosaico_Agropecuario,20143.098312701342
+Resende,3304201,1990,Area_Urbana,1808.0688070401256
+Resende,3304201,1990,Mineracao,0.0
+Resende,3304201,1990,Agua,3272.1740577673177
+Resende,3304201,1990,Area_Nao_Vegetada,1771.3103251432365
+Resende,3304201,1990,Aquicultura,0.0
+Resende,3304201,1990,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,1990,Floresta,1999.4939998996026
+Comendador Levy Gasparian,3300951,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,1990,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,1990,Pastagem,6679.415062164009
+Comendador Levy Gasparian,3300951,1990,Agricultura,0.0
+Comendador Levy Gasparian,3300951,1990,Mosaico_Agropecuario,1790.724305786718
+Comendador Levy Gasparian,3300951,1990,Area_Urbana,106.82364541102275
+Comendador Levy Gasparian,3300951,1990,Mineracao,0.0
+Comendador Levy Gasparian,3300951,1990,Agua,188.64266420786865
+Comendador Levy Gasparian,3300951,1990,Area_Nao_Vegetada,22.404447054103308
+Comendador Levy Gasparian,3300951,1990,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,1990,Nao_Observado,0.0
+Três Rios,3306008,1990,Floresta,830.1835765859367
+Três Rios,3306008,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,1990,Silvicultura,0.0
+Três Rios,3306008,1990,Pastagem,6194.9106993569185
+Três Rios,3306008,1990,Agricultura,0.0
+Três Rios,3306008,1990,Mosaico_Agropecuario,1582.0257454289228
+Três Rios,3306008,1990,Area_Urbana,709.9543610381437
+Três Rios,3306008,1990,Mineracao,0.0
+Três Rios,3306008,1990,Agua,334.85371192042123
+Três Rios,3306008,1990,Area_Nao_Vegetada,23.414118856279288
+Três Rios,3306008,1990,Aquicultura,0.0
+Três Rios,3306008,1990,Nao_Observado,0.0
+Paty do Alferes,3303856,1990,Floresta,5528.244430518676
+Paty do Alferes,3303856,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,1990,Silvicultura,0.0
+Paty do Alferes,3303856,1990,Pastagem,15610.712604861146
+Paty do Alferes,3303856,1990,Agricultura,0.0
+Paty do Alferes,3303856,1990,Mosaico_Agropecuario,5837.250851142492
+Paty do Alferes,3303856,1990,Area_Urbana,86.28835730999708
+Paty do Alferes,3303856,1990,Mineracao,0.0
+Paty do Alferes,3303856,1990,Agua,17.72465981543064
+Paty do Alferes,3303856,1990,Area_Nao_Vegetada,0.5796164870262146
+Paty do Alferes,3303856,1990,Aquicultura,0.0
+Paty do Alferes,3303856,1990,Nao_Observado,0.0
+Itatiaia,3302254,1990,Floresta,12158.322543860151
+Itatiaia,3302254,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,1990,Silvicultura,0.0
+Itatiaia,3302254,1990,Pastagem,5921.8343019179765
+Itatiaia,3302254,1990,Agricultura,0.006498597036389744
+Itatiaia,3302254,1990,Mosaico_Agropecuario,3350.412927997963
+Itatiaia,3302254,1990,Area_Urbana,566.8422925817031
+Itatiaia,3302254,1990,Mineracao,0.0
+Itatiaia,3302254,1990,Agua,766.7841358797508
+Itatiaia,3302254,1990,Area_Nao_Vegetada,1301.901662468764
+Itatiaia,3302254,1990,Aquicultura,0.0
+Itatiaia,3302254,1990,Nao_Observado,0.0
+Piraí,3304003,1990,Floresta,3383.466898279008
+Piraí,3304003,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,1990,Silvicultura,7.361209876835346
+Piraí,3304003,1990,Pastagem,4672.640600743565
+Piraí,3304003,1990,Agricultura,0.0
+Piraí,3304003,1990,Mosaico_Agropecuario,2264.361497714386
+Piraí,3304003,1990,Area_Urbana,66.5105406483891
+Piraí,3304003,1990,Mineracao,0.0
+Piraí,3304003,1990,Agua,36.0530181660956
+Piraí,3304003,1990,Area_Nao_Vegetada,0.5753540480253743
+Piraí,3304003,1990,Aquicultura,0.0
+Piraí,3304003,1990,Nao_Observado,0.0
+Barra Mansa,3300407,1990,Floresta,9291.91858789734
+Barra Mansa,3300407,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,1990,Silvicultura,3.6631257709334877
+Barra Mansa,3300407,1990,Pastagem,28625.854166267454
+Barra Mansa,3300407,1990,Agricultura,0.0
+Barra Mansa,3300407,1990,Mosaico_Agropecuario,13790.83254657128
+Barra Mansa,3300407,1990,Area_Urbana,2323.646543328582
+Barra Mansa,3300407,1990,Mineracao,23.25565228611231
+Barra Mansa,3300407,1990,Agua,408.32362810259383
+Barra Mansa,3300407,1990,Area_Nao_Vegetada,172.25526481276634
+Barra Mansa,3300407,1990,Aquicultura,0.0
+Barra Mansa,3300407,1990,Nao_Observado,0.0
+Mendes,3302809,1990,Floresta,892.9088116442749
+Mendes,3302809,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,1990,Silvicultura,0.0
+Mendes,3302809,1990,Pastagem,898.4284551734426
+Mendes,3302809,1990,Agricultura,0.0
+Mendes,3302809,1990,Mosaico_Agropecuario,412.30581409913657
+Mendes,3302809,1990,Area_Urbana,2.152121901512146
+Mendes,3302809,1990,Mineracao,0.0
+Mendes,3302809,1990,Agua,1.4711343288129453
+Mendes,3302809,1990,Area_Nao_Vegetada,0.0
+Mendes,3302809,1990,Aquicultura,0.0
+Mendes,3302809,1990,Nao_Observado,0.0
+Volta Redonda,3306305,1990,Floresta,4038.678788358176
+Volta Redonda,3306305,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,1990,Silvicultura,11.570474403103187
+Volta Redonda,3306305,1990,Pastagem,6748.954353576633
+Volta Redonda,3306305,1990,Agricultura,0.0
+Volta Redonda,3306305,1990,Mosaico_Agropecuario,3499.0559871226283
+Volta Redonda,3306305,1990,Area_Urbana,3486.487733119404
+Volta Redonda,3306305,1990,Mineracao,0.0
+Volta Redonda,3306305,1990,Agua,377.5483499444876
+Volta Redonda,3306305,1990,Area_Nao_Vegetada,48.03540249539941
+Volta Redonda,3306305,1990,Aquicultura,0.0
+Volta Redonda,3306305,1990,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Floresta,14.639677816512538
+Engenheiro Paulo de Frontin,3301801,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Pastagem,63.70678961899353
+Engenheiro Paulo de Frontin,3301801,1990,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Mosaico_Agropecuario,14.647203693699606
+Engenheiro Paulo de Frontin,3301801,1990,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Agua,0.9485503249308642
+Engenheiro Paulo de Frontin,3301801,1990,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,1990,Nao_Observado,0.0
+Miguel Pereira,3302908,1990,Floresta,1103.7148185426993
+Miguel Pereira,3302908,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,1990,Silvicultura,0.0
+Miguel Pereira,3302908,1990,Pastagem,1028.9821320443768
+Miguel Pereira,3302908,1990,Agricultura,0.0
+Miguel Pereira,3302908,1990,Mosaico_Agropecuario,1228.2292120824566
+Miguel Pereira,3302908,1990,Area_Urbana,258.4768614068043
+Miguel Pereira,3302908,1990,Mineracao,0.0
+Miguel Pereira,3302908,1990,Agua,17.299737483263016
+Miguel Pereira,3302908,1990,Area_Nao_Vegetada,0.0
+Miguel Pereira,3302908,1990,Aquicultura,0.0
+Miguel Pereira,3302908,1990,Nao_Observado,0.0
+Petrópolis,3303906,1990,Floresta,3.207559728564001
+Petrópolis,3303906,1990,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,1990,Silvicultura,0.0
+Petrópolis,3303906,1990,Pastagem,1.2580619965990383
+Petrópolis,3303906,1990,Agricultura,0.0
+Petrópolis,3303906,1990,Mosaico_Agropecuario,3.4726202934396047
+Petrópolis,3303906,1990,Area_Urbana,0.0
+Petrópolis,3303906,1990,Mineracao,0.0
+Petrópolis,3303906,1990,Agua,0.0
+Petrópolis,3303906,1990,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,1990,Aquicultura,0.0
+Petrópolis,3303906,1990,Nao_Observado,0.0
+Valença,3306107,1995,Floresta,30912.74432790414
+Valença,3306107,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,1995,Silvicultura,31.737045958725844
+Valença,3306107,1995,Pastagem,83246.46704362851
+Valença,3306107,1995,Agricultura,2.074136406183243
+Valença,3306107,1995,Mosaico_Agropecuario,14371.666147503725
+Valença,3306107,1995,Area_Urbana,675.8088987541257
+Valença,3306107,1995,Mineracao,0.0
+Valença,3306107,1995,Agua,452.64022103071807
+Valença,3306107,1995,Area_Nao_Vegetada,271.4879175220634
+Valença,3306107,1995,Aquicultura,0.0
+Valença,3306107,1995,Nao_Observado,0.0
+Pinheiral,3303955,1995,Floresta,1896.491883591548
+Pinheiral,3303955,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,1995,Silvicultura,0.0
+Pinheiral,3303955,1995,Pastagem,4968.094766150683
+Pinheiral,3303955,1995,Agricultura,0.0
+Pinheiral,3303955,1995,Mosaico_Agropecuario,924.4525324808914
+Pinheiral,3303955,1995,Area_Urbana,318.1486784708266
+Pinheiral,3303955,1995,Mineracao,0.0
+Pinheiral,3303955,1995,Agua,109.18172751954374
+Pinheiral,3303955,1995,Area_Nao_Vegetada,8.76857216656208
+Pinheiral,3303955,1995,Aquicultura,0.0
+Pinheiral,3303955,1995,Nao_Observado,0.0
+Rio Claro,3304409,1995,Floresta,552.0576447308645
+Rio Claro,3304409,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,1995,Silvicultura,0.0
+Rio Claro,3304409,1995,Pastagem,2730.046699752637
+Rio Claro,3304409,1995,Agricultura,0.0
+Rio Claro,3304409,1995,Mosaico_Agropecuario,500.7221898323473
+Rio Claro,3304409,1995,Area_Urbana,4.274782769411218
+Rio Claro,3304409,1995,Mineracao,0.0
+Rio Claro,3304409,1995,Agua,2.7275486439466476
+Rio Claro,3304409,1995,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,1995,Aquicultura,0.0
+Rio Claro,3304409,1995,Nao_Observado,0.0
+Barra do Piraí,3300308,1995,Floresta,15916.67994658164
+Barra do Piraí,3300308,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,1995,Silvicultura,37.18100083444048
+Barra do Piraí,3300308,1995,Pastagem,30579.076205169345
+Barra do Piraí,3300308,1995,Agricultura,0.0
+Barra do Piraí,3300308,1995,Mosaico_Agropecuario,5972.594806361785
+Barra do Piraí,3300308,1995,Area_Urbana,746.6513571636058
+Barra do Piraí,3300308,1995,Mineracao,0.0
+Barra do Piraí,3300308,1995,Agua,546.419770052445
+Barra do Piraí,3300308,1995,Area_Nao_Vegetada,21.111499279737473
+Barra do Piraí,3300308,1995,Aquicultura,0.0
+Barra do Piraí,3300308,1995,Nao_Observado,0.0
+Vassouras,3306206,1995,Floresta,10557.308034393516
+Vassouras,3306206,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,1995,Silvicultura,0.0
+Vassouras,3306206,1995,Pastagem,32935.28468931937
+Vassouras,3306206,1995,Agricultura,0.0
+Vassouras,3306206,1995,Mosaico_Agropecuario,6748.26848644871
+Vassouras,3306206,1995,Area_Urbana,440.0783069655299
+Vassouras,3306206,1995,Mineracao,0.0
+Vassouras,3306206,1995,Agua,529.1024883562734
+Vassouras,3306206,1995,Area_Nao_Vegetada,5.631605684757233
+Vassouras,3306206,1995,Aquicultura,0.0
+Vassouras,3306206,1995,Nao_Observado,0.0
+Rio das Flores,3304508,1995,Floresta,9431.35307429547
+Rio das Flores,3304508,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,1995,Silvicultura,0.0
+Rio das Flores,3304508,1995,Pastagem,31722.999813960174
+Rio das Flores,3304508,1995,Agricultura,0.0
+Rio das Flores,3304508,1995,Mosaico_Agropecuario,6233.380134732436
+Rio das Flores,3304508,1995,Area_Urbana,61.04461257904768
+Rio das Flores,3304508,1995,Mineracao,0.0
+Rio das Flores,3304508,1995,Agua,390.37210953706017
+Rio das Flores,3304508,1995,Area_Nao_Vegetada,0.8299534469842911
+Rio das Flores,3304508,1995,Aquicultura,0.0
+Rio das Flores,3304508,1995,Nao_Observado,0.0
+Porto Real,3304110,1995,Floresta,227.06042727898165
+Porto Real,3304110,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,1995,Silvicultura,0.0
+Porto Real,3304110,1995,Pastagem,3437.095122343709
+Porto Real,3304110,1995,Agricultura,10.430746041238308
+Porto Real,3304110,1995,Mosaico_Agropecuario,863.8381383504936
+Porto Real,3304110,1995,Area_Urbana,396.5645117447072
+Porto Real,3304110,1995,Mineracao,0.0
+Porto Real,3304110,1995,Agua,142.97725628284257
+Porto Real,3304110,1995,Area_Nao_Vegetada,10.928528763353825
+Porto Real,3304110,1995,Aquicultura,0.0
+Porto Real,3304110,1995,Nao_Observado,0.0
+Quatis,3304128,1995,Floresta,5846.99752826577
+Quatis,3304128,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,1995,Silvicultura,0.0
+Quatis,3304128,1995,Pastagem,15508.702451369014
+Quatis,3304128,1995,Agricultura,0.0
+Quatis,3304128,1995,Mosaico_Agropecuario,6584.530026057919
+Quatis,3304128,1995,Area_Urbana,167.18714107573032
+Quatis,3304128,1995,Mineracao,0.0
+Quatis,3304128,1995,Agua,169.56604156073405
+Quatis,3304128,1995,Area_Nao_Vegetada,192.6531490967554
+Quatis,3304128,1995,Aquicultura,0.0
+Quatis,3304128,1995,Nao_Observado,0.0
+Paraíba do Sul,3303708,1995,Floresta,7261.26254477729
+Paraíba do Sul,3303708,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,1995,Silvicultura,0.0
+Paraíba do Sul,3303708,1995,Pastagem,27844.406119183233
+Paraíba do Sul,3303708,1995,Agricultura,0.0
+Paraíba do Sul,3303708,1995,Mosaico_Agropecuario,7448.560377296688
+Paraíba do Sul,3303708,1995,Area_Urbana,447.80427789953995
+Paraíba do Sul,3303708,1995,Mineracao,0.0
+Paraíba do Sul,3303708,1995,Agua,393.81065570361477
+Paraíba do Sul,3303708,1995,Area_Nao_Vegetada,21.73552943021059
+Paraíba do Sul,3303708,1995,Aquicultura,0.0
+Paraíba do Sul,3303708,1995,Nao_Observado,0.0
+Resende,3304201,1995,Floresta,37013.38949301969
+Resende,3304201,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,1995,Silvicultura,148.48587471991777
+Resende,3304201,1995,Pastagem,48122.32161386529
+Resende,3304201,1995,Agricultura,0.8277512788772583
+Resende,3304201,1995,Mosaico_Agropecuario,17346.786104862647
+Resende,3304201,1995,Area_Urbana,2098.6354234901128
+Resende,3304201,1995,Mineracao,0.0
+Resende,3304201,1995,Agua,3095.5378941857903
+Resende,3304201,1995,Area_Nao_Vegetada,1713.5771004745466
+Resende,3304201,1995,Aquicultura,0.0
+Resende,3304201,1995,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,1995,Floresta,1994.5083430748948
+Comendador Levy Gasparian,3300951,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,1995,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,1995,Pastagem,6628.939834628476
+Comendador Levy Gasparian,3300951,1995,Agricultura,0.0
+Comendador Levy Gasparian,3300951,1995,Mosaico_Agropecuario,1826.8195441806724
+Comendador Levy Gasparian,3300951,1995,Area_Urbana,138.50660430067325
+Comendador Levy Gasparian,3300951,1995,Mineracao,0.0
+Comendador Levy Gasparian,3300951,1995,Agua,174.49894914185882
+Comendador Levy Gasparian,3300951,1995,Area_Nao_Vegetada,24.230849196747236
+Comendador Levy Gasparian,3300951,1995,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,1995,Nao_Observado,0.0
+Três Rios,3306008,1995,Floresta,858.9907042418333
+Três Rios,3306008,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,1995,Silvicultura,0.0
+Três Rios,3306008,1995,Pastagem,6147.248644751166
+Três Rios,3306008,1995,Agricultura,0.0
+Três Rios,3306008,1995,Mosaico_Agropecuario,1378.0543437397362
+Três Rios,3306008,1995,Area_Urbana,952.6251182736427
+Três Rios,3306008,1995,Mineracao,0.0
+Três Rios,3306008,1995,Agua,315.67408201583464
+Três Rios,3306008,1995,Area_Nao_Vegetada,22.749320164410506
+Três Rios,3306008,1995,Aquicultura,0.0
+Três Rios,3306008,1995,Nao_Observado,0.0
+Paty do Alferes,3303856,1995,Floresta,5616.100070091351
+Paty do Alferes,3303856,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,1995,Silvicultura,0.0
+Paty do Alferes,3303856,1995,Pastagem,17173.350694721306
+Paty do Alferes,3303856,1995,Agricultura,0.0
+Paty do Alferes,3303856,1995,Mosaico_Agropecuario,4076.8593728570067
+Paty do Alferes,3303856,1995,Area_Urbana,195.01044279053514
+Paty do Alferes,3303856,1995,Mineracao,0.0
+Paty do Alferes,3303856,1995,Agua,19.876808494329453
+Paty do Alferes,3303856,1995,Area_Nao_Vegetada,0.8458452425751032
+Paty do Alferes,3303856,1995,Aquicultura,0.0
+Paty do Alferes,3303856,1995,Nao_Observado,0.0
+Itatiaia,3302254,1995,Floresta,12055.892068177602
+Itatiaia,3302254,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,1995,Silvicultura,0.0
+Itatiaia,3302254,1995,Pastagem,6244.108981322181
+Itatiaia,3302254,1995,Agricultura,0.49685899168252945
+Itatiaia,3302254,1995,Mosaico_Agropecuario,3074.1813309026425
+Itatiaia,3302254,1995,Area_Urbana,658.8258903036512
+Itatiaia,3302254,1995,Mineracao,0.0
+Itatiaia,3302254,1995,Agua,751.2152521379718
+Itatiaia,3302254,1995,Area_Nao_Vegetada,1281.3839814676082
+Itatiaia,3302254,1995,Aquicultura,0.0
+Itatiaia,3302254,1995,Nao_Observado,0.0
+Piraí,3304003,1995,Floresta,3351.537174943469
+Piraí,3304003,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,1995,Silvicultura,8.271070905029774
+Piraí,3304003,1995,Pastagem,5599.91333022395
+Piraí,3304003,1995,Agricultura,0.0
+Piraí,3304003,1995,Mosaico_Agropecuario,1344.6817387253925
+Piraí,3304003,1995,Area_Urbana,86.00359581004751
+Piraí,3304003,1995,Mineracao,0.0
+Piraí,3304003,1995,Agua,40.479509554657284
+Piraí,3304003,1995,Area_Nao_Vegetada,0.08269931375980377
+Piraí,3304003,1995,Aquicultura,0.0
+Piraí,3304003,1995,Nao_Observado,0.0
+Barra Mansa,3300407,1995,Floresta,8862.027273002092
+Barra Mansa,3300407,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,1995,Silvicultura,2.534950844329946
+Barra Mansa,3300407,1995,Pastagem,31266.01747847705
+Barra Mansa,3300407,1995,Agricultura,0.0
+Barra Mansa,3300407,1995,Mosaico_Agropecuario,11442.113743902213
+Barra Mansa,3300407,1995,Area_Urbana,2474.4289789000277
+Barra Mansa,3300407,1995,Mineracao,27.807472117245197
+Barra Mansa,3300407,1995,Agua,428.4506187493897
+Barra Mansa,3300407,1995,Area_Nao_Vegetada,137.5269922868294
+Barra Mansa,3300407,1995,Aquicultura,0.0
+Barra Mansa,3300407,1995,Nao_Observado,0.0
+Mendes,3302809,1995,Floresta,897.749097290898
+Mendes,3302809,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,1995,Silvicultura,0.0
+Mendes,3302809,1995,Pastagem,1005.0724065593641
+Mendes,3302809,1995,Agricultura,0.0
+Mendes,3302809,1995,Mosaico_Agropecuario,300.24504462761035
+Mendes,3302809,1995,Area_Urbana,2.566019870340824
+Mendes,3302809,1995,Mineracao,0.0
+Mendes,3302809,1995,Agua,1.6337687989660339
+Mendes,3302809,1995,Area_Nao_Vegetada,0.0
+Mendes,3302809,1995,Aquicultura,0.0
+Mendes,3302809,1995,Nao_Observado,0.0
+Volta Redonda,3306305,1995,Floresta,3931.04743840405
+Volta Redonda,3306305,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,1995,Silvicultura,11.622323288578608
+Volta Redonda,3306305,1995,Pastagem,7347.748250213935
+Volta Redonda,3306305,1995,Agricultura,1.2418820708990097
+Volta Redonda,3306305,1995,Mosaico_Agropecuario,2771.560218994526
+Volta Redonda,3306305,1995,Area_Urbana,3693.366919562482
+Volta Redonda,3306305,1995,Mineracao,0.0
+Volta Redonda,3306305,1995,Agua,394.1239911518555
+Volta Redonda,3306305,1995,Area_Nao_Vegetada,59.6200653335043
+Volta Redonda,3306305,1995,Aquicultura,0.0
+Volta Redonda,3306305,1995,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Floresta,10.776081109134592
+Engenheiro Paulo de Frontin,3301801,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Pastagem,72.75652580077161
+Engenheiro Paulo de Frontin,3301801,1995,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Mosaico_Agropecuario,9.543843336228058
+Engenheiro Paulo de Frontin,3301801,1995,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Agua,0.8657712080022868
+Engenheiro Paulo de Frontin,3301801,1995,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,1995,Nao_Observado,0.0
+Miguel Pereira,3302908,1995,Floresta,1108.0061826450863
+Miguel Pereira,3302908,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,1995,Silvicultura,0.0
+Miguel Pereira,3302908,1995,Pastagem,1247.1969930138666
+Miguel Pereira,3302908,1995,Agricultura,0.0
+Miguel Pereira,3302908,1995,Mosaico_Agropecuario,805.2016712686599
+Miguel Pereira,3302908,1995,Area_Urbana,459.7392400217699
+Miguel Pereira,3302908,1995,Mineracao,0.10451880091545629
+Miguel Pereira,3302908,1995,Agua,15.810012854635715
+Miguel Pereira,3302908,1995,Area_Nao_Vegetada,0.6441429546650719
+Miguel Pereira,3302908,1995,Aquicultura,0.0
+Miguel Pereira,3302908,1995,Nao_Observado,0.0
+Petrópolis,3303906,1995,Floresta,3.016960654597656
+Petrópolis,3303906,1995,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,1995,Silvicultura,0.0
+Petrópolis,3303906,1995,Pastagem,0.6110345347547065
+Petrópolis,3303906,1995,Agricultura,0.0
+Petrópolis,3303906,1995,Mosaico_Agropecuario,4.310246829250282
+Petrópolis,3303906,1995,Area_Urbana,0.0
+Petrópolis,3303906,1995,Mineracao,0.0
+Petrópolis,3303906,1995,Agua,0.0
+Petrópolis,3303906,1995,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,1995,Aquicultura,0.0
+Petrópolis,3303906,1995,Nao_Observado,0.0
+Valença,3306107,2000,Floresta,30971.128093695203
+Valença,3306107,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,2000,Silvicultura,6.881073750555515
+Valença,3306107,2000,Pastagem,83937.34167275546
+Valença,3306107,2000,Agricultura,4.308181636035442
+Valença,3306107,2000,Mosaico_Agropecuario,13551.726004943017
+Valença,3306107,2000,Area_Urbana,878.7007787629377
+Valença,3306107,2000,Mineracao,0.0
+Valença,3306107,2000,Agua,368.80505105496627
+Valença,3306107,2000,Area_Nao_Vegetada,245.70909823673028
+Valença,3306107,2000,Aquicultura,0.0
+Valença,3306107,2000,Nao_Observado,0.0
+Pinheiral,3303955,2000,Floresta,1938.190650561539
+Pinheiral,3303955,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,2000,Silvicultura,0.0
+Pinheiral,3303955,2000,Pastagem,5228.042331337728
+Pinheiral,3303955,2000,Agricultura,0.0
+Pinheiral,3303955,2000,Mosaico_Agropecuario,612.9542883426827
+Pinheiral,3303955,2000,Area_Urbana,345.876351931662
+Pinheiral,3303955,2000,Mineracao,0.0
+Pinheiral,3303955,2000,Agua,93.4568120220128
+Pinheiral,3303955,2000,Area_Nao_Vegetada,6.617726184427738
+Pinheiral,3303955,2000,Aquicultura,0.0
+Pinheiral,3303955,2000,Nao_Observado,0.0
+Rio Claro,3304409,2000,Floresta,535.2589275114382
+Rio Claro,3304409,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,2000,Silvicultura,0.0
+Rio Claro,3304409,2000,Pastagem,2510.3552573949028
+Rio Claro,3304409,2000,Agricultura,0.0
+Rio Claro,3304409,2000,Mosaico_Agropecuario,737.4604691511859
+Rio Claro,3304409,2000,Area_Urbana,6.340990372031343
+Rio Claro,3304409,2000,Mineracao,0.0
+Rio Claro,3304409,2000,Agua,0.4958873614668846
+Rio Claro,3304409,2000,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,2000,Aquicultura,0.0
+Rio Claro,3304409,2000,Nao_Observado,0.0
+Barra do Piraí,3300308,2000,Floresta,15682.861847352804
+Barra do Piraí,3300308,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,2000,Silvicultura,5.217844590544701
+Barra do Piraí,3300308,2000,Pastagem,31447.454318394826
+Barra do Piraí,3300308,2000,Agricultura,1.5736423581838608
+Barra do Piraí,3300308,2000,Mosaico_Agropecuario,5309.78502917997
+Barra do Piraí,3300308,2000,Area_Urbana,848.4203307761574
+Barra do Piraí,3300308,2000,Mineracao,0.0
+Barra do Piraí,3300308,2000,Agua,503.1253634365752
+Barra do Piraí,3300308,2000,Area_Nao_Vegetada,20.864154621958733
+Barra do Piraí,3300308,2000,Aquicultura,0.0
+Barra do Piraí,3300308,2000,Nao_Observado,0.0
+Vassouras,3306206,2000,Floresta,10426.217387641063
+Vassouras,3306206,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,2000,Silvicultura,0.0
+Vassouras,3306206,2000,Pastagem,35152.48737951974
+Vassouras,3306206,2000,Agricultura,24.928076073527336
+Vassouras,3306206,2000,Mosaico_Agropecuario,4563.730200426393
+Vassouras,3306206,2000,Area_Urbana,551.723799943924
+Vassouras,3306206,2000,Mineracao,0.0
+Vassouras,3306206,2000,Agua,493.68877923666804
+Vassouras,3306206,2000,Area_Nao_Vegetada,3.229173943400383
+Vassouras,3306206,2000,Aquicultura,0.0
+Vassouras,3306206,2000,Nao_Observado,0.0
+Rio das Flores,3304508,2000,Floresta,9594.448006886127
+Rio das Flores,3304508,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,2000,Silvicultura,0.0
+Rio das Flores,3304508,2000,Pastagem,33633.31771038854
+Rio das Flores,3304508,2000,Agricultura,0.0
+Rio das Flores,3304508,2000,Mosaico_Agropecuario,4162.191394004167
+Rio das Flores,3304508,2000,Area_Urbana,89.74159643054008
+Rio das Flores,3304508,2000,Mineracao,0.0
+Rio das Flores,3304508,2000,Agua,358.3728865115079
+Rio das Flores,3304508,2000,Area_Nao_Vegetada,1.9081043303012848
+Rio das Flores,3304508,2000,Aquicultura,0.0
+Rio das Flores,3304508,2000,Nao_Observado,0.0
+Porto Real,3304110,2000,Floresta,255.97598047642168
+Porto Real,3304110,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,2000,Silvicultura,0.0
+Porto Real,3304110,2000,Pastagem,3135.221983478378
+Porto Real,3304110,2000,Agricultura,4.2706365926008605
+Porto Real,3304110,2000,Mosaico_Agropecuario,710.6783543716166
+Porto Real,3304110,2000,Area_Urbana,833.8915773344974
+Porto Real,3304110,2000,Mineracao,0.0
+Porto Real,3304110,2000,Agua,132.21466055021568
+Porto Real,3304110,2000,Area_Nao_Vegetada,16.72429760545492
+Porto Real,3304110,2000,Aquicultura,0.0
+Porto Real,3304110,2000,Nao_Observado,0.0
+Quatis,3304128,2000,Floresta,6035.441014637494
+Quatis,3304128,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,2000,Silvicultura,0.0
+Quatis,3304128,2000,Pastagem,16070.4302935564
+Quatis,3304128,2000,Agricultura,0.0
+Quatis,3304128,2000,Mosaico_Agropecuario,5843.814145919533
+Quatis,3304128,2000,Area_Urbana,195.75626108795404
+Quatis,3304128,2000,Mineracao,0.0
+Quatis,3304128,2000,Agua,155.11773463432112
+Quatis,3304128,2000,Area_Nao_Vegetada,168.7502772767462
+Quatis,3304128,2000,Aquicultura,0.0
+Quatis,3304128,2000,Nao_Observado,0.0
+Paraíba do Sul,3303708,2000,Floresta,7393.397092457496
+Paraíba do Sul,3303708,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,2000,Silvicultura,0.0
+Paraíba do Sul,3303708,2000,Pastagem,29869.296438886602
+Paraíba do Sul,3303708,2000,Agricultura,0.0
+Paraíba do Sul,3303708,2000,Mosaico_Agropecuario,5171.026914012316
+Paraíba do Sul,3303708,2000,Area_Urbana,576.7174830159428
+Paraíba do Sul,3303708,2000,Mineracao,0.0
+Paraíba do Sul,3303708,2000,Agua,394.19807155491674
+Paraíba do Sul,3303708,2000,Area_Nao_Vegetada,13.772513873875141
+Paraíba do Sul,3303708,2000,Aquicultura,0.0
+Paraíba do Sul,3303708,2000,Nao_Observado,0.0
+Resende,3304201,2000,Floresta,37868.816637907534
+Resende,3304201,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,2000,Silvicultura,234.68223478960638
+Resende,3304201,2000,Pastagem,50596.26463321128
+Resende,3304201,2000,Agricultura,51.11269322619134
+Resende,3304201,2000,Mosaico_Agropecuario,13747.987245011907
+Resende,3304201,2000,Area_Urbana,2514.228330380075
+Resende,3304201,2000,Mineracao,0.0
+Resende,3304201,2000,Agua,2801.687575731933
+Resende,3304201,2000,Area_Nao_Vegetada,1723.706399673923
+Resende,3304201,2000,Aquicultura,0.0
+Resende,3304201,2000,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,2000,Floresta,2034.0934681663618
+Comendador Levy Gasparian,3300951,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,2000,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,2000,Pastagem,7027.026128192339
+Comendador Levy Gasparian,3300951,2000,Agricultura,0.0
+Comendador Levy Gasparian,3300951,2000,Mosaico_Agropecuario,1376.502223751123
+Comendador Levy Gasparian,3300951,2000,Area_Urbana,182.70853312266811
+Comendador Levy Gasparian,3300951,2000,Mineracao,0.0
+Comendador Levy Gasparian,3300951,2000,Agua,146.25133045648823
+Comendador Levy Gasparian,3300951,2000,Area_Nao_Vegetada,20.922440834343433
+Comendador Levy Gasparian,3300951,2000,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,2000,Nao_Observado,0.0
+Três Rios,3306008,2000,Floresta,862.6942801910579
+Três Rios,3306008,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,2000,Silvicultura,0.0
+Três Rios,3306008,2000,Pastagem,6249.00697585257
+Três Rios,3306008,2000,Agricultura,0.0
+Três Rios,3306008,2000,Mosaico_Agropecuario,1154.2354686431734
+Três Rios,3306008,2000,Area_Urbana,1101.1772488873087
+Três Rios,3306008,2000,Mineracao,0.0
+Três Rios,3306008,2000,Agua,289.9725678654861
+Três Rios,3306008,2000,Area_Nao_Vegetada,18.255671747028828
+Três Rios,3306008,2000,Aquicultura,0.0
+Três Rios,3306008,2000,Nao_Observado,0.0
+Paty do Alferes,3303856,2000,Floresta,5385.653292484814
+Paty do Alferes,3303856,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,2000,Silvicultura,0.0
+Paty do Alferes,3303856,2000,Pastagem,18246.501321055504
+Paty do Alferes,3303856,2000,Agricultura,3.3369278251832606
+Paty do Alferes,3303856,2000,Mosaico_Agropecuario,3153.2820337521084
+Paty do Alferes,3303856,2000,Area_Urbana,277.0836379201681
+Paty do Alferes,3303856,2000,Mineracao,0.0
+Paty do Alferes,3303856,2000,Agua,15.48667985200882
+Paty do Alferes,3303856,2000,Area_Nao_Vegetada,0.8650093627326629
+Paty do Alferes,3303856,2000,Aquicultura,0.0
+Paty do Alferes,3303856,2000,Nao_Observado,0.0
+Itatiaia,3302254,2000,Floresta,12540.291447798581
+Itatiaia,3302254,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,2000,Silvicultura,0.6626962199807167
+Itatiaia,3302254,2000,Pastagem,6030.679173941668
+Itatiaia,3302254,2000,Agricultura,3.310867264866829
+Itatiaia,3302254,2000,Mosaico_Agropecuario,2724.1150308382576
+Itatiaia,3302254,2000,Area_Urbana,797.9635772514575
+Itatiaia,3302254,2000,Mineracao,0.0
+Itatiaia,3302254,2000,Agua,685.7938538580537
+Itatiaia,3302254,2000,Area_Nao_Vegetada,1283.287716130474
+Itatiaia,3302254,2000,Aquicultura,0.0
+Itatiaia,3302254,2000,Nao_Observado,0.0
+Piraí,3304003,2000,Floresta,3270.937496269566
+Piraí,3304003,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,2000,Silvicultura,0.8271269425749779
+Piraí,3304003,2000,Pastagem,6047.544144284691
+Piraí,3304003,2000,Agricultura,0.0
+Piraí,3304003,2000,Mosaico_Agropecuario,960.2325912517074
+Piraí,3304003,2000,Area_Urbana,134.50586845109274
+Piraí,3304003,2000,Mineracao,0.0
+Piraí,3304003,2000,Agua,16.921892276669247
+Piraí,3304003,2000,Area_Nao_Vegetada,0.0
+Piraí,3304003,2000,Aquicultura,0.0
+Piraí,3304003,2000,Nao_Observado,0.0
+Barra Mansa,3300407,2000,Floresta,10162.724195312845
+Barra Mansa,3300407,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,2000,Silvicultura,0.8690125624923145
+Barra Mansa,3300407,2000,Pastagem,31685.437681329684
+Barra Mansa,3300407,2000,Agricultura,3.724144034087658
+Barra Mansa,3300407,2000,Mosaico_Agropecuario,9699.120594836451
+Barra Mansa,3300407,2000,Area_Urbana,2568.6987240026697
+Barra Mansa,3300407,2000,Mineracao,32.85584329813719
+Barra Mansa,3300407,2000,Agua,365.10114058863894
+Barra Mansa,3300407,2000,Area_Nao_Vegetada,123.69642102113542
+Barra Mansa,3300407,2000,Aquicultura,0.0
+Barra Mansa,3300407,2000,Nao_Observado,0.0
+Mendes,3302809,2000,Floresta,897.7348353424197
+Mendes,3302809,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,2000,Silvicultura,0.0
+Mendes,3302809,2000,Pastagem,1030.0049372984201
+Mendes,3302809,2000,Agricultura,0.0
+Mendes,3302809,2000,Mosaico_Agropecuario,271.59072936215256
+Mendes,3302809,2000,Area_Urbana,6.120746882142974
+Mendes,3302809,2000,Mineracao,0.0
+Mendes,3302809,2000,Agua,1.8150882620437472
+Mendes,3302809,2000,Area_Nao_Vegetada,0.0
+Mendes,3302809,2000,Aquicultura,0.0
+Mendes,3302809,2000,Nao_Observado,0.0
+Volta Redonda,3306305,2000,Floresta,4334.691491712548
+Volta Redonda,3306305,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,2000,Silvicultura,83.41568340168278
+Volta Redonda,3306305,2000,Pastagem,7193.318703178646
+Volta Redonda,3306305,2000,Agricultura,0.0
+Volta Redonda,3306305,2000,Mosaico_Agropecuario,2322.6140524620496
+Volta Redonda,3306305,2000,Area_Urbana,3833.471171485734
+Volta Redonda,3306305,2000,Mineracao,0.0
+Volta Redonda,3306305,2000,Agua,375.8318332656636
+Volta Redonda,3306305,2000,Area_Nao_Vegetada,66.98815351350635
+Volta Redonda,3306305,2000,Aquicultura,0.0
+Volta Redonda,3306305,2000,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Floresta,10.242403558656282
+Engenheiro Paulo de Frontin,3301801,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Pastagem,79.33853141387891
+Engenheiro Paulo de Frontin,3301801,2000,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Mosaico_Agropecuario,3.4955152735990636
+Engenheiro Paulo de Frontin,3301801,2000,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Agua,0.8657712080022868
+Engenheiro Paulo de Frontin,3301801,2000,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2000,Nao_Observado,0.0
+Miguel Pereira,3302908,2000,Floresta,1123.5723911309653
+Miguel Pereira,3302908,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,2000,Silvicultura,0.0
+Miguel Pereira,3302908,2000,Pastagem,1200.0019219690682
+Miguel Pereira,3302908,2000,Agricultura,0.0
+Miguel Pereira,3302908,2000,Mosaico_Agropecuario,751.0910572411965
+Miguel Pereira,3302908,2000,Area_Urbana,550.7954813627051
+Miguel Pereira,3302908,2000,Mineracao,0.10451880091545629
+Miguel Pereira,3302908,2000,Agua,10.512403570115566
+Miguel Pereira,3302908,2000,Area_Nao_Vegetada,0.6249874846315852
+Miguel Pereira,3302908,2000,Aquicultura,0.0
+Miguel Pereira,3302908,2000,Nao_Observado,0.0
+Petrópolis,3303906,2000,Floresta,2.507192073674762
+Petrópolis,3303906,2000,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,2000,Silvicultura,0.0
+Petrópolis,3303906,2000,Pastagem,1.4513479365145456
+Petrópolis,3303906,2000,Agricultura,0.0
+Petrópolis,3303906,2000,Mosaico_Agropecuario,3.9797020084133354
+Petrópolis,3303906,2000,Area_Urbana,0.0
+Petrópolis,3303906,2000,Mineracao,0.0
+Petrópolis,3303906,2000,Agua,0.0
+Petrópolis,3303906,2000,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,2000,Aquicultura,0.0
+Petrópolis,3303906,2000,Nao_Observado,0.0
+Valença,3306107,2005,Floresta,31052.27589102381
+Valença,3306107,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,2005,Silvicultura,9.11782905459404
+Valença,3306107,2005,Pastagem,82823.18782475965
+Valença,3306107,2005,Agricultura,1.739839680492878
+Valença,3306107,2005,Mosaico_Agropecuario,14536.773377492194
+Valença,3306107,2005,Area_Urbana,941.3267236930775
+Valença,3306107,2005,Mineracao,0.0
+Valença,3306107,2005,Agua,358.4510321312966
+Valença,3306107,2005,Area_Nao_Vegetada,242.1419102801412
+Valença,3306107,2005,Aquicultura,0.0
+Valença,3306107,2005,Nao_Observado,0.0
+Pinheiral,3303955,2005,Floresta,2018.6562421166425
+Pinheiral,3303955,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,2005,Silvicultura,0.0
+Pinheiral,3303955,2005,Pastagem,5032.098978977581
+Pinheiral,3303955,2005,Agricultura,0.24811898171901703
+Pinheiral,3303955,2005,Mosaico_Agropecuario,705.6907961968699
+Pinheiral,3303955,2005,Area_Urbana,365.4051684602803
+Pinheiral,3303955,2005,Mineracao,0.0
+Pinheiral,3303955,2005,Agua,93.52574991922748
+Pinheiral,3303955,2005,Area_Nao_Vegetada,9.513105727732182
+Pinheiral,3303955,2005,Aquicultura,0.0
+Pinheiral,3303955,2005,Nao_Observado,0.0
+Rio Claro,3304409,2005,Floresta,529.1396108131781
+Rio Claro,3304409,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,2005,Silvicultura,0.0
+Rio Claro,3304409,2005,Pastagem,2339.1755751153946
+Rio Claro,3304409,2005,Agricultura,0.0
+Rio Claro,3304409,2005,Mosaico_Agropecuario,914.6768152397638
+Rio Claro,3304409,2005,Area_Urbana,6.754231825500143
+Rio Claro,3304409,2005,Mineracao,0.0
+Rio Claro,3304409,2005,Agua,0.16529879719018936
+Rio Claro,3304409,2005,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,2005,Aquicultura,0.0
+Rio Claro,3304409,2005,Nao_Observado,0.0
+Barra do Piraí,3300308,2005,Floresta,15621.420878867923
+Barra do Piraí,3300308,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,2005,Silvicultura,1.4911231845617294
+Barra do Piraí,3300308,2005,Pastagem,30767.41530992308
+Barra do Piraí,3300308,2005,Agricultura,0.0
+Barra do Piraí,3300308,2005,Mosaico_Agropecuario,6033.2805528476265
+Barra do Piraí,3300308,2005,Area_Urbana,872.5097871332193
+Barra do Piraí,3300308,2005,Mineracao,0.0
+Barra do Piraí,3300308,2005,Agua,481.71577671468265
+Barra do Piraí,3300308,2005,Area_Nao_Vegetada,41.71770979464054
+Barra do Piraí,3300308,2005,Aquicultura,0.0
+Barra do Piraí,3300308,2005,Nao_Observado,0.0
+Vassouras,3306206,2005,Floresta,10606.483859809885
+Vassouras,3306206,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,2005,Silvicultura,19.124746158719063
+Vassouras,3306206,2005,Pastagem,33873.275335772385
+Vassouras,3306206,2005,Agricultura,3.3119593113660812
+Vassouras,3306206,2005,Mosaico_Agropecuario,5708.409450917643
+Vassouras,3306206,2005,Area_Urbana,568.950214676559
+Vassouras,3306206,2005,Mineracao,0.0
+Vassouras,3306206,2005,Agua,434.5890471946958
+Vassouras,3306206,2005,Area_Nao_Vegetada,0.665264766619486
+Vassouras,3306206,2005,Aquicultura,0.0
+Vassouras,3306206,2005,Nao_Observado,0.0
+Rio das Flores,3304508,2005,Floresta,9376.50634238165
+Rio das Flores,3304508,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,2005,Silvicultura,0.0
+Rio das Flores,3304508,2005,Pastagem,33112.196259044795
+Rio das Flores,3304508,2005,Agricultura,2.321983754634857
+Rio das Flores,3304508,2005,Mosaico_Agropecuario,4884.676300402714
+Rio das Flores,3304508,2005,Area_Urbana,117.88772585161176
+Rio das Flores,3304508,2005,Mineracao,0.0
+Rio das Flores,3304508,2005,Agua,343.966838753866
+Rio das Flores,3304508,2005,Area_Nao_Vegetada,2.424248361908922
+Rio das Flores,3304508,2005,Aquicultura,0.0
+Rio das Flores,3304508,2005,Nao_Observado,0.0
+Porto Real,3304110,2005,Floresta,285.04088524296606
+Porto Real,3304110,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,2005,Silvicultura,0.0
+Porto Real,3304110,2005,Pastagem,2910.184948443197
+Porto Real,3304110,2005,Agricultura,3.1328462930870993
+Porto Real,3304110,2005,Mosaico_Agropecuario,873.4087333405423
+Porto Real,3304110,2005,Area_Urbana,882.5768720594983
+Porto Real,3304110,2005,Mineracao,0.0
+Porto Real,3304110,2005,Agua,127.76141211741111
+Porto Real,3304110,2005,Area_Nao_Vegetada,6.954553626477718
+Porto Real,3304110,2005,Aquicultura,0.0
+Porto Real,3304110,2005,Nao_Observado,0.0
+Quatis,3304128,2005,Floresta,6365.7229952498765
+Quatis,3304128,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,2005,Silvicultura,0.0
+Quatis,3304128,2005,Pastagem,14226.960832177307
+Quatis,3304128,2005,Agricultura,0.0
+Quatis,3304128,2005,Mosaico_Agropecuario,7354.201877958429
+Quatis,3304128,2005,Area_Urbana,215.74646318353274
+Quatis,3304128,2005,Mineracao,0.0
+Quatis,3304128,2005,Agua,148.91157986857723
+Quatis,3304128,2005,Area_Nao_Vegetada,157.7338261265673
+Quatis,3304128,2005,Aquicultura,0.0
+Quatis,3304128,2005,Nao_Observado,0.0
+Paraíba do Sul,3303708,2005,Floresta,7897.683263916566
+Paraíba do Sul,3303708,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,2005,Silvicultura,0.0
+Paraíba do Sul,3303708,2005,Pastagem,27933.96751080848
+Paraíba do Sul,3303708,2005,Agricultura,0.0
+Paraíba do Sul,3303708,2005,Mosaico_Agropecuario,6574.432346081998
+Paraíba do Sul,3303708,2005,Area_Urbana,629.2888397688082
+Paraíba do Sul,3303708,2005,Mineracao,0.0
+Paraíba do Sul,3303708,2005,Agua,360.9044892514454
+Paraíba do Sul,3303708,2005,Area_Nao_Vegetada,21.220155876290562
+Paraíba do Sul,3303708,2005,Aquicultura,0.0
+Paraíba do Sul,3303708,2005,Nao_Observado,0.0
+Resende,3304201,2005,Floresta,37969.25444751221
+Resende,3304201,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,2005,Silvicultura,508.39810199769687
+Resende,3304201,2005,Pastagem,45226.931700957444
+Resende,3304201,2005,Agricultura,39.267780776175805
+Resende,3304201,2005,Mosaico_Agropecuario,18513.457205651404
+Resende,3304201,2005,Area_Urbana,2618.564814779338
+Resende,3304201,2005,Mineracao,0.0
+Resende,3304201,2005,Agua,2939.047696412835
+Resende,3304201,2005,Area_Nao_Vegetada,1723.481501067238
+Resende,3304201,2005,Aquicultura,0.0
+Resende,3304201,2005,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,2005,Floresta,2164.082710573166
+Comendador Levy Gasparian,3300951,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,2005,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,2005,Pastagem,6545.010045775159
+Comendador Levy Gasparian,3300951,2005,Agricultura,0.0
+Comendador Levy Gasparian,3300951,2005,Mosaico_Agropecuario,1707.1935789683282
+Comendador Levy Gasparian,3300951,2005,Area_Urbana,198.629906670311
+Comendador Levy Gasparian,3300951,2005,Mineracao,0.0
+Comendador Levy Gasparian,3300951,2005,Agua,152.82790146291842
+Comendador Levy Gasparian,3300951,2005,Area_Nao_Vegetada,19.75998107343912
+Comendador Levy Gasparian,3300951,2005,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,2005,Nao_Observado,0.0
+Três Rios,3306008,2005,Floresta,911.1237178805125
+Três Rios,3306008,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,2005,Silvicultura,0.0
+Três Rios,3306008,2005,Pastagem,5659.882329213119
+Três Rios,3306008,2005,Agricultura,0.0
+Três Rios,3306008,2005,Mosaico_Agropecuario,1653.629228574038
+Três Rios,3306008,2005,Area_Urbana,1134.71424172918
+Três Rios,3306008,2005,Mineracao,0.0
+Três Rios,3306008,2005,Agua,292.75671475751716
+Três Rios,3306008,2005,Area_Nao_Vegetada,23.23598103225231
+Três Rios,3306008,2005,Aquicultura,0.0
+Três Rios,3306008,2005,Nao_Observado,0.0
+Paty do Alferes,3303856,2005,Floresta,4769.117774770744
+Paty do Alferes,3303856,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,2005,Silvicultura,0.8285147175192833
+Paty do Alferes,3303856,2005,Pastagem,18345.59026118846
+Paty do Alferes,3303856,2005,Agricultura,4.058177940547466
+Paty do Alferes,3303856,2005,Mosaico_Agropecuario,3611.2737165934013
+Paty do Alferes,3303856,2005,Area_Urbana,330.58849796281726
+Paty do Alferes,3303856,2005,Mineracao,0.0
+Paty do Alferes,3303856,2005,Agua,15.487058989703655
+Paty do Alferes,3303856,2005,Area_Nao_Vegetada,4.306357204914093
+Paty do Alferes,3303856,2005,Aquicultura,0.0
+Paty do Alferes,3303856,2005,Nao_Observado,0.0
+Itatiaia,3302254,2005,Floresta,12615.388321301567
+Itatiaia,3302254,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,2005,Silvicultura,0.7455329298973083
+Itatiaia,3302254,2005,Pastagem,5433.7155141392395
+Itatiaia,3302254,2005,Agricultura,0.0
+Itatiaia,3302254,2005,Mosaico_Agropecuario,3224.296537896672
+Itatiaia,3302254,2005,Area_Urbana,826.9326747837895
+Itatiaia,3302254,2005,Mineracao,0.0
+Itatiaia,3302254,2005,Agua,685.2333889934351
+Itatiaia,3302254,2005,Area_Nao_Vegetada,1279.7923932587398
+Itatiaia,3302254,2005,Aquicultura,0.0
+Itatiaia,3302254,2005,Nao_Observado,0.0
+Piraí,3304003,2005,Floresta,3295.2095767913497
+Piraí,3304003,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,2005,Silvicultura,1.1579766944050789
+Piraí,3304003,2005,Pastagem,5955.62693210805
+Piraí,3304003,2005,Agricultura,0.0
+Piraí,3304003,2005,Mosaico_Agropecuario,1015.0316962822978
+Piraí,3304003,2005,Area_Urbana,149.96421370912418
+Piraí,3304003,2005,Mineracao,0.0
+Piraí,3304003,2005,Agua,13.978723891079426
+Piraí,3304003,2005,Area_Nao_Vegetada,0.0
+Piraí,3304003,2005,Aquicultura,0.0
+Piraí,3304003,2005,Nao_Observado,0.0
+Barra Mansa,3300407,2005,Floresta,10594.976433511576
+Barra Mansa,3300407,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,2005,Silvicultura,1.3662072786221318
+Barra Mansa,3300407,2005,Pastagem,28404.009592884824
+Barra Mansa,3300407,2005,Agricultura,2.151224300265312
+Barra Mansa,3300407,2005,Mosaico_Agropecuario,12558.480312842192
+Barra Mansa,3300407,2005,Area_Urbana,2603.63220370523
+Barra Mansa,3300407,2005,Mineracao,33.43517128378153
+Barra Mansa,3300407,2005,Agua,326.6765733204053
+Barra Mansa,3300407,2005,Area_Nao_Vegetada,114.05502989064244
+Barra Mansa,3300407,2005,Aquicultura,0.0
+Barra Mansa,3300407,2005,Nao_Observado,0.0
+Mendes,3302809,2005,Floresta,917.6717166283253
+Mendes,3302809,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,2005,Silvicultura,0.0
+Mendes,3302809,2005,Pastagem,1033.2156288651267
+Mendes,3302809,2005,Agricultura,0.0
+Mendes,3302809,2005,Mosaico_Agropecuario,248.5881810458561
+Mendes,3302809,2005,Area_Urbana,6.135352880259354
+Mendes,3302809,2005,Mineracao,0.0
+Mendes,3302809,2005,Agua,1.655457727611065
+Mendes,3302809,2005,Area_Nao_Vegetada,0.0
+Mendes,3302809,2005,Aquicultura,0.0
+Mendes,3302809,2005,Nao_Observado,0.0
+Volta Redonda,3306305,2005,Floresta,4644.20262776444
+Volta Redonda,3306305,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,2005,Silvicultura,130.6974155313244
+Volta Redonda,3306305,2005,Pastagem,6450.376053858238
+Volta Redonda,3306305,2005,Agricultura,0.0
+Volta Redonda,3306305,2005,Mosaico_Agropecuario,2654.315771473359
+Volta Redonda,3306305,2005,Area_Urbana,3906.262432168569
+Volta Redonda,3306305,2005,Mineracao,0.0
+Volta Redonda,3306305,2005,Agua,351.8976985013369
+Volta Redonda,3306305,2005,Area_Nao_Vegetada,72.57908972256324
+Volta Redonda,3306305,2005,Aquicultura,0.0
+Volta Redonda,3306305,2005,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Floresta,10.773806806405386
+Engenheiro Paulo de Frontin,3301801,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Pastagem,76.19361236060372
+Engenheiro Paulo de Frontin,3301801,2005,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Mosaico_Agropecuario,6.109031079125173
+Engenheiro Paulo de Frontin,3301801,2005,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Agua,0.8657712080022868
+Engenheiro Paulo de Frontin,3301801,2005,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2005,Nao_Observado,0.0
+Miguel Pereira,3302908,2005,Floresta,1084.2243098840709
+Miguel Pereira,3302908,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,2005,Silvicultura,0.0
+Miguel Pereira,3302908,2005,Pastagem,1269.452903545225
+Miguel Pereira,3302908,2005,Agricultura,0.6623968929052353
+Miguel Pereira,3302908,2005,Mosaico_Agropecuario,681.0561840989131
+Miguel Pereira,3302908,2005,Area_Urbana,588.7862451889058
+Miguel Pereira,3302908,2005,Mineracao,0.10451880091545629
+Miguel Pereira,3302908,2005,Agua,12.416203148663044
+Miguel Pereira,3302908,2005,Area_Nao_Vegetada,0.0
+Miguel Pereira,3302908,2005,Aquicultura,0.0
+Miguel Pereira,3302908,2005,Nao_Observado,0.0
+Petrópolis,3303906,2005,Floresta,2.2367249056696887
+Petrópolis,3303906,2005,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,2005,Silvicultura,0.0
+Petrópolis,3303906,2005,Pastagem,1.890607185603356
+Petrópolis,3303906,2005,Agricultura,0.0
+Petrópolis,3303906,2005,Mosaico_Agropecuario,3.810909927329598
+Petrópolis,3303906,2005,Area_Urbana,0.0
+Petrópolis,3303906,2005,Mineracao,0.0
+Petrópolis,3303906,2005,Agua,0.0
+Petrópolis,3303906,2005,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,2005,Aquicultura,0.0
+Petrópolis,3303906,2005,Nao_Observado,0.0
+Valença,3306107,2010,Floresta,30886.776398526825
+Valença,3306107,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,2010,Silvicultura,66.660729855299
+Valença,3306107,2010,Pastagem,81808.6810601512
+Valença,3306107,2010,Agricultura,0.5798275545239449
+Valença,3306107,2010,Mosaico_Agropecuario,15564.742615272786
+Valença,3306107,2010,Area_Urbana,1002.1992282850193
+Valença,3306107,2010,Mineracao,0.0
+Valença,3306107,2010,Agua,379.02673603734564
+Valença,3306107,2010,Area_Nao_Vegetada,256.20542218241036
+Valença,3306107,2010,Aquicultura,0.0
+Valença,3306107,2010,Nao_Observado,0.0
+Pinheiral,3303955,2010,Floresta,1980.5415670872899
+Pinheiral,3303955,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,2010,Silvicultura,0.0
+Pinheiral,3303955,2010,Pastagem,4818.614452774302
+Pinheiral,3303955,2010,Agricultura,0.0
+Pinheiral,3303955,2010,Mosaico_Agropecuario,931.9709245393385
+Pinheiral,3303955,2010,Area_Urbana,384.9541582734269
+Pinheiral,3303955,2010,Mineracao,0.0
+Pinheiral,3303955,2010,Agua,97.80704837011933
+Pinheiral,3303955,2010,Area_Nao_Vegetada,11.250009335577488
+Pinheiral,3303955,2010,Aquicultura,0.0
+Pinheiral,3303955,2010,Nao_Observado,0.0
+Rio Claro,3304409,2010,Floresta,537.5396866650262
+Rio Claro,3304409,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,2010,Silvicultura,0.0
+Rio Claro,3304409,2010,Pastagem,2333.0450589833254
+Rio Claro,3304409,2010,Agricultura,0.0
+Rio Claro,3304409,2010,Mosaico_Agropecuario,911.5806215376247
+Rio Claro,3304409,2010,Area_Urbana,7.746164605050694
+Rio Claro,3304409,2010,Mineracao,0.0
+Rio Claro,3304409,2010,Agua,0.0
+Rio Claro,3304409,2010,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,2010,Aquicultura,0.0
+Rio Claro,3304409,2010,Nao_Observado,0.0
+Barra do Piraí,3300308,2010,Floresta,15182.752810760227
+Barra do Piraí,3300308,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,2010,Silvicultura,37.672475419938564
+Barra do Piraí,3300308,2010,Pastagem,30568.23065610406
+Barra do Piraí,3300308,2010,Agricultura,0.0
+Barra do Piraí,3300308,2010,Mosaico_Agropecuario,6572.86897821672
+Barra do Piraí,3300308,2010,Area_Urbana,925.4870732957827
+Barra do Piraí,3300308,2010,Mineracao,0.0
+Barra do Piraí,3300308,2010,Agua,504.4775821532105
+Barra do Piraí,3300308,2010,Area_Nao_Vegetada,27.73013163357973
+Barra do Piraí,3300308,2010,Aquicultura,0.0
+Barra do Piraí,3300308,2010,Nao_Observado,0.0
+Vassouras,3306206,2010,Floresta,10620.3083537166
+Vassouras,3306206,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,2010,Silvicultura,126.29193597649243
+Vassouras,3306206,2010,Pastagem,33182.131864482326
+Vassouras,3306206,2010,Agricultura,2.0701991468667984
+Vassouras,3306206,2010,Mosaico_Agropecuario,6152.286260935281
+Vassouras,3306206,2010,Area_Urbana,601.7588384747505
+Vassouras,3306206,2010,Mineracao,0.0
+Vassouras,3306206,2010,Agua,527.0641465662736
+Vassouras,3306206,2010,Area_Nao_Vegetada,3.5603156685829163
+Vassouras,3306206,2010,Aquicultura,0.0
+Vassouras,3306206,2010,Nao_Observado,0.0
+Rio das Flores,3304508,2010,Floresta,9962.375603975648
+Rio das Flores,3304508,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,2010,Silvicultura,164.58168320582777
+Rio das Flores,3304508,2010,Pastagem,31494.6689459854
+Rio das Flores,3304508,2010,Agricultura,0.0
+Rio das Flores,3304508,2010,Mosaico_Agropecuario,5720.615929375704
+Rio das Flores,3304508,2010,Area_Urbana,125.93495672482486
+Rio das Flores,3304508,2010,Mineracao,0.0
+Rio das Flores,3304508,2010,Agua,369.8863160946495
+Rio das Flores,3304508,2010,Area_Nao_Vegetada,1.9162631891229573
+Rio das Flores,3304508,2010,Aquicultura,0.0
+Rio das Flores,3304508,2010,Nao_Observado,0.0
+Porto Real,3304110,2010,Floresta,306.37304559773685
+Porto Real,3304110,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,2010,Silvicultura,0.0
+Porto Real,3304110,2010,Pastagem,2592.698393795828
+Porto Real,3304110,2010,Agricultura,0.5796747133135796
+Porto Real,3304110,2010,Mosaico_Agropecuario,1075.5921253842757
+Porto Real,3304110,2010,Area_Urbana,981.9910497502661
+Porto Real,3304110,2010,Mineracao,0.0
+Porto Real,3304110,2010,Agua,121.64246571201319
+Porto Real,3304110,2010,Area_Nao_Vegetada,10.10073608905077
+Porto Real,3304110,2010,Aquicultura,0.0
+Porto Real,3304110,2010,Nao_Observado,0.0
+Quatis,3304128,2010,Floresta,6385.9030304824955
+Quatis,3304128,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,2010,Silvicultura,0.0
+Quatis,3304128,2010,Pastagem,13781.133196573397
+Quatis,3304128,2010,Agricultura,0.0
+Quatis,3304128,2010,Mosaico_Agropecuario,7775.47720603025
+Quatis,3304128,2010,Area_Urbana,226.09651837892392
+Quatis,3304128,2010,Mineracao,1.7578338882210207
+Quatis,3304128,2010,Agua,145.59344213891262
+Quatis,3304128,2010,Area_Nao_Vegetada,152.9300209541239
+Quatis,3304128,2010,Aquicultura,0.0
+Quatis,3304128,2010,Nao_Observado,0.0
+Paraíba do Sul,3303708,2010,Floresta,7942.836024103036
+Paraíba do Sul,3303708,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,2010,Silvicultura,59.478200679024056
+Paraíba do Sul,3303708,2010,Pastagem,27233.473263843603
+Paraíba do Sul,3303708,2010,Agricultura,0.0
+Paraíba do Sul,3303708,2010,Mosaico_Agropecuario,7026.359300580595
+Paraíba do Sul,3303708,2010,Area_Urbana,699.6277967507056
+Paraíba do Sul,3303708,2010,Mineracao,0.0
+Paraíba do Sul,3303708,2010,Agua,430.6759950048199
+Paraíba do Sul,3303708,2010,Area_Nao_Vegetada,25.875065120148893
+Paraíba do Sul,3303708,2010,Aquicultura,0.0
+Paraíba do Sul,3303708,2010,Nao_Observado,0.0
+Resende,3304201,2010,Floresta,39010.442449843074
+Resende,3304201,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,2010,Silvicultura,526.7963831836101
+Resende,3304201,2010,Pastagem,41925.06723671913
+Resende,3304201,2010,Agricultura,0.12590703786003823
+Resende,3304201,2010,Mosaico_Agropecuario,20511.509484096186
+Resende,3304201,2010,Area_Urbana,2869.6267041521046
+Resende,3304201,2010,Mineracao,0.0
+Resende,3304201,2010,Agua,2958.2178558101523
+Resende,3304201,2010,Area_Nao_Vegetada,1738.1889060268197
+Resende,3304201,2010,Aquicultura,0.0
+Resende,3304201,2010,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,2010,Floresta,2111.5138024341536
+Comendador Levy Gasparian,3300951,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,2010,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,2010,Pastagem,6657.43620873038
+Comendador Levy Gasparian,3300951,2010,Agricultura,0.0
+Comendador Levy Gasparian,3300951,2010,Mosaico_Agropecuario,1628.2138583230624
+Comendador Levy Gasparian,3300951,2010,Area_Urbana,210.70212489766823
+Comendador Levy Gasparian,3300951,2010,Mineracao,0.0
+Comendador Levy Gasparian,3300951,2010,Agua,158.3836144827161
+Comendador Levy Gasparian,3300951,2010,Area_Nao_Vegetada,21.254515655338764
+Comendador Levy Gasparian,3300951,2010,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,2010,Nao_Observado,0.0
+Três Rios,3306008,2010,Floresta,862.9328022799073
+Três Rios,3306008,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,2010,Silvicultura,0.0
+Três Rios,3306008,2010,Pastagem,5230.938995781659
+Três Rios,3306008,2010,Agricultura,0.0
+Três Rios,3306008,2010,Mosaico_Agropecuario,1861.9700315324703
+Três Rios,3306008,2010,Area_Urbana,1205.3722740816136
+Três Rios,3306008,2010,Mineracao,0.0
+Três Rios,3306008,2010,Agua,484.6665146462474
+Três Rios,3306008,2010,Area_Nao_Vegetada,29.461594864726067
+Três Rios,3306008,2010,Aquicultura,0.0
+Três Rios,3306008,2010,Nao_Observado,0.0
+Paty do Alferes,3303856,2010,Floresta,5013.6213918817975
+Paty do Alferes,3303856,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,2010,Silvicultura,124.87149791027983
+Paty do Alferes,3303856,2010,Pastagem,17618.30224996528
+Paty do Alferes,3303856,2010,Agricultura,1.6560258641839027
+Paty do Alferes,3303856,2010,Mosaico_Agropecuario,3919.4999822854397
+Paty do Alferes,3303856,2010,Area_Urbana,374.72846388445765
+Paty do Alferes,3303856,2010,Mineracao,0.0
+Paty do Alferes,3303856,2010,Agua,15.487571492791176
+Paty do Alferes,3303856,2010,Area_Nao_Vegetada,14.4915516898036
+Paty do Alferes,3303856,2010,Aquicultura,0.0
+Paty do Alferes,3303856,2010,Nao_Observado,0.0
+Itatiaia,3302254,2010,Floresta,12652.172229227039
+Itatiaia,3302254,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,2010,Silvicultura,2.4853639379143715
+Itatiaia,3302254,2010,Pastagem,5237.5482933917965
+Itatiaia,3302254,2010,Agricultura,0.0
+Itatiaia,3302254,2010,Mosaico_Agropecuario,3321.7766342509626
+Itatiaia,3302254,2010,Area_Urbana,885.6619006908114
+Itatiaia,3302254,2010,Mineracao,0.0
+Itatiaia,3302254,2010,Agua,684.9692093291401
+Itatiaia,3302254,2010,Area_Nao_Vegetada,1281.4907324756766
+Itatiaia,3302254,2010,Aquicultura,0.0
+Itatiaia,3302254,2010,Nao_Observado,0.0
+Piraí,3304003,2010,Floresta,3216.963347670581
+Piraí,3304003,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,2010,Silvicultura,0.0
+Piraí,3304003,2010,Pastagem,5760.35612940134
+Piraí,3304003,2010,Agricultura,0.0
+Piraí,3304003,2010,Mosaico_Agropecuario,1279.388726402819
+Piraí,3304003,2010,Area_Urbana,158.95883414841745
+Piraí,3304003,2010,Mineracao,0.0
+Piraí,3304003,2010,Agua,15.302081853151321
+Piraí,3304003,2010,Area_Nao_Vegetada,0.0
+Piraí,3304003,2010,Aquicultura,0.0
+Piraí,3304003,2010,Nao_Observado,0.0
+Barra Mansa,3300407,2010,Floresta,10752.71533768393
+Barra Mansa,3300407,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,2010,Silvicultura,27.826469853520393
+Barra Mansa,3300407,2010,Pastagem,26649.355148503524
+Barra Mansa,3300407,2010,Agricultura,0.4962800145149231
+Barra Mansa,3300407,2010,Mosaico_Agropecuario,14095.72435774923
+Barra Mansa,3300407,2010,Area_Urbana,2634.9066788028863
+Barra Mansa,3300407,2010,Mineracao,38.54465034288518
+Barra Mansa,3300407,2010,Agua,324.0581978236052
+Barra Mansa,3300407,2010,Area_Nao_Vegetada,117.61141619007377
+Barra Mansa,3300407,2010,Aquicultura,0.0
+Barra Mansa,3300407,2010,Nao_Observado,0.0
+Mendes,3302809,2010,Floresta,884.2884042762068
+Mendes,3302809,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,2010,Silvicultura,0.0
+Mendes,3302809,2010,Pastagem,1005.9838339722038
+Mendes,3302809,2010,Agricultura,0.0
+Mendes,3302809,2010,Mosaico_Agropecuario,309.78271965334824
+Mendes,3302809,2010,Area_Urbana,6.135352880259354
+Mendes,3302809,2010,Mineracao,0.0
+Mendes,3302809,2010,Agua,1.076026365160942
+Mendes,3302809,2010,Area_Nao_Vegetada,0.0
+Mendes,3302809,2010,Aquicultura,0.0
+Mendes,3302809,2010,Nao_Observado,0.0
+Volta Redonda,3306305,2010,Floresta,4707.715975282563
+Volta Redonda,3306305,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,2010,Silvicultura,62.34714566171169
+Volta Redonda,3306305,2010,Pastagem,5832.056516158699
+Volta Redonda,3306305,2010,Agricultura,0.0
+Volta Redonda,3306305,2010,Mosaico_Agropecuario,3198.195856718108
+Volta Redonda,3306305,2010,Area_Urbana,4019.192503827955
+Volta Redonda,3306305,2010,Mineracao,0.0
+Volta Redonda,3306305,2010,Agua,325.4395891554216
+Volta Redonda,3306305,2010,Area_Nao_Vegetada,65.38350221538076
+Volta Redonda,3306305,2010,Aquicultura,0.0
+Volta Redonda,3306305,2010,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Floresta,10.928648963570595
+Engenheiro Paulo de Frontin,3301801,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Pastagem,74.49066238818223
+Engenheiro Paulo de Frontin,3301801,2010,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Mosaico_Agropecuario,7.657138894381478
+Engenheiro Paulo de Frontin,3301801,2010,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Agua,0.8657712080022868
+Engenheiro Paulo de Frontin,3301801,2010,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2010,Nao_Observado,0.0
+Miguel Pereira,3302908,2010,Floresta,1108.4422058242217
+Miguel Pereira,3302908,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,2010,Silvicultura,0.0
+Miguel Pereira,3302908,2010,Pastagem,1203.088349094988
+Miguel Pereira,3302908,2010,Agricultura,0.0
+Miguel Pereira,3302908,2010,Mosaico_Agropecuario,684.9599125096313
+Miguel Pereira,3302908,2010,Area_Urbana,626.6979633562704
+Miguel Pereira,3302908,2010,Mineracao,0.10451880091545629
+Miguel Pereira,3302908,2010,Agua,13.409811973571777
+Miguel Pereira,3302908,2010,Area_Nao_Vegetada,0.0
+Miguel Pereira,3302908,2010,Aquicultura,0.0
+Miguel Pereira,3302908,2010,Nao_Observado,0.0
+Petrópolis,3303906,2010,Floresta,2.2662698026381283
+Petrópolis,3303906,2010,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,2010,Silvicultura,0.0
+Petrópolis,3303906,2010,Pastagem,1.48705677828368
+Petrópolis,3303906,2010,Agricultura,0.0
+Petrópolis,3303906,2010,Mosaico_Agropecuario,4.184915437680836
+Petrópolis,3303906,2010,Area_Urbana,0.0
+Petrópolis,3303906,2010,Mineracao,0.0
+Petrópolis,3303906,2010,Agua,0.0
+Petrópolis,3303906,2010,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,2010,Aquicultura,0.0
+Petrópolis,3303906,2010,Nao_Observado,0.0
+Valença,3306107,2015,Floresta,31389.80224055141
+Valença,3306107,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,2015,Silvicultura,122.4634824693203
+Valença,3306107,2015,Pastagem,81036.14217187886
+Valença,3306107,2015,Agricultura,0.5808860858573633
+Valença,3306107,2015,Mosaico_Agropecuario,15817.145232505105
+Valença,3306107,2015,Area_Urbana,1048.0676482787612
+Valença,3306107,2015,Mineracao,0.0
+Valença,3306107,2015,Agua,316.44327836664866
+Valença,3306107,2015,Area_Nao_Vegetada,232.81778397355592
+Valença,3306107,2015,Aquicultura,0.0
+Valença,3306107,2015,Nao_Observado,0.0
+Pinheiral,3303955,2015,Floresta,2064.6921116174726
+Pinheiral,3303955,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,2015,Silvicultura,7.280583210289478
+Pinheiral,3303955,2015,Pastagem,4740.747739867463
+Pinheiral,3303955,2015,Agricultura,0.0
+Pinheiral,3303955,2015,Mosaico_Agropecuario,871.8381084872525
+Pinheiral,3303955,2015,Area_Urbana,436.255455729453
+Pinheiral,3303955,2015,Mineracao,0.0
+Pinheiral,3303955,2015,Agua,93.27726455345451
+Pinheiral,3303955,2015,Area_Nao_Vegetada,11.046896914670281
+Pinheiral,3303955,2015,Aquicultura,0.0
+Pinheiral,3303955,2015,Nao_Observado,0.0
+Rio Claro,3304409,2015,Floresta,488.112658228389
+Rio Claro,3304409,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,2015,Silvicultura,0.0
+Rio Claro,3304409,2015,Pastagem,2554.1829690749964
+Rio Claro,3304409,2015,Agricultura,0.0
+Rio Claro,3304409,2015,Mosaico_Agropecuario,739.7870917468681
+Rio Claro,3304409,2015,Area_Urbana,7.828812740772378
+Rio Claro,3304409,2015,Mineracao,0.0
+Rio Claro,3304409,2015,Agua,0.0
+Rio Claro,3304409,2015,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,2015,Aquicultura,0.0
+Rio Claro,3304409,2015,Nao_Observado,0.0
+Barra do Piraí,3300308,2015,Floresta,15511.008622757452
+Barra do Piraí,3300308,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,2015,Silvicultura,100.26349117606878
+Barra do Piraí,3300308,2015,Pastagem,30658.214180846837
+Barra do Piraí,3300308,2015,Agricultura,11.50521369278431
+Barra do Piraí,3300308,2015,Mosaico_Agropecuario,6032.097786882374
+Barra do Piraí,3300308,2015,Area_Urbana,1011.4267013959148
+Barra do Piraí,3300308,2015,Mineracao,0.0
+Barra do Piraí,3300308,2015,Agua,466.7218879539593
+Barra do Piraí,3300308,2015,Area_Nao_Vegetada,27.567518681287766
+Barra do Piraí,3300308,2015,Aquicultura,0.0
+Barra do Piraí,3300308,2015,Nao_Observado,0.0
+Vassouras,3306206,2015,Floresta,10861.108551590962
+Vassouras,3306206,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,2015,Silvicultura,109.45075551660037
+Vassouras,3306206,2015,Pastagem,32858.17641262563
+Vassouras,3306206,2015,Agricultura,51.51485878229141
+Vassouras,3306206,2015,Mosaico_Agropecuario,6316.39836317353
+Vassouras,3306206,2015,Area_Urbana,637.0420029237866
+Vassouras,3306206,2015,Mineracao,0.0
+Vassouras,3306206,2015,Agua,374.370243337692
+Vassouras,3306206,2015,Area_Nao_Vegetada,7.211415666517089
+Vassouras,3306206,2015,Aquicultura,0.0
+Vassouras,3306206,2015,Nao_Observado,0.0
+Rio das Flores,3304508,2015,Floresta,10518.585279917277
+Rio das Flores,3304508,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,2015,Silvicultura,471.13960271395894
+Rio das Flores,3304508,2015,Pastagem,30637.433443160095
+Rio das Flores,3304508,2015,Agricultura,0.0
+Rio das Flores,3304508,2015,Mosaico_Agropecuario,5793.540927151282
+Rio das Flores,3304508,2015,Area_Urbana,134.1912788987744
+Rio das Flores,3304508,2015,Mineracao,0.0
+Rio das Flores,3304508,2015,Agua,282.8493485093114
+Rio das Flores,3304508,2015,Area_Nao_Vegetada,2.239818200469017
+Rio das Flores,3304508,2015,Aquicultura,0.0
+Rio das Flores,3304508,2015,Nao_Observado,0.0
+Porto Real,3304110,2015,Floresta,307.9812364747712
+Porto Real,3304110,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,2015,Silvicultura,0.0
+Porto Real,3304110,2015,Pastagem,2711.544740383267
+Porto Real,3304110,2015,Agricultura,5.215151183307171
+Porto Real,3304110,2015,Mosaico_Agropecuario,856.5895833944573
+Porto Real,3304110,2015,Area_Urbana,1096.25007620746
+Porto Real,3304110,2015,Mineracao,0.0
+Porto Real,3304110,2015,Agua,100.96437762628001
+Porto Real,3304110,2015,Area_Nao_Vegetada,10.432325303554535
+Porto Real,3304110,2015,Aquicultura,0.0
+Porto Real,3304110,2015,Nao_Observado,0.0
+Quatis,3304128,2015,Floresta,6373.019829023124
+Quatis,3304128,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,2015,Silvicultura,0.0
+Quatis,3304128,2015,Pastagem,15114.015884603294
+Quatis,3304128,2015,Agricultura,0.0
+Quatis,3304128,2015,Mosaico_Agropecuario,6493.484394530339
+Quatis,3304128,2015,Area_Urbana,234.95653732515433
+Quatis,3304128,2015,Mineracao,1.8405977463605356
+Quatis,3304128,2015,Agua,120.86431189056697
+Quatis,3304128,2015,Area_Nao_Vegetada,131.13953777741568
+Quatis,3304128,2015,Aquicultura,0.0
+Quatis,3304128,2015,Nao_Observado,0.0
+Paraíba do Sul,3303708,2015,Floresta,8649.26603447316
+Paraíba do Sul,3303708,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,2015,Silvicultura,228.83007593774326
+Paraíba do Sul,3303708,2015,Pastagem,26407.977233323403
+Paraíba do Sul,3303708,2015,Agricultura,0.8292841762304306
+Paraíba do Sul,3303708,2015,Mosaico_Agropecuario,7011.440773916245
+Paraíba do Sul,3303708,2015,Area_Urbana,748.1527462864331
+Paraíba do Sul,3303708,2015,Mineracao,0.0
+Paraíba do Sul,3303708,2015,Agua,350.09463558153186
+Paraíba do Sul,3303708,2015,Area_Nao_Vegetada,20.49135512113571
+Paraíba do Sul,3303708,2015,Aquicultura,0.0
+Paraíba do Sul,3303708,2015,Nao_Observado,0.0
+Resende,3304201,2015,Floresta,39808.71032924723
+Resende,3304201,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,2015,Silvicultura,712.0201570748407
+Resende,3304201,2015,Pastagem,43487.13205976846
+Resende,3304201,2015,Agricultura,22.11183866700705
+Resende,3304201,2015,Mosaico_Agropecuario,18051.145732577377
+Resende,3304201,2015,Area_Urbana,3176.654523401314
+Resende,3304201,2015,Mineracao,0.0
+Resende,3304201,2015,Agua,2547.038887392974
+Resende,3304201,2015,Area_Nao_Vegetada,1734.6649401497007
+Resende,3304201,2015,Aquicultura,0.0
+Resende,3304201,2015,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,2015,Floresta,2149.5251591768033
+Comendador Levy Gasparian,3300951,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,2015,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,2015,Pastagem,6618.7287862115345
+Comendador Levy Gasparian,3300951,2015,Agricultura,0.0
+Comendador Levy Gasparian,3300951,2015,Mosaico_Agropecuario,1624.1432101920834
+Comendador Levy Gasparian,3300951,2015,Area_Urbana,224.17150282801376
+Comendador Levy Gasparian,3300951,2015,Mineracao,0.0
+Comendador Levy Gasparian,3300951,2015,Agua,147.27334820151913
+Comendador Levy Gasparian,3300951,2015,Area_Nao_Vegetada,23.662117913365364
+Comendador Levy Gasparian,3300951,2015,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,2015,Nao_Observado,0.0
+Três Rios,3306008,2015,Floresta,947.1047460509869
+Três Rios,3306008,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,2015,Silvicultura,0.0
+Três Rios,3306008,2015,Pastagem,5242.439807787335
+Três Rios,3306008,2015,Agricultura,0.0
+Três Rios,3306008,2015,Mosaico_Agropecuario,1677.616944878593
+Três Rios,3306008,2015,Area_Urbana,1321.6515774831178
+Três Rios,3306008,2015,Mineracao,0.0
+Três Rios,3306008,2015,Agua,442.3775918643264
+Três Rios,3306008,2015,Area_Nao_Vegetada,44.151545122265816
+Três Rios,3306008,2015,Aquicultura,0.0
+Três Rios,3306008,2015,Nao_Observado,0.0
+Paty do Alferes,3303856,2015,Floresta,4989.6250788630805
+Paty do Alferes,3303856,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,2015,Silvicultura,118.6738530049721
+Paty do Alferes,3303856,2015,Pastagem,17161.519322136424
+Paty do Alferes,3303856,2015,Agricultura,14.658102571964264
+Paty do Alferes,3303856,2015,Mosaico_Agropecuario,4306.349407327262
+Paty do Alferes,3303856,2015,Area_Urbana,457.8205014864019
+Paty do Alferes,3303856,2015,Mineracao,0.0
+Paty do Alferes,3303856,2015,Agua,11.76868812582072
+Paty do Alferes,3303856,2015,Area_Nao_Vegetada,21.366347536444664
+Paty do Alferes,3303856,2015,Aquicultura,0.0
+Paty do Alferes,3303856,2015,Nao_Observado,0.0
+Itatiaia,3302254,2015,Floresta,12826.511802007597
+Itatiaia,3302254,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,2015,Silvicultura,18.134686581790447
+Itatiaia,3302254,2015,Pastagem,5136.1777102250935
+Itatiaia,3302254,2015,Agricultura,1.2415461838245392
+Itatiaia,3302254,2015,Mosaico_Agropecuario,3081.993170650218
+Itatiaia,3302254,2015,Area_Urbana,1074.215292734346
+Itatiaia,3302254,2015,Mineracao,0.0
+Itatiaia,3302254,2015,Agua,635.1644618580731
+Itatiaia,3302254,2015,Area_Nao_Vegetada,1292.6656930623974
+Itatiaia,3302254,2015,Aquicultura,0.0
+Itatiaia,3302254,2015,Nao_Observado,0.0
+Piraí,3304003,2015,Floresta,3226.492941528499
+Piraí,3304003,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,2015,Silvicultura,0.0
+Piraí,3304003,2015,Pastagem,6003.925969495112
+Piraí,3304003,2015,Agricultura,0.0
+Piraí,3304003,2015,Mosaico_Agropecuario,994.9073433445359
+Piraí,3304003,2015,Area_Urbana,185.4241092199788
+Piraí,3304003,2015,Mineracao,0.0
+Piraí,3304003,2015,Agua,20.01669528335333
+Piraí,3304003,2015,Area_Nao_Vegetada,0.20206060482590804
+Piraí,3304003,2015,Aquicultura,0.0
+Piraí,3304003,2015,Nao_Observado,0.0
+Barra Mansa,3300407,2015,Floresta,10966.19659940472
+Barra Mansa,3300407,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,2015,Silvicultura,42.81941671669483
+Barra Mansa,3300407,2015,Pastagem,29171.339125966362
+Barra Mansa,3300407,2015,Agricultura,0.0
+Barra Mansa,3300407,2015,Mosaico_Agropecuario,11196.109985484567
+Barra Mansa,3300407,2015,Area_Urbana,2732.859080835798
+Barra Mansa,3300407,2015,Mineracao,49.05515452158801
+Barra Mansa,3300407,2015,Agua,350.19624107000885
+Barra Mansa,3300407,2015,Area_Nao_Vegetada,131.15785748368384
+Barra Mansa,3300407,2015,Aquicultura,0.0
+Barra Mansa,3300407,2015,Nao_Observado,0.0
+Mendes,3302809,2015,Floresta,889.4847620582459
+Mendes,3302809,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,2015,Silvicultura,1.4896216168999672
+Mendes,3302809,2015,Pastagem,949.3506829367254
+Mendes,3302809,2015,Agricultura,0.0
+Mendes,3302809,2015,Mosaico_Agropecuario,359.3593284293718
+Mendes,3302809,2015,Area_Urbana,6.218116261561711
+Mendes,3302809,2015,Mineracao,0.0
+Mendes,3302809,2015,Agua,0.9104840084910393
+Mendes,3302809,2015,Area_Nao_Vegetada,0.4533418358833182
+Mendes,3302809,2015,Aquicultura,0.0
+Mendes,3302809,2015,Nao_Observado,0.0
+Volta Redonda,3306305,2015,Floresta,4597.628801714647
+Volta Redonda,3306305,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,2015,Silvicultura,40.648861296474934
+Volta Redonda,3306305,2015,Pastagem,6080.777471499054
+Volta Redonda,3306305,2015,Agricultura,0.0
+Volta Redonda,3306305,2015,Mosaico_Agropecuario,2879.726005071314
+Volta Redonda,3306305,2015,Area_Urbana,4191.838759328133
+Volta Redonda,3306305,2015,Mineracao,0.0
+Volta Redonda,3306305,2015,Agua,348.4396895555598
+Volta Redonda,3306305,2015,Area_Nao_Vegetada,71.27150055465161
+Volta Redonda,3306305,2015,Aquicultura,0.0
+Volta Redonda,3306305,2015,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Floresta,11.465894649630668
+Engenheiro Paulo de Frontin,3301801,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Pastagem,71.01137308124821
+Engenheiro Paulo de Frontin,3301801,2015,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Mosaico_Agropecuario,10.599182515255379
+Engenheiro Paulo de Frontin,3301801,2015,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Agua,0.8657712080022868
+Engenheiro Paulo de Frontin,3301801,2015,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2015,Nao_Observado,0.0
+Miguel Pereira,3302908,2015,Floresta,1158.3321170528154
+Miguel Pereira,3302908,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,2015,Silvicultura,0.0
+Miguel Pereira,3302908,2015,Pastagem,1062.8838206346143
+Miguel Pereira,3302908,2015,Agricultura,2.401038870215416
+Miguel Pereira,3302908,2015,Mosaico_Agropecuario,733.3886394460999
+Miguel Pereira,3302908,2015,Area_Urbana,667.3416071951387
+Miguel Pereira,3302908,2015,Mineracao,0.10451880091545629
+Miguel Pereira,3302908,2015,Agua,12.251019559800625
+Miguel Pereira,3302908,2015,Area_Nao_Vegetada,0.0
+Miguel Pereira,3302908,2015,Aquicultura,0.0
+Miguel Pereira,3302908,2015,Nao_Observado,0.0
+Petrópolis,3303906,2015,Floresta,2.481539703467313
+Petrópolis,3303906,2015,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,2015,Silvicultura,0.0
+Petrópolis,3303906,2015,Pastagem,2.075997241893234
+Petrópolis,3303906,2015,Agricultura,0.0
+Petrópolis,3303906,2015,Mosaico_Agropecuario,3.3807050732420953
+Petrópolis,3303906,2015,Area_Urbana,0.0
+Petrópolis,3303906,2015,Mineracao,0.0
+Petrópolis,3303906,2015,Agua,0.0
+Petrópolis,3303906,2015,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,2015,Aquicultura,0.0
+Petrópolis,3303906,2015,Nao_Observado,0.0
+Valença,3306107,2020,Floresta,31680.265318856502
+Valença,3306107,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,2020,Silvicultura,115.32452158629894
+Valença,3306107,2020,Pastagem,81417.19112846244
+Valença,3306107,2020,Agricultura,12.51793953738376
+Valença,3306107,2020,Mosaico_Agropecuario,15151.26621656473
+Valença,3306107,2020,Area_Urbana,1076.377413746364
+Valença,3306107,2020,Mineracao,0.0
+Valença,3306107,2020,Agua,311.7602841625904
+Valença,3306107,2020,Area_Nao_Vegetada,199.7547309372939
+Valença,3306107,2020,Aquicultura,0.0
+Valença,3306107,2020,Nao_Observado,0.0
+Pinheiral,3303955,2020,Floresta,2088.635541482182
+Pinheiral,3303955,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,2020,Silvicultura,8.438915766775608
+Pinheiral,3303955,2020,Pastagem,4549.975038324625
+Pinheiral,3303955,2020,Agricultura,0.0
+Pinheiral,3303955,2020,Mosaico_Agropecuario,991.7537510496442
+Pinheiral,3303955,2020,Area_Urbana,479.19168884762945
+Pinheiral,3303955,2020,Mineracao,0.0
+Pinheiral,3303955,2020,Agua,97.40914033417606
+Pinheiral,3303955,2020,Area_Nao_Vegetada,9.734084575024305
+Pinheiral,3303955,2020,Aquicultura,0.0
+Pinheiral,3303955,2020,Nao_Observado,0.0
+Rio Claro,3304409,2020,Floresta,509.39793736037655
+Rio Claro,3304409,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,2020,Silvicultura,0.0
+Rio Claro,3304409,2020,Pastagem,2531.1499519926892
+Rio Claro,3304409,2020,Agricultura,0.0
+Rio Claro,3304409,2020,Mosaico_Agropecuario,741.61747783291
+Rio Claro,3304409,2020,Area_Urbana,7.746164605050694
+Rio Claro,3304409,2020,Mineracao,0.0
+Rio Claro,3304409,2020,Agua,0.0
+Rio Claro,3304409,2020,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,2020,Aquicultura,0.0
+Rio Claro,3304409,2020,Nao_Observado,0.0
+Barra do Piraí,3300308,2020,Floresta,15494.248054182066
+Barra do Piraí,3300308,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,2020,Silvicultura,53.90035831183195
+Barra do Piraí,3300308,2020,Pastagem,30967.283829414944
+Barra do Piraí,3300308,2020,Agricultura,8.69155453890562
+Barra do Piraí,3300308,2020,Mosaico_Agropecuario,5721.4782296347275
+Barra do Piraí,3300308,2020,Area_Urbana,1061.5077289222208
+Barra do Piraí,3300308,2020,Mineracao,0.0
+Barra do Piraí,3300308,2020,Agua,484.8735350021545
+Barra do Piraí,3300308,2020,Area_Nao_Vegetada,27.319245539605618
+Barra do Piraí,3300308,2020,Aquicultura,0.0
+Barra do Piraí,3300308,2020,Nao_Observado,0.0
+Vassouras,3306206,2020,Floresta,10817.340734076495
+Vassouras,3306206,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,2020,Silvicultura,120.81153963880212
+Vassouras,3306206,2020,Pastagem,33338.45045903845
+Vassouras,3306206,2020,Agricultura,60.528001162351345
+Vassouras,3306206,2020,Mosaico_Agropecuario,5814.478591605636
+Vassouras,3306206,2020,Area_Urbana,665.206095173955
+Vassouras,3306206,2020,Mineracao,0.0
+Vassouras,3306206,2020,Agua,391.07206001436583
+Vassouras,3306206,2020,Area_Nao_Vegetada,7.703109472990036
+Vassouras,3306206,2020,Aquicultura,0.0
+Vassouras,3306206,2020,Nao_Observado,0.0
+Rio das Flores,3304508,2020,Floresta,11037.14683472955
+Rio das Flores,3304508,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,2020,Silvicultura,447.01050193043903
+Rio das Flores,3304508,2020,Pastagem,31242.3627440855
+Rio das Flores,3304508,2020,Agricultura,0.0
+Rio das Flores,3304508,2020,Mosaico_Agropecuario,4685.606796758898
+Rio das Flores,3304508,2020,Area_Urbana,139.74937453275803
+Rio das Flores,3304508,2020,Mineracao,0.0
+Rio das Flores,3304508,2020,Agua,284.3698262578423
+Rio das Flores,3304508,2020,Area_Nao_Vegetada,3.7336202561855316
+Rio das Flores,3304508,2020,Aquicultura,0.0
+Rio das Flores,3304508,2020,Nao_Observado,0.0
+Porto Real,3304110,2020,Floresta,306.2188273334913
+Porto Real,3304110,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,2020,Silvicultura,0.0
+Porto Real,3304110,2020,Pastagem,2643.015367318484
+Porto Real,3304110,2020,Agricultura,11.58879729360342
+Porto Real,3304110,2020,Mosaico_Agropecuario,887.9740294810018
+Porto Real,3304110,2020,Area_Urbana,1121.006027142645
+Porto Real,3304110,2020,Mineracao,0.0
+Porto Real,3304110,2020,Agua,105.8451261701245
+Porto Real,3304110,2020,Area_Nao_Vegetada,13.32931599020958
+Porto Real,3304110,2020,Aquicultura,0.0
+Porto Real,3304110,2020,Nao_Observado,0.0
+Quatis,3304128,2020,Floresta,6374.173248778787
+Quatis,3304128,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,2020,Silvicultura,0.0
+Quatis,3304128,2020,Pastagem,15246.386126333791
+Quatis,3304128,2020,Agricultura,0.0
+Quatis,3304128,2020,Mosaico_Agropecuario,6371.556586010668
+Quatis,3304128,2020,Area_Urbana,249.19935744071708
+Quatis,3304128,2020,Mineracao,1.6750701865436983
+Quatis,3304128,2020,Agua,129.63061556547285
+Quatis,3304128,2020,Area_Nao_Vegetada,97.27961726965857
+Quatis,3304128,2020,Aquicultura,0.0
+Quatis,3304128,2020,Nao_Observado,0.0
+Paraíba do Sul,3303708,2020,Floresta,8842.921840068904
+Paraíba do Sul,3303708,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,2020,Silvicultura,167.43851253074757
+Paraíba do Sul,3303708,2020,Pastagem,27611.684998527588
+Paraíba do Sul,3303708,2020,Agricultura,1.3312534306563584
+Paraíba do Sul,3303708,2020,Mosaico_Agropecuario,5651.678476102475
+Paraíba do Sul,3303708,2020,Area_Urbana,788.2141354197672
+Paraíba do Sul,3303708,2020,Mineracao,0.0
+Paraíba do Sul,3303708,2020,Agua,331.828543026979
+Paraíba do Sul,3303708,2020,Area_Nao_Vegetada,22.73046962171793
+Paraíba do Sul,3303708,2020,Aquicultura,0.0
+Paraíba do Sul,3303708,2020,Nao_Observado,0.0
+Resende,3304201,2020,Floresta,39272.32176474623
+Resende,3304201,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,2020,Silvicultura,917.8236217045609
+Resende,3304201,2020,Pastagem,43084.785875017806
+Resende,3304201,2020,Agricultura,15.027184981867379
+Resende,3304201,2020,Mosaico_Agropecuario,18656.37000420622
+Resende,3304201,2020,Area_Urbana,3247.423494835374
+Resende,3304201,2020,Mineracao,0.0
+Resende,3304201,2020,Agua,2644.663244807335
+Resende,3304201,2020,Area_Nao_Vegetada,1702.2216676596024
+Resende,3304201,2020,Aquicultura,0.0
+Resende,3304201,2020,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,2020,Floresta,2212.3880867878884
+Comendador Levy Gasparian,3300951,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,2020,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,2020,Pastagem,6981.0418012037635
+Comendador Levy Gasparian,3300951,2020,Agricultura,1.240656144303434
+Comendador Levy Gasparian,3300951,2020,Mosaico_Agropecuario,1186.8663790471705
+Comendador Levy Gasparian,3300951,2020,Area_Urbana,245.25035952361782
+Comendador Levy Gasparian,3300951,2020,Mineracao,0.0
+Comendador Levy Gasparian,3300951,2020,Agua,133.18256438418348
+Comendador Levy Gasparian,3300951,2020,Area_Nao_Vegetada,27.5342774323973
+Comendador Levy Gasparian,3300951,2020,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,2020,Nao_Observado,0.0
+Três Rios,3306008,2020,Floresta,1032.8370733096908
+Três Rios,3306008,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,2020,Silvicultura,0.0
+Três Rios,3306008,2020,Pastagem,5447.341682495674
+Três Rios,3306008,2020,Agricultura,0.0
+Três Rios,3306008,2020,Mosaico_Agropecuario,1349.342057462299
+Três Rios,3306008,2020,Area_Urbana,1374.096487413347
+Três Rios,3306008,2020,Mineracao,0.0
+Três Rios,3306008,2020,Agua,423.39437575617836
+Três Rios,3306008,2020,Area_Nao_Vegetada,48.330536749433065
+Três Rios,3306008,2020,Aquicultura,0.0
+Três Rios,3306008,2020,Nao_Observado,0.0
+Paty do Alferes,3303856,2020,Floresta,4836.29267581304
+Paty do Alferes,3303856,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,2020,Silvicultura,123.72367071179195
+Paty do Alferes,3303856,2020,Pastagem,17606.451319148582
+Paty do Alferes,3303856,2020,Agricultura,9.535700673566145
+Paty do Alferes,3303856,2020,Mosaico_Agropecuario,3934.9668220978156
+Paty do Alferes,3303856,2020,Area_Urbana,533.7398719297321
+Paty do Alferes,3303856,2020,Mineracao,0.0
+Paty do Alferes,3303856,2020,Agua,12.32263852278976
+Paty do Alferes,3303856,2020,Area_Nao_Vegetada,25.507657080888748
+Paty do Alferes,3303856,2020,Aquicultura,0.0
+Paty do Alferes,3303856,2020,Nao_Observado,0.0
+Itatiaia,3302254,2020,Floresta,12748.38304447908
+Itatiaia,3302254,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,2020,Silvicultura,35.19051234424114
+Itatiaia,3302254,2020,Pastagem,4914.837478529208
+Itatiaia,3302254,2020,Agricultura,3.0625924691557884
+Itatiaia,3302254,2020,Mosaico_Agropecuario,3319.3905859548986
+Itatiaia,3302254,2020,Area_Urbana,1105.5848160509677
+Itatiaia,3302254,2020,Mineracao,0.0
+Itatiaia,3302254,2020,Agua,649.3072919087366
+Itatiaia,3302254,2020,Area_Nao_Vegetada,1290.34804156706
+Itatiaia,3302254,2020,Aquicultura,0.0
+Itatiaia,3302254,2020,Nao_Observado,0.0
+Piraí,3304003,2020,Floresta,3330.9522168342087
+Piraí,3304003,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,2020,Silvicultura,2.8949468806385994
+Piraí,3304003,2020,Pastagem,5823.009263339493
+Piraí,3304003,2020,Agricultura,0.8271270990371704
+Piraí,3304003,2020,Mosaico_Agropecuario,1047.8873916078726
+Piraí,3304003,2020,Area_Urbana,207.9191885212765
+Piraí,3304003,2020,Mineracao,0.0
+Piraí,3304003,2020,Agua,16.95646721124649
+Piraí,3304003,2020,Area_Nao_Vegetada,0.5225179825343337
+Piraí,3304003,2020,Aquicultura,0.0
+Piraí,3304003,2020,Nao_Observado,0.0
+Barra Mansa,3300407,2020,Floresta,10779.583477117589
+Barra Mansa,3300407,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,2020,Silvicultura,39.67495955500532
+Barra Mansa,3300407,2020,Pastagem,29527.59018426436
+Barra Mansa,3300407,2020,Agricultura,5.046795345842838
+Barra Mansa,3300407,2020,Mosaico_Agropecuario,11004.959792742027
+Barra Mansa,3300407,2020,Area_Urbana,2801.194857775786
+Barra Mansa,3300407,2020,Mineracao,52.11730757040135
+Barra Mansa,3300407,2020,Agua,315.42172958961896
+Barra Mansa,3300407,2020,Area_Nao_Vegetada,117.28970337457517
+Barra Mansa,3300407,2020,Aquicultura,0.0
+Barra Mansa,3300407,2020,Nao_Observado,0.0
+Mendes,3302809,2020,Floresta,903.8728959960089
+Mendes,3302809,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,2020,Silvicultura,0.0
+Mendes,3302809,2020,Pastagem,932.7353069239092
+Mendes,3302809,2020,Agricultura,0.0
+Mendes,3302809,2020,Mosaico_Agropecuario,362.49680368911993
+Mendes,3302809,2020,Area_Urbana,6.7975046937664345
+Mendes,3302809,2020,Mineracao,0.0
+Mendes,3302809,2020,Agua,0.9104840084910393
+Mendes,3302809,2020,Area_Nao_Vegetada,0.4533418358833182
+Mendes,3302809,2020,Aquicultura,0.0
+Mendes,3302809,2020,Nao_Observado,0.0
+Volta Redonda,3306305,2020,Floresta,4444.824165882697
+Volta Redonda,3306305,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,2020,Silvicultura,35.43745923685091
+Volta Redonda,3306305,2020,Pastagem,5978.834194637104
+Volta Redonda,3306305,2020,Agricultura,0.0
+Volta Redonda,3306305,2020,Mosaico_Agropecuario,3075.3973510410015
+Volta Redonda,3306305,2020,Area_Urbana,4303.258067524082
+Volta Redonda,3306305,2020,Mineracao,0.0
+Volta Redonda,3306305,2020,Agua,309.2805048397068
+Volta Redonda,3306305,2020,Area_Nao_Vegetada,63.2993458583951
+Volta Redonda,3306305,2020,Aquicultura,0.0
+Volta Redonda,3306305,2020,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Floresta,11.761955060853676
+Engenheiro Paulo de Frontin,3301801,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Pastagem,69.46456871295678
+Engenheiro Paulo de Frontin,3301801,2020,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Mosaico_Agropecuario,11.849926472323785
+Engenheiro Paulo de Frontin,3301801,2020,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Agua,0.8657712080022868
+Engenheiro Paulo de Frontin,3301801,2020,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2020,Nao_Observado,0.0
+Miguel Pereira,3302908,2020,Floresta,1162.4176247159357
+Miguel Pereira,3302908,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,2020,Silvicultura,0.0
+Miguel Pereira,3302908,2020,Pastagem,984.034750182518
+Miguel Pereira,3302908,2020,Agricultura,6.375479154288769
+Miguel Pereira,3302908,2020,Mosaico_Agropecuario,782.2796666783738
+Miguel Pereira,3302908,2020,Area_Urbana,690.7868702728081
+Miguel Pereira,3302908,2020,Mineracao,0.13048615578342887
+Miguel Pereira,3302908,2020,Agua,10.6778843998909
+Miguel Pereira,3302908,2020,Area_Nao_Vegetada,0.0
+Miguel Pereira,3302908,2020,Aquicultura,0.0
+Miguel Pereira,3302908,2020,Nao_Observado,0.0
+Petrópolis,3303906,2020,Floresta,2.8269823937147263
+Petrópolis,3303906,2020,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,2020,Silvicultura,0.0
+Petrópolis,3303906,2020,Pastagem,2.183461880333282
+Petrópolis,3303906,2020,Agricultura,0.0
+Petrópolis,3303906,2020,Mosaico_Agropecuario,2.927797744554633
+Petrópolis,3303906,2020,Area_Urbana,0.0
+Petrópolis,3303906,2020,Mineracao,0.0
+Petrópolis,3303906,2020,Agua,0.0
+Petrópolis,3303906,2020,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,2020,Aquicultura,0.0
+Petrópolis,3303906,2020,Nao_Observado,0.0
+Valença,3306107,2023,Floresta,33276.56805795052
+Valença,3306107,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Valença,3306107,2023,Silvicultura,131.65487876534462
+Valença,3306107,2023,Pastagem,79665.43933055674
+Valença,3306107,2023,Agricultura,11.439551591873169
+Valença,3306107,2023,Mosaico_Agropecuario,15244.606620082764
+Valença,3306107,2023,Area_Urbana,1101.492347582824
+Valença,3306107,2023,Mineracao,0.0
+Valença,3306107,2023,Agua,340.85830930763626
+Valença,3306107,2023,Area_Nao_Vegetada,186.4885824976306
+Valença,3306107,2023,Aquicultura,0.0
+Valença,3306107,2023,Nao_Observado,0.0
+Pinheiral,3303955,2023,Floresta,2165.3802880334533
+Pinheiral,3303955,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Pinheiral,3303955,2023,Silvicultura,8.438915766775608
+Pinheiral,3303955,2023,Pastagem,4233.198826297944
+Pinheiral,3303955,2023,Agricultura,0.0
+Pinheiral,3303955,2023,Mosaico_Agropecuario,1214.7372424820767
+Pinheiral,3303955,2023,Area_Urbana,489.0377690241617
+Pinheiral,3303955,2023,Mineracao,0.0
+Pinheiral,3303955,2023,Agua,94.32664786247055
+Pinheiral,3303955,2023,Area_Nao_Vegetada,20.018470913171768
+Pinheiral,3303955,2023,Aquicultura,0.0
+Pinheiral,3303955,2023,Nao_Observado,0.0
+Rio Claro,3304409,2023,Floresta,522.3299435406922
+Rio Claro,3304409,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Rio Claro,3304409,2023,Silvicultura,0.0
+Rio Claro,3304409,2023,Pastagem,2573.03287638063
+Rio Claro,3304409,2023,Agricultura,0.0
+Rio Claro,3304409,2023,Mosaico_Agropecuario,686.7198810463735
+Rio Claro,3304409,2023,Area_Urbana,7.746164605050694
+Rio Claro,3304409,2023,Mineracao,0.0
+Rio Claro,3304409,2023,Agua,0.0
+Rio Claro,3304409,2023,Area_Nao_Vegetada,0.9090077728033066
+Rio Claro,3304409,2023,Aquicultura,0.0
+Rio Claro,3304409,2023,Nao_Observado,0.0
+Barra do Piraí,3300308,2023,Floresta,16043.265893921025
+Barra do Piraí,3300308,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Barra do Piraí,3300308,2023,Silvicultura,48.270737424492836
+Barra do Piraí,3300308,2023,Pastagem,28962.807161003737
+Barra do Piraí,3300308,2023,Agricultura,8.69155453890562
+Barra do Piraí,3300308,2023,Mosaico_Agropecuario,7146.950903385149
+Barra do Piraí,3300308,2023,Area_Urbana,1087.8555650580747
+Barra do Piraí,3300308,2023,Mineracao,0.0
+Barra do Piraí,3300308,2023,Agua,477.25697569183865
+Barra do Piraí,3300308,2023,Area_Nao_Vegetada,44.369473330676556
+Barra do Piraí,3300308,2023,Aquicultura,0.0
+Barra do Piraí,3300308,2023,Nao_Observado,0.0
+Vassouras,3306206,2023,Floresta,11848.385311436945
+Vassouras,3306206,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Vassouras,3306206,2023,Silvicultura,121.6387544758764
+Vassouras,3306206,2023,Pastagem,31945.248725596855
+Vassouras,3306206,2023,Agricultura,59.86530113512394
+Vassouras,3306206,2023,Mosaico_Agropecuario,6126.822272202516
+Vassouras,3306206,2023,Area_Urbana,683.8899463126472
+Vassouras,3306206,2023,Mineracao,0.0
+Vassouras,3306206,2023,Agua,404.9348245652575
+Vassouras,3306206,2023,Area_Nao_Vegetada,25.018028859005256
+Vassouras,3306206,2023,Aquicultura,0.0
+Vassouras,3306206,2023,Nao_Observado,0.0
+Rio das Flores,3304508,2023,Floresta,11945.489404199167
+Rio das Flores,3304508,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Rio das Flores,3304508,2023,Silvicultura,480.32212285054663
+Rio das Flores,3304508,2023,Pastagem,30521.95840367962
+Rio das Flores,3304508,2023,Agricultura,0.0
+Rio das Flores,3304508,2023,Mosaico_Agropecuario,4451.557916910157
+Rio das Flores,3304508,2023,Area_Urbana,146.01540476358403
+Rio das Flores,3304508,2023,Mineracao,0.0
+Rio das Flores,3304508,2023,Agua,289.57552150631057
+Rio das Flores,3304508,2023,Area_Nao_Vegetada,5.060924641788006
+Rio das Flores,3304508,2023,Aquicultura,0.0
+Rio das Flores,3304508,2023,Nao_Observado,0.0
+Porto Real,3304110,2023,Floresta,335.81489001281716
+Porto Real,3304110,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Porto Real,3304110,2023,Silvicultura,0.0
+Porto Real,3304110,2023,Pastagem,2281.873422423677
+Porto Real,3304110,2023,Agricultura,11.588798865675926
+Porto Real,3304110,2023,Mosaico_Agropecuario,1176.3696079177307
+Porto Real,3304110,2023,Area_Urbana,1158.0138445110301
+Porto Real,3304110,2023,Mineracao,0.0
+Porto Real,3304110,2023,Agua,109.50385919733375
+Porto Real,3304110,2023,Area_Nao_Vegetada,15.730307251214981
+Porto Real,3304110,2023,Aquicultura,0.0
+Porto Real,3304110,2023,Nao_Observado,0.0
+Quatis,3304128,2023,Floresta,6675.506192982051
+Quatis,3304128,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Quatis,3304128,2023,Silvicultura,0.0
+Quatis,3304128,2023,Pastagem,13896.491622498832
+Quatis,3304128,2023,Agricultura,0.0
+Quatis,3304128,2023,Mosaico_Agropecuario,7400.934790215276
+Quatis,3304128,2023,Area_Urbana,254.00302449429736
+Quatis,3304128,2023,Mineracao,1.6750701865436983
+Quatis,3304128,2023,Agua,149.72822433169563
+Quatis,3304128,2023,Area_Nao_Vegetada,87.58433934783234
+Quatis,3304128,2023,Aquicultura,0.0
+Quatis,3304128,2023,Nao_Observado,0.0
+Paraíba do Sul,3303708,2023,Floresta,9676.98179796686
+Paraíba do Sul,3303708,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Paraíba do Sul,3303708,2023,Silvicultura,179.49908789551142
+Paraíba do Sul,3303708,2023,Pastagem,26519.911336057245
+Paraíba do Sul,3303708,2023,Agricultura,1.3312534306563584
+Paraíba do Sul,3303708,2023,Mosaico_Agropecuario,5867.203188021191
+Paraíba do Sul,3303708,2023,Area_Urbana,796.1766984203866
+Paraíba do Sul,3303708,2023,Mineracao,0.0
+Paraíba do Sul,3303708,2023,Agua,344.18987870321547
+Paraíba do Sul,3303708,2023,Area_Nao_Vegetada,31.041259625875483
+Paraíba do Sul,3303708,2023,Aquicultura,0.0
+Paraíba do Sul,3303708,2023,Nao_Observado,0.0
+Resende,3304201,2023,Floresta,39615.390371298854
+Resende,3304201,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Resende,3304201,2023,Silvicultura,918.2373101854149
+Resende,3304201,2023,Pastagem,42148.327466147064
+Resende,3304201,2023,Agricultura,16.604528199749833
+Resende,3304201,2023,Mosaico_Agropecuario,19068.59635647187
+Resende,3304201,2023,Area_Urbana,3281.1949262335906
+Resende,3304201,2023,Mineracao,0.0
+Resende,3304201,2023,Agua,2787.606113928113
+Resende,3304201,2023,Area_Nao_Vegetada,1694.4189305124899
+Resende,3304201,2023,Aquicultura,6.701057448983192
+Resende,3304201,2023,Nao_Observado,0.0
+Comendador Levy Gasparian,3300951,2023,Floresta,2331.371813195826
+Comendador Levy Gasparian,3300951,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Comendador Levy Gasparian,3300951,2023,Silvicultura,0.0
+Comendador Levy Gasparian,3300951,2023,Pastagem,6991.176441623744
+Comendador Levy Gasparian,3300951,2023,Agricultura,1.240656144303434
+Comendador Levy Gasparian,3300951,2023,Mosaico_Agropecuario,1052.626859758912
+Comendador Levy Gasparian,3300951,2023,Area_Urbana,250.07985049091724
+Comendador Levy Gasparian,3300951,2023,Mineracao,0.0
+Comendador Levy Gasparian,3300951,2023,Agua,133.47387588620188
+Comendador Levy Gasparian,3300951,2023,Area_Nao_Vegetada,27.53462742342084
+Comendador Levy Gasparian,3300951,2023,Aquicultura,0.0
+Comendador Levy Gasparian,3300951,2023,Nao_Observado,0.0
+Três Rios,3306008,2023,Floresta,1112.80662988325
+Três Rios,3306008,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Três Rios,3306008,2023,Silvicultura,0.0
+Três Rios,3306008,2023,Pastagem,5078.257904307253
+Três Rios,3306008,2023,Agricultura,0.0
+Três Rios,3306008,2023,Mosaico_Agropecuario,1617.9516160071194
+Três Rios,3306008,2023,Area_Urbana,1381.8969235450031
+Três Rios,3306008,2023,Mineracao,0.0
+Três Rios,3306008,2023,Agua,434.10631058841346
+Três Rios,3306008,2023,Area_Nao_Vegetada,50.239850234459425
+Três Rios,3306008,2023,Aquicultura,0.0
+Três Rios,3306008,2023,Nao_Observado,0.0
+Paty do Alferes,3303856,2023,Floresta,5068.067876396781
+Paty do Alferes,3303856,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Paty do Alferes,3303856,2023,Silvicultura,121.32027194467827
+Paty do Alferes,3303856,2023,Pastagem,17165.71677528549
+Paty do Alferes,3303856,2023,Agricultura,9.535700673566145
+Paty do Alferes,3303856,2023,Mosaico_Agropecuario,4122.486065187467
+Paty do Alferes,3303856,2023,Area_Urbana,544.3948322366266
+Paty do Alferes,3303856,2023,Mineracao,0.0
+Paty do Alferes,3303856,2023,Agua,15.522981513949002
+Paty do Alferes,3303856,2023,Area_Nao_Vegetada,33.62563444674015
+Paty do Alferes,3303856,2023,Aquicultura,0.0
+Paty do Alferes,3303856,2023,Nao_Observado,0.0
+Itatiaia,3302254,2023,Floresta,12715.080432470135
+Itatiaia,3302254,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Itatiaia,3302254,2023,Silvicultura,35.025056943297386
+Itatiaia,3302254,2023,Pastagem,5058.192498829492
+Itatiaia,3302254,2023,Agricultura,3.0625924691557884
+Itatiaia,3302254,2023,Mosaico_Agropecuario,3173.726093142087
+Itatiaia,3302254,2023,Area_Urbana,1123.8437270886757
+Itatiaia,3302254,2023,Mineracao,0.0
+Itatiaia,3302254,2023,Agua,670.2493033667104
+Itatiaia,3302254,2023,Area_Nao_Vegetada,1286.2623801478858
+Itatiaia,3302254,2023,Aquicultura,0.0
+Itatiaia,3302254,2023,Nao_Observado,0.0
+Piraí,3304003,2023,Floresta,3480.2697383829186
+Piraí,3304003,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Piraí,3304003,2023,Silvicultura,4.383825927972794
+Piraí,3304003,2023,Pastagem,5477.275672352052
+Piraí,3304003,2023,Agricultura,0.8271270990371704
+Piraí,3304003,2023,Mosaico_Agropecuario,1239.2019482677176
+Piraí,3304003,2023,Area_Urbana,212.9642764622674
+Piraí,3304003,2023,Mineracao,0.0
+Piraí,3304003,2023,Agua,16.0465309843421
+Piraí,3304003,2023,Area_Nao_Vegetada,0.0
+Piraí,3304003,2023,Aquicultura,0.0
+Piraí,3304003,2023,Nao_Observado,0.0
+Barra Mansa,3300407,2023,Floresta,11517.440371294613
+Barra Mansa,3300407,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Barra Mansa,3300407,2023,Silvicultura,39.67495955500532
+Barra Mansa,3300407,2023,Pastagem,28334.22295645544
+Barra Mansa,3300407,2023,Agricultura,5.155434369164355
+Barra Mansa,3300407,2023,Mosaico_Agropecuario,11433.823168717305
+Barra Mansa,3300407,2023,Area_Urbana,2848.9916794533833
+Barra Mansa,3300407,2023,Mineracao,51.786262047115486
+Barra Mansa,3300407,2023,Agua,308.06657806085616
+Barra Mansa,3300407,2023,Area_Nao_Vegetada,102.39189038969138
+Barra Mansa,3300407,2023,Aquicultura,0.0
+Barra Mansa,3300407,2023,Nao_Observado,0.0
+Mendes,3302809,2023,Floresta,932.1922183489967
+Mendes,3302809,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Mendes,3302809,2023,Silvicultura,0.0
+Mendes,3302809,2023,Pastagem,844.2195966585299
+Mendes,3302809,2023,Agricultura,0.0
+Mendes,3302809,2023,Mosaico_Agropecuario,420.05077095560586
+Mendes,3302809,2023,Area_Urbana,9.10890897050792
+Mendes,3302809,2023,Mineracao,0.0
+Mendes,3302809,2023,Agua,0.8277129083871841
+Mendes,3302809,2023,Area_Nao_Vegetada,0.8671293051511634
+Mendes,3302809,2023,Aquicultura,0.0
+Mendes,3302809,2023,Nao_Observado,0.0
+Volta Redonda,3306305,2023,Floresta,4687.491172084098
+Volta Redonda,3306305,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Volta Redonda,3306305,2023,Silvicultura,35.76870670067328
+Volta Redonda,3306305,2023,Pastagem,5442.522169568873
+Volta Redonda,3306305,2023,Agricultura,0.0
+Volta Redonda,3306305,2023,Mosaico_Agropecuario,3340.9485932697035
+Volta Redonda,3306305,2023,Area_Urbana,4355.653250885362
+Volta Redonda,3306305,2023,Mineracao,0.0
+Volta Redonda,3306305,2023,Agua,293.0836606524447
+Volta Redonda,3306305,2023,Area_Nao_Vegetada,54.86353585869074
+Volta Redonda,3306305,2023,Aquicultura,0.0
+Volta Redonda,3306305,2023,Nao_Observado,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Floresta,13.751539201099499
+Engenheiro Paulo de Frontin,3301801,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Silvicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Pastagem,62.176199373164636
+Engenheiro Paulo de Frontin,3301801,2023,Agricultura,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Mosaico_Agropecuario,17.148711671870135
+Engenheiro Paulo de Frontin,3301801,2023,Area_Urbana,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Mineracao,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Agua,0.8657712080022868
+Engenheiro Paulo de Frontin,3301801,2023,Area_Nao_Vegetada,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Aquicultura,0.0
+Engenheiro Paulo de Frontin,3301801,2023,Nao_Observado,0.0
+Miguel Pereira,3302908,2023,Floresta,1205.9790793056884
+Miguel Pereira,3302908,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Miguel Pereira,3302908,2023,Silvicultura,0.0
+Miguel Pereira,3302908,2023,Pastagem,876.3396183533707
+Miguel Pereira,3302908,2023,Agricultura,6.458276033401489
+Miguel Pereira,3302908,2023,Mosaico_Agropecuario,834.7962408873966
+Miguel Pereira,3302908,2023,Area_Urbana,701.7417415747454
+Miguel Pereira,3302908,2023,Mineracao,0.13048615578342887
+Miguel Pereira,3302908,2023,Agua,10.181144751608372
+Miguel Pereira,3302908,2023,Area_Nao_Vegetada,1.0761744976043701
+Miguel Pereira,3302908,2023,Aquicultura,0.0
+Miguel Pereira,3302908,2023,Nao_Observado,0.0
+Petrópolis,3303906,2023,Floresta,3.081207908748411
+Petrópolis,3303906,2023,Vegetacao_Natural_Nao_Florestal,0.0
+Petrópolis,3303906,2023,Silvicultura,0.0
+Petrópolis,3303906,2023,Pastagem,1.486382778777795
+Petrópolis,3303906,2023,Agricultura,0.0
+Petrópolis,3303906,2023,Mosaico_Agropecuario,3.3706513310764357
+Petrópolis,3303906,2023,Area_Urbana,0.0
+Petrópolis,3303906,2023,Mineracao,0.0
+Petrópolis,3303906,2023,Agua,0.0
+Petrópolis,3303906,2023,Area_Nao_Vegetada,0.0
+Petrópolis,3303906,2023,Aquicultura,0.0
+Petrópolis,3303906,2023,Nao_Observado,0.0
