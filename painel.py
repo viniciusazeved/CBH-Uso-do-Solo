@@ -785,15 +785,15 @@ elif pagina == "🔄 Transicoes":
 
             # Indices: origens primeiro, destinos depois (mesmas classes podem aparecer dos dois lados)
             origem_idx = {o: i for i, o in enumerate(origens_unicas)}
-            destino_idx = {d: i + len(origens_unicas) for i, d in enumerate(destinos_unicas)}
+            destino_idx = {d: i + len(origens_unicas) for i, d in enumerate(destinos_unicos)}
 
-            labels = origens_unicas + destinos_unicas
+            labels = origens_unicas + destinos_unicos
             node_colors = [CORES_NODE.get(c, "#888888") for c in labels]
 
             # Posicionamento manual: origens a esquerda (x=0.001), destinos a direita (x=0.999)
             x_origem = [0.001] * len(origens_unicas)
-            x_destino = [0.999] * len(destinos_unicas)
-            n_o, n_d = len(origens_unicas), len(destinos_unicas)
+            x_destino = [0.999] * len(destinos_unicos)
+            n_o, n_d = len(origens_unicas), len(destinos_unicos)
             y_origem = [(i + 0.5) / n_o for i in range(n_o)]
             y_destino = [(i + 0.5) / n_d for i in range(n_d)]
             node_x = x_origem + x_destino
