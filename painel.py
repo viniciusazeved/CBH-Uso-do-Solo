@@ -741,6 +741,23 @@ elif pagina == "🔄 Transicoes":
     with tab1:
         st.caption("Fluxo de area entre classes de uso e cobertura. Largura proporcional a area transicionada (ha).")
 
+        # CSS — remove halo/sombra dos rotulos do Sankey
+        st.markdown(
+            """
+            <style>
+            .js-plotly-plot g.node-label text,
+            .js-plotly-plot g.sankey text,
+            .js-plotly-plot .sankey-node text {
+                paint-order: normal !important;
+                stroke: none !important;
+                stroke-width: 0 !important;
+                text-shadow: none !important;
+            }
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
+
         # Filtra agregados para evitar duplo-contagem
         agregados = {"VegNativa_para_Antropico", "Antropico_para_VegNativa"}
         df_sk = df_per[~df_per["transicao"].isin(agregados)].copy()
@@ -763,38 +780,46 @@ elif pagina == "🔄 Transicoes":
         if len(df_sk) == 0:
             st.info("Nenhum fluxo acima do limiar selecionado.")
         else:
-            # Sufixos para diferenciar origem/destino e permitir bipartido visual
-            origens = [f"{o} (origem)" for o in df_sk["origem"].unique()]
-            destinos = [f"{d} (destino)" for d in df_sk["destino"].unique()]
-            labels = origens + destinos
-            label_to_idx = {label: i for i, label in enumerate(labels)}
+            origens_unicas = list(df_sk["origem"].unique())
+            destinos_unicos = list(df_sk["destino"].unique())
 
-            # Cores dos nos
-            node_colors = []
-            for label in labels:
-                base = label.split(" (")[0]
-                node_colors.append(CORES_NODE.get(base, "#888888"))
+            # Indices: origens primeiro, destinos depois (mesmas classes podem aparecer dos dois lados)
+            origem_idx = {o: i for i, o in enumerate(origens_unicas)}
+            destino_idx = {d: i + len(origens_unicas) for i, d in enumerate(destinos_unicas)}
 
-            sources = [label_to_idx[f"{o} (origem)"] for o in df_sk["origem"]]
-            targets = [label_to_idx[f"{d} (destino)"] for d in df_sk["destino"]]
+            labels = origens_unicas + destinos_unicas
+            node_colors = [CORES_NODE.get(c, "#888888") for c in labels]
+
+            # Posicionamento manual: origens a esquerda (x=0.001), destinos a direita (x=0.999)
+            x_origem = [0.001] * len(origens_unicas)
+            x_destino = [0.999] * len(destinos_unicas)
+            n_o, n_d = len(origens_unicas), len(destinos_unicas)
+            y_origem = [(i + 0.5) / n_o for i in range(n_o)]
+            y_destino = [(i + 0.5) / n_d for i in range(n_d)]
+            node_x = x_origem + x_destino
+            node_y = y_origem + y_destino
+
+            sources = [origem_idx[o] for o in df_sk["origem"]]
+            targets = [destino_idx[d] for d in df_sk["destino"]]
             values = df_sk["area_ha"].tolist()
 
-            # Cor do link = cor do destino (com transparencia) — mostra para onde vai
             link_colors = []
             for d in df_sk["destino"]:
                 base_color = CORES_NODE.get(d, "#888888")
-                # Converte hex para rgba com 0.5 alpha
                 r, g, b = int(base_color[1:3], 16), int(base_color[3:5], 16), int(base_color[5:7], 16)
                 link_colors.append(f"rgba({r},{g},{b},0.45)")
 
             fig_sk = go.Figure(go.Sankey(
-                arrangement="snap",
+                arrangement="fixed",
                 node=dict(
-                    pad=18,
-                    thickness=18,
-                    line=dict(color="black", width=0.5),
+                    pad=22,
+                    thickness=22,
+                    line=dict(color="#333", width=0.8),
                     label=labels,
                     color=node_colors,
+                    x=node_x,
+                    y=node_y,
+                    hovertemplate="<b>%{label}</b><br>%{value:,.0f} ha<extra></extra>",
                 ),
                 link=dict(
                     source=sources,
@@ -803,11 +828,26 @@ elif pagina == "🔄 Transicoes":
                     color=link_colors,
                     hovertemplate="<b>%{source.label} -> %{target.label}</b><br>%{value:,.0f} ha<extra></extra>",
                 ),
+                textfont=dict(size=14, color="#111", family="Arial, sans-serif"),
             ))
             fig_sk.update_layout(
                 height=560,
-                margin=dict(l=10, r=10, t=20, b=20),
-                font=dict(size=12),
+                margin=dict(l=120, r=120, t=20, b=20),
+                font=dict(size=13),
+                annotations=[
+                    dict(
+                        text="<b>Origem (1985)</b>" if "1985" in periodo_sel.split("-")[0] else "<b>Origem</b>",
+                        x=0, y=1.06, xref="paper", yref="paper",
+                        showarrow=False, font=dict(size=12, color="#555"),
+                        xanchor="left",
+                    ),
+                    dict(
+                        text="<b>Destino</b>",
+                        x=1, y=1.06, xref="paper", yref="paper",
+                        showarrow=False, font=dict(size=12, color="#555"),
+                        xanchor="right",
+                    ),
+                ],
             )
             st.plotly_chart(fig_sk, use_container_width=True)
 
