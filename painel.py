@@ -1,5 +1,5 @@
 """
-Painel Interativo — Ranking Ambiental RH3 Medio Paraiba do Sul
+Painel Interativo — Diagnostico LULC RH3 Medio Paraiba do Sul
 Streamlit + Plotly + Folium
 """
 
@@ -28,7 +28,7 @@ def fmt_br(valor, decimais=0, sinal=False):
 # =============================================================================
 
 st.set_page_config(
-    page_title="Ranking Ambiental RH3",
+    page_title="Diagnostico LULC RH3",
     page_icon=":droplet:",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -112,24 +112,15 @@ def _normalizar(serie, inverter=False):
     return (100 - n) if inverter else n
 
 
-def calcular_scores(df_idx):
+def normalizar_indicadores(df_idx):
+    """Normaliza indicadores via Min-Max (0-100) — apenas posicao relativa na bacia."""
     df = df_idx.copy()
-    df["score_cobertura"] = _normalizar(df["ICV_2023_pct"])
-    df["score_recuperacao"] = _normalizar(df["recup_florestal_2010_2023_ha"])
-    df["score_regeneracao"] = _normalizar(df["pasto_para_mata_recente_ha"])
-    df["score_saldo"] = _normalizar(df["saldo_florestal_recente_ha"])
-    df["score_pressao"] = _normalizar(df["variacao_pressao_antropica_pp"], inverter=True)
-    df["score_desmatamento"] = _normalizar(df["desmatamento_recente_ha"], inverter=True)
-
-    pesos = {
-        "score_cobertura": 0.20,
-        "score_recuperacao": 0.20,
-        "score_regeneracao": 0.15,
-        "score_saldo": 0.15,
-        "score_pressao": 0.15,
-        "score_desmatamento": 0.15,
-    }
-    df["score_ambiental"] = sum(df[col] * peso for col, peso in pesos.items())
+    df["pos_cobertura"] = _normalizar(df["ICV_2023_pct"])
+    df["pos_recuperacao"] = _normalizar(df["recup_florestal_2010_2023_ha"])
+    df["pos_regeneracao"] = _normalizar(df["pasto_para_mata_recente_ha"])
+    df["pos_saldo"] = _normalizar(df["saldo_florestal_recente_ha"])
+    df["pos_pressao"] = _normalizar(df["variacao_pressao_antropica_pp"], inverter=True)
+    df["pos_desmatamento"] = _normalizar(df["desmatamento_recente_ha"], inverter=True)
     return df
 
 
@@ -138,7 +129,7 @@ def calcular_scores(df_idx):
 # =============================================================================
 
 df_lulc, df_trans, df_idx, gdf = load_data()
-df_scores = calcular_scores(df_idx)
+df_rel = normalizar_indicadores(df_idx)
 municipios_lista = sorted(df_idx["municipio"].unique())
 
 # =============================================================================
@@ -146,13 +137,14 @@ municipios_lista = sorted(df_idx["municipio"].unique())
 # =============================================================================
 
 st.sidebar.image("logo/LOGO - CBH MPS_colorida.png", width=180)
-st.sidebar.title("Ranking Ambiental Municipal")
+st.sidebar.title("Diagnostico LULC Municipal")
+st.sidebar.caption("Caracterizacao da cobertura e dinamica do solo")
 st.sidebar.markdown("MapBiomas Colecao 9 (1985-2023)")
 st.sidebar.divider()
 
 pagina = st.sidebar.radio(
     "Navegacao",
-    ["🏆 Ranking Geral", "🗺️ Mapa Interativo", "📊 Evolucao Temporal",
+    ["🌎 Visao Geral da Bacia", "🗺️ Mapa Interativo", "📊 Evolucao Temporal",
      "🔄 Transicoes", "🏙️ Perfil Municipal", "📐 Metodologia"],
     index=0,
 )
@@ -166,113 +158,167 @@ st.sidebar.caption("Dados: MapBiomas Colecao 9")
 #  PAGINA 1: RANKING GERAL
 # =============================================================================
 
-if pagina == "🏆 Ranking Geral":
-    st.title("🏆 Ranking Ambiental Municipal — RH3")
-    st.markdown("**Medio Paraiba do Sul** | MapBiomas Colecao 9 (1985-2023)")
+if pagina == "🌎 Visao Geral da Bacia":
+    st.title("Visao Geral da Bacia — RH3")
+    st.markdown("**Diagnostico de uso e cobertura do solo** | Medio Paraiba do Sul | MapBiomas Colecao 9 (1985-2023)")
 
     # KPIs
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("Municipios", f"{len(df_idx)}")
-    col2.metric("Area Total RH3", f"{fmt_br(df_idx['area_total_na_rh3_ha'].sum())} ha")
+    col2.metric("Area Total na RH3", f"{fmt_br(df_idx['area_total_na_rh3_ha'].sum())} ha")
     media_icv = df_idx["ICV_2023_pct"].mean()
-    col3.metric("ICV Medio 2023", f"{fmt_br(media_icv, 1)}%")
+    col3.metric("Cobertura Vegetal Media 2023", f"{fmt_br(media_icv, 1)}%")
     media_pressao = df_idx["pressao_antropica_2023_pct"].mean()
     col4.metric("Pressao Antropica Media", f"{fmt_br(media_pressao, 1)}%")
 
     st.divider()
 
-    # Parametros avaliados
-    st.subheader("Parametros Avaliados")
     st.markdown("""
-O **Score Ambiental Composto** e calculado a partir de **6 indicadores**, cada um normalizado de 0 a 100
-e ponderado conforme sua relevancia para a conservacao ambiental na bacia:
-""")
-
-    param_col1, param_col2 = st.columns(2)
-    with param_col1:
-        st.markdown("""
-| # | Indicador | Peso | O que mede |
-|:-:|-----------|:----:|------------|
-| 1 | **Cobertura Vegetal Nativa** | 20% | % da area coberta por vegetacao nativa em 2023 |
-| 2 | **Recuperacao Florestal** | 20% | Ganho de area florestal entre 2010 e 2023 (ha) |
-| 3 | **Regeneracao (Pasto -> Mata)** | 15% | Area de pastagem convertida em floresta (2010-2020) |
-""")
-    with param_col2:
-        st.markdown("""
-| # | Indicador | Peso | O que mede |
-|:-:|-----------|:----:|------------|
-| 4 | **Saldo Florestal** | 15% | Regeneracao menos desmatamento (liquido, 2010-2020) |
-| 5 | **Pressao Antropica** | 15% | Variacao da pressao antropica 1985-2023 (invertido) |
-| 6 | **Desmatamento Recente** | 15% | Area desmatada 2020-2023 (invertido — menos = melhor) |
-""")
-
-    st.info("""
-**Normalizacao:** Cada indicador e normalizado pelo metodo Min-Max (0-100) entre os 19 municipios.
-Para indicadores negativos (pressao antropica e desmatamento), a escala e invertida: menor valor = maior score.
+Este painel **caracteriza** a cobertura e a dinamica do uso do solo nos 19 municipios
+da RH3 entre 1985 e 2023. A intencao nao e ranquear municipios, mas diagnosticar como
+cada um se inscreve na heterogeneidade da bacia — identificando padroes de cobertura,
+trajetorias de mudanca, transicoes dominantes e focos de pressao territorial.
 """)
 
     st.divider()
 
-    # Ranking principal
-    st.subheader("Ranking Geral — Score Ambiental Composto")
+    # Composicao 2023 — RH3 agregada
+    st.subheader("Composicao do Uso do Solo em 2023 — RH3 agregada")
+    st.caption("Soma das areas por classe MapBiomas em toda a bacia hidrografica.")
 
-    rank = df_scores.sort_values("score_ambiental", ascending=False).reset_index(drop=True)
-    rank.index = rank.index + 1
+    df_2023 = df_lulc[df_lulc["ano"] == 2023].groupby("classe")["area_ha"].sum().reset_index()
+    df_2023 = df_2023[df_2023["area_ha"] > 0].sort_values("area_ha", ascending=True)
+    df_2023["label"] = df_2023["classe"].map(NOMES_CLASSES).fillna(df_2023["classe"])
+    total_rh3 = df_2023["area_ha"].sum()
+    df_2023["pct"] = df_2023["area_ha"] / total_rh3 * 100
 
-    fig = go.Figure()
-    cores_rank = px.colors.sequential.Greens_r[:len(rank)]
-    if len(cores_rank) < len(rank):
-        cores_rank = px.colors.sample_colorscale("Greens", np.linspace(0.3, 0.95, len(rank)))[::-1]
-
-    fig.add_trace(go.Bar(
-        y=rank["municipio"],
-        x=rank["score_ambiental"],
+    fig_comp = go.Figure(go.Bar(
+        y=df_2023["label"],
+        x=df_2023["area_ha"],
         orientation="h",
-        marker=dict(color=rank["score_ambiental"], colorscale="Greens", cmin=0, cmax=100),
-        text=[fmt_br(v, 1) for v in rank["score_ambiental"]],
+        marker_color=[CORES_CLASSES.get(c, "#888") for c in df_2023["classe"]],
+        text=[f"{fmt_br(v)} ha  ({fmt_br(p, 1)}%)" for v, p in zip(df_2023["area_ha"], df_2023["pct"])],
         textposition="outside",
-        hovertemplate="<b>%{y}</b><br>Score: %{x:.1f}<extra></extra>",
+        hovertemplate="<b>%{y}</b><br>Area: %{x:,.0f} ha<extra></extra>",
     ))
-    fig.update_layout(
-        height=max(500, len(rank) * 35),
-        yaxis=dict(autorange="reversed", title=""),
-        xaxis=dict(title="Score Ambiental (0-100)", range=[0, 105]),
-        margin=dict(l=200, r=50, t=30, b=40),
+    fig_comp.update_layout(
+        height=max(380, len(df_2023) * 38),
+        xaxis_title="Area (ha)",
+        margin=dict(l=200, r=140, t=20, b=40),
+        yaxis=dict(title=""),
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig_comp, use_container_width=True)
 
-    # Detalhamento dos scores
-    st.subheader("Composicao do Score por Municipio")
+    st.divider()
 
-    score_cols = ["score_cobertura", "score_recuperacao", "score_regeneracao",
-                  "score_saldo", "score_pressao", "score_desmatamento"]
-    score_labels = ["Cobertura Vegetal", "Recuperacao Florestal", "Regeneracao",
-                    "Saldo Florestal", "Pressao Antropica", "Desmatamento Recente"]
+    # Diagnostico cruzado: cobertura atual x trajetoria
+    st.subheader("Diagnostico Cruzado: Cobertura Atual x Trajetoria 1985-2023")
+    st.caption("Cada bolha e um municipio. Eixo X: cobertura nativa hoje. Eixo Y: variacao da vegetacao nativa em 38 anos. Tamanho: area na RH3.")
 
-    fig2 = go.Figure()
-    for col, label in zip(score_cols, score_labels):
-        fig2.add_trace(go.Bar(
-            y=rank["municipio"],
-            x=rank[col],
-            name=label,
-            orientation="h",
-            hovertemplate=f"<b>%{{y}}</b><br>{label}: %{{x:.1f}}<extra></extra>",
-        ))
+    df_quad = df_idx.copy()
+    mediana_icv = df_quad["ICV_2023_pct"].median()
 
-    fig2.update_layout(
-        barmode="group",
-        height=max(600, len(rank) * 40),
-        yaxis=dict(autorange="reversed", title=""),
-        xaxis=dict(title="Score (0-100)"),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        margin=dict(l=200, r=50, t=60, b=40),
+    fig_quad = px.scatter(
+        df_quad,
+        x="ICV_2023_pct",
+        y="variacao_veg_pct",
+        size="area_total_na_rh3_ha",
+        hover_name="municipio",
+        text="municipio",
+        color="variacao_veg_pct",
+        color_continuous_scale="RdYlGn",
+        color_continuous_midpoint=0,
+        size_max=42,
+        labels={
+            "ICV_2023_pct": "Cobertura Vegetal Nativa em 2023 (%)",
+            "variacao_veg_pct": "Variacao da Vegetacao Nativa 1985-2023 (%)",
+            "area_total_na_rh3_ha": "Area na RH3 (ha)",
+        },
     )
-    st.plotly_chart(fig2, use_container_width=True)
+    fig_quad.add_hline(y=0, line_dash="dash", line_color="grey", opacity=0.6)
+    fig_quad.add_vline(
+        x=mediana_icv, line_dash="dash", line_color="grey", opacity=0.6,
+        annotation_text=f"Mediana ({fmt_br(mediana_icv, 1)}%)",
+        annotation_position="top",
+    )
+    fig_quad.update_traces(textposition="top center", textfont=dict(size=10))
+    fig_quad.update_layout(height=540, margin=dict(l=20, r=20, t=20, b=40))
+    st.plotly_chart(fig_quad, use_container_width=True)
+
+    st.markdown("""
+**Como ler o grafico:**
+- **Quadrante superior direito** — alta cobertura nativa hoje **e** ganhando vegetacao (conservacao com regeneracao).
+- **Quadrante superior esquerdo** — baixa cobertura, mas em recuperacao (degradacao com sinais de reversao).
+- **Quadrante inferior direito** — alta cobertura, porem perdendo vegetacao (conservacao sob pressao).
+- **Quadrante inferior esquerdo** — baixa cobertura **e** continuando a perder (degradacao persistente).
+""")
+
+    st.divider()
+
+    # Distribuicao entre municipios
+    st.subheader("Distribuicao dos Indicadores entre os Municipios")
+    st.caption("Cada ponto representa um municipio. A caixa mostra a mediana, os quartis e a amplitude observada na bacia.")
+
+    indicadores_dist = {
+        "ICV_2023_pct": "Cobertura Vegetal Nativa 2023 (%)",
+        "pressao_antropica_2023_pct": "Pressao Antropica 2023 (%)",
+        "recup_florestal_2010_2023_ha": "Recuperacao Florestal 2010-2023 (ha)",
+        "saldo_florestal_total_ha": "Saldo Florestal 1985-2023 (ha)",
+        "desmatamento_recente_ha": "Desmatamento Recente 2020-2023 (ha)",
+        "variacao_veg_pct": "Variacao Veg. Nativa 1985-2023 (%)",
+        "shannon_2023": "Diversidade de Uso (Shannon)",
+    }
+
+    indic_sel = st.selectbox(
+        "Indicador:",
+        list(indicadores_dist.keys()),
+        format_func=lambda x: indicadores_dist[x],
+    )
+
+    df_dist = df_idx[["municipio", indic_sel]].copy().sort_values(indic_sel)
+
+    fig_box = go.Figure()
+    fig_box.add_trace(go.Box(
+        x=df_dist[indic_sel],
+        boxpoints="all",
+        jitter=0.5,
+        pointpos=0,
+        marker=dict(color="#1f8d49", size=9, line=dict(width=1, color="#0e5d2e")),
+        line=dict(color="#1f8d49"),
+        fillcolor="rgba(31,141,73,0.18)",
+        text=df_dist["municipio"],
+        hovertemplate="<b>%{text}</b><br>" + indicadores_dist[indic_sel] + ": %{x:.2f}<extra></extra>",
+        name="",
+    ))
+    fig_box.update_layout(
+        height=300,
+        xaxis_title=indicadores_dist[indic_sel],
+        showlegend=False,
+        margin=dict(l=40, r=40, t=20, b=40),
+        yaxis=dict(showticklabels=False),
+    )
+    st.plotly_chart(fig_box, use_container_width=True)
+
+    # Estatisticas resumo
+    serie_ind = df_dist[indic_sel]
+    stat_col1, stat_col2, stat_col3, stat_col4 = st.columns(4)
+    stat_col1.metric("Mediana", fmt_br(serie_ind.median(), 2))
+    stat_col2.metric("Media", fmt_br(serie_ind.mean(), 2))
+    stat_col3.metric("Minimo", fmt_br(serie_ind.min(), 2))
+    stat_col4.metric("Maximo", fmt_br(serie_ind.max(), 2))
+
+    with st.expander("Distribuicao ordenada por municipio"):
+        df_show = df_dist.reset_index(drop=True)
+        df_show.index = df_show.index + 1
+        df_show.columns = ["Municipio", indicadores_dist[indic_sel]]
+        st.dataframe(df_show, use_container_width=True, height=420)
+
+    st.divider()
 
     # Tabela completa
-    with st.expander("📋 Tabela completa de indices"):
+    with st.expander("Tabela completa de indicadores municipais"):
         st.dataframe(
-            df_idx.sort_values("ICV_2023_pct", ascending=False).reset_index(drop=True),
+            df_idx.sort_values("municipio").reset_index(drop=True),
             use_container_width=True,
             height=500,
         )
@@ -333,18 +379,21 @@ elif pagina == "🗺️ Mapa Interativo":
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # Mini ranking ao lado
+    # Extremos da distribuicao
+    st.caption("Municipios nos extremos da distribuicao para o indicador selecionado.")
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Top 5 — Maiores valores")
+        st.subheader("Maiores valores observados")
         top5 = df_idx.nlargest(5, indicador)[["municipio", indicador]].reset_index(drop=True)
         top5.index = top5.index + 1
+        top5.columns = ["Municipio", INDICADORES_MAPA[indicador]]
         st.dataframe(top5, use_container_width=True)
 
     with col2:
-        st.subheader("Top 5 — Menores valores")
+        st.subheader("Menores valores observados")
         bot5 = df_idx.nsmallest(5, indicador)[["municipio", indicador]].reset_index(drop=True)
         bot5.index = bot5.index + 1
+        bot5.columns = ["Municipio", INDICADORES_MAPA[indicador]]
         st.dataframe(bot5, use_container_width=True)
 
 
@@ -513,40 +562,42 @@ elif pagina == "🔄 Transicoes":
 # =============================================================================
 
 elif pagina == "🏙️ Perfil Municipal":
-    st.title("🏙️ Perfil Municipal Detalhado")
+    st.title("🏙️ Perfil Municipal")
+    st.caption("Caracterizacao individual do municipio dentro da RH3 — sem comparacao competitiva.")
 
     mun_sel = st.selectbox("Selecione o municipio:", municipios_lista, key="perfil_mun")
     row = df_idx[df_idx["municipio"] == mun_sel].iloc[0]
-    row_score = df_scores[df_scores["municipio"] == mun_sel].iloc[0]
+    row_rel = df_rel[df_rel["municipio"] == mun_sel].iloc[0]
 
-    # Posicao no ranking
-    rank_geral = df_scores.sort_values("score_ambiental", ascending=False).reset_index(drop=True)
-    posicao = rank_geral[rank_geral["municipio"] == mun_sel].index[0] + 1
-
-    # KPIs
+    # KPIs descritivos (sem ranking nem score composto)
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Posicao no Ranking", f"{posicao}o / {len(df_idx)}")
-    col2.metric("Score Ambiental", fmt_br(row_score['score_ambiental'], 1))
-    col3.metric("ICV 2023", f"{fmt_br(row['ICV_2023_pct'], 1)}%")
-    col4.metric("Area na RH3", f"{fmt_br(row['area_total_na_rh3_ha'])} ha")
+    col1.metric("Area na RH3", f"{fmt_br(row['area_total_na_rh3_ha'])} ha")
+    col2.metric("ICV 2023", f"{fmt_br(row['ICV_2023_pct'], 1)}%")
+    col3.metric("Pressao Antropica 2023", f"{fmt_br(row['pressao_antropica_2023_pct'], 1)}%")
+    col4.metric("Diversidade (Shannon)", fmt_br(row["shannon_2023"], 2))
 
     st.divider()
 
     col_left, col_right = st.columns(2)
 
     with col_left:
-        # Radar chart dos scores
-        st.subheader("Radar de Desempenho")
+        # Radar — perfil relativo na bacia
+        st.subheader("Perfil Relativo na Bacia (0-100)")
+        st.caption(
+            "Cada eixo mostra a posicao relativa do municipio na distribuicao da RH3 "
+            "(Min-Max entre os 19 municipios). Indica onde o municipio se encaixa na bacia, "
+            "nao um julgamento absoluto."
+        )
 
         categorias = ["Cobertura\nVegetal", "Recuperacao\nFlorestal", "Regeneracao",
                       "Saldo\nFlorestal", "Pressao\nAntropica", "Desmatamento\nRecente"]
         valores = [
-            row_score["score_cobertura"],
-            row_score["score_recuperacao"],
-            row_score["score_regeneracao"],
-            row_score["score_saldo"],
-            row_score["score_pressao"],
-            row_score["score_desmatamento"],
+            row_rel["pos_cobertura"],
+            row_rel["pos_recuperacao"],
+            row_rel["pos_regeneracao"],
+            row_rel["pos_saldo"],
+            row_rel["pos_pressao"],
+            row_rel["pos_desmatamento"],
         ]
         # Fechar o poligono
         categorias_r = categorias + [categorias[0]]
@@ -691,84 +742,87 @@ Toda a analise considera apenas a **porcao do municipio dentro da RH3**.
 """)
 
     indices_df = pd.DataFrame([
-        {"#": 1, "Indice": "ICV 2023", "Descricao": "% de cobertura vegetal nativa (floresta + veg. nao florestal) em 2023",
-         "Unidade": "%", "Categoria": "Premiacao"},
-        {"#": 2, "Indice": "Variacao Veg. Nativa", "Descricao": "Mudanca absoluta e relativa da vegetacao nativa (1985-2023)",
-         "Unidade": "ha / %", "Categoria": "Premiacao"},
-        {"#": 3, "Indice": "Recuperacao Florestal", "Descricao": "Aumento de area florestal entre 2010 e 2023",
-         "Unidade": "ha / ha/ano", "Categoria": "Premiacao"},
-        {"#": 4, "Indice": "Pasto -> Mata", "Descricao": "Area de pastagem convertida em floresta (regeneracao)",
-         "Unidade": "ha", "Categoria": "Premiacao"},
-        {"#": 5, "Indice": "Mata -> Pasto", "Descricao": "Area de floresta convertida em pastagem (desmatamento)",
-         "Unidade": "ha", "Categoria": "Diagnostico"},
-        {"#": 6, "Indice": "Saldo Florestal", "Descricao": "Regeneracao menos desmatamento (valor liquido)",
-         "Unidade": "ha", "Categoria": "Premiacao"},
-        {"#": 7, "Indice": "Crescimento Urbano", "Descricao": "Expansao da area urbana entre 1985 e 2023",
-         "Unidade": "ha / %", "Categoria": "Diagnostico"},
-        {"#": 8, "Indice": "Pressao Antropica", "Descricao": "% da area com uso antropico e sua variacao temporal",
-         "Unidade": "% / pp", "Categoria": "Premiacao"},
-        {"#": 9, "Indice": "Shannon", "Descricao": "Indice de diversidade de uso do solo (entropia de Shannon)",
-         "Unidade": "adimensional", "Categoria": "Diagnostico"},
-        {"#": 10, "Indice": "Eficiencia de Regeneracao", "Descricao": "Razao entre area regenerada e area desmatada",
-         "Unidade": "adimensional", "Categoria": "Diagnostico"},
-        {"#": 11, "Indice": "Saldo Veg. Nativa", "Descricao": "Conversao liquida entre vegetacao nativa e uso antropico",
-         "Unidade": "ha", "Categoria": "Diagnostico"},
-        {"#": 12, "Indice": "Variacao Agropecuaria", "Descricao": "Mudanca na area agropecuaria (pastagem + agricultura + mosaico)",
-         "Unidade": "ha / %", "Categoria": "Diagnostico"},
-        {"#": 13, "Indice": "Desmatamento Recente", "Descricao": "Vegetacao nativa convertida em uso antropico (2020-2023)",
-         "Unidade": "ha / ha/ano", "Categoria": "Premiacao"},
-        {"#": 14, "Indice": "Variacao Agua", "Descricao": "Mudanca em corpos d'agua entre 1985 e 2023",
-         "Unidade": "ha", "Categoria": "Diagnostico"},
+        {"#": 1, "Indice": "ICV 2023",
+         "Descricao": "% de cobertura vegetal nativa (floresta + veg. nao florestal) em 2023",
+         "Unidade": "%"},
+        {"#": 2, "Indice": "Variacao Veg. Nativa",
+         "Descricao": "Mudanca absoluta e relativa da vegetacao nativa (1985-2023)",
+         "Unidade": "ha / %"},
+        {"#": 3, "Indice": "Recuperacao Florestal",
+         "Descricao": "Aumento de area florestal entre 2010 e 2023",
+         "Unidade": "ha / ha/ano"},
+        {"#": 4, "Indice": "Pasto -> Mata",
+         "Descricao": "Area de pastagem convertida em floresta (regeneracao)",
+         "Unidade": "ha"},
+        {"#": 5, "Indice": "Mata -> Pasto",
+         "Descricao": "Area de floresta convertida em pastagem (desmatamento)",
+         "Unidade": "ha"},
+        {"#": 6, "Indice": "Saldo Florestal",
+         "Descricao": "Regeneracao menos desmatamento (valor liquido)",
+         "Unidade": "ha"},
+        {"#": 7, "Indice": "Crescimento Urbano",
+         "Descricao": "Expansao da area urbana entre 1985 e 2023",
+         "Unidade": "ha / %"},
+        {"#": 8, "Indice": "Pressao Antropica",
+         "Descricao": "% da area com uso antropico e sua variacao temporal",
+         "Unidade": "% / pp"},
+        {"#": 9, "Indice": "Shannon",
+         "Descricao": "Indice de diversidade de uso do solo (entropia de Shannon)",
+         "Unidade": "adimensional"},
+        {"#": 10, "Indice": "Eficiencia de Regeneracao",
+         "Descricao": "Razao entre area regenerada e area desmatada",
+         "Unidade": "adimensional"},
+        {"#": 11, "Indice": "Saldo Veg. Nativa",
+         "Descricao": "Conversao liquida entre vegetacao nativa e uso antropico",
+         "Unidade": "ha"},
+        {"#": 12, "Indice": "Variacao Agropecuaria",
+         "Descricao": "Mudanca na area agropecuaria (pastagem + agricultura + mosaico)",
+         "Unidade": "ha / %"},
+        {"#": 13, "Indice": "Desmatamento Recente",
+         "Descricao": "Vegetacao nativa convertida em uso antropico (2020-2023)",
+         "Unidade": "ha / ha/ano"},
+        {"#": 14, "Indice": "Variacao Agua",
+         "Descricao": "Mudanca em corpos d'agua entre 1985 e 2023",
+         "Unidade": "ha"},
     ])
     st.dataframe(indices_df, use_container_width=True, hide_index=True)
 
     st.markdown("""
 ---
 
-## 5. Score Ambiental Composto
+## 5. Posicao Relativa na Bacia (Normalizacao Min-Max)
 
-O ranking geral utiliza **6 dos 14 indicadores**, combinados em um score ponderado de 0 a 100:
-""")
-
-    score_df = pd.DataFrame([
-        {"Componente": "Cobertura Vegetal Nativa (ICV 2023)", "Peso": "20%",
-         "Logica": "Maior cobertura = maior score"},
-        {"Componente": "Recuperacao Florestal (2010-2023)", "Peso": "20%",
-         "Logica": "Maior ganho de floresta = maior score"},
-        {"Componente": "Regeneracao Pasto -> Mata (2010-2020)", "Peso": "15%",
-         "Logica": "Maior conversao de pasto em mata = maior score"},
-        {"Componente": "Saldo Florestal (2010-2020)", "Peso": "15%",
-         "Logica": "Maior saldo liquido positivo = maior score"},
-        {"Componente": "Variacao Pressao Antropica (1985-2023)", "Peso": "15%",
-         "Logica": "INVERTIDO — menor aumento de pressao = maior score"},
-        {"Componente": "Desmatamento Recente (2020-2023)", "Peso": "15%",
-         "Logica": "INVERTIDO — menos desmatamento = maior score"},
-    ])
-    st.dataframe(score_df, use_container_width=True, hide_index=True)
-
-    st.markdown("""
-### Normalizacao
-
-Cada indicador e normalizado pelo metodo **Min-Max** entre os 19 municipios da RH3:
+Para facilitar a leitura comparativa **descritiva** (sem juizo de valor), o painel
+expressa alguns indicadores em uma escala de 0 a 100 que representa a **posicao
+relativa do municipio na distribuicao da RH3**. Essa normalizacao alimenta o radar
+do *Perfil Municipal* e nao deve ser interpretada como score de desempenho.
 
 ```
-Score = (valor - minimo) / (maximo - minimo) x 100
+Posicao = (valor - minimo) / (maximo - minimo) x 100
 ```
 
-Para indicadores **invertidos** (pressao antropica e desmatamento), aplica-se:
+Para indicadores em que **menor e melhor do ponto de vista ambiental** (variacao da
+pressao antropica e desmatamento recente), a escala e invertida:
 
 ```
-Score = 100 - Score_normalizado
+Posicao = 100 - Posicao_normalizada
 ```
 
-Assim, municipios com **menor** pressao/desmatamento recebem **maior** score.
+Assim, valores proximos de 100 indicam que o municipio esta no extremo da bacia
+para aquele indicador — **o que importa e o conjunto**, nao o numero isolado.
 
-### Formula Final
+| Indicador | Direcao da escala |
+|-----------|-------------------|
+| Cobertura Vegetal Nativa (ICV 2023) | Direta (maior valor -> 100) |
+| Recuperacao Florestal (2010-2023) | Direta |
+| Regeneracao Pasto -> Mata (2010-2020) | Direta |
+| Saldo Florestal (2010-2020) | Direta |
+| Variacao Pressao Antropica (1985-2023) | Invertida |
+| Desmatamento Recente (2020-2023) | Invertida |
 
-```
-Score Ambiental = 0.20 x Cobertura + 0.20 x Recuperacao + 0.15 x Regeneracao
-                + 0.15 x Saldo + 0.15 x Pressao (inv.) + 0.15 x Desmatamento (inv.)
-```
+> **Observacao:** o painel nao agrega esses valores em um indice composto. A leitura
+> deve ser feita indicador a indicador, considerando o contexto territorial de cada
+> municipio (tamanho da porcao na RH3, vocacao economica, historico de ocupacao).
 
 ---
 
