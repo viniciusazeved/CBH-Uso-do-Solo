@@ -560,7 +560,7 @@ elif pagina == "🛰️ Cobertura LULC 1985 vs 2023":
         )
 
         # Limite RH3 em GeoJSON (overlay vetorial)
-        rh3_limite_geojson = json.loads(gdf.geometry.union_all().__geo_interface__)
+        rh3_limite_geojson = gdf.geometry.union_all().__geo_interface__
 
         def _criar_mapa(ano, key_suffix):
             png_path = img_1985 if ano == 1985 else img_2023
