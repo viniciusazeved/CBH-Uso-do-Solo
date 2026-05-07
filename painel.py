@@ -227,6 +227,10 @@ pagina = st.sidebar.radio(
 )
 
 st.sidebar.divider()
+st.sidebar.info(
+    "**Versao Diagnostico.** Existe tambem a versao Ranking (com pontuacao composta) em "
+    "[cbh-uso-do-solo-ranking.streamlit.app](https://cbh-uso-do-solo-ranking.streamlit.app)."
+)
 
 with st.sidebar.expander("📖 Glossario", expanded=False):
     st.markdown("""
