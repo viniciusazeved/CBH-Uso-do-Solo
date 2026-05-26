@@ -12,6 +12,7 @@ import folium
 from streamlit_folium import st_folium
 import numpy as np
 import json
+from pathlib import Path
 
 
 def fmt_br(valor, decimais=0, sinal=False):
@@ -68,11 +69,17 @@ NOMES_CLASSES = {
 
 INDICADORES_MAPA = {
     "ICV_2023_pct": "Cobertura Vegetal Nativa 2023 (%)",
+    "persistencia_florestal_pct": "Persistencia Florestal 1985-2023 (%)",
+    "estabilidade_uso_pct": "Estabilidade do Uso 1985-2023 (%)",
     "recup_florestal_2010_2023_ha": "Recuperacao Florestal 2010-2023 (ha)",
-    "saldo_florestal_total_ha": "Saldo Florestal 1985-2023 (ha)",
-    "pressao_antropica_2023_pct": "Pressao Antropica 2023 (%)",
-    "variacao_veg_pct": "Variacao Veg. Nativa 1985-2023 (%)",
+    "pasto_para_mata_recente_ha": "Regeneracao Pasto->Mata 2010-2020 (ha)",
+    "variacao_veg_ha": "Saldo Liquido Veg. Nativa 1985-2023 (ha)",
     "desmatamento_recente_ha": "Desmatamento Recente 2020-2023 (ha)",
+    "variacao_pressao_antropica_pp": "Variacao Pressao Antropica 1985-2023 (pp)",
+    "maior_fragmento_florestal_ha": "Maior Fragmento Florestal 2023 (ha)",
+    "densidade_fragmentos_por_kha": "Densidade de Fragmentos (n/1000 ha)",
+    "saldo_florestal_total_ha": "Saldo Florestal Transicoes 1985-2023 (ha)",
+    "pressao_antropica_2023_pct": "Pressao Antropica 2023 (%)",
     "cresc_urbano_ha": "Crescimento Urbano 1985-2023 (ha)",
     "shannon_2023": "Diversidade de Uso (Shannon)",
     "area_total_na_rh3_ha": "Area Total na RH3 (ha)",
@@ -112,24 +119,58 @@ def _normalizar(serie, inverter=False):
     return (100 - n) if inverter else n
 
 
+# ============================================================================
+#  SCORE COMPOSTO v2 — 10 INDICADORES EM 4 BLOCOS
+#
+#  Bloco 1 — Cobertura e Estabilidade (30%)
+#    1. Cobertura Vegetal Nativa 2023        — 15%
+#    2. Persistencia Florestal 1985-2023     — 8%
+#    3. Estabilidade do Uso 1985-2023        — 7%
+#  Bloco 2 — Dinamica Positiva (25%)
+#    4. Recuperacao Florestal 2010-2023      — 12%
+#    5. Regeneracao Pasto->Mata 2010-2020    — 8%
+#    6. Saldo Liquido Veg. Nativa 1985-2023  — 5%
+#  Bloco 3 — Dinamica Negativa Invertida (25%)
+#    7. Desmatamento Recente 2020-2023       — 12% (invertido)
+#    8. Variacao Pressao Antropica           — 13% (invertido)
+#  Bloco 4 — Estrutura da Paisagem (20%)
+#    9. Maior Fragmento Florestal 2023       — 12%
+#   10. Densidade de Fragmentos              — 8% (invertido)
+# ============================================================================
+
+SCORE_PESOS = {
+    "score_cobertura":         0.15,
+    "score_persistencia":      0.08,
+    "score_estabilidade":      0.07,
+    "score_recuperacao":       0.12,
+    "score_regeneracao":       0.08,
+    "score_saldo_longo":       0.05,
+    "score_desmatamento":      0.12,
+    "score_pressao":           0.13,
+    "score_maior_fragmento":   0.12,
+    "score_densidade_frag":    0.08,
+}
+
+# Mapeamento score_col -> (coluna_origem, invertido, label_curto, bloco)
+SCORE_DEF = [
+    ("score_cobertura",       "ICV_2023_pct",                  False, "Cobertura Vegetal", "Cobertura e Estabilidade"),
+    ("score_persistencia",    "persistencia_florestal_pct",    False, "Persistencia Florestal", "Cobertura e Estabilidade"),
+    ("score_estabilidade",    "estabilidade_uso_pct",          False, "Estabilidade do Uso", "Cobertura e Estabilidade"),
+    ("score_recuperacao",     "recup_florestal_2010_2023_ha",  False, "Recuperacao Florestal", "Dinamica Positiva"),
+    ("score_regeneracao",     "pasto_para_mata_recente_ha",    False, "Regeneracao Pasto->Mata", "Dinamica Positiva"),
+    ("score_saldo_longo",     "variacao_veg_ha",               False, "Saldo Liquido 1985-2023", "Dinamica Positiva"),
+    ("score_desmatamento",    "desmatamento_recente_ha",       True,  "Desmatamento Recente", "Dinamica Negativa"),
+    ("score_pressao",         "variacao_pressao_antropica_pp", True,  "Pressao Antropica", "Dinamica Negativa"),
+    ("score_maior_fragmento", "maior_fragmento_florestal_ha",  False, "Maior Fragmento", "Estrutura da Paisagem"),
+    ("score_densidade_frag",  "densidade_fragmentos_por_kha",  True,  "Densidade de Fragmentos", "Estrutura da Paisagem"),
+]
+
+
 def calcular_scores(df_idx):
     df = df_idx.copy()
-    df["score_cobertura"] = _normalizar(df["ICV_2023_pct"])
-    df["score_recuperacao"] = _normalizar(df["recup_florestal_2010_2023_ha"])
-    df["score_regeneracao"] = _normalizar(df["pasto_para_mata_recente_ha"])
-    df["score_saldo"] = _normalizar(df["saldo_florestal_recente_ha"])
-    df["score_pressao"] = _normalizar(df["variacao_pressao_antropica_pp"], inverter=True)
-    df["score_desmatamento"] = _normalizar(df["desmatamento_recente_ha"], inverter=True)
-
-    pesos = {
-        "score_cobertura": 0.20,
-        "score_recuperacao": 0.20,
-        "score_regeneracao": 0.15,
-        "score_saldo": 0.15,
-        "score_pressao": 0.15,
-        "score_desmatamento": 0.15,
-    }
-    df["score_ambiental"] = sum(df[col] * peso for col, peso in pesos.items())
+    for score_col, src_col, inverter, _, _ in SCORE_DEF:
+        df[score_col] = _normalizar(df[src_col], inverter=inverter)
+    df["score_ambiental"] = sum(df[col] * peso for col, peso in SCORE_PESOS.items())
     return df
 
 
@@ -153,8 +194,8 @@ st.sidebar.divider()
 pagina = st.sidebar.radio(
     "Navegacao",
     ["🏆 Ranking Geral", "🏅 Rankings por Categoria", "🗺️ Mapa Interativo",
-     "📊 Evolucao Temporal", "🔄 Transicoes", "🏙️ Perfil Municipal",
-     "📐 Metodologia"],
+     "🛰️ Mapa LULC 1985 vs 2023", "📊 Evolucao Temporal", "🔄 Transicoes",
+     "🏙️ Perfil Municipal", "📐 Metodologia"],
     index=0,
 )
 
@@ -189,31 +230,51 @@ if pagina == "🏆 Ranking Geral":
     # Parametros avaliados
     st.subheader("Parametros Avaliados")
     st.markdown("""
-O **Score Ambiental Composto** e calculado a partir de **6 indicadores**, cada um normalizado de 0 a 100
-e ponderado conforme sua relevancia para a conservacao ambiental na bacia:
+O **Score Ambiental Composto** combina **10 indicadores** em **4 blocos tematicos**.
+Cada indicador e normalizado de 0 a 100 (Min-Max entre os 19 municipios) e ponderado
+conforme sua relevancia para a conservacao ambiental na bacia.
 """)
 
     param_col1, param_col2 = st.columns(2)
     with param_col1:
         st.markdown("""
+**Bloco 1 — Cobertura e Estabilidade (30%)**
+
 | # | Indicador | Peso | O que mede |
 |:-:|-----------|:----:|------------|
-| 1 | **Cobertura Vegetal Nativa** | 20% | % da area coberta por vegetacao nativa em 2023 |
-| 2 | **Recuperacao Florestal** | 20% | Ganho de area florestal entre 2010 e 2023 (ha) |
-| 3 | **Regeneracao (Pasto -> Mata)** | 15% | Area de pastagem convertida em floresta (2010-2020) |
+| 1 | **Cobertura Vegetal Nativa** | 15% | % de vegetacao nativa em 2023 |
+| 2 | **Persistencia Florestal** | 8% | % que foi floresta em TODOS os 9 anos-marco (1985-2023) |
+| 3 | **Estabilidade do Uso** | 7% | % com a MESMA classe LULC em 1985 e 2023 |
+
+**Bloco 2 — Dinamica Positiva (25%)**
+
+| # | Indicador | Peso | O que mede |
+|:-:|-----------|:----:|------------|
+| 4 | **Recuperacao Florestal** | 12% | Ganho de area florestal 2010-2023 (ha) |
+| 5 | **Regeneracao Pasto -> Mata** | 8% | Pastagem convertida em floresta 2010-2020 (ha) |
+| 6 | **Saldo Liquido 1985-2023** | 5% | Variacao absoluta de veg. nativa em 38 anos (ha) |
 """)
     with param_col2:
         st.markdown("""
+**Bloco 3 — Dinamica Negativa Invertida (25%)**
+
 | # | Indicador | Peso | O que mede |
 |:-:|-----------|:----:|------------|
-| 4 | **Saldo Florestal** | 15% | Regeneracao menos desmatamento (liquido, 2010-2020) |
-| 5 | **Pressao Antropica** | 15% | Variacao da pressao antropica 1985-2023 (invertido) |
-| 6 | **Desmatamento Recente** | 15% | Area desmatada 2020-2023 (invertido — menos = melhor) |
+| 7 | **Desmatamento Recente** | 12% | Area desmatada 2020-2023 (invertido) |
+| 8 | **Pressao Antropica** | 13% | Variacao da pressao antropica 1985-2023 (invertido) |
+
+**Bloco 4 — Estrutura da Paisagem (20%)**
+
+| # | Indicador | Peso | O que mede |
+|:-:|-----------|:----:|------------|
+| 9 | **Maior Fragmento Florestal** | 12% | Tamanho do maior remanescente continuo (ha) |
+| 10 | **Densidade de Fragmentos** | 8% | Numero de patches por 1000 ha (invertido) |
 """)
 
     st.info("""
 **Normalizacao:** Cada indicador e normalizado pelo metodo Min-Max (0-100) entre os 19 municipios.
-Para indicadores negativos (pressao antropica e desmatamento), a escala e invertida: menor valor = maior score.
+Para indicadores **invertidos** (Desmatamento, Pressao e Densidade de Fragmentos), a escala e invertida:
+menor valor observado = maior score. Score final = soma ponderada dos 10 indices.
 """)
 
     st.divider()
@@ -248,29 +309,46 @@ Para indicadores negativos (pressao antropica e desmatamento), a escala e invert
 
     # Detalhamento dos scores
     st.subheader("Composicao do Score por Municipio")
+    st.caption("Cada barra mostra a contribuicao dos 10 indices (ja ponderados) que somam o score final.")
 
-    score_cols = ["score_cobertura", "score_recuperacao", "score_regeneracao",
-                  "score_saldo", "score_pressao", "score_desmatamento"]
-    score_labels = ["Cobertura Vegetal", "Recuperacao Florestal", "Regeneracao",
-                    "Saldo Florestal", "Pressao Antropica", "Desmatamento Recente"]
+    # Empilhado com 10 componentes (ja multiplicados pelos pesos = contribuicao real)
+    rank_stack = rank.copy()
+    for score_col, _, _, _, _ in SCORE_DEF:
+        rank_stack[f"contrib_{score_col}"] = rank_stack[score_col] * SCORE_PESOS[score_col]
+
+    # Paleta por bloco
+    cores_bloco = {
+        "Cobertura e Estabilidade": ["#1f8d49", "#2ea860", "#4cc377"],
+        "Dinamica Positiva":        ["#7dc975", "#a8d96f", "#c5e09f"],
+        "Dinamica Negativa":        ["#d4271e", "#e15c50"],
+        "Estrutura da Paisagem":    ["#7a5900", "#a8731d"],
+    }
+    bloco_counter = {b: 0 for b in cores_bloco}
 
     fig2 = go.Figure()
-    for col, label in zip(score_cols, score_labels):
+    for score_col, _, _, label, bloco in SCORE_DEF:
+        idx_cor = bloco_counter[bloco]
+        cor = cores_bloco[bloco][idx_cor]
+        bloco_counter[bloco] += 1
         fig2.add_trace(go.Bar(
-            y=rank["municipio"],
-            x=rank[col],
-            name=label,
+            y=rank_stack["municipio"],
+            x=rank_stack[f"contrib_{score_col}"],
+            name=f"{label} ({int(SCORE_PESOS[score_col]*100)}%)",
             orientation="h",
-            hovertemplate=f"<b>%{{y}}</b><br>{label}: %{{x:.1f}}<extra></extra>",
+            marker_color=cor,
+            hovertemplate=(f"<b>%{{y}}</b><br>{label}<br>"
+                           f"Score: %{{customdata:.1f}}<br>"
+                           f"Contribuicao: %{{x:.1f}}<extra></extra>"),
+            customdata=rank_stack[score_col],
         ))
 
     fig2.update_layout(
-        barmode="group",
-        height=max(600, len(rank) * 40),
+        barmode="stack",
+        height=max(600, len(rank_stack) * 38),
         yaxis=dict(autorange="reversed", title=""),
-        xaxis=dict(title="Score (0-100)"),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        margin=dict(l=200, r=50, t=60, b=40),
+        xaxis=dict(title="Contribuicao ponderada (soma = score final, max=100)", range=[0, 105]),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5, font=dict(size=10)),
+        margin=dict(l=200, r=50, t=80, b=40),
     )
     st.plotly_chart(fig2, use_container_width=True)
 
@@ -292,27 +370,44 @@ elif pagina == "🏅 Rankings por Categoria":
     st.caption("Cada categoria classifica os 19 municipios da RH3 por um indicador especifico — sem peso composto.")
 
     RANKINGS = [
+        # Bloco — Cobertura e Estabilidade
         {"label": "🌳 Municipio mais verde (Cobertura Vegetal Nativa 2023)",
          "coluna": "ICV_2023_pct", "unidade": "%", "ordem": "desc",
          "decimais": 1, "cor": "#1f8d49"},
+        {"label": "🌲 Maior Persistencia Florestal (1985-2023, %)",
+         "coluna": "persistencia_florestal_pct", "unidade": "%", "ordem": "desc",
+         "decimais": 1, "cor": "#1f8d49"},
+        {"label": "📌 Maior Estabilidade do Uso (1985 vs 2023, %)",
+         "coluna": "estabilidade_uso_pct", "unidade": "%", "ordem": "desc",
+         "decimais": 1, "cor": "#2ea860"},
+        # Bloco — Dinamica Positiva
         {"label": "🌱 Maior Recuperacao Florestal (2010-2023)",
          "coluna": "recup_florestal_2010_2023_ha", "unidade": "ha", "ordem": "desc",
          "decimais": 0, "cor": "#1f8d49"},
-        {"label": "🔄 Maior Regeneracao (Pasto -> Mata, 1985-2023)",
-         "coluna": "pasto_para_mata_total_ha", "unidade": "ha", "ordem": "desc",
+        {"label": "🔄 Maior Regeneracao Pasto -> Mata (2010-2020)",
+         "coluna": "pasto_para_mata_recente_ha", "unidade": "ha", "ordem": "desc",
          "decimais": 0, "cor": "#7dc975"},
-        {"label": "✅ Melhor Saldo Florestal (1985-2023)",
-         "coluna": "saldo_florestal_total_ha", "unidade": "ha", "ordem": "desc",
+        {"label": "📈 Maior Saldo Liquido de Vegetacao Nativa (1985-2023)",
+         "coluna": "variacao_veg_ha", "unidade": "ha", "ordem": "desc",
          "decimais": 0, "cor": "#1f8d49"},
+        # Bloco — Dinamica Negativa (invertidos no ranking)
         {"label": "🛡️ Menor Pressao Antropica (2023)",
          "coluna": "pressao_antropica_2023_pct", "unidade": "%", "ordem": "asc",
          "decimais": 1, "cor": "#7dc975"},
-        {"label": "🌲 Menor Desmatamento Recente (2020-2023)",
+        {"label": "⏳ Menor Desmatamento Recente (2020-2023)",
          "coluna": "desmatamento_recente_ha", "unidade": "ha", "ordem": "asc",
          "decimais": 0, "cor": "#7dc975"},
-        {"label": "📈 Maior Variacao Historica de Vegetacao (1985-2023)",
-         "coluna": "variacao_veg_pct", "unidade": "%", "ordem": "desc",
-         "decimais": 1, "cor": "#1f8d49"},
+        # Bloco — Estrutura da Paisagem
+        {"label": "🌲 Maior Fragmento Florestal Continuo (2023)",
+         "coluna": "maior_fragmento_florestal_ha", "unidade": "ha", "ordem": "desc",
+         "decimais": 0, "cor": "#1f8d49"},
+        {"label": "🧩 Menor Fragmentacao (densidade de patches)",
+         "coluna": "densidade_fragmentos_por_kha", "unidade": "/kha", "ordem": "asc",
+         "decimais": 2, "cor": "#7dc975"},
+        # Outros — diagnostico complementar
+        {"label": "✅ Melhor Saldo Florestal por Transicoes (1985-2023)",
+         "coluna": "saldo_florestal_total_ha", "unidade": "ha", "ordem": "desc",
+         "decimais": 0, "cor": "#1f8d49"},
         {"label": "🏙️ Menor Crescimento Urbano (1985-2023)",
          "coluna": "cresc_urbano_ha", "unidade": "ha", "ordem": "asc",
          "decimais": 0, "cor": "#7dc975"},
@@ -464,6 +559,120 @@ elif pagina == "🗺️ Mapa Interativo":
         bot5 = df_idx.nsmallest(5, indicador)[["municipio", indicador]].reset_index(drop=True)
         bot5.index = bot5.index + 1
         st.dataframe(bot5, use_container_width=True)
+
+
+# =============================================================================
+#  PAGINA: MAPA LULC 1985 vs 2023 (raster MapBiomas)
+# =============================================================================
+
+elif pagina == "🛰️ Mapa LULC 1985 vs 2023":
+    st.title("🛰️ Mapa LULC 1985 vs 2023")
+    st.caption(
+        "Classificacao MapBiomas Colecao 9 clipada pela RH3. "
+        "Imagens pre-renderizadas (resolucao ~30 m, exportadas via Google Earth Engine)."
+    )
+
+    bbox_path = Path("output/mapas/bbox.json")
+    img_1985 = Path("output/mapas/lulc_1985.png")
+    img_2023 = Path("output/mapas/lulc_2023.png")
+
+    if not (bbox_path.exists() and img_1985.exists() and img_2023.exists()):
+        st.error(
+            "Arquivos de mapa nao encontrados em output/mapas/. "
+            "Execute `python gerar_mapas_lulc.py` para gera-los (requer auth GEE)."
+        )
+    else:
+        bbox = json.loads(bbox_path.read_text())
+        bounds_folium = [[bbox["south"], bbox["west"]], [bbox["north"], bbox["east"]]]
+        center_lat = (bbox["south"] + bbox["north"]) / 2
+        center_lon = (bbox["west"] + bbox["east"]) / 2
+
+        # Legenda HTML compacta com as classes mais relevantes da bacia
+        LEGENDA_CLASSES = [
+            ("Floresta", "#1f8d49"),
+            ("Veg. Nao Florestal", "#d6bc74"),
+            ("Silvicultura", "#7a5900"),
+            ("Pastagem", "#edde8e"),
+            ("Agricultura", "#e974ed"),
+            ("Mosaico Agropecuario", "#ffefc3"),
+            ("Area Urbana", "#d4271e"),
+            ("Mineracao", "#9c0027"),
+            ("Agua", "#0000ff"),
+        ]
+        itens_legenda = "".join(
+            f"<div style='display:flex;align-items:center;margin:2px 0'>"
+            f"<span style='display:inline-block;width:14px;height:14px;background:{c};margin-right:6px;border:1px solid #555'></span>"
+            f"<span style='font-size:12px'>{n}</span></div>"
+            for n, c in LEGENDA_CLASSES
+        )
+        legenda_html = (
+            "<div style='background:rgba(255,255,255,0.92);padding:8px;border:1px solid #999;border-radius:4px'>"
+            f"<b style='font-size:12px'>Classes MapBiomas</b>{itens_legenda}</div>"
+        )
+
+        modo = st.radio(
+            "Visualizacao:",
+            ["Comparar (1985 + 2023)", "Slider — alternar ano"],
+            horizontal=True,
+        )
+
+        # Limite RH3 em GeoJSON (overlay vetorial) — uniao das geometrias municipais clipadas
+        rh3_limite_geojson = gdf.geometry.union_all().__geo_interface__
+
+        def _criar_mapa_lulc(ano):
+            png_path = img_1985 if ano == 1985 else img_2023
+            m = folium.Map(
+                location=[center_lat, center_lon],
+                zoom_start=9,
+                tiles="cartodbpositron",
+                control_scale=True,
+            )
+            folium.raster_layers.ImageOverlay(
+                name=f"MapBiomas {ano}",
+                image=str(png_path),
+                bounds=bounds_folium,
+                opacity=0.85,
+                interactive=False,
+                cross_origin=False,
+                zindex=1,
+            ).add_to(m)
+            folium.GeoJson(
+                rh3_limite_geojson,
+                name="Limite RH3",
+                style_function=lambda x: {
+                    "fillOpacity": 0,
+                    "color": "#222",
+                    "weight": 2,
+                },
+            ).add_to(m)
+            folium.LayerControl(collapsed=True).add_to(m)
+            return m
+
+        if modo == "Comparar (1985 + 2023)":
+            col1, col2 = st.columns(2)
+            with col1:
+                st.markdown("**1985**")
+                st_folium(_criar_mapa_lulc(1985), height=520, width=None,
+                          returned_objects=[], key="mapa_lulc_rk_1985")
+            with col2:
+                st.markdown("**2023**")
+                st_folium(_criar_mapa_lulc(2023), height=520, width=None,
+                          returned_objects=[], key="mapa_lulc_rk_2023")
+            st.markdown(legenda_html, unsafe_allow_html=True)
+        else:
+            ano_sel = st.select_slider("Ano:", options=bbox["anos"], value=bbox["anos"][-1])
+            map_col, leg_col = st.columns([4, 1])
+            with map_col:
+                st_folium(_criar_mapa_lulc(ano_sel), height=600, width=None,
+                          returned_objects=[], key=f"mapa_lulc_rk_slider_{ano_sel}")
+            with leg_col:
+                st.markdown(legenda_html, unsafe_allow_html=True)
+
+        st.info(
+            "**Interpretacao:** observe a expansao das areas urbanas (vermelho), a alternancia "
+            "entre pastagem (amarelo claro) e floresta (verde escuro) ao longo dos vales, "
+            "e a recuperacao florestal nas encostas mais acidentadas das porcoes nordeste e leste da bacia."
+        )
 
 
 # =============================================================================
@@ -677,10 +886,10 @@ elif pagina == "🏙️ Perfil Municipal":
     # Radar
     with col_left:
         st.subheader("Radar de Desempenho (0-100)")
-        categorias = ["Cobertura\nVegetal", "Recuperacao\nFlorestal", "Regeneracao",
-                      "Saldo\nFlorestal", "Pressao\nAntropica", "Desmatamento\nRecente"]
-        cols_score = ["score_cobertura", "score_recuperacao", "score_regeneracao",
-                      "score_saldo", "score_pressao", "score_desmatamento"]
+        st.caption("10 eixos = 10 indicadores do Score Composto. Ordem segue a sequencia dos blocos tematicos.")
+
+        cols_score = [d[0] for d in SCORE_DEF]
+        categorias = [d[3].replace(" ", "<br>") for d in SCORE_DEF]
         valores_a = [row_score[c] for c in cols_score]
         categorias_r = categorias + [categorias[0]]
         valores_a_r = valores_a + [valores_a[0]]
@@ -700,8 +909,9 @@ elif pagina == "🏙️ Perfil Municipal":
                 line=dict(color="#a020f0", width=2), name=mun_b,
             ))
         fig.update_layout(
-            polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
-            height=420, margin=dict(l=60, r=60, t=40, b=40),
+            polar=dict(radialaxis=dict(visible=True, range=[0, 100]),
+                       angularaxis=dict(tickfont=dict(size=9))),
+            height=480, margin=dict(l=80, r=80, t=40, b=40),
             legend=dict(orientation="h", yanchor="bottom", y=-0.15, xanchor="center", x=0.5),
         )
         st.plotly_chart(fig, use_container_width=True)
@@ -748,17 +958,23 @@ elif pagina == "🏙️ Perfil Municipal":
 
     if mun_b:
         indicadores_comp = [
+            ("Cobertura Vegetal Nativa 2023 (%)", "ICV_2023_pct", 1, False),
+            ("Persistencia Florestal 1985-2023 (%)", "persistencia_florestal_pct", 1, False),
+            ("Estabilidade do Uso 1985-2023 (%)", "estabilidade_uso_pct", 1, False),
             ("Variacao Veg. Nativa 1985-2023 (ha)", "variacao_veg_ha", 0, True),
             ("Variacao Veg. Nativa 1985-2023 (%)", "variacao_veg_pct", 1, True),
             ("Recuperacao Florestal 2010-2023 (ha)", "recup_florestal_2010_2023_ha", 0, True),
             ("Taxa Recuperacao (ha/ano)", "taxa_recup_florestal_ha_ano", 1, True),
-            ("Pasto -> Mata total (ha)", "pasto_para_mata_total_ha", 0, False),
+            ("Pasto -> Mata recente (ha)", "pasto_para_mata_recente_ha", 0, False),
             ("Mata -> Pasto total (ha)", "mata_para_pasto_total_ha", 0, False),
             ("Saldo Florestal 1985-2023 (ha)", "saldo_florestal_total_ha", 0, True),
             ("Pressao Antropica 2023 (%)", "pressao_antropica_2023_pct", 1, False),
             ("Variacao Pressao 1985-2023 (pp)", "variacao_pressao_antropica_pp", 1, True),
             ("Crescimento Urbano (ha)", "cresc_urbano_ha", 0, True),
             ("Desmatamento Recente 2020-23 (ha)", "desmatamento_recente_ha", 0, False),
+            ("Maior Fragmento Florestal (ha)", "maior_fragmento_florestal_ha", 0, False),
+            ("Num. de Fragmentos Florestais", "num_fragmentos_florestais", 0, False),
+            ("Densidade de Fragmentos (n/1000 ha)", "densidade_fragmentos_por_kha", 2, False),
         ]
         rows = []
         for label, col, dec, com_sinal in indicadores_comp:
@@ -769,29 +985,33 @@ elif pagina == "🏙️ Perfil Municipal":
             })
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True, height=420)
     else:
-        col1, col2, col3 = st.columns(3)
+        col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.markdown("**Vegetacao Nativa**")
+            st.markdown("**Cobertura e Estabilidade**")
+            st.metric("Cobertura Veg. Nativa 2023", f"{fmt_br(row['ICV_2023_pct'], 1)}%")
+            st.metric("Persistencia Florestal", f"{fmt_br(row['persistencia_florestal_pct'], 1)}%",
+                      help="% que foi floresta em todos os 9 anos-marco entre 1985 e 2023")
+            st.metric("Estabilidade do Uso", f"{fmt_br(row['estabilidade_uso_pct'], 1)}%",
+                      help="% com a mesma classe LULC em 1985 e 2023")
+        with col2:
+            st.markdown("**Dinamica Positiva**")
             delta_veg = row["variacao_veg_ha"]
-            st.metric("Variacao 1985-2023", f"{fmt_br(delta_veg, sinal=True)} ha",
+            st.metric("Saldo Liquido 1985-2023", f"{fmt_br(delta_veg, sinal=True)} ha",
                       delta=f"{fmt_br(row['variacao_veg_pct'], 1, sinal=True)}%",
                       delta_color="normal" if delta_veg >= 0 else "inverse")
-            st.metric("Recuperacao Florestal 2010-2023",
-                      f"{fmt_br(row['recup_florestal_2010_2023_ha'], sinal=True)} ha")
-            st.metric("Taxa Recuperacao", f"{fmt_br(row['taxa_recup_florestal_ha_ano'], 1, sinal=True)} ha/ano")
-        with col2:
-            st.markdown("**Transicoes**")
-            st.metric("Pasto -> Mata (total)", f"{fmt_br(row['pasto_para_mata_total_ha'])} ha")
-            st.metric("Mata -> Pasto (total)", f"{fmt_br(row['mata_para_pasto_total_ha'])} ha")
-            saldo = row["saldo_florestal_total_ha"]
-            st.metric("Saldo Florestal", f"{fmt_br(saldo, sinal=True)} ha",
-                      delta_color="normal" if saldo >= 0 else "inverse")
+            st.metric("Recuperacao 2010-2023", f"{fmt_br(row['recup_florestal_2010_2023_ha'], sinal=True)} ha")
+            st.metric("Pasto -> Mata recente", f"{fmt_br(row['pasto_para_mata_recente_ha'])} ha")
         with col3:
-            st.markdown("**Pressao e Urbanizacao**")
+            st.markdown("**Dinamica Negativa**")
             st.metric("Pressao Antropica 2023", f"{fmt_br(row['pressao_antropica_2023_pct'], 1)}%")
             st.metric("Var. Pressao (1985-2023)", f"{fmt_br(row['variacao_pressao_antropica_pp'], 1, sinal=True)} pp")
-            st.metric("Crescimento Urbano", f"{fmt_br(row['cresc_urbano_ha'], sinal=True)} ha")
-            st.metric("Desmatamento Recente (2020-23)", f"{fmt_br(row['desmatamento_recente_ha'])} ha")
+            st.metric("Desmatamento Recente", f"{fmt_br(row['desmatamento_recente_ha'])} ha")
+        with col4:
+            st.markdown("**Estrutura da Paisagem**")
+            st.metric("Maior Fragmento Florestal", f"{fmt_br(row['maior_fragmento_florestal_ha'])} ha")
+            st.metric("Num. de Fragmentos", f"{fmt_br(row['num_fragmentos_florestais'])}")
+            st.metric("Densidade de Fragmentos", f"{fmt_br(row['densidade_fragmentos_por_kha'], 2)}/kha",
+                      help="Numero de patches por 1000 ha — quanto MENOR, mais agregada a paisagem")
 
     # Evolucao temporal
     if mun_b:
@@ -919,28 +1139,46 @@ Toda a analise considera apenas a **porcao do municipio dentro da RH3**.
     st.markdown("""
 ---
 
-## 5. Score Ambiental Composto
+## 5. Score Ambiental Composto v2 (10 indicadores)
 
-O ranking geral utiliza **6 dos 14 indicadores**, combinados em um score ponderado de 0 a 100:
+O ranking geral combina **10 indicadores** organizados em **4 blocos tematicos**, normalizados (0-100)
+e ponderados conforme sua relevancia para a conservacao ambiental na bacia.
 """)
 
     score_df = pd.DataFrame([
-        {"Componente": "Cobertura Vegetal Nativa (ICV 2023)", "Peso": "20%",
+        {"Bloco": "Cobertura e Estabilidade", "Componente": "1. Cobertura Vegetal Nativa (ICV 2023)", "Peso": "15%",
          "Logica": "Maior cobertura = maior score"},
-        {"Componente": "Recuperacao Florestal (2010-2023)", "Peso": "20%",
+        {"Bloco": "Cobertura e Estabilidade", "Componente": "2. Persistencia Florestal 1985-2023", "Peso": "8%",
+         "Logica": "Maior area que foi floresta em TODOS os 9 anos = maior score"},
+        {"Bloco": "Cobertura e Estabilidade", "Componente": "3. Estabilidade do Uso 1985 vs 2023", "Peso": "7%",
+         "Logica": "Maior area com a mesma classe LULC nos extremos = maior score"},
+        {"Bloco": "Dinamica Positiva", "Componente": "4. Recuperacao Florestal 2010-2023", "Peso": "12%",
          "Logica": "Maior ganho de floresta = maior score"},
-        {"Componente": "Regeneracao Pasto -> Mata (2010-2020)", "Peso": "15%",
+        {"Bloco": "Dinamica Positiva", "Componente": "5. Regeneracao Pasto -> Mata 2010-2020", "Peso": "8%",
          "Logica": "Maior conversao de pasto em mata = maior score"},
-        {"Componente": "Saldo Florestal (2010-2020)", "Peso": "15%",
-         "Logica": "Maior saldo liquido positivo = maior score"},
-        {"Componente": "Variacao Pressao Antropica (1985-2023)", "Peso": "15%",
-         "Logica": "INVERTIDO — menor aumento de pressao = maior score"},
-        {"Componente": "Desmatamento Recente (2020-2023)", "Peso": "15%",
+        {"Bloco": "Dinamica Positiva", "Componente": "6. Saldo Liquido de Veg. Nativa 1985-2023", "Peso": "5%",
+         "Logica": "Maior variacao absoluta positiva em 38 anos = maior score"},
+        {"Bloco": "Dinamica Negativa", "Componente": "7. Desmatamento Recente 2020-2023", "Peso": "12%",
          "Logica": "INVERTIDO — menos desmatamento = maior score"},
+        {"Bloco": "Dinamica Negativa", "Componente": "8. Variacao Pressao Antropica 1985-2023", "Peso": "13%",
+         "Logica": "INVERTIDO — menor aumento de pressao = maior score"},
+        {"Bloco": "Estrutura da Paisagem", "Componente": "9. Maior Fragmento Florestal 2023", "Peso": "12%",
+         "Logica": "Maior remanescente continuo = maior score"},
+        {"Bloco": "Estrutura da Paisagem", "Componente": "10. Densidade de Fragmentos Florestais 2023", "Peso": "8%",
+         "Logica": "INVERTIDO — menos fragmentacao = maior score"},
     ])
     st.dataframe(score_df, use_container_width=True, hide_index=True)
 
     st.markdown("""
+### Dois Indicadores Novos Calculados Via Analise de Paisagem
+
+- **Persistencia Florestal:** sobreposicao das mascaras de floresta de 1985, 1990, 1995, 2000, 2005,
+  2010, 2015, 2020 e 2023. Pixel persistente = foi floresta em TODOS os anos. Captura conservacao
+  estavel (nao apenas recuperacao recente).
+- **Maior Fragmento e Densidade de Fragmentos:** analise de componentes conexos (`scipy.ndimage.label`,
+  8-conectividade) sobre a mascara binaria de floresta 2023, com resolucao de 30 m. O maior fragmento
+  e o maior remanescente continuo do municipio; a densidade e o numero de patches por 1000 ha.
+
 ### Normalizacao
 
 Cada indicador e normalizado pelo metodo **Min-Max** entre os 19 municipios da RH3:
@@ -949,19 +1187,19 @@ Cada indicador e normalizado pelo metodo **Min-Max** entre os 19 municipios da R
 Score = (valor - minimo) / (maximo - minimo) x 100
 ```
 
-Para indicadores **invertidos** (pressao antropica e desmatamento), aplica-se:
+Para indicadores **invertidos** (Desmatamento, Pressao e Densidade de Fragmentos), aplica-se:
 
 ```
 Score = 100 - Score_normalizado
 ```
 
-Assim, municipios com **menor** pressao/desmatamento recebem **maior** score.
-
 ### Formula Final
 
 ```
-Score Ambiental = 0.20 x Cobertura + 0.20 x Recuperacao + 0.15 x Regeneracao
-                + 0.15 x Saldo + 0.15 x Pressao (inv.) + 0.15 x Desmatamento (inv.)
+Score Ambiental = 0.15 x Cobertura  + 0.08 x Persistencia + 0.07 x Estabilidade
+                + 0.12 x Recuperacao + 0.08 x Regeneracao  + 0.05 x SaldoLongo
+                + 0.12 x Desmat.(inv) + 0.13 x Pressao(inv)
+                + 0.12 x MaiorFragmento + 0.08 x DensidadeFrag(inv)
 ```
 
 ---
