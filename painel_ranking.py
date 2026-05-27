@@ -373,50 +373,174 @@ elif pagina == "🏅 Rankings por Categoria":
         # Bloco — Cobertura e Estabilidade
         {"label": "🌳 Municipio mais verde (Cobertura Vegetal Nativa 2023)",
          "coluna": "ICV_2023_pct", "unidade": "%", "ordem": "desc",
-         "decimais": 1, "cor": "#1f8d49"},
+         "decimais": 1, "cor": "#1f8d49",
+         "descricao": (
+            "**O que mede:** percentual do territorio coberto por **vegetacao nativa em 2023** — "
+            "floresta nativa (formacao florestal, savanica, mangue, restinga arborea) somada com vegetacao "
+            "natural nao florestal (campo, area umida, restinga herbacea).\n\n"
+            "**Como e calculado:** soma das areas das classes nativas do MapBiomas 2023 dividida pela area "
+            "do municipio dentro da RH3.\n\n"
+            "**Como ler:** maior = melhor. Indicador classico do quao 'verde' o municipio e hoje, "
+            "independente da sua trajetoria historica."
+         )},
         {"label": "🌲 Maior Persistencia Florestal (1985-2023, %)",
          "coluna": "persistencia_florestal_pct", "unidade": "%", "ordem": "desc",
-         "decimais": 1, "cor": "#1f8d49"},
+         "decimais": 1, "cor": "#1f8d49",
+         "descricao": (
+            "**O que mede:** percentual do territorio que foi floresta em **TODOS os 9 anos-marco** "
+            "do MapBiomas (1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2023). Captura conservacao "
+            "historica real — area que nunca deixou de ser floresta em 38 anos.\n\n"
+            "**Como e calculado:** intersecao logica (AND) das mascaras binarias de floresta dos 9 anos. "
+            "Pixel persistente = foi floresta em todos os anos da serie.\n\n"
+            "**Como ler:** maior = melhor. Premia quem **conservou ao longo do tempo**, nao apenas quem "
+            "recuperou recentemente. Itatiaia lidera por causa do Parque Nacional e areas ingremes da Mantiqueira."
+         )},
         {"label": "📌 Maior Estabilidade do Uso (1985 vs 2023, %)",
          "coluna": "estabilidade_uso_pct", "unidade": "%", "ordem": "desc",
-         "decimais": 1, "cor": "#2ea860"},
+         "decimais": 1, "cor": "#2ea860",
+         "descricao": (
+            "**O que mede:** percentual do territorio com **a mesma classe de uso do solo em 1985 e 2023** — "
+            "qualquer classe, nao so floresta. Mede o quanto o municipio 'ficou parado' em 38 anos.\n\n"
+            "**Como e calculado:** comparacao pixel-a-pixel entre o mapa de 1985 e o de 2023; conta-se os "
+            "pixels onde a classe nao mudou.\n\n"
+            "**Como ler:** maior = paisagem mais previsivel. **Atencao:** estabilidade alta pode significar "
+            "tanto conservacao (floresta estavel) quanto antropizacao consolidada (pasto historico que se mantem)."
+         )},
         # Bloco — Dinamica Positiva
         {"label": "🌱 Maior Recuperacao Florestal (2010-2023)",
          "coluna": "recup_florestal_2010_2023_ha", "unidade": "ha", "ordem": "desc",
-         "decimais": 0, "cor": "#1f8d49"},
+         "decimais": 0, "cor": "#1f8d49",
+         "descricao": (
+            "**O que mede:** **ganho liquido de area florestal entre 2010 e 2023**, em hectares "
+            "(area de floresta em 2023 menos area de floresta em 2010).\n\n"
+            "**Como e calculado:** diferenca entre as areas de floresta nos dois anos.\n\n"
+            "**Como ler:** maior = melhor. Captura recuperacao **recente** — o esforco dos ultimos 13 anos. "
+            "Valores negativos significam perda de floresta no periodo."
+         )},
         {"label": "🔄 Maior Regeneracao Pasto -> Mata (2010-2020)",
          "coluna": "pasto_para_mata_recente_ha", "unidade": "ha", "ordem": "desc",
-         "decimais": 0, "cor": "#7dc975"},
+         "decimais": 0, "cor": "#7dc975",
+         "descricao": (
+            "**O que mede:** **area que era pastagem em 2010 e virou floresta em 2020**, em hectares. "
+            "Esforco especifico de recuperacao sobre area antropizada.\n\n"
+            "**Como e calculado:** transicao no MapBiomas — pixel que era pasto (classe 15) em 2010 "
+            "e virou floresta (classes 3, 4, 5, 6, 49) em 2020.\n\n"
+            "**Como ler:** maior = melhor. Diferente da Recuperacao Florestal: aqui mede apenas o "
+            "**esforco positivo** de tirar pasto e ganhar mata, nao conta outras conversoes."
+         )},
         {"label": "📈 Maior Saldo Liquido de Vegetacao Nativa (1985-2023)",
          "coluna": "variacao_veg_ha", "unidade": "ha", "ordem": "desc",
-         "decimais": 0, "cor": "#1f8d49"},
+         "decimais": 0, "cor": "#1f8d49",
+         "descricao": (
+            "**O que mede:** **variacao absoluta da area de vegetacao nativa em 38 anos**, em hectares "
+            "(area em 2023 menos area em 1985).\n\n"
+            "**Como e calculado:** diferenca simples entre os estoques de vegetacao nativa nos dois "
+            "extremos do periodo.\n\n"
+            "**Como ler:** maior = melhor. Janela **longa** — captura tendencia historica. "
+            "Valores negativos significam perda de vegetacao em 38 anos."
+         )},
         # Bloco — Dinamica Negativa (invertidos no ranking)
         {"label": "🛡️ Menor Pressao Antropica (2023)",
          "coluna": "pressao_antropica_2023_pct", "unidade": "%", "ordem": "asc",
-         "decimais": 1, "cor": "#7dc975"},
+         "decimais": 1, "cor": "#7dc975",
+         "descricao": (
+            "**O que mede:** percentual do territorio com **uso antropico em 2023** — pastagem, "
+            "agricultura, mosaico, silvicultura, area urbana e mineracao.\n\n"
+            "**Como e calculado:** soma das areas antropicas dividida pela area total do municipio.\n\n"
+            "**Como ler:** **INVERTIDO — menor = melhor.** Municipio com menos pressao antropica "
+            "tem mais natureza preservada. Porto Real lidera o oposto (~91%) por ser polo industrial."
+         )},
         {"label": "⏳ Menor Desmatamento Recente (2020-2023)",
          "coluna": "desmatamento_recente_ha", "unidade": "ha", "ordem": "asc",
-         "decimais": 0, "cor": "#7dc975"},
+         "decimais": 0, "cor": "#7dc975",
+         "descricao": (
+            "**O que mede:** **area de vegetacao nativa convertida em uso antropico entre 2020 e 2023**, "
+            "em hectares.\n\n"
+            "**Como e calculado:** soma das transicoes de classes nativas (floresta + veg. nao florestal) "
+            "para classes antropicas no periodo recente.\n\n"
+            "**Como ler:** **INVERTIDO — menor = melhor.** Captura **desmatamento atual**, nao historico. "
+            "Mostra o que o municipio fez nos ultimos 3 anos."
+         )},
         # Bloco — Estrutura da Paisagem
         {"label": "🌲 Maior Fragmento Florestal Continuo (2023)",
          "coluna": "maior_fragmento_florestal_ha", "unidade": "ha", "ordem": "desc",
-         "decimais": 0, "cor": "#1f8d49"},
+         "decimais": 0, "cor": "#1f8d49",
+         "descricao": (
+            "**O que mede:** **tamanho (em hectares) do maior remanescente continuo de floresta** do "
+            "municipio em 2023.\n\n"
+            "**Como e calculado:** algoritmo de componentes conexos (`scipy.ndimage.label` com "
+            "8-conectividade) sobre a mascara binaria de floresta de 2023, em resolucao de 30 m. "
+            "Mede-se a area do maior grupo encontrado.\n\n"
+            "**Como ler:** maior = melhor. **1.000 ha em um bloco continuo valem muito mais que "
+            "1.000 ha em cem manchas pequenas** — biodiversidade, conectividade ecologica e "
+            "resiliencia climatica dependem de fragmentos grandes. Resende lidera por causa do "
+            "mosaico Bocaina/Mantiqueira/Itatiaia."
+         )},
         {"label": "🧩 Menor Fragmentacao (densidade de patches)",
          "coluna": "densidade_fragmentos_por_kha", "unidade": "/kha", "ordem": "asc",
-         "decimais": 2, "cor": "#7dc975"},
+         "decimais": 2, "cor": "#7dc975",
+         "descricao": (
+            "**O que mede:** **numero de fragmentos florestais por 1.000 hectares** de territorio. "
+            "Quantifica o quanto a paisagem esta 'quebrada em pedacinhos'.\n\n"
+            "**Como e calculado:** numero total de componentes conexos de floresta no municipio "
+            "(mesma analise do indicador anterior) dividido pela area do municipio, multiplicado por 1.000.\n\n"
+            "**Como ler:** **INVERTIDO — menor = melhor.** Poucos fragmentos por area = paisagem "
+            "mais agregada, com floresta conectada. Muitos fragmentos por area = floresta picotada, "
+            "mais vulneravel a efeitos de borda e mudancas climaticas."
+         )},
         # Outros — diagnostico complementar
         {"label": "✅ Melhor Saldo Florestal por Transicoes (1985-2023)",
          "coluna": "saldo_florestal_total_ha", "unidade": "ha", "ordem": "desc",
-         "decimais": 0, "cor": "#1f8d49"},
+         "decimais": 0, "cor": "#1f8d49",
+         "descricao": (
+            "**O que mede:** **diferenca entre regeneracao e desmatamento** ao longo de todo o periodo "
+            "(1985-2023), considerando apenas o eixo pasto<->mata, em hectares.\n\n"
+            "**Como e calculado:** total de 'Pastagem para Floresta' menos total de 'Floresta para "
+            "Pastagem' no MapBiomas, em todo o periodo.\n\n"
+            "**Como ler:** maior positivo = melhor. Difere do **Saldo Liquido de Veg. Nativa** porque "
+            "considera apenas o eixo pasto<->mata, nao todas as conversoes."
+         )},
         {"label": "🏙️ Menor Crescimento Urbano (1985-2023)",
          "coluna": "cresc_urbano_ha", "unidade": "ha", "ordem": "asc",
-         "decimais": 0, "cor": "#7dc975"},
+         "decimais": 0, "cor": "#7dc975",
+         "descricao": (
+            "**O que mede:** **expansao da area urbana em 38 anos**, em hectares (area urbana em "
+            "2023 menos area urbana em 1985).\n\n"
+            "**Como e calculado:** diferenca entre area da classe 'Area Urbana' (codigo 24) nos "
+            "dois anos.\n\n"
+            "**Como ler:** **INVERTIDO — menor = melhor (para fins ambientais).** Importante: "
+            "municipio com pouca urbanizacao pode ser rural sem ser conservacionista; municipio "
+            "com muita urbanizacao pode ser polo economico (CSN em Volta Redonda). "
+            "**Leitura ambiental, nao de desenvolvimento.**"
+         )},
         {"label": "🌐 Maior Diversidade de Uso (Shannon 2023)",
          "coluna": "shannon_2023", "unidade": "", "ordem": "desc",
-         "decimais": 2, "cor": "#fc8114"},
+         "decimais": 2, "cor": "#fc8114",
+         "descricao": (
+            "**O que mede:** **indice de Shannon aplicado as proporcoes das classes de uso do solo** "
+            "em 2023. Quantifica o quanto a paisagem e 'misturada' (heterogenea) vs. 'monotona' (homogenea).\n\n"
+            "**Como e calculado:** H = -Σ (pᵢ × ln(pᵢ)), onde pᵢ e a fracao da classe i no municipio. "
+            "Vai de 0 (uma unica classe domina) ate ln(n) (paisagem perfeitamente equilibrada).\n\n"
+            "**Como ler:** maior = paisagem mais heterogenea. **ATENCAO:** alta diversidade NAO e "
+            "necessariamente melhor ambientalmente — pode significar mosaico saudavel (varias formacoes "
+            "naturais) ou antropizacao variada (pasto + agricultura + urbano). Indicador **descritivo**, "
+            "nao normativo."
+         )},
         {"label": "♻️ Maior Eficiencia de Regeneracao",
          "coluna": "eficiencia_regeneracao", "unidade": "", "ordem": "desc",
-         "decimais": 2, "cor": "#1f8d49"},
+         "decimais": 2, "cor": "#1f8d49",
+         "descricao": (
+            "**O que mede:** **razao entre area que regenerou (pasto -> mata) e area que foi desmatada "
+            "(mata -> pasto)** ao longo de 1985-2023. Mostra quantos hectares de mata foram recuperados "
+            "para cada hectare perdido.\n\n"
+            "**Como e calculado:** total de 'Pasto -> Floresta' dividido por total de 'Floresta -> Pasto' "
+            "(adimensional).\n\n"
+            "**Como ler:** maior = melhor.\n"
+            "- **Valor = 1,00:** empate (recupera tanto quanto perde)\n"
+            "- **Valor = 2,00:** recupera o dobro do que perde\n"
+            "- **Valor = 0,50:** so recupera metade do que perde\n"
+            "- **Valor 'infinito':** quando nao houve desmatamento (raro)"
+         )},
     ]
 
     rk_labels = [r["label"] for r in RANKINGS]
@@ -424,6 +548,10 @@ elif pagina == "🏅 Rankings por Categoria":
                            format_func=lambda i: rk_labels[i], key="rk_cat")
     rk = RANKINGS[cat_idx]
     asc = (rk["ordem"] == "asc")
+
+    # Caixa didatica explicando o indicador
+    if "descricao" in rk:
+        st.info(rk["descricao"])
 
     df_rk = df_idx[["municipio", rk["coluna"], "area_total_na_rh3_ha"]].dropna()
     df_rk = df_rk.sort_values(rk["coluna"], ascending=asc).reset_index(drop=True)
@@ -1099,42 +1227,100 @@ Toda a analise considera apenas a **porcao do municipio dentro da RH3**.
     st.dataframe(classes_df, use_container_width=True, hide_index=True)
 
     st.markdown("""
+### 3.1 Precisao e Limitacoes do MapBiomas
+
+O MapBiomas Colecao 9 e o produto mais robusto disponivel publicamente para LULC no Brasil
+(classificacao validada com acuracias globais de ~88-90% em Mata Atlantica), mas tem **limitacoes
+conhecidas que e importante registrar** antes de qualquer leitura competitiva:
+
+| Limitacao | O que significa para a RH3 |
+|-----------|-----------------------------|
+| **Resolucao espacial de 30 m** | Pixels com area de 0,09 ha — feicoes menores que isso (capoeiras pequenas, manchas de mata em quintais, faixas estreitas de mata ciliar) podem nao ser detectadas. |
+| **Confusao eucalipto vs floresta nativa** | A classificacao tem dificuldade em separar plantio de eucalipto adulto da floresta nativa, **especialmente no RJ**, onde a base de amostras de treinamento e menor do que no 'cinturao silvicola' (MG/ES/BA/SP). Eucalipto maduro tende a aparecer como classe 'floresta'; eucalipto recem-cortado, como pastagem. **Implicacao:** municipios com presenca historica de eucalipto (CSN — Volta Redonda, Barra Mansa, Pinheiral) podem ter cobertura nativa **ligeiramente inflada**. |
+| **Sazonalidade da agua** | Areas inundaveis e reservatorios podem mudar de classe entre anos secos e umidos, gerando variacao aparente nao-real. |
+| **Mapeamento de classes raras** | Mineracao, aquicultura e algumas culturas especificas tem acuracia menor em areas pequenas. |
+| **Periodos de transicao** | Pixels mudando de classe entre anos podem refletir tanto mudanca real quanto **reclassificacao** do algoritmo. |
+
+**Como mitigamos essas limitacoes na analise da RH3:**
+- O viez do eucalipto se aplica a **todos** os municipios da bacia — entao a **posicao relativa**
+  no ranking permanece informativa, mesmo que os valores absolutos de cobertura tenham sobreposicao.
+- Indicadores de **dinamica** (recuperacao, regeneracao, desmatamento) sao mais robustos a esse viez
+  porque medem mudanca, nao estoque.
+- Indicadores de **estrutura da paisagem** (maior fragmento, densidade de fragmentos) sao calculados
+  sobre a mascara binaria de floresta, herdando o mesmo viez, mas continuam comparaveis entre municipios.
+- O **score composto** combina 10 indicadores de naturezas diferentes, reduzindo o impacto de qualquer
+  viez isolado.
+
+**Para checagem detalhada de acuracia por bioma e classe**, consultar
+[mapbiomas.org/colecao-9/acuracia](https://mapbiomas.org/) e a documentacao tecnica da Colecao 9.
+
 ---
 
-## 4. Indicadores Calculados (14 indices)
+## 4. Indicadores Calculados (18 indices)
+
+Os indicadores marcados como **Score v2** entram no calculo do Score Ambiental Composto. Os
+indicadores **Diagnostico** sao calculados mas servem como contexto / categorias extras.
 """)
 
     indices_df = pd.DataFrame([
         {"#": 1, "Indice": "ICV 2023", "Descricao": "% de cobertura vegetal nativa (floresta + veg. nao florestal) em 2023",
-         "Unidade": "%", "Categoria": "Premiacao"},
-        {"#": 2, "Indice": "Variacao Veg. Nativa", "Descricao": "Mudanca absoluta e relativa da vegetacao nativa (1985-2023)",
-         "Unidade": "ha / %", "Categoria": "Premiacao"},
-        {"#": 3, "Indice": "Recuperacao Florestal", "Descricao": "Aumento de area florestal entre 2010 e 2023",
-         "Unidade": "ha / ha/ano", "Categoria": "Premiacao"},
-        {"#": 4, "Indice": "Pasto -> Mata", "Descricao": "Area de pastagem convertida em floresta (regeneracao)",
-         "Unidade": "ha", "Categoria": "Premiacao"},
-        {"#": 5, "Indice": "Mata -> Pasto", "Descricao": "Area de floresta convertida em pastagem (desmatamento)",
-         "Unidade": "ha", "Categoria": "Diagnostico"},
-        {"#": 6, "Indice": "Saldo Florestal", "Descricao": "Regeneracao menos desmatamento (valor liquido)",
-         "Unidade": "ha", "Categoria": "Premiacao"},
-        {"#": 7, "Indice": "Crescimento Urbano", "Descricao": "Expansao da area urbana entre 1985 e 2023",
-         "Unidade": "ha / %", "Categoria": "Diagnostico"},
+         "Unidade": "%", "Categoria": "Score v2 (15%)"},
+        {"#": 2, "Indice": "Persistencia Florestal", "Descricao": "% que foi floresta em TODOS os 9 anos-marco (1985-2023)",
+         "Unidade": "ha / %", "Categoria": "Score v2 (8%)"},
+        {"#": 3, "Indice": "Estabilidade do Uso", "Descricao": "% com a MESMA classe LULC em 1985 e 2023",
+         "Unidade": "ha / %", "Categoria": "Score v2 (7%)"},
+        {"#": 4, "Indice": "Recuperacao Florestal", "Descricao": "Aumento de area florestal entre 2010 e 2023",
+         "Unidade": "ha / ha/ano", "Categoria": "Score v2 (12%)"},
+        {"#": 5, "Indice": "Pasto -> Mata", "Descricao": "Area de pastagem convertida em floresta (regeneracao, 2010-2020)",
+         "Unidade": "ha", "Categoria": "Score v2 (8%)"},
+        {"#": 6, "Indice": "Saldo Liquido Veg. Nativa", "Descricao": "Variacao absoluta da vegetacao nativa (1985-2023)",
+         "Unidade": "ha / %", "Categoria": "Score v2 (5%)"},
+        {"#": 7, "Indice": "Desmatamento Recente", "Descricao": "Vegetacao nativa convertida em uso antropico (2020-2023)",
+         "Unidade": "ha / ha/ano", "Categoria": "Score v2 (12%, inv.)"},
         {"#": 8, "Indice": "Pressao Antropica", "Descricao": "% da area com uso antropico e sua variacao temporal",
-         "Unidade": "% / pp", "Categoria": "Premiacao"},
-        {"#": 9, "Indice": "Shannon", "Descricao": "Indice de diversidade de uso do solo (entropia de Shannon)",
-         "Unidade": "adimensional", "Categoria": "Diagnostico"},
-        {"#": 10, "Indice": "Eficiencia de Regeneracao", "Descricao": "Razao entre area regenerada e area desmatada",
-         "Unidade": "adimensional", "Categoria": "Diagnostico"},
-        {"#": 11, "Indice": "Saldo Veg. Nativa", "Descricao": "Conversao liquida entre vegetacao nativa e uso antropico",
+         "Unidade": "% / pp", "Categoria": "Score v2 (13%, inv.)"},
+        {"#": 9, "Indice": "Maior Fragmento Florestal", "Descricao": "Tamanho do maior remanescente continuo de floresta (2023)",
+         "Unidade": "ha", "Categoria": "Score v2 (12%)"},
+        {"#": 10, "Indice": "Densidade de Fragmentos", "Descricao": "Numero de patches florestais por 1000 ha (2023)",
+         "Unidade": "n/kha", "Categoria": "Score v2 (8%, inv.)"},
+        {"#": 11, "Indice": "Mata -> Pasto", "Descricao": "Area de floresta convertida em pastagem (desmatamento total)",
          "Unidade": "ha", "Categoria": "Diagnostico"},
-        {"#": 12, "Indice": "Variacao Agropecuaria", "Descricao": "Mudanca na area agropecuaria (pastagem + agricultura + mosaico)",
+        {"#": 12, "Indice": "Saldo Florestal por Transicoes", "Descricao": "Pasto->Mata menos Mata->Pasto (1985-2023)",
+         "Unidade": "ha", "Categoria": "Diagnostico"},
+        {"#": 13, "Indice": "Crescimento Urbano", "Descricao": "Expansao da area urbana entre 1985 e 2023",
          "Unidade": "ha / %", "Categoria": "Diagnostico"},
-        {"#": 13, "Indice": "Desmatamento Recente", "Descricao": "Vegetacao nativa convertida em uso antropico (2020-2023)",
-         "Unidade": "ha / ha/ano", "Categoria": "Premiacao"},
-        {"#": 14, "Indice": "Variacao Agua", "Descricao": "Mudanca em corpos d'agua entre 1985 e 2023",
+        {"#": 14, "Indice": "Shannon", "Descricao": "Indice de diversidade de uso do solo (entropia de Shannon)",
+         "Unidade": "adimensional", "Categoria": "Diagnostico"},
+        {"#": 15, "Indice": "Eficiencia de Regeneracao", "Descricao": "Razao entre area regenerada e area desmatada (1985-2023)",
+         "Unidade": "adimensional", "Categoria": "Diagnostico"},
+        {"#": 16, "Indice": "Saldo Veg. Nativa <-> Antropico", "Descricao": "Conversao liquida entre vegetacao nativa e uso antropico",
+         "Unidade": "ha", "Categoria": "Diagnostico"},
+        {"#": 17, "Indice": "Variacao Agropecuaria", "Descricao": "Mudanca na area agropecuaria (pastagem + agricultura + mosaico)",
+         "Unidade": "ha / %", "Categoria": "Diagnostico"},
+        {"#": 18, "Indice": "Variacao Agua", "Descricao": "Mudanca em corpos d'agua entre 1985 e 2023",
          "Unidade": "ha", "Categoria": "Diagnostico"},
     ])
     st.dataframe(indices_df, use_container_width=True, hide_index=True)
+
+    st.markdown("""
+### 4.1 Indicadores de Estrutura da Paisagem (Fragmentacao)
+
+Os indicadores **Maior Fragmento Florestal** e **Densidade de Fragmentos** sao calculados por uma
+abordagem diferente dos demais — analise de componentes conexos sobre o raster:
+
+1. **Download:** mascara binaria de floresta de 2023 e baixada via Google Earth Engine como GeoTIFF
+   (resolucao 30 m, projecao SIRGAS 2000 UTM 23S, clipada pela geometria municipal).
+2. **Rotulagem:** aplica-se `scipy.ndimage.label` com **8-conectividade** (pixels diagonais contam),
+   que identifica e numera cada componente conexo (cada 'fragmento' = grupo de pixels-floresta vizinhos).
+3. **Metricas:**
+   - **Maior fragmento (ha):** area do maior grupo encontrado.
+   - **Numero de fragmentos:** quantidade total de grupos.
+   - **Densidade (n/1000 ha):** numero de fragmentos dividido pela area do municipio.
+
+**Limitacao:** a deteccao de componentes e sensivel a resolucao — fragmentos separados por estradas
+estreitas (<30 m) podem aparecer como um unico fragmento. Para a escala da RH3 e o nivel comparativo
+desejado, isso e aceitavel.
+""")
 
     st.markdown("""
 ---
