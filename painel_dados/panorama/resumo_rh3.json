@@ -1,0 +1,696 @@
+{
+ "area_rh3_ha": 642133.7647517814,
+ "Formação florestal": {
+  "1985": {
+   "ha": 168156.2,
+   "pct": 26.19
+  },
+  "1995": {
+   "ha": 165201.3,
+   "pct": 25.73
+  },
+  "2005": {
+   "ha": 171607.3,
+   "pct": 26.72
+  },
+  "2015": {
+   "ha": 182825.5,
+   "pct": 28.47
+  },
+  "2025": {
+   "ha": 187623.5,
+   "pct": 29.22
+  },
+  "pico": {
+   "ano": 2025,
+   "ha": 187623.5
+  },
+  "vale": {
+   "ano": 1991,
+   "ha": 163942.0
+  }
+ },
+ "Vegetação herbácea e arbustiva": {
+  "1985": {
+   "ha": 27708.2,
+   "pct": 4.32
+  },
+  "1995": {
+   "ha": 24994.4,
+   "pct": 3.89
+  },
+  "2005": {
+   "ha": 30319.6,
+   "pct": 4.72
+  },
+  "2015": {
+   "ha": 35129.8,
+   "pct": 5.47
+  },
+  "2025": {
+   "ha": 19253.4,
+   "pct": 3.0
+  },
+  "pico": {
+   "ano": 2014,
+   "ha": 37480.3
+  },
+  "vale": {
+   "ano": 2025,
+   "ha": 19253.4
+  }
+ },
+ "Silvicultura": {
+  "1985": {
+   "ha": 206.7,
+   "pct": 0.03
+  },
+  "1995": {
+   "ha": 374.3,
+   "pct": 0.06
+  },
+  "2005": {
+   "ha": 694.1,
+   "pct": 0.11
+  },
+  "2015": {
+   "ha": 2992.6,
+   "pct": 0.47
+  },
+  "2025": {
+   "ha": 2523.3,
+   "pct": 0.39
+  },
+  "pico": {
+   "ano": 2015,
+   "ha": 2992.6
+  },
+  "vale": {
+   "ano": 1993,
+   "ha": 180.0
+  }
+ },
+ "Pastagem": {
+  "1985": {
+   "ha": 377926.6,
+   "pct": 58.85
+  },
+  "1995": {
+   "ha": 405137.9,
+   "pct": 63.09
+  },
+  "2005": {
+   "ha": 387953.2,
+   "pct": 60.42
+  },
+  "2015": {
+   "ha": 367717.9,
+   "pct": 57.26
+  },
+  "2025": {
+   "ha": 381203.2,
+   "pct": 59.37
+  },
+  "pico": {
+   "ano": 1993,
+   "ha": 407885.1
+  },
+  "vale": {
+   "ano": 2014,
+   "ha": 366378.7
+  }
+ },
+ "Agricultura": {
+  "1985": {
+   "ha": 0.0,
+   "pct": 0.0
+  },
+  "1995": {
+   "ha": 17.9,
+   "pct": 0.0
+  },
+  "2005": {
+   "ha": 50.0,
+   "pct": 0.01
+  },
+  "2015": {
+   "ha": 98.4,
+   "pct": 0.02
+  },
+  "2025": {
+   "ha": 111.4,
+   "pct": 0.02
+  },
+  "pico": {
+   "ano": 2017,
+   "ha": 114.6
+  },
+  "vale": {
+   "ano": 1985,
+   "ha": 0.0
+  }
+ },
+ "Mosaico de usos": {
+  "1985": {
+   "ha": 48835.5,
+   "pct": 7.61
+  },
+  "1995": {
+   "ha": 25122.6,
+   "pct": 3.91
+  },
+  "2005": {
+   "ha": 27883.1,
+   "pct": 4.34
+  },
+  "2015": {
+   "ha": 27792.0,
+   "pct": 4.33
+  },
+  "2025": {
+   "ha": 24115.9,
+   "pct": 3.76
+  },
+  "pico": {
+   "ano": 1985,
+   "ha": 48835.5
+  },
+  "vale": {
+   "ano": 2000,
+   "ha": 22265.7
+  }
+ },
+ "Área urbanizada": {
+  "1985": {
+   "ha": 9804.9,
+   "pct": 1.53
+  },
+  "1995": {
+   "ha": 12285.4,
+   "pct": 1.91
+  },
+  "2005": {
+   "ha": 15347.2,
+   "pct": 2.39
+  },
+  "2015": {
+   "ha": 17626.0,
+   "pct": 2.74
+  },
+  "2025": {
+   "ha": 19217.4,
+   "pct": 2.99
+  },
+  "pico": {
+   "ano": 2025,
+   "ha": 19217.4
+  },
+  "vale": {
+   "ano": 1985,
+   "ha": 9804.9
+  }
+ },
+ "Mineração": {
+  "1985": {
+   "ha": 19.3,
+   "pct": 0.0
+  },
+  "1995": {
+   "ha": 34.4,
+   "pct": 0.01
+  },
+  "2005": {
+   "ha": 42.4,
+   "pct": 0.01
+  },
+  "2015": {
+   "ha": 55.0,
+   "pct": 0.01
+  },
+  "2025": {
+   "ha": 58.7,
+   "pct": 0.01
+  },
+  "pico": {
+   "ano": 2020,
+   "ha": 59.8
+  },
+  "vale": {
+   "ano": 1985,
+   "ha": 19.3
+  }
+ },
+ "Outras áreas não vegetadas": {
+  "1985": {
+   "ha": 483.5,
+   "pct": 0.08
+  },
+  "1995": {
+   "ha": 354.6,
+   "pct": 0.06
+  },
+  "2005": {
+   "ha": 426.9,
+   "pct": 0.07
+  },
+  "2015": {
+   "ha": 477.5,
+   "pct": 0.07
+  },
+  "2025": {
+   "ha": 388.9,
+   "pct": 0.06
+  },
+  "pico": {
+   "ano": 1989,
+   "ha": 641.3
+  },
+  "vale": {
+   "ano": 1997,
+   "ha": 249.0
+  }
+ },
+ "Água": {
+  "1985": {
+   "ha": 8992.9,
+   "pct": 1.4
+  },
+  "1995": {
+   "ha": 8610.9,
+   "pct": 1.34
+  },
+  "2005": {
+   "ha": 7810.0,
+   "pct": 1.22
+  },
+  "2015": {
+   "ha": 7419.0,
+   "pct": 1.16
+  },
+  "2025": {
+   "ha": 7638.1,
+   "pct": 1.19
+  },
+  "pico": {
+   "ano": 1988,
+   "ha": 9596.1
+  },
+  "vale": {
+   "ano": 2015,
+   "ha": 7419.0
+  }
+ },
+ "floresta_ganho_bruto_1985_2025_ha": 42388.48815007382,
+ "floresta_perda_bruta_1985_2025_ha": 22921.181084293512,
+ "floresta_ganho_por_origem_ha": {
+  "Vegetação herbácea e arbustiva": 466.4,
+  "Silvicultura": 87.4,
+  "Pastagem": 28876.2,
+  "Mosaico de usos": 12380.4,
+  "Área urbanizada": 5.0,
+  "Outras áreas não vegetadas": 22.5,
+  "Água": 550.7
+ },
+ "floresta_perda_por_destino_ha": {
+  "Vegetação herbácea e arbustiva": 183.3,
+  "Silvicultura": 781.1,
+  "Pastagem": 18607.9,
+  "Agricultura": 0.3,
+  "Mosaico de usos": 3188.3,
+  "Área urbanizada": 81.6,
+  "Mineração": 5.5,
+  "Outras áreas não vegetadas": 2.5,
+  "Água": 70.7
+ },
+ "urbano_origem_ha": {
+  "Formação florestal": 81.6,
+  "Vegetação herbácea e arbustiva": 395.5,
+  "Pastagem": 6448.8,
+  "Mosaico de usos": 2340.2,
+  "Outras áreas não vegetadas": 58.7,
+  "Água": 180.2
+ },
+ "floresta_2025_por_idade_pct": {
+  "contínua desde 1985": 70.56,
+  "1 a 5 anos": 4.22,
+  "6 a 10 anos": 3.43,
+  "11 a 20 anos": 8.94,
+  "21 a 30 anos": 7.5,
+  "31 a 40 anos": 5.35
+ },
+ "floresta_1985_destino_pct": {
+  "contínua até 2025": 78.73,
+  "perdida e recuperada (floresta em 2025)": 7.64,
+  "virou vegetação herbácea e arbustiva em 2025": 0.11,
+  "virou silvicultura em 2025": 0.46,
+  "virou pastagem em 2025": 11.07,
+  "virou agricultura em 2025": 0.0,
+  "virou mosaico de usos em 2025": 1.9,
+  "virou área urbanizada em 2025": 0.05,
+  "virou mineração em 2025": 0.0,
+  "virou outras áreas não vegetadas em 2025": 0.0,
+  "virou água em 2025": 0.04
+ },
+ "relevo": {
+  "0 a 10°": {
+   "pct_da_area": 24.41,
+   "floresta_1985_pct": 12.99,
+   "floresta_2025_pct": 15.85,
+   "pastagem_2025_pct": 62.66,
+   "pct_do_ganho_bruto": 21.28
+  },
+  "10 a 20°": {
+   "pct_da_area": 34.32,
+   "floresta_1985_pct": 24.3,
+   "floresta_2025_pct": 27.63,
+   "pastagem_2025_pct": 64.44,
+   "pct_do_ganho_bruto": 36.29
+  },
+  "20 a 25°": {
+   "pct_da_area": 19.31,
+   "floresta_1985_pct": 30.06,
+   "floresta_2025_pct": 33.2,
+   "pastagem_2025_pct": 60.06,
+   "pct_do_ganho_bruto": 20.21
+  },
+  "25 a 45° (uso restrito)": {
+   "pct_da_area": 21.8,
+   "floresta_1985_pct": 40.3,
+   "floresta_2025_pct": 42.96,
+   "pastagem_2025_pct": 47.42,
+   "pct_do_ganho_bruto": 22.13
+  },
+  "45° ou mais (APP)": {
+   "pct_da_area": 0.14,
+   "floresta_1985_pct": 57.07,
+   "floresta_2025_pct": 58.52,
+   "pastagem_2025_pct": 8.01,
+   "pct_do_ganho_bruto": 0.08
+  }
+ },
+ "ucs": {
+  "Fora de UC": {
+   "area_ha": 552012.19,
+   "floresta_2025_pct": 24.74,
+   "pct_da_floresta_2025": 72.8
+  },
+  "Uso sustentável (APA, ARIE)": {
+   "area_ha": 38648.52,
+   "floresta_2025_pct": 42.17,
+   "pct_da_floresta_2025": 8.69
+  },
+  "RPPN": {
+   "area_ha": 1322.67,
+   "floresta_2025_pct": 74.83,
+   "pct_da_floresta_2025": 0.53
+  },
+  "Proteção integral municipal": {
+   "area_ha": 6064.05,
+   "floresta_2025_pct": 66.75,
+   "pct_da_floresta_2025": 2.16
+  },
+  "Proteção integral federal ou estadual": {
+   "area_ha": 44086.34,
+   "floresta_2025_pct": 67.35,
+   "pct_da_floresta_2025": 15.83
+  }
+ },
+ "ripario_nativa_pct": {
+  "1985": 28.32,
+  "1995": 27.64,
+  "2005": 29.92,
+  "2015": 33.15,
+  "2025": 34.37
+ },
+ "nascentes_nativa_pct": {
+  "1985": 33.54,
+  "1995": 32.88,
+  "2005": 33.63,
+  "2015": 35.26,
+  "2025": 35.7
+ },
+ "zona_ripária_ha": 113125.3,
+ "zona_ripária_uso_2025_pct": {
+  "Formação florestal": 34.16,
+  "Vegetação herbácea e arbustiva": 1.93,
+  "Silvicultura": 0.15,
+  "Pastagem": 54.7,
+  "Agricultura": 0.01,
+  "Mosaico de usos": 6.19,
+  "Área urbanizada": 1.66,
+  "Mineração": 0.01,
+  "Outras áreas não vegetadas": 0.04,
+  "Água": 1.16
+ },
+ "fragmentacao": {
+  "1985": {
+   "n_fragmentos": 10459,
+   "floresta_ha": 168156.19,
+   "maior_ha": 35619.8,
+   "media_ha": 16.08,
+   "mediana_ha": 1.66,
+   "n_ate_1ha": 3403,
+   "n_ate_10ha": 8828,
+   "pct_floresta_em_frag_ate_10ha": 11.69,
+   "pct_floresta_em_frag_100ha_ou_mais": 63.52,
+   "pct_floresta_em_frag_1000ha_ou_mais": 36.29,
+   "pct_floresta_no_maior": 21.18
+  },
+  "2005": {
+   "n_fragmentos": 9734,
+   "floresta_ha": 171607.33,
+   "maior_ha": 34260.4,
+   "media_ha": 17.63,
+   "mediana_ha": 1.82,
+   "n_ate_1ha": 2956,
+   "n_ate_10ha": 8076,
+   "pct_floresta_em_frag_ate_10ha": 10.86,
+   "pct_floresta_em_frag_100ha_ou_mais": 64.94,
+   "pct_floresta_em_frag_1000ha_ou_mais": 36.99,
+   "pct_floresta_no_maior": 19.96
+  },
+  "2025": {
+   "n_fragmentos": 10680,
+   "floresta_ha": 187623.5,
+   "maior_ha": 38886.59,
+   "media_ha": 17.57,
+   "mediana_ha": 1.58,
+   "n_ate_1ha": 3835,
+   "n_ate_10ha": 8985,
+   "pct_floresta_em_frag_ate_10ha": 10.21,
+   "pct_floresta_em_frag_100ha_ou_mais": 66.89,
+   "pct_floresta_em_frag_1000ha_ou_mais": 38.92,
+   "pct_floresta_no_maior": 20.73
+  }
+ },
+ "dsv_periodos_rh3_ha_ano": {
+  "1988-1994": {
+   "supressao_primaria_ha_por_ano": 2436.5,
+   "supressao_secundaria_ha_por_ano": 194.1,
+   "supressao_total_ha_por_ano": 2630.6,
+   "recuperacao_ha_por_ano": 2356.5,
+   "saldo_ha_por_ano": -274.1,
+   "supressao_floresta_ha_por_ano": 1279.9,
+   "recuperacao_floresta_ha_por_ano": 1246.6,
+   "saldo_floresta_ha_por_ano": -33.2
+  },
+  "1995-2004": {
+   "supressao_primaria_ha_por_ano": 645.5,
+   "supressao_secundaria_ha_por_ano": 840.1,
+   "supressao_total_ha_por_ano": 1485.5,
+   "recuperacao_ha_por_ano": 3085.7,
+   "saldo_ha_por_ano": 1600.1,
+   "supressao_floresta_ha_por_ano": 765.4,
+   "recuperacao_floresta_ha_por_ano": 1637.1,
+   "saldo_floresta_ha_por_ano": 871.7
+  },
+  "2005-2014": {
+   "supressao_primaria_ha_por_ano": 371.3,
+   "supressao_secundaria_ha_por_ano": 1082.6,
+   "supressao_total_ha_por_ano": 1453.9,
+   "recuperacao_ha_por_ano": 3762.8,
+   "saldo_ha_por_ano": 2308.9,
+   "supressao_floresta_ha_por_ano": 501.4,
+   "recuperacao_floresta_ha_por_ano": 1745.7,
+   "saldo_floresta_ha_por_ano": 1244.3
+  },
+  "2015-2024": {
+   "supressao_primaria_ha_por_ano": 265.1,
+   "supressao_secundaria_ha_por_ano": 1801.1,
+   "supressao_total_ha_por_ano": 2066.2,
+   "recuperacao_ha_por_ano": 1554.9,
+   "saldo_ha_por_ano": -511.3,
+   "supressao_floresta_ha_por_ano": 538.5,
+   "recuperacao_floresta_ha_por_ano": 1324.0,
+   "saldo_floresta_ha_por_ano": 785.5
+  }
+ },
+ "dsv_anos_recuperacao_maior_que_supressao_nativa": [
+  1992,
+  1993,
+  1994,
+  1995,
+  1996,
+  1997,
+  1998,
+  1999,
+  2000,
+  2001,
+  2002,
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2008,
+  2009,
+  2010,
+  2011,
+  2012,
+  2013,
+  2014,
+  2022,
+  2023
+ ],
+ "dsv_anos_recuperacao_maior_que_supressao_floresta": [
+  1992,
+  1993,
+  1994,
+  1995,
+  1996,
+  1997,
+  1998,
+  1999,
+  2000,
+  2001,
+  2002,
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2008,
+  2009,
+  2010,
+  2011,
+  2012,
+  2013,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024
+ ],
+ "restauracao_indicativa_ha": {
+  "pasto_zona_ripária_ha": 61880.3,
+  "pasto_encosta_25graus_ha": 66465.6,
+  "pasto_prioritario_ha": 124611.6,
+  "pasto_prioritario_ate_100m_de_fragmento_100ha_ha": 15378.4,
+  "area_na_rh3_ha": 642133.8
+ },
+ "fogo": {
+  "media_1985_2024_ha_ano": 4944.2,
+  "media_2015_2024_ha_ano": 4702.2,
+  "ano_maior": 2011,
+  "ha_ano_maior": 19425.8,
+  "por_grupo_2015_2024_pct": {
+   "Agricultura": 0.01,
+   "Formação florestal": 4.48,
+   "Mosaico de usos": 16.92,
+   "Outras áreas não vegetadas": 0.1,
+   "Pastagem": 76.17,
+   "Silvicultura": 0.02,
+   "Vegetação herbácea e arbustiva": 2.3
+  },
+  "frequencia_pct_area": {
+   "nunca": 82.02,
+   "1 vez": 11.48,
+   "2 vezes": 3.76,
+   "3 a 5 vezes": 2.29,
+   "6 a 10 vezes": 0.38,
+   "11 vezes ou mais": 0.07
+  },
+  "floresta_2025_queimada_2015_2024_pct_por_idade": {
+   "contínua desde 1985": 1.02,
+   "1 a 5 anos": 1.93,
+   "6 a 10 anos": 1.72,
+   "11 a 20 anos": 1.29,
+   "21 a 30 anos": 1.1,
+   "31 a 40 anos": 1.19
+  }
+ },
+ "c9_x_c11_2023": {
+  "Agricultura": {
+   "c9_ha": 135.8,
+   "c11_ha": 94.3,
+   "c9_pct": 0.0,
+   "c11_pct": 0.0
+  },
+  "Formação florestal": {
+   "c9_ha": 175155.8,
+   "c11_ha": 187256.9,
+   "c9_pct": 27.3,
+   "c11_pct": 29.2
+  },
+  "Mineração": {
+   "c9_ha": 53.6,
+   "c11_ha": 58.0,
+   "c9_pct": 0.0,
+   "c11_pct": 0.0
+  },
+  "Mosaico de usos": {
+   "c9_ha": 95620.1,
+   "c11_ha": 22389.1,
+   "c9_pct": 14.9,
+   "c11_pct": 3.5
+  },
+  "Não observado": {
+   "c9_ha": 0.0,
+   "c11_ha": 0.0,
+   "c9_pct": 0.0,
+   "c11_pct": 0.0
+  },
+  "Outras áreas não vegetadas": {
+   "c9_ha": 3667.5,
+   "c11_ha": 389.4,
+   "c9_pct": 0.6,
+   "c11_pct": 0.1
+  },
+  "Pastagem": {
+   "c9_ha": 338016.2,
+   "c11_ha": 382150.6,
+   "c9_pct": 52.6,
+   "c11_pct": 59.5
+  },
+  "Silvicultura": {
+   "c9_ha": 2124.2,
+   "c11_ha": 2840.4,
+   "c9_pct": 0.3,
+   "c11_pct": 0.4
+  },
+  "Vegetação herbácea e arbustiva": {
+   "c9_ha": 0.0,
+   "c11_ha": 20078.1,
+   "c9_pct": 0.0,
+   "c11_pct": 3.1
+  },
+  "Água": {
+   "c9_ha": 6886.2,
+   "c11_ha": 8184.1,
+   "c9_pct": 1.1,
+   "c11_pct": 1.3
+  },
+  "Área urbanizada": {
+   "c9_ha": 20434.1,
+   "c11_ha": 18692.9,
+   "c9_pct": 3.2,
+   "c11_pct": 2.9
+  }
+ }
+}

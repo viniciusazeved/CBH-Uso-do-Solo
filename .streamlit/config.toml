@@ -1,0 +1,7 @@
+# Tema claro, igual ao dos slides do XI Simpósio Água Boa (fundo, verde e tinta dos gráficos do pipeline)
+[theme]
+base = "light"
+primaryColor = "#1f8d49"
+backgroundColor = "#fcfcfb"
+secondaryBackgroundColor = "#f1f0ec"
+textColor = "#0b0b0b"

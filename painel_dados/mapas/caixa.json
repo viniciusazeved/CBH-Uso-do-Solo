@@ -1,0 +1,36 @@
+{
+ "oeste": -44.81506306262627,
+ "norte": -21.996687036121074,
+ "leste": -42.94935188712373,
+ "sul": -22.937506702369152,
+ "largura_px": 4000,
+ "altura_px": 2183,
+ "anos": [
+  1985,
+  2000,
+  2015,
+  2025
+ ],
+ "grupos": {
+  "Formação florestal": "#1f8d49",
+  "Vegetação herbácea e arbustiva": "#7cc36b",
+  "Água": "#1e63c8",
+  "Pastagem": "#c9a227",
+  "Mosaico de usos": "#8e6bbf",
+  "Área urbanizada": "#d84315",
+  "Outros usos": "#9e9e9e"
+ },
+ "mudanca_floresta": {
+  "Floresta nos dois anos": "#93cfa5",
+  "Floresta que voltou": "#1f6fb4",
+  "Floresta que saiu": "#d03b3b",
+  "Sem floresta nos dois anos": "#eeede8"
+ },
+ "fonte": "MapBiomas Coleção 11 (coverage v3), reprojetado para Web Mercator pela classe mais frequente",
+ "enquadramento": {
+  "oeste": -44.808927550466024,
+  "norte": -22.002558035225086,
+  "leste": -43.12747692811741,
+  "sul": -22.71841047166589
+ }
+}

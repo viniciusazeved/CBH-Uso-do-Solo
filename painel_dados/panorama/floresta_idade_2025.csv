@@ -1,0 +1,121 @@
+﻿cod_ibge,municipio,idade,area_ha,pct_floresta_2025
+0,RH-III,contínua desde 1985,132387.5024,70.5602
+0,RH-III,1 a 5 anos,7910.5610,4.2162
+0,RH-III,6 a 10 anos,6432.6966,3.4285
+0,RH-III,11 a 20 anos,16780.5159,8.9437
+0,RH-III,21 a 30 anos,14067.5918,7.4978
+0,RH-III,31 a 40 anos,10044.6320,5.3536
+3300308,Barra do Piraí,contínua desde 1985,12877.3682,74.1762
+3300308,Barra do Piraí,1 a 5 anos,682.7871,3.9330
+3300308,Barra do Piraí,6 a 10 anos,491.6104,2.8318
+3300308,Barra do Piraí,11 a 20 anos,1369.8634,7.8907
+3300308,Barra do Piraí,21 a 30 anos,1194.6433,6.8814
+3300308,Barra do Piraí,31 a 40 anos,744.2509,4.2870
+3300407,Barra Mansa,contínua desde 1985,7833.5529,64.6252
+3300407,Barra Mansa,1 a 5 anos,452.2522,3.7310
+3300407,Barra Mansa,6 a 10 anos,560.5038,4.6240
+3300407,Barra Mansa,11 a 20 anos,1460.1377,12.0458
+3300407,Barra Mansa,21 a 30 anos,1302.5188,10.7455
+3300407,Barra Mansa,31 a 40 anos,512.5545,4.2285
+3300951,Comendador Levy Gasparian,contínua desde 1985,1637.4651,60.5417
+3300951,Comendador Levy Gasparian,1 a 5 anos,132.2526,4.8898
+3300951,Comendador Levy Gasparian,6 a 10 anos,137.8977,5.0985
+3300951,Comendador Levy Gasparian,11 a 20 anos,244.0776,9.0242
+3300951,Comendador Levy Gasparian,21 a 30 anos,333.4944,12.3302
+3300951,Comendador Levy Gasparian,31 a 40 anos,219.5018,8.1156
+3302254,Itatiaia,contínua desde 1985,11270.4798,85.3144
+3302254,Itatiaia,1 a 5 anos,189.9239,1.4377
+3302254,Itatiaia,6 a 10 anos,238.0917,1.8023
+3302254,Itatiaia,11 a 20 anos,556.2713,4.2108
+3302254,Itatiaia,21 a 30 anos,633.5164,4.7955
+3302254,Itatiaia,31 a 40 anos,322.2412,2.4393
+3302809,Mendes,contínua desde 1985,854.2720,82.5425
+3302809,Mendes,1 a 5 anos,59.6733,5.7658
+3302809,Mendes,6 a 10 anos,24.0842,2.3271
+3302809,Mendes,11 a 20 anos,44.4453,4.2944
+3302809,Mendes,21 a 30 anos,26.1538,2.5271
+3302809,Mendes,31 a 40 anos,26.3194,2.5431
+3302908,Miguel Pereira,contínua desde 1985,946.7043,70.2674
+3302908,Miguel Pereira,1 a 5 anos,96.4418,7.1582
+3302908,Miguel Pereira,6 a 10 anos,34.7684,2.5806
+3302908,Miguel Pereira,11 a 20 anos,90.4793,6.7157
+3302908,Miguel Pereira,21 a 30 anos,81.9545,6.0829
+3302908,Miguel Pereira,31 a 40 anos,96.9401,7.1952
+3303708,Paraíba do Sul,contínua desde 1985,5796.4301,51.8503
+3303708,Paraíba do Sul,1 a 5 anos,722.3100,6.4612
+3303708,Paraíba do Sul,6 a 10 anos,593.6879,5.3107
+3303708,Paraíba do Sul,11 a 20 anos,1544.7088,13.8177
+3303708,Paraíba do Sul,21 a 30 anos,1378.8464,12.3341
+3303708,Paraíba do Sul,31 a 40 anos,1143.1855,10.2260
+3303856,Paty do Alferes,contínua desde 1985,3521.2071,60.1170
+3303856,Paty do Alferes,1 a 5 anos,356.3347,6.0836
+3303856,Paty do Alferes,6 a 10 anos,144.7812,2.4718
+3303856,Paty do Alferes,11 a 20 anos,593.8170,10.1381
+3303856,Paty do Alferes,21 a 30 anos,364.8545,6.2291
+3303856,Paty do Alferes,31 a 40 anos,876.2660,14.9603
+3303955,Pinheiral,contínua desde 1985,1753.5280,69.6436
+3303955,Pinheiral,1 a 5 anos,128.8916,5.1191
+3303955,Pinheiral,6 a 10 anos,112.7642,4.4786
+3303955,Pinheiral,11 a 20 anos,263.1681,10.4521
+3303955,Pinheiral,21 a 30 anos,177.3674,7.0444
+3303955,Pinheiral,31 a 40 anos,82.1405,3.2623
+3304003,Piraí,contínua desde 1985,3048.9228,75.8924
+3304003,Piraí,1 a 5 anos,193.8653,4.8256
+3304003,Piraí,6 a 10 anos,157.9696,3.9321
+3304003,Piraí,11 a 20 anos,273.0161,6.7958
+3304003,Piraí,21 a 30 anos,229.4336,5.7110
+3304003,Piraí,31 a 40 anos,114.2189,2.8431
+3304110,Porto Real,contínua desde 1985,191.4482,57.8360
+3304110,Porto Real,1 a 5 anos,16.7222,5.0517
+3304110,Porto Real,6 a 10 anos,26.5746,8.0281
+3304110,Porto Real,11 a 20 anos,56.0472,16.9317
+3304110,Porto Real,21 a 30 anos,27.0670,8.1769
+3304110,Porto Real,31 a 40 anos,13.1600,3.9756
+3304128,Quatis,contínua desde 1985,4568.0359,66.5539
+3304128,Quatis,1 a 5 anos,326.0734,4.7507
+3304128,Quatis,6 a 10 anos,389.0111,5.6677
+3304128,Quatis,11 a 20 anos,705.1045,10.2730
+3304128,Quatis,21 a 30 anos,500.8968,7.2978
+3304128,Quatis,31 a 40 anos,374.5385,5.4568
+3304201,Resende,contínua desde 1985,30679.7160,72.9431
+3304201,Resende,1 a 5 anos,1240.2476,2.9488
+3304201,Resende,6 a 10 anos,1252.8238,2.9787
+3304201,Resende,11 a 20 anos,3589.9589,8.5354
+3304201,Resende,21 a 30 anos,2986.2418,7.1000
+3304201,Resende,31 a 40 anos,2310.7984,5.4941
+3304409,Rio Claro,contínua desde 1985,387.2852,70.0448
+3304409,Rio Claro,1 a 5 anos,14.7937,2.6756
+3304409,Rio Claro,6 a 10 anos,56.8630,10.2843
+3304409,Rio Claro,11 a 20 anos,47.2731,8.5499
+3304409,Rio Claro,21 a 30 anos,32.8106,5.9342
+3304409,Rio Claro,31 a 40 anos,13.8847,2.5112
+3304508,Rio das Flores,contínua desde 1985,8174.8771,63.9132
+3304508,Rio das Flores,1 a 5 anos,829.6447,6.4864
+3304508,Rio das Flores,6 a 10 anos,528.7975,4.1343
+3304508,Rio das Flores,11 a 20 anos,1593.1920,12.4560
+3304508,Rio das Flores,21 a 30 anos,972.0521,7.5997
+3304508,Rio das Flores,31 a 40 anos,692.0262,5.4104
+3306008,Três Rios,contínua desde 1985,664.6898,49.7302
+3306008,Três Rios,1 a 5 anos,107.5451,8.0462
+3306008,Três Rios,6 a 10 anos,110.2839,8.2511
+3306008,Três Rios,11 a 20 anos,201.6535,15.0871
+3306008,Três Rios,21 a 30 anos,116.5059,8.7166
+3306008,Três Rios,31 a 40 anos,135.9144,10.1687
+3306107,Valença,contínua desde 1985,25685.5222,75.3943
+3306107,Valença,1 a 5 anos,1390.6366,4.0819
+3306107,Valença,6 a 10 anos,993.2105,2.9154
+3306107,Valença,11 a 20 anos,2510.7756,7.3698
+3306107,Valença,21 a 30 anos,2191.8035,6.4336
+3306107,Valença,31 a 40 anos,1296.2945,3.8050
+3306206,Vassouras,contínua desde 1985,8996.5586,67.8817
+3306206,Vassouras,1 a 5 anos,829.8798,6.2617
+3306206,Vassouras,6 a 10 anos,403.7438,3.0464
+3306206,Vassouras,11 a 20 anos,1217.6148,9.1873
+3306206,Vassouras,21 a 30 anos,869.8543,6.5633
+3306206,Vassouras,31 a 40 anos,935.6323,7.0596
+3306305,Volta Redonda,contínua desde 1985,3499.4391,69.7627
+3306305,Volta Redonda,1 a 5 anos,140.2853,2.7966
+3306305,Volta Redonda,6 a 10 anos,175.2293,3.4933
+3306305,Volta Redonda,11 a 20 anos,418.9117,8.3512
+3306305,Volta Redonda,21 a 30 anos,647.5768,12.9097
+3306305,Volta Redonda,31 a 40 anos,134.7643,2.6866

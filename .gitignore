@@ -15,3 +15,6 @@ output/*.pptx
 gerar_apresentacao.py
 notebook_lm/
 .streamlit/secrets.toml
+
+# Rasters baixados do GEE (pipeline C11, simpósio 2026)
+dados/c11/

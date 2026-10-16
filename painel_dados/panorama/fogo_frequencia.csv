@@ -1,0 +1,121 @@
+﻿cod_ibge,municipio,vezes_queimado_1985_2024,area_ha,pct_area
+0,RH-III,nunca,526684.5538,82.0210
+0,RH-III,1 vez,73691.4337,11.4760
+0,RH-III,2 vezes,24138.3491,3.7591
+0,RH-III,3 a 5 vezes,14703.4636,2.2898
+0,RH-III,6 a 10 vezes,2445.1286,0.3808
+0,RH-III,11 vezes ou mais,470.8360,0.0733
+3300308,Barra do Piraí,nunca,46462.3996,86.3287
+3300308,Barra do Piraí,1 vez,5170.0691,9.6062
+3300308,Barra do Piraí,2 vezes,1408.7825,2.6176
+3300308,Barra do Piraí,3 a 5 vezes,736.3565,1.3682
+3300308,Barra do Piraí,6 a 10 vezes,41.7176,0.0775
+3300308,Barra do Piraí,11 vezes ou mais,0.9933,0.0018
+3300407,Barra Mansa,nunca,42089.7093,77.0175
+3300407,Barra Mansa,1 vez,7716.2943,14.1196
+3300407,Barra Mansa,2 vezes,2442.1923,4.4688
+3300407,Barra Mansa,3 a 5 vezes,1928.6920,3.5292
+3300407,Barra Mansa,6 a 10 vezes,415.4103,0.7601
+3300407,Barra Mansa,11 vezes ou mais,57.2447,0.1047
+3300951,Comendador Levy Gasparian,nunca,7443.3359,68.9920
+3300951,Comendador Levy Gasparian,1 vez,1853.0770,17.1761
+3300951,Comendador Levy Gasparian,2 vezes,760.1176,7.0455
+3300951,Comendador Levy Gasparian,3 a 5 vezes,619.0072,5.7376
+3300951,Comendador Levy Gasparian,6 a 10 vezes,111.6662,1.0350
+3300951,Comendador Levy Gasparian,11 vezes ou mais,1.4945,0.0139
+3302254,Itatiaia,nunca,19835.7839,82.4196
+3302254,Itatiaia,1 vez,1927.1823,8.0076
+3302254,Itatiaia,2 vezes,1607.4389,6.6791
+3302254,Itatiaia,3 a 5 vezes,612.8847,2.5466
+3302254,Itatiaia,6 a 10 vezes,71.9394,0.2989
+3302254,Itatiaia,11 vezes ou mais,11.5948,0.0482
+3302809,Mendes,nunca,1824.7205,82.6557
+3302809,Mendes,1 vez,195.6683,8.8633
+3302809,Mendes,2 vezes,119.5224,5.4141
+3302809,Mendes,3 a 5 vezes,65.7199,2.9770
+3302809,Mendes,6 a 10 vezes,1.9861,0.0900
+3302809,Mendes,11 vezes ou mais,0.0000,0.0000
+3302908,Miguel Pereira,nunca,3549.8614,97.6189
+3302908,Miguel Pereira,1 vez,73.9205,2.0328
+3302908,Miguel Pereira,2 vezes,11.9212,0.3278
+3302908,Miguel Pereira,3 a 5 vezes,0.7449,0.0205
+3302908,Miguel Pereira,6 a 10 vezes,0.0000,0.0000
+3302908,Miguel Pereira,11 vezes ou mais,0.0000,0.0000
+3303708,Paraíba do Sul,nunca,32260.2079,74.3007
+3303708,Paraíba do Sul,1 vez,6418.5909,14.7831
+3303708,Paraíba do Sul,2 vezes,2502.5118,5.7637
+3303708,Paraíba do Sul,3 a 5 vezes,1668.9276,3.8438
+3303708,Paraíba do Sul,6 a 10 vezes,397.3094,0.9151
+3303708,Paraíba do Sul,11 vezes ou mais,170.8865,0.3936
+3303856,Paty do Alferes,nunca,23769.4154,87.7595
+3303856,Paty do Alferes,1 vez,2461.4897,9.0881
+3303856,Paty do Alferes,2 vezes,595.8561,2.2000
+3303856,Paty do Alferes,3 a 5 vezes,245.6983,0.9071
+3303856,Paty do Alferes,6 a 10 vezes,12.2600,0.0453
+3303856,Paty do Alferes,11 vezes ou mais,0.0000,0.0000
+3303955,Pinheiral,nunca,6673.0991,81.1291
+3303955,Pinheiral,1 vez,894.2456,10.8719
+3303955,Pinheiral,2 vezes,328.1311,3.9893
+3303955,Pinheiral,3 a 5 vezes,273.5409,3.3256
+3303955,Pinheiral,6 a 10 vezes,55.1907,0.6710
+3303955,Pinheiral,11 vezes ou mais,1.0757,0.0131
+3304003,Piraí,nunca,8564.9159,82.0999
+3304003,Piraí,1 vez,1286.8272,12.3350
+3304003,Piraí,2 vezes,410.6092,3.9359
+3304003,Piraí,3 a 5 vezes,155.4036,1.4896
+3304003,Piraí,6 a 10 vezes,14.5553,0.1395
+3304003,Piraí,11 vezes ou mais,0.0000,0.0000
+3304110,Porto Real,nunca,4439.2123,87.2123
+3304110,Porto Real,1 vez,507.7617,9.9754
+3304110,Porto Real,2 vezes,101.6698,1.9974
+3304110,Porto Real,3 a 5 vezes,37.4209,0.7352
+3304110,Porto Real,6 a 10 vezes,4.0565,0.0797
+3304110,Porto Real,11 vezes ou mais,0.0000,0.0000
+3304128,Quatis,nunca,24618.3593,86.4789
+3304128,Quatis,1 vez,2927.8143,10.2848
+3304128,Quatis,2 vezes,607.6655,2.1346
+3304128,Quatis,3 a 5 vezes,291.8678,1.0253
+3304128,Quatis,6 a 10 vezes,21.7694,0.0765
+3304128,Quatis,11 vezes ou mais,0.0000,0.0000
+3304201,Resende,nunca,94971.2944,86.6985
+3304201,Resende,1 vez,9291.9463,8.4825
+3304201,Resende,2 vezes,3081.2337,2.8128
+3304201,Resende,3 a 5 vezes,1869.5507,1.7067
+3304201,Resende,6 a 10 vezes,305.8497,0.2792
+3304201,Resende,11 vezes ou mais,22.1958,0.0203
+3304409,Rio Claro,nunca,3524.7303,93.0181
+3304409,Rio Claro,1 vez,239.1065,6.3101
+3304409,Rio Claro,2 vezes,21.6544,0.5715
+3304409,Rio Claro,3 a 5 vezes,3.8020,0.1003
+3304409,Rio Claro,6 a 10 vezes,0.0000,0.0000
+3304409,Rio Claro,11 vezes ou mais,0.0000,0.0000
+3304508,Rio das Flores,nunca,38325.7838,80.1108
+3304508,Rio das Flores,1 vez,7176.0039,14.9997
+3304508,Rio das Flores,2 vezes,1649.1350,3.4471
+3304508,Rio das Flores,3 a 5 vezes,662.9505,1.3857
+3304508,Rio das Flores,6 a 10 vezes,27.1223,0.0567
+3304508,Rio das Flores,11 vezes ou mais,0.0000,0.0000
+3306008,Três Rios,nunca,6159.5125,63.6608
+3306008,Três Rios,1 vez,1541.4162,15.9311
+3306008,Três Rios,2 vezes,704.4616,7.2809
+3306008,Três Rios,3 a 5 vezes,761.7600,7.8731
+3306008,Três Rios,6 a 10 vezes,334.6315,3.4585
+3306008,Três Rios,11 vezes ou mais,173.7341,1.7956
+3306107,Valença,nunca,109939.7737,84.5895
+3306107,Valença,1 vez,14095.4266,10.8453
+3306107,Valença,2 vezes,3908.0167,3.0069
+3306107,Valença,3 a 5 vezes,1956.7548,1.5056
+3306107,Valença,6 a 10 vezes,67.6384,0.0520
+3306107,Valença,11 vezes ou mais,0.9119,0.0007
+3306206,Vassouras,nunca,38518.1800,75.2046
+3306206,Vassouras,1 vez,7905.4549,15.4350
+3306206,Vassouras,2 vezes,2885.7354,5.6342
+3306206,Vassouras,3 a 5 vezes,1634.5328,3.1913
+3306206,Vassouras,6 a 10 vezes,269.6946,0.5266
+3306206,Vassouras,11 vezes ou mais,4.2275,0.0083
+3306305,Volta Redonda,nunca,13714.2585,75.3045
+3306305,Volta Redonda,1 vez,2009.1382,11.0321
+3306305,Volta Redonda,2 vezes,991.6937,5.4454
+3306305,Volta Redonda,3 a 5 vezes,1177.8485,6.4675
+3306305,Volta Redonda,6 a 10 vezes,292.3311,1.6052
+3306305,Volta Redonda,11 vezes ou mais,26.4773,0.1454

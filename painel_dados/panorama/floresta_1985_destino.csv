@@ -1,0 +1,159 @@
+﻿cod_ibge,municipio,destino,area_ha,pct_floresta_1985
+0,RH-III,contínua até 2025,132387.5024,78.7289
+3300308,Barra do Piraí,contínua até 2025,12877.3682,77.2326
+3300407,Barra Mansa,contínua até 2025,7833.5529,77.6303
+3300951,Comendador Levy Gasparian,contínua até 2025,1637.4651,68.1211
+3302254,Itatiaia,contínua até 2025,11270.4798,90.2897
+3302809,Mendes,contínua até 2025,854.2720,86.6448
+3302908,Miguel Pereira,contínua até 2025,946.7043,83.5293
+3303708,Paraíba do Sul,contínua até 2025,5796.4301,73.7759
+3303856,Paty do Alferes,contínua até 2025,3521.2071,71.4607
+3303955,Pinheiral,contínua até 2025,1753.5280,87.2955
+3304003,Piraí,contínua até 2025,3048.9228,76.0022
+3304110,Porto Real,contínua até 2025,191.4482,72.5260
+3304128,Quatis,contínua até 2025,4568.0359,72.7453
+3304201,Resende,contínua até 2025,30679.7160,79.6330
+3304409,Rio Claro,contínua até 2025,387.2852,55.4624
+3304508,Rio das Flores,contínua até 2025,8174.8771,76.3513
+3306008,Três Rios,contínua até 2025,664.6898,79.6065
+3306107,Valença,contínua até 2025,25685.5222,78.3874
+3306206,Vassouras,contínua até 2025,8996.5586,80.7406
+3306305,Volta Redonda,contínua até 2025,3499.4391,80.2340
+0,RH-III,perdida e recuperada (floresta em 2025),12847.5092,7.6402
+3300308,Barra do Piraí,perdida e recuperada (floresta em 2025),1118.6586,6.7092
+3300407,Barra Mansa,perdida e recuperada (floresta em 2025),994.3902,9.8544
+3300951,Comendador Levy Gasparian,perdida e recuperada (floresta em 2025),200.4164,8.3376
+3302254,Itatiaia,perdida e recuperada (floresta em 2025),691.0650,5.5362
+3302809,Mendes,perdida e recuperada (floresta em 2025),50.8987,5.1624
+3302908,Miguel Pereira,perdida e recuperada (floresta em 2025),76.0765,6.7124
+3303708,Paraíba do Sul,perdida e recuperada (floresta em 2025),853.0690,10.8577
+3303856,Paty do Alferes,perdida e recuperada (floresta em 2025),299.6675,6.0816
+3303955,Pinheiral,perdida e recuperada (floresta em 2025),117.3028,5.8397
+3304003,Piraí,perdida e recuperada (floresta em 2025),326.1854,8.1310
+3304110,Porto Real,perdida e recuperada (floresta em 2025),43.9601,16.6533
+3304128,Quatis,perdida e recuperada (floresta em 2025),573.5277,9.1333
+3304201,Resende,perdida e recuperada (floresta em 2025),3121.6036,8.1025
+3304409,Rio Claro,perdida e recuperada (floresta em 2025),56.4490,8.0840
+3304508,Rio das Flores,perdida e recuperada (floresta em 2025),1128.4686,10.5396
+3306008,Três Rios,perdida e recuperada (floresta em 2025),51.1160,6.1219
+3306107,Valença,perdida e recuperada (floresta em 2025),1931.0333,5.8931
+3306206,Vassouras,perdida e recuperada (floresta em 2025),732.0271,6.5697
+3306305,Volta Redonda,perdida e recuperada (floresta em 2025),481.5938,11.0418
+0,RH-III,virou vegetação herbácea e arbustiva em 2025,183.2570,0.1090
+0,RH-III,virou silvicultura em 2025,781.0857,0.4645
+0,RH-III,virou pastagem em 2025,18607.8741,11.0658
+0,RH-III,virou agricultura em 2025,0.3321,0.0002
+0,RH-III,virou mosaico de usos em 2025,3188.2980,1.8960
+0,RH-III,virou área urbanizada em 2025,81.6309,0.0485
+0,RH-III,virou mineração em 2025,5.5449,0.0033
+0,RH-III,virou outras áreas não vegetadas em 2025,2.4830,0.0015
+0,RH-III,virou água em 2025,70.6754,0.0420
+3300308,Barra do Piraí,virou vegetação herbácea e arbustiva em 2025,12.5047,0.0750
+3300308,Barra do Piraí,virou silvicultura em 2025,13.4130,0.0804
+3300308,Barra do Piraí,virou pastagem em 2025,2462.3135,14.7678
+3300308,Barra do Piraí,virou mosaico de usos em 2025,163.9814,0.9835
+3300308,Barra do Piraí,virou área urbanizada em 2025,9.9362,0.0596
+3300308,Barra do Piraí,virou outras áreas não vegetadas em 2025,0.3313,0.0020
+3300308,Barra do Piraí,virou água em 2025,14.9880,0.0899
+3300407,Barra Mansa,virou vegetação herbácea e arbustiva em 2025,26.0721,0.2584
+3300407,Barra Mansa,virou silvicultura em 2025,5.7939,0.0574
+3300407,Barra Mansa,virou pastagem em 2025,1010.9400,10.0184
+3300407,Barra Mansa,virou mosaico de usos em 2025,210.4966,2.0860
+3300407,Barra Mansa,virou área urbanizada em 2025,2.1516,0.0213
+3300407,Barra Mansa,virou mineração em 2025,5.5449,0.0549
+3300407,Barra Mansa,virou outras áreas não vegetadas em 2025,0.0827,0.0008
+3300407,Barra Mansa,virou água em 2025,1.8212,0.0180
+3300951,Comendador Levy Gasparian,virou vegetação herbácea e arbustiva em 2025,2.5739,0.1071
+3300951,Comendador Levy Gasparian,virou pastagem em 2025,548.9376,22.8367
+3300951,Comendador Levy Gasparian,virou agricultura em 2025,0.3321,0.0138
+3300951,Comendador Levy Gasparian,virou mosaico de usos em 2025,9.4654,0.3938
+3300951,Comendador Levy Gasparian,virou área urbanizada em 2025,2.1586,0.0898
+3300951,Comendador Levy Gasparian,virou água em 2025,2.4074,0.1002
+3302254,Itatiaia,virou vegetação herbácea e arbustiva em 2025,16.1504,0.1294
+3302254,Itatiaia,virou silvicultura em 2025,29.5607,0.2368
+3302254,Itatiaia,virou pastagem em 2025,293.1854,2.3488
+3302254,Itatiaia,virou mosaico de usos em 2025,174.8536,1.4008
+3302254,Itatiaia,virou área urbanizada em 2025,6.2918,0.0504
+3302254,Itatiaia,virou água em 2025,0.9927,0.0080
+3302809,Mendes,virou vegetação herbácea e arbustiva em 2025,1.5724,0.1595
+3302809,Mendes,virou pastagem em 2025,48.3339,4.9023
+3302809,Mendes,virou mosaico de usos em 2025,30.6219,3.1058
+3302809,Mendes,virou área urbanizada em 2025,0.0828,0.0084
+3302809,Mendes,virou água em 2025,0.1656,0.0168
+3302908,Miguel Pereira,virou pastagem em 2025,56.7095,5.0036
+3302908,Miguel Pereira,virou mosaico de usos em 2025,42.1347,3.7176
+3302908,Miguel Pereira,virou área urbanizada em 2025,10.2645,0.9057
+3302908,Miguel Pereira,virou água em 2025,1.4901,0.1315
+3303708,Paraíba do Sul,virou vegetação herbácea e arbustiva em 2025,20.8256,0.2651
+3303708,Paraíba do Sul,virou silvicultura em 2025,2.7388,0.0349
+3303708,Paraíba do Sul,virou pastagem em 2025,1105.2074,14.0669
+3303708,Paraíba do Sul,virou mosaico de usos em 2025,71.3999,0.9088
+3303708,Paraíba do Sul,virou área urbanizada em 2025,2.0734,0.0264
+3303708,Paraíba do Sul,virou água em 2025,5.0586,0.0644
+3303856,Paty do Alferes,virou vegetação herbácea e arbustiva em 2025,0.4142,0.0084
+3303856,Paty do Alferes,virou silvicultura em 2025,0.3313,0.0067
+3303856,Paty do Alferes,virou pastagem em 2025,920.5698,18.6824
+3303856,Paty do Alferes,virou mosaico de usos em 2025,182.4690,3.7031
+3303856,Paty do Alferes,virou área urbanizada em 2025,0.7456,0.0151
+3303856,Paty do Alferes,virou outras áreas não vegetadas em 2025,0.4968,0.0101
+3303856,Paty do Alferes,virou água em 2025,1.5731,0.0319
+3303955,Pinheiral,virou vegetação herbácea e arbustiva em 2025,3.3918,0.1689
+3303955,Pinheiral,virou silvicultura em 2025,0.1654,0.0082
+3303955,Pinheiral,virou pastagem em 2025,124.2460,6.1853
+3303955,Pinheiral,virou mosaico de usos em 2025,4.2189,0.2100
+3303955,Pinheiral,virou área urbanizada em 2025,5.2943,0.2636
+3303955,Pinheiral,virou água em 2025,0.5790,0.0288
+3304003,Piraí,virou vegetação herbácea e arbustiva em 2025,7.1947,0.1793
+3304003,Piraí,virou silvicultura em 2025,10.6699,0.2660
+3304003,Piraí,virou pastagem em 2025,598.5542,14.9205
+3304003,Piraí,virou mosaico de usos em 2025,13.4806,0.3360
+3304003,Piraí,virou área urbanizada em 2025,2.4811,0.0618
+3304003,Piraí,virou água em 2025,4.1356,0.1031
+3304110,Porto Real,virou vegetação herbácea e arbustiva em 2025,0.0828,0.0314
+3304110,Porto Real,virou pastagem em 2025,17.9650,6.8057
+3304110,Porto Real,virou mosaico de usos em 2025,3.8089,1.4429
+3304110,Porto Real,virou área urbanizada em 2025,6.7066,2.5406
+3304128,Quatis,virou vegetação herbácea e arbustiva em 2025,3.8933,0.0620
+3304128,Quatis,virou pastagem em 2025,839.9113,13.3755
+3304128,Quatis,virou mosaico de usos em 2025,292.0586,4.6510
+3304128,Quatis,virou área urbanizada em 2025,0.3313,0.0053
+3304128,Quatis,virou outras áreas não vegetadas em 2025,0.4142,0.0066
+3304128,Quatis,virou água em 2025,1.3247,0.0211
+3304201,Resende,virou vegetação herbácea e arbustiva em 2025,18.5480,0.0481
+3304201,Resende,virou silvicultura em 2025,676.0706,1.7548
+3304201,Resende,virou pastagem em 2025,2917.7022,7.5733
+3304201,Resende,virou mosaico de usos em 2025,1096.5195,2.8462
+3304201,Resende,virou área urbanizada em 2025,9.6846,0.0251
+3304201,Resende,virou água em 2025,6.5379,0.0170
+3304409,Rio Claro,virou vegetação herbácea e arbustiva em 2025,0.1653,0.0237
+3304409,Rio Claro,virou pastagem em 2025,163.3137,23.3879
+3304409,Rio Claro,virou mosaico de usos em 2025,91.0710,13.0421
+3304508,Rio das Flores,virou vegetação herbácea e arbustiva em 2025,15.6752,0.1464
+3304508,Rio das Flores,virou silvicultura em 2025,4.6434,0.0434
+3304508,Rio das Flores,virou pastagem em 2025,1325.2064,12.3771
+3304508,Rio das Flores,virou mosaico de usos em 2025,55.4042,0.5175
+3304508,Rio das Flores,virou área urbanizada em 2025,0.4977,0.0046
+3304508,Rio das Flores,virou água em 2025,2.1567,0.0201
+3306008,Três Rios,virou vegetação herbácea e arbustiva em 2025,2.7380,0.3279
+3306008,Três Rios,virou pastagem em 2025,102.0663,12.2240
+3306008,Três Rios,virou mosaico de usos em 2025,0.4978,0.0596
+3306008,Três Rios,virou água em 2025,13.8613,1.6601
+3306107,Valença,virou vegetação herbácea e arbustiva em 2025,28.8519,0.0881
+3306107,Valença,virou silvicultura em 2025,25.1115,0.0766
+3306107,Valença,virou pastagem em 2025,4471.4823,13.6461
+3306107,Valença,virou mosaico de usos em 2025,616.8115,1.8824
+3306107,Valença,virou área urbanizada em 2025,1.9897,0.0061
+3306107,Valença,virou água em 2025,6.6299,0.0202
+3306206,Vassouras,virou vegetação herbácea e arbustiva em 2025,11.6796,0.1048
+3306206,Vassouras,virou silvicultura em 2025,1.9890,0.0179
+3306206,Vassouras,virou pastagem em 2025,1306.7998,11.7280
+3306206,Vassouras,virou mosaico de usos em 2025,81.8219,0.7343
+3306206,Vassouras,virou área urbanizada em 2025,8.2808,0.0743
+3306206,Vassouras,virou água em 2025,3.3962,0.0305
+3306305,Volta Redonda,virou vegetação herbácea e arbustiva em 2025,10.9230,0.2504
+3306305,Volta Redonda,virou silvicultura em 2025,10.5982,0.2430
+3306305,Volta Redonda,virou pastagem em 2025,294.4298,6.7506
+3306305,Volta Redonda,virou mosaico de usos em 2025,47.1826,1.0818
+3306305,Volta Redonda,virou área urbanizada em 2025,12.6603,0.2903
+3306305,Volta Redonda,virou outras áreas não vegetadas em 2025,1.1579,0.0265
+3306305,Volta Redonda,virou água em 2025,3.5576,0.0816

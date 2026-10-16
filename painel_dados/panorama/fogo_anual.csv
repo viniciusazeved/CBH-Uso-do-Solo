@@ -1,0 +1,2299 @@
+﻿cod_ibge,municipio,ano,grupo_queimado,area_ha
+0,RH-III,1985,Formação florestal,27.0005
+0,RH-III,1985,Vegetação herbácea e arbustiva,6.2927
+0,RH-III,1985,Silvicultura,0.0828
+0,RH-III,1985,Pastagem,1452.7806
+0,RH-III,1985,Mosaico de usos,379.9902
+0,RH-III,1985,Outras áreas não vegetadas,1.4923
+3300308,Barra do Piraí,1985,Formação florestal,6.6249
+3300308,Barra do Piraí,1985,Silvicultura,0.0828
+3300308,Barra do Piraí,1985,Pastagem,93.4788
+3300308,Barra do Piraí,1985,Mosaico de usos,22.6867
+3300407,Barra Mansa,1985,Formação florestal,0.4965
+3300407,Barra Mansa,1985,Pastagem,132.2230
+3300407,Barra Mansa,1985,Mosaico de usos,70.6609
+3300951,Comendador Levy Gasparian,1985,Formação florestal,0.1660
+3300951,Comendador Levy Gasparian,1985,Pastagem,34.3700
+3300951,Comendador Levy Gasparian,1985,Mosaico de usos,29.8035
+3302254,Itatiaia,1985,Pastagem,50.4922
+3302254,Itatiaia,1985,Mosaico de usos,3.3939
+3302809,Mendes,1985,Formação florestal,0.0828
+3302809,Mendes,1985,Pastagem,5.8762
+3302809,Mendes,1985,Mosaico de usos,0.2483
+3303708,Paraíba do Sul,1985,Pastagem,102.5315
+3303708,Paraíba do Sul,1985,Mosaico de usos,56.0746
+3303708,Paraíba do Sul,1985,Outras áreas não vegetadas,0.9951
+3303856,Paty do Alferes,1985,Pastagem,3.8093
+3303856,Paty do Alferes,1985,Mosaico de usos,1.5734
+3303955,Pinheiral,1985,Formação florestal,2.3163
+3303955,Pinheiral,1985,Pastagem,35.7389
+3303955,Pinheiral,1985,Mosaico de usos,4.1360
+3304003,Piraí,1985,Formação florestal,1.0753
+3304003,Piraí,1985,Pastagem,7.7728
+3304003,Piraí,1985,Mosaico de usos,2.1507
+3304110,Porto Real,1985,Pastagem,1.3248
+3304128,Quatis,1985,Formação florestal,1.0759
+3304128,Quatis,1985,Pastagem,2.4028
+3304128,Quatis,1985,Mosaico de usos,0.5794
+3304201,Resende,1985,Formação florestal,1.9860
+3304201,Resende,1985,Vegetação herbácea e arbustiva,6.2927
+3304201,Resende,1985,Pastagem,585.4239
+3304201,Resende,1985,Mosaico de usos,50.6612
+3304508,Rio das Flores,1985,Formação florestal,2.4052
+3304508,Rio das Flores,1985,Pastagem,110.0707
+3304508,Rio das Flores,1985,Mosaico de usos,44.8716
+3306008,Três Rios,1985,Pastagem,70.7819
+3306008,Três Rios,1985,Mosaico de usos,30.8659
+3306107,Valença,1985,Formação florestal,5.6366
+3306107,Valença,1985,Pastagem,74.1115
+3306107,Valença,1985,Mosaico de usos,19.8213
+3306107,Valença,1985,Outras áreas não vegetadas,0.4145
+3306206,Vassouras,1985,Formação florestal,4.5559
+3306206,Vassouras,1985,Pastagem,52.8567
+3306206,Vassouras,1985,Mosaico de usos,15.2435
+3306305,Volta Redonda,1985,Formação florestal,0.5791
+3306305,Volta Redonda,1985,Pastagem,89.5155
+3306305,Volta Redonda,1985,Mosaico de usos,27.2194
+3306305,Volta Redonda,1985,Outras áreas não vegetadas,0.0827
+0,RH-III,1986,Formação florestal,273.9170
+0,RH-III,1986,Vegetação herbácea e arbustiva,24.4321
+0,RH-III,1986,Silvicultura,0.3313
+0,RH-III,1986,Pastagem,1614.7166
+0,RH-III,1986,Mosaico de usos,795.7579
+3300308,Barra do Piraí,1986,Formação florestal,36.6852
+3300308,Barra do Piraí,1986,Silvicultura,0.3313
+3300308,Barra do Piraí,1986,Pastagem,154.8207
+3300308,Barra do Piraí,1986,Mosaico de usos,86.0211
+3300407,Barra Mansa,1986,Formação florestal,52.6997
+3300407,Barra Mansa,1986,Vegetação herbácea e arbustiva,1.0750
+3300407,Barra Mansa,1986,Pastagem,330.7654
+3300407,Barra Mansa,1986,Mosaico de usos,279.1491
+3300951,Comendador Levy Gasparian,1986,Pastagem,8.6335
+3300951,Comendador Levy Gasparian,1986,Mosaico de usos,11.5386
+3302254,Itatiaia,1986,Vegetação herbácea e arbustiva,1.9873
+3302254,Itatiaia,1986,Pastagem,2.1515
+3302254,Itatiaia,1986,Mosaico de usos,0.1655
+3303708,Paraíba do Sul,1986,Formação florestal,0.4146
+3303708,Paraíba do Sul,1986,Pastagem,27.4472
+3303708,Paraíba do Sul,1986,Mosaico de usos,1.9900
+3303856,Paty do Alferes,1986,Pastagem,2.9831
+3303856,Paty do Alferes,1986,Mosaico de usos,0.6628
+3303955,Pinheiral,1986,Formação florestal,4.6338
+3303955,Pinheiral,1986,Pastagem,298.7018
+3303955,Pinheiral,1986,Mosaico de usos,51.4670
+3304003,Piraí,1986,Formação florestal,7.1119
+3304003,Piraí,1986,Pastagem,23.6501
+3304003,Piraí,1986,Mosaico de usos,11.7432
+3304128,Quatis,1986,Formação florestal,20.8817
+3304128,Quatis,1986,Vegetação herbácea e arbustiva,8.7009
+3304128,Quatis,1986,Pastagem,79.4166
+3304128,Quatis,1986,Mosaico de usos,61.1411
+3304201,Resende,1986,Formação florestal,39.6054
+3304201,Resende,1986,Vegetação herbácea e arbustiva,12.6688
+3304201,Resende,1986,Pastagem,231.2113
+3304201,Resende,1986,Mosaico de usos,101.6618
+3304508,Rio das Flores,1986,Pastagem,7.7131
+3304508,Rio das Flores,1986,Mosaico de usos,8.9594
+3306008,Três Rios,1986,Formação florestal,3.9848
+3306008,Três Rios,1986,Pastagem,17.5950
+3306008,Três Rios,1986,Mosaico de usos,7.9659
+3306107,Valença,1986,Formação florestal,88.6910
+3306107,Valença,1986,Pastagem,206.3240
+3306107,Valença,1986,Mosaico de usos,94.8281
+3306206,Vassouras,1986,Formação florestal,5.2187
+3306206,Vassouras,1986,Pastagem,81.2746
+3306206,Vassouras,1986,Mosaico de usos,5.7143
+3306305,Volta Redonda,1986,Formação florestal,13.9902
+3306305,Volta Redonda,1986,Pastagem,142.0288
+3306305,Volta Redonda,1986,Mosaico de usos,72.7499
+0,RH-III,1987,Formação florestal,108.6908
+0,RH-III,1987,Vegetação herbácea e arbustiva,5.3814
+0,RH-III,1987,Silvicultura,0.8283
+0,RH-III,1987,Pastagem,575.4453
+0,RH-III,1987,Mosaico de usos,257.2683
+0,RH-III,1987,Outras áreas não vegetadas,0.5794
+3300308,Barra do Piraí,1987,Formação florestal,24.8474
+3300308,Barra do Piraí,1987,Silvicultura,0.8283
+3300308,Barra do Piraí,1987,Pastagem,77.5090
+3300308,Barra do Piraí,1987,Mosaico de usos,33.2910
+3300407,Barra Mansa,1987,Formação florestal,15.0634
+3300407,Barra Mansa,1987,Vegetação herbácea e arbustiva,0.9097
+3300407,Barra Mansa,1987,Pastagem,59.1570
+3300407,Barra Mansa,1987,Mosaico de usos,37.5636
+3300951,Comendador Levy Gasparian,1987,Pastagem,17.8490
+3302254,Itatiaia,1987,Formação florestal,3.0654
+3302254,Itatiaia,1987,Vegetação herbácea e arbustiva,1.3251
+3302809,Mendes,1987,Pastagem,4.3870
+3303708,Paraíba do Sul,1987,Formação florestal,0.6636
+3303708,Paraíba do Sul,1987,Pastagem,29.6981
+3303708,Paraíba do Sul,1987,Mosaico de usos,6.7201
+3303856,Paty do Alferes,1987,Formação florestal,0.9932
+3303856,Paty do Alferes,1987,Pastagem,2.6502
+3303856,Paty do Alferes,1987,Mosaico de usos,6.2086
+3303955,Pinheiral,1987,Formação florestal,0.0827
+3303955,Pinheiral,1987,Pastagem,10.8388
+3303955,Pinheiral,1987,Mosaico de usos,3.3921
+3304003,Piraí,1987,Pastagem,1.6536
+3304003,Piraí,1987,Mosaico de usos,0.0827
+3304128,Quatis,1987,Formação florestal,5.7966
+3304128,Quatis,1987,Vegetação herbácea e arbustiva,1.7401
+3304128,Quatis,1987,Pastagem,33.1246
+3304128,Quatis,1987,Mosaico de usos,26.8220
+3304128,Quatis,1987,Outras áreas não vegetadas,0.5794
+3304201,Resende,1987,Formação florestal,14.9959
+3304201,Resende,1987,Vegetação herbácea e arbustiva,1.1579
+3304201,Resende,1987,Pastagem,97.4649
+3304201,Resende,1987,Mosaico de usos,27.4103
+3304508,Rio das Flores,1987,Formação florestal,0.9122
+3304508,Rio das Flores,1987,Pastagem,26.3858
+3304508,Rio das Flores,1987,Mosaico de usos,4.7287
+3306008,Três Rios,1987,Pastagem,2.3235
+3306107,Valença,1987,Formação florestal,39.7864
+3306107,Valença,1987,Vegetação herbácea e arbustiva,0.2487
+3306107,Valença,1987,Pastagem,162.9615
+3306107,Valença,1987,Mosaico de usos,92.7555
+3306206,Vassouras,1987,Formação florestal,0.1658
+3306206,Vassouras,1987,Pastagem,24.5293
+3306206,Vassouras,1987,Mosaico de usos,3.5613
+3306305,Volta Redonda,1987,Formação florestal,2.3181
+3306305,Volta Redonda,1987,Pastagem,24.9131
+3306305,Volta Redonda,1987,Mosaico de usos,14.7324
+0,RH-III,1988,Formação florestal,731.8796
+0,RH-III,1988,Vegetação herbácea e arbustiva,1854.7681
+0,RH-III,1988,Silvicultura,0.0828
+0,RH-III,1988,Pastagem,3449.7908
+0,RH-III,1988,Mosaico de usos,1209.4341
+0,RH-III,1988,Outras áreas não vegetadas,0.6619
+3300308,Barra do Piraí,1988,Formação florestal,53.0926
+3300308,Barra do Piraí,1988,Silvicultura,0.0828
+3300308,Barra do Piraí,1988,Pastagem,237.1561
+3300308,Barra do Piraí,1988,Mosaico de usos,85.3732
+3300407,Barra Mansa,1988,Formação florestal,67.3792
+3300407,Barra Mansa,1988,Pastagem,522.9014
+3300407,Barra Mansa,1988,Mosaico de usos,358.9406
+3300407,Barra Mansa,1988,Outras áreas não vegetadas,0.6619
+3300951,Comendador Levy Gasparian,1988,Formação florestal,1.4114
+3300951,Comendador Levy Gasparian,1988,Pastagem,111.5765
+3300951,Comendador Levy Gasparian,1988,Mosaico de usos,23.7384
+3302254,Itatiaia,1988,Formação florestal,245.7314
+3302254,Itatiaia,1988,Vegetação herbácea e arbustiva,943.8491
+3302254,Itatiaia,1988,Pastagem,156.5919
+3302254,Itatiaia,1988,Mosaico de usos,109.3317
+3302809,Mendes,1988,Pastagem,2.7312
+3302809,Mendes,1988,Mosaico de usos,0.7448
+3303708,Paraíba do Sul,1988,Formação florestal,37.9180
+3303708,Paraíba do Sul,1988,Pastagem,230.8989
+3303708,Paraíba do Sul,1988,Mosaico de usos,101.9593
+3303856,Paty do Alferes,1988,Formação florestal,0.6625
+3303856,Paty do Alferes,1988,Pastagem,93.8768
+3303856,Paty do Alferes,1988,Mosaico de usos,8.9463
+3303955,Pinheiral,1988,Formação florestal,0.9928
+3303955,Pinheiral,1988,Pastagem,41.5353
+3303955,Pinheiral,1988,Mosaico de usos,11.1704
+3304003,Piraí,1988,Formação florestal,2.4807
+3304003,Piraí,1988,Pastagem,23.2390
+3304003,Piraí,1988,Mosaico de usos,5.5408
+3304110,Porto Real,1988,Pastagem,5.2167
+3304128,Quatis,1988,Vegetação herbácea e arbustiva,0.0828
+3304128,Quatis,1988,Pastagem,25.5152
+3304128,Quatis,1988,Mosaico de usos,4.6382
+3304201,Resende,1988,Formação florestal,213.8019
+3304201,Resende,1988,Vegetação herbácea e arbustiva,910.8362
+3304201,Resende,1988,Pastagem,378.3598
+3304201,Resende,1988,Mosaico de usos,115.3288
+3304508,Rio das Flores,1988,Formação florestal,30.7705
+3304508,Rio das Flores,1988,Pastagem,391.4296
+3304508,Rio das Flores,1988,Mosaico de usos,135.4710
+3306008,Três Rios,1988,Formação florestal,0.4150
+3306008,Três Rios,1988,Pastagem,105.6426
+3306008,Três Rios,1988,Mosaico de usos,16.5952
+3306107,Valença,1988,Formação florestal,41.7764
+3306107,Valença,1988,Pastagem,521.1760
+3306107,Valença,1988,Mosaico de usos,101.8146
+3306206,Vassouras,1988,Formação florestal,20.8003
+3306206,Vassouras,1988,Pastagem,371.4031
+3306206,Vassouras,1988,Mosaico de usos,57.3530
+3306305,Volta Redonda,1988,Formação florestal,14.6471
+3306305,Volta Redonda,1988,Pastagem,230.5406
+3306305,Volta Redonda,1988,Mosaico de usos,72.4877
+0,RH-III,1989,Formação florestal,104.2473
+0,RH-III,1989,Vegetação herbácea e arbustiva,1.2430
+0,RH-III,1989,Pastagem,402.9869
+0,RH-III,1989,Mosaico de usos,211.6088
+3300308,Barra do Piraí,1989,Formação florestal,8.1984
+3300308,Barra do Piraí,1989,Vegetação herbácea e arbustiva,0.4971
+3300308,Barra do Piraí,1989,Pastagem,14.3277
+3300308,Barra do Piraí,1989,Mosaico de usos,10.7675
+3300407,Barra Mansa,1989,Formação florestal,40.3011
+3300407,Barra Mansa,1989,Pastagem,46.4273
+3300407,Barra Mansa,1989,Mosaico de usos,51.5678
+3300951,Comendador Levy Gasparian,1989,Pastagem,3.5702
+3300951,Comendador Levy Gasparian,1989,Mosaico de usos,0.5812
+3302254,Itatiaia,1989,Pastagem,0.5800
+3302254,Itatiaia,1989,Mosaico de usos,0.7457
+3303708,Paraíba do Sul,1989,Formação florestal,0.3317
+3303708,Paraíba do Sul,1989,Pastagem,76.4498
+3303708,Paraíba do Sul,1989,Mosaico de usos,37.4970
+3303856,Paty do Alferes,1989,Formação florestal,0.1656
+3303856,Paty do Alferes,1989,Pastagem,1.6557
+3303856,Paty do Alferes,1989,Mosaico de usos,1.4901
+3303955,Pinheiral,1989,Pastagem,6.6189
+3303955,Pinheiral,1989,Mosaico de usos,2.2339
+3304003,Piraí,1989,Formação florestal,9.6762
+3304003,Piraí,1989,Pastagem,5.7052
+3304003,Piraí,1989,Mosaico de usos,3.8037
+3304128,Quatis,1989,Pastagem,4.2238
+3304128,Quatis,1989,Mosaico de usos,6.1294
+3304201,Resende,1989,Formação florestal,12.8378
+3304201,Resende,1989,Pastagem,17.4700
+3304201,Resende,1989,Mosaico de usos,16.4000
+3304409,Rio Claro,1989,Formação florestal,0.2479
+3304409,Rio Claro,1989,Pastagem,0.0826
+3304409,Rio Claro,1989,Mosaico de usos,0.9917
+3304508,Rio das Flores,1989,Formação florestal,0.1658
+3304508,Rio das Flores,1989,Pastagem,14.6039
+3304508,Rio das Flores,1989,Mosaico de usos,5.9729
+3306008,Três Rios,1989,Pastagem,7.2208
+3306008,Três Rios,1989,Mosaico de usos,10.7856
+3306107,Valença,1989,Formação florestal,30.2529
+3306107,Valença,1989,Vegetação herbácea e arbustiva,0.7459
+3306107,Valença,1989,Pastagem,168.8603
+3306107,Valença,1989,Mosaico de usos,46.0873
+3306206,Vassouras,1989,Formação florestal,0.2485
+3306206,Vassouras,1989,Pastagem,18.8074
+3306206,Vassouras,1989,Mosaico de usos,2.1543
+3306305,Volta Redonda,1989,Formação florestal,1.8212
+3306305,Volta Redonda,1989,Pastagem,16.3832
+3306305,Volta Redonda,1989,Mosaico de usos,14.4007
+0,RH-III,1990,Formação florestal,116.2411
+0,RH-III,1990,Vegetação herbácea e arbustiva,3.4798
+0,RH-III,1990,Silvicultura,1.5714
+0,RH-III,1990,Pastagem,1249.7468
+0,RH-III,1990,Mosaico de usos,379.8502
+3300308,Barra do Piraí,1990,Formação florestal,30.7312
+3300308,Barra do Piraí,1990,Pastagem,230.1955
+3300308,Barra do Piraí,1990,Mosaico de usos,42.0618
+3300407,Barra Mansa,1990,Formação florestal,12.7474
+3300407,Barra Mansa,1990,Pastagem,393.8241
+3300407,Barra Mansa,1990,Mosaico de usos,150.2942
+3300951,Comendador Levy Gasparian,1990,Pastagem,2.8230
+3303708,Paraíba do Sul,1990,Formação florestal,6.3858
+3303708,Paraíba do Sul,1990,Pastagem,100.1084
+3303708,Paraíba do Sul,1990,Mosaico de usos,30.1056
+3303856,Paty do Alferes,1990,Formação florestal,8.8632
+3303856,Paty do Alferes,1990,Mosaico de usos,5.8812
+3303955,Pinheiral,1990,Formação florestal,0.8274
+3303955,Pinheiral,1990,Pastagem,68.3419
+3303955,Pinheiral,1990,Mosaico de usos,9.5152
+3304003,Piraí,1990,Formação florestal,2.2331
+3304003,Piraí,1990,Silvicultura,1.5714
+3304003,Piraí,1990,Pastagem,6.4514
+3304003,Piraí,1990,Mosaico de usos,2.6464
+3304128,Quatis,1990,Formação florestal,4.2259
+3304128,Quatis,1990,Vegetação herbácea e arbustiva,2.1546
+3304128,Quatis,1990,Pastagem,30.8965
+3304128,Quatis,1990,Mosaico de usos,29.0762
+3304201,Resende,1990,Formação florestal,16.6491
+3304201,Resende,1990,Vegetação herbácea e arbustiva,1.3252
+3304201,Resende,1990,Pastagem,68.3195
+3304201,Resende,1990,Mosaico de usos,38.5007
+3304508,Rio das Flores,1990,Formação florestal,1.3270
+3304508,Rio das Flores,1990,Pastagem,18.8332
+3304508,Rio das Flores,1990,Mosaico de usos,2.9039
+3306008,Três Rios,1990,Mosaico de usos,1.3278
+3306107,Valença,1990,Formação florestal,30.5110
+3306107,Valença,1990,Pastagem,198.2981
+3306107,Valença,1990,Mosaico de usos,50.2357
+3306206,Vassouras,1990,Formação florestal,1.6573
+3306206,Vassouras,1990,Pastagem,60.3355
+3306206,Vassouras,1990,Mosaico de usos,4.3096
+3306305,Volta Redonda,1990,Formação florestal,0.0827
+3306305,Volta Redonda,1990,Pastagem,71.3196
+3306305,Volta Redonda,1990,Mosaico de usos,12.9920
+0,RH-III,1991,Formação florestal,82.5085
+0,RH-III,1991,Vegetação herbácea e arbustiva,0.6633
+0,RH-III,1991,Pastagem,1936.2463
+0,RH-III,1991,Mosaico de usos,361.3934
+3300308,Barra do Piraí,1991,Formação florestal,11.0981
+3300308,Barra do Piraí,1991,Pastagem,106.2268
+3300308,Barra do Piraí,1991,Mosaico de usos,27.1625
+3300407,Barra Mansa,1991,Formação florestal,23.0939
+3300407,Barra Mansa,1991,Pastagem,331.7475
+3300407,Barra Mansa,1991,Mosaico de usos,163.3917
+3300951,Comendador Levy Gasparian,1991,Pastagem,52.8059
+3300951,Comendador Levy Gasparian,1991,Mosaico de usos,4.8157
+3302254,Itatiaia,1991,Pastagem,5.2976
+3302809,Mendes,1991,Pastagem,1.1587
+3302908,Miguel Pereira,1991,Pastagem,0.3311
+3303708,Paraíba do Sul,1991,Formação florestal,2.6540
+3303708,Paraíba do Sul,1991,Pastagem,309.7129
+3303708,Paraíba do Sul,1991,Mosaico de usos,27.2030
+3303856,Paty do Alferes,1991,Formação florestal,1.4071
+3303856,Paty do Alferes,1991,Pastagem,10.4349
+3303856,Paty do Alferes,1991,Mosaico de usos,1.9866
+3303955,Pinheiral,1991,Formação florestal,0.9102
+3303955,Pinheiral,1991,Pastagem,95.0765
+3303955,Pinheiral,1991,Mosaico de usos,0.9103
+3304003,Piraí,1991,Pastagem,1.3237
+3304128,Quatis,1991,Pastagem,7.2896
+3304128,Quatis,1991,Mosaico de usos,0.5800
+3304201,Resende,1991,Formação florestal,0.6632
+3304201,Resende,1991,Pastagem,19.5389
+3304201,Resende,1991,Mosaico de usos,1.3263
+3304508,Rio das Flores,1991,Formação florestal,2.1561
+3304508,Rio das Flores,1991,Pastagem,232.0637
+3304508,Rio das Flores,1991,Mosaico de usos,17.7534
+3306008,Três Rios,1991,Formação florestal,0.1659
+3306008,Três Rios,1991,Pastagem,85.9723
+3306008,Três Rios,1991,Mosaico de usos,15.9317
+3306107,Valença,1991,Formação florestal,27.2789
+3306107,Valença,1991,Vegetação herbácea e arbustiva,0.6633
+3306107,Valença,1991,Pastagem,315.9929
+3306107,Valença,1991,Mosaico de usos,55.1344
+3306206,Vassouras,1991,Formação florestal,2.6511
+3306206,Vassouras,1991,Pastagem,192.7083
+3306206,Vassouras,1991,Mosaico de usos,10.1095
+3306305,Volta Redonda,1991,Formação florestal,10.4299
+3306305,Volta Redonda,1991,Pastagem,168.5652
+3306305,Volta Redonda,1991,Mosaico de usos,35.0885
+0,RH-III,1992,Formação florestal,0.2486
+0,RH-III,1992,Pastagem,263.7240
+0,RH-III,1992,Mosaico de usos,27.2715
+3300308,Barra do Piraí,1992,Pastagem,3.8917
+3300407,Barra Mansa,1992,Pastagem,22.2639
+3300407,Barra Mansa,1992,Mosaico de usos,6.2053
+3300951,Comendador Levy Gasparian,1992,Pastagem,1.3283
+3303708,Paraíba do Sul,1992,Pastagem,66.7745
+3303708,Paraíba do Sul,1992,Mosaico de usos,3.2348
+3303955,Pinheiral,1992,Pastagem,7.4474
+3304201,Resende,1992,Formação florestal,0.1658
+3304201,Resende,1992,Pastagem,7.3731
+3304201,Resende,1992,Mosaico de usos,0.9946
+3304508,Rio das Flores,1992,Pastagem,2.4047
+3304508,Rio das Flores,1992,Mosaico de usos,0.0829
+3306008,Três Rios,1992,Pastagem,36.3511
+3306008,Três Rios,1992,Mosaico de usos,11.3674
+3306107,Valença,1992,Formação florestal,0.0828
+3306107,Valença,1992,Pastagem,32.8239
+3306107,Valença,1992,Mosaico de usos,3.1483
+3306206,Vassouras,1992,Pastagem,83.0654
+3306206,Vassouras,1992,Mosaico de usos,2.2381
+0,RH-III,1993,Formação florestal,163.1802
+0,RH-III,1993,Vegetação herbácea e arbustiva,0.2485
+0,RH-III,1993,Silvicultura,1.5739
+0,RH-III,1993,Pastagem,2079.9852
+0,RH-III,1993,Mosaico de usos,416.0758
+0,RH-III,1993,Outras áreas não vegetadas,1.4085
+3300308,Barra do Piraí,1993,Formação florestal,15.8174
+3300308,Barra do Piraí,1993,Pastagem,162.6997
+3300308,Barra do Piraí,1993,Mosaico de usos,26.0860
+3300407,Barra Mansa,1993,Formação florestal,0.9106
+3300407,Barra Mansa,1993,Pastagem,39.8070
+3300407,Barra Mansa,1993,Mosaico de usos,12.6624
+3300407,Barra Mansa,1993,Outras áreas não vegetadas,0.6620
+3300951,Comendador Levy Gasparian,1993,Formação florestal,0.1660
+3300951,Comendador Levy Gasparian,1993,Pastagem,106.5173
+3300951,Comendador Levy Gasparian,1993,Mosaico de usos,3.6529
+3302254,Itatiaia,1993,Formação florestal,4.8050
+3302254,Itatiaia,1993,Pastagem,8.6162
+3302254,Itatiaia,1993,Mosaico de usos,14.9945
+3302809,Mendes,1993,Pastagem,5.9590
+3303708,Paraíba do Sul,1993,Formação florestal,22.3079
+3303708,Paraíba do Sul,1993,Pastagem,443.8215
+3303708,Paraíba do Sul,1993,Mosaico de usos,115.4621
+3303708,Paraíba do Sul,1993,Outras áreas não vegetadas,0.7466
+3303856,Paty do Alferes,1993,Formação florestal,1.9041
+3303856,Paty do Alferes,1993,Pastagem,9.6075
+3303856,Paty do Alferes,1993,Mosaico de usos,3.8908
+3303955,Pinheiral,1993,Pastagem,4.6333
+3303955,Pinheiral,1993,Mosaico de usos,0.9928
+3304003,Piraí,1993,Formação florestal,2.5639
+3304003,Piraí,1993,Pastagem,11.7412
+3304003,Piraí,1993,Mosaico de usos,2.4809
+3304128,Quatis,1993,Formação florestal,0.2485
+3304128,Quatis,1993,Vegetação herbácea e arbustiva,0.2485
+3304128,Quatis,1993,Pastagem,4.0592
+3304128,Quatis,1993,Mosaico de usos,1.0770
+3304201,Resende,1993,Formação florestal,26.3575
+3304201,Resende,1993,Pastagem,79.3293
+3304201,Resende,1993,Mosaico de usos,38.2771
+3304508,Rio das Flores,1993,Formação florestal,15.7609
+3304508,Rio das Flores,1993,Pastagem,115.9799
+3304508,Rio das Flores,1993,Mosaico de usos,28.8710
+3306008,Três Rios,1993,Formação florestal,2.8207
+3306008,Três Rios,1993,Pastagem,131.6028
+3306008,Três Rios,1993,Mosaico de usos,29.7014
+3306107,Valença,1993,Formação florestal,41.5263
+3306107,Valença,1993,Silvicultura,1.5739
+3306107,Valença,1993,Pastagem,389.5212
+3306107,Valença,1993,Mosaico de usos,60.1719
+3306206,Vassouras,1993,Formação florestal,26.0040
+3306206,Vassouras,1993,Pastagem,538.6172
+3306206,Vassouras,1993,Mosaico de usos,74.8582
+3306305,Volta Redonda,1993,Formação florestal,1.9873
+3306305,Volta Redonda,1993,Pastagem,27.4729
+3306305,Volta Redonda,1993,Mosaico de usos,2.8969
+0,RH-III,1994,Formação florestal,864.7644
+0,RH-III,1994,Vegetação herbácea e arbustiva,21.0456
+0,RH-III,1994,Silvicultura,1.9053
+0,RH-III,1994,Pastagem,10042.8089
+0,RH-III,1994,Mosaico de usos,1998.6002
+0,RH-III,1994,Outras áreas não vegetadas,1.5742
+3300308,Barra do Piraí,1994,Formação florestal,57.7262
+3300308,Barra do Piraí,1994,Silvicultura,1.9053
+3300308,Barra do Piraí,1994,Pastagem,458.3691
+3300308,Barra do Piraí,1994,Mosaico de usos,78.2540
+3300407,Barra Mansa,1994,Formação florestal,99.0671
+3300407,Barra Mansa,1994,Pastagem,1128.2871
+3300407,Barra Mansa,1994,Mosaico de usos,578.4299
+3300951,Comendador Levy Gasparian,1994,Formação florestal,19.5941
+3300951,Comendador Levy Gasparian,1994,Vegetação herbácea e arbustiva,0.4152
+3300951,Comendador Levy Gasparian,1994,Pastagem,328.9520
+3300951,Comendador Levy Gasparian,1994,Mosaico de usos,70.0745
+3302254,Itatiaia,1994,Formação florestal,23.8602
+3302254,Itatiaia,1994,Pastagem,132.6993
+3302254,Itatiaia,1994,Mosaico de usos,27.0875
+3302809,Mendes,1994,Formação florestal,5.5457
+3302809,Mendes,1994,Pastagem,82.3568
+3302809,Mendes,1994,Mosaico de usos,10.5119
+3303708,Paraíba do Sul,1994,Formação florestal,103.8135
+3303708,Paraíba do Sul,1994,Vegetação herbácea e arbustiva,0.6640
+3303708,Paraíba do Sul,1994,Pastagem,941.1256
+3303708,Paraíba do Sul,1994,Mosaico de usos,133.0144
+3303856,Paty do Alferes,1994,Formação florestal,29.4878
+3303856,Paty do Alferes,1994,Pastagem,343.0702
+3303856,Paty do Alferes,1994,Mosaico de usos,66.3481
+3303955,Pinheiral,1994,Formação florestal,10.5892
+3303955,Pinheiral,1994,Pastagem,226.3692
+3303955,Pinheiral,1994,Mosaico de usos,13.1545
+3304003,Piraí,1994,Formação florestal,16.8676
+3304003,Piraí,1994,Pastagem,165.4557
+3304003,Piraí,1994,Mosaico de usos,17.9436
+3304110,Porto Real,1994,Formação florestal,0.9104
+3304110,Porto Real,1994,Pastagem,238.0404
+3304110,Porto Real,1994,Mosaico de usos,6.5407
+3304128,Quatis,1994,Formação florestal,36.3557
+3304128,Quatis,1994,Vegetação herbácea e arbustiva,15.1597
+3304128,Quatis,1994,Pastagem,370.3329
+3304128,Quatis,1994,Mosaico de usos,159.6817
+3304201,Resende,1994,Formação florestal,68.0223
+3304201,Resende,1994,Pastagem,707.8483
+3304201,Resende,1994,Mosaico de usos,155.5489
+3304409,Rio Claro,1994,Formação florestal,0.2479
+3304409,Rio Claro,1994,Pastagem,6.6944
+3304508,Rio das Flores,1994,Formação florestal,8.2939
+3304508,Rio das Flores,1994,Pastagem,591.9899
+3304508,Rio das Flores,1994,Mosaico de usos,54.3226
+3306008,Três Rios,1994,Formação florestal,4.5638
+3306008,Três Rios,1994,Pastagem,275.8612
+3306008,Três Rios,1994,Mosaico de usos,16.0143
+3306008,Três Rios,1994,Outras áreas não vegetadas,0.8297
+3306107,Valença,1994,Formação florestal,321.0183
+3306107,Valença,1994,Vegetação herbácea e arbustiva,4.8067
+3306107,Valença,1994,Pastagem,2190.2828
+3306107,Valença,1994,Mosaico de usos,395.3807
+3306206,Vassouras,1994,Formação florestal,44.1510
+3306206,Vassouras,1994,Pastagem,1338.5184
+3306206,Vassouras,1994,Mosaico de usos,131.5574
+3306305,Volta Redonda,1994,Formação florestal,14.6498
+3306305,Volta Redonda,1994,Pastagem,516.5556
+3306305,Volta Redonda,1994,Mosaico de usos,84.7354
+3306305,Volta Redonda,1994,Outras áreas não vegetadas,0.7445
+0,RH-III,1995,Formação florestal,72.4547
+0,RH-III,1995,Vegetação herbácea e arbustiva,37.4358
+0,RH-III,1995,Pastagem,2195.1470
+0,RH-III,1995,Mosaico de usos,353.2340
+3300308,Barra do Piraí,1995,Formação florestal,21.0420
+3300308,Barra do Piraí,1995,Pastagem,179.8482
+3300308,Barra do Piraí,1995,Mosaico de usos,15.5689
+3300407,Barra Mansa,1995,Formação florestal,18.3719
+3300407,Barra Mansa,1995,Pastagem,731.4805
+3300407,Barra Mansa,1995,Mosaico de usos,174.7527
+3300951,Comendador Levy Gasparian,1995,Formação florestal,0.7471
+3300951,Comendador Levy Gasparian,1995,Vegetação herbácea e arbustiva,0.3321
+3300951,Comendador Levy Gasparian,1995,Pastagem,74.4677
+3300951,Comendador Levy Gasparian,1995,Mosaico de usos,5.2303
+3302254,Itatiaia,1995,Vegetação herbácea e arbustiva,5.2177
+3302254,Itatiaia,1995,Pastagem,17.9591
+3302254,Itatiaia,1995,Mosaico de usos,1.4897
+3303708,Paraíba do Sul,1995,Pastagem,47.9524
+3303708,Paraíba do Sul,1995,Mosaico de usos,2.9872
+3303856,Paty do Alferes,1995,Pastagem,1.6568
+3303955,Pinheiral,1995,Formação florestal,4.4671
+3303955,Pinheiral,1995,Pastagem,139.9053
+3303955,Pinheiral,1995,Mosaico de usos,2.6472
+3304003,Piraí,1995,Formação florestal,2.7290
+3304003,Piraí,1995,Pastagem,18.6081
+3304003,Piraí,1995,Mosaico de usos,3.4734
+3304110,Porto Real,1995,Pastagem,39.0779
+3304128,Quatis,1995,Formação florestal,2.4013
+3304128,Quatis,1995,Pastagem,130.9041
+3304128,Quatis,1995,Mosaico de usos,29.9747
+3304201,Resende,1995,Formação florestal,5.2979
+3304201,Resende,1995,Vegetação herbácea e arbustiva,31.8860
+3304201,Resende,1995,Pastagem,287.0936
+3304201,Resende,1995,Mosaico de usos,34.3564
+3304508,Rio das Flores,1995,Formação florestal,0.6634
+3304508,Rio das Flores,1995,Pastagem,60.3078
+3304508,Rio das Flores,1995,Mosaico de usos,9.3743
+3306008,Três Rios,1995,Formação florestal,0.9126
+3306008,Três Rios,1995,Pastagem,72.3494
+3306008,Três Rios,1995,Mosaico de usos,14.1045
+3306107,Valença,1995,Formação florestal,11.6850
+3306107,Valença,1995,Pastagem,143.0764
+3306107,Valença,1995,Mosaico de usos,18.7296
+3306206,Vassouras,1995,Formação florestal,1.1596
+3306206,Vassouras,1995,Pastagem,12.2579
+3306206,Vassouras,1995,Mosaico de usos,0.4140
+3306305,Volta Redonda,1995,Formação florestal,2.9779
+3306305,Volta Redonda,1995,Pastagem,238.2018
+3306305,Volta Redonda,1995,Mosaico de usos,40.1310
+0,RH-III,1996,Formação florestal,14.4129
+0,RH-III,1996,Vegetação herbácea e arbustiva,9.6912
+0,RH-III,1996,Silvicultura,0.3312
+0,RH-III,1996,Pastagem,816.6222
+0,RH-III,1996,Mosaico de usos,113.6241
+0,RH-III,1996,Outras áreas não vegetadas,0.7448
+3300308,Barra do Piraí,1996,Formação florestal,0.8286
+3300308,Barra do Piraí,1996,Pastagem,49.5117
+3300308,Barra do Piraí,1996,Mosaico de usos,3.3140
+3300407,Barra Mansa,1996,Formação florestal,0.7446
+3300407,Barra Mansa,1996,Vegetação herbácea e arbustiva,0.8283
+3300407,Barra Mansa,1996,Pastagem,169.7049
+3300407,Barra Mansa,1996,Mosaico de usos,57.3479
+3300951,Comendador Levy Gasparian,1996,Formação florestal,0.1661
+3300951,Comendador Levy Gasparian,1996,Pastagem,54.2121
+3300951,Comendador Levy Gasparian,1996,Mosaico de usos,2.2416
+3302254,Itatiaia,1996,Formação florestal,0.1657
+3302254,Itatiaia,1996,Vegetação herbácea e arbustiva,2.9815
+3302254,Itatiaia,1996,Pastagem,17.0496
+3302254,Itatiaia,1996,Mosaico de usos,0.4143
+3303708,Paraíba do Sul,1996,Pastagem,39.0733
+3303708,Paraíba do Sul,1996,Mosaico de usos,1.6592
+3303856,Paty do Alferes,1996,Pastagem,1.9867
+3303856,Paty do Alferes,1996,Mosaico de usos,0.3311
+3303955,Pinheiral,1996,Formação florestal,0.1654
+3303955,Pinheiral,1996,Pastagem,7.6112
+3303955,Pinheiral,1996,Mosaico de usos,0.0827
+3304003,Piraí,1996,Pastagem,3.4730
+3304110,Porto Real,1996,Pastagem,9.1877
+3304110,Porto Real,1996,Mosaico de usos,0.7450
+3304128,Quatis,1996,Vegetação herbácea e arbustiva,2.7349
+3304128,Quatis,1996,Pastagem,45.3247
+3304128,Quatis,1996,Mosaico de usos,6.2980
+3304201,Resende,1996,Formação florestal,0.6625
+3304201,Resende,1996,Vegetação herbácea e arbustiva,2.8150
+3304201,Resende,1996,Pastagem,109.5863
+3304201,Resende,1996,Mosaico de usos,5.2175
+3304409,Rio Claro,1996,Pastagem,0.2480
+3304409,Rio Claro,1996,Mosaico de usos,0.7440
+3304508,Rio das Flores,1996,Formação florestal,0.1660
+3304508,Rio das Flores,1996,Pastagem,54.6755
+3304508,Rio das Flores,1996,Mosaico de usos,4.2320
+3306008,Três Rios,1996,Formação florestal,0.4148
+3306008,Três Rios,1996,Pastagem,134.1154
+3306008,Três Rios,1996,Mosaico de usos,12.6122
+3306107,Valença,1996,Formação florestal,4.5584
+3306107,Valença,1996,Vegetação herbácea e arbustiva,0.3315
+3306107,Valença,1996,Pastagem,46.7574
+3306107,Valença,1996,Mosaico de usos,8.0389
+3306206,Vassouras,1996,Formação florestal,0.2485
+3306206,Vassouras,1996,Pastagem,33.2336
+3306305,Volta Redonda,1996,Formação florestal,6.2925
+3306305,Volta Redonda,1996,Silvicultura,0.3312
+3306305,Volta Redonda,1996,Pastagem,40.8711
+3306305,Volta Redonda,1996,Mosaico de usos,10.3457
+3306305,Volta Redonda,1996,Outras áreas não vegetadas,0.7448
+0,RH-III,1997,Formação florestal,159.7023
+0,RH-III,1997,Vegetação herbácea e arbustiva,31.8057
+0,RH-III,1997,Silvicultura,0.0828
+0,RH-III,1997,Pastagem,2993.2781
+0,RH-III,1997,Mosaico de usos,480.7781
+0,RH-III,1997,Outras áreas não vegetadas,0.6620
+3300308,Barra do Piraí,1997,Formação florestal,33.5565
+3300308,Barra do Piraí,1997,Pastagem,194.4136
+3300308,Barra do Piraí,1997,Mosaico de usos,41.2479
+3300407,Barra Mansa,1997,Formação florestal,18.7093
+3300407,Barra Mansa,1997,Pastagem,476.1132
+3300407,Barra Mansa,1997,Mosaico de usos,172.4609
+3300407,Barra Mansa,1997,Outras áreas não vegetadas,0.6620
+3300951,Comendador Levy Gasparian,1997,Pastagem,36.2791
+3300951,Comendador Levy Gasparian,1997,Mosaico de usos,2.0755
+3302254,Itatiaia,1997,Formação florestal,4.3911
+3302254,Itatiaia,1997,Vegetação herbácea e arbustiva,5.0521
+3302254,Itatiaia,1997,Pastagem,53.3858
+3302254,Itatiaia,1997,Mosaico de usos,5.1359
+3302809,Mendes,1997,Formação florestal,1.9864
+3302809,Mendes,1997,Pastagem,20.1951
+3302809,Mendes,1997,Mosaico de usos,0.0828
+3302908,Miguel Pereira,1997,Pastagem,0.0828
+3303708,Paraíba do Sul,1997,Pastagem,129.1520
+3303708,Paraíba do Sul,1997,Mosaico de usos,3.6500
+3303856,Paty do Alferes,1997,Formação florestal,3.0652
+3303856,Paty do Alferes,1997,Pastagem,335.7188
+3303856,Paty do Alferes,1997,Mosaico de usos,8.1193
+3303955,Pinheiral,1997,Formação florestal,0.2482
+3303955,Pinheiral,1997,Pastagem,125.0159
+3303955,Pinheiral,1997,Mosaico de usos,0.2482
+3304003,Piraí,1997,Formação florestal,0.2481
+3304003,Piraí,1997,Pastagem,10.0058
+3304003,Piraí,1997,Mosaico de usos,0.1654
+3304128,Quatis,1997,Formação florestal,5.1326
+3304128,Quatis,1997,Vegetação herbácea e arbustiva,0.2484
+3304128,Quatis,1997,Pastagem,170.8934
+3304128,Quatis,1997,Mosaico de usos,38.1659
+3304201,Resende,1997,Formação florestal,11.0160
+3304201,Resende,1997,Vegetação herbácea e arbustiva,24.5159
+3304201,Resende,1997,Pastagem,332.8546
+3304201,Resende,1997,Mosaico de usos,46.1102
+3304409,Rio Claro,1997,Formação florestal,3.1400
+3304409,Rio Claro,1997,Pastagem,20.2519
+3304409,Rio Claro,1997,Mosaico de usos,0.6611
+3304508,Rio das Flores,1997,Formação florestal,4.4788
+3304508,Rio das Flores,1997,Pastagem,158.6649
+3304508,Rio das Flores,1997,Mosaico de usos,21.0680
+3306008,Três Rios,1997,Formação florestal,0.5807
+3306008,Três Rios,1997,Pastagem,75.2550
+3306008,Três Rios,1997,Mosaico de usos,21.0735
+3306107,Valença,1997,Formação florestal,35.7274
+3306107,Valença,1997,Vegetação herbácea e arbustiva,1.9893
+3306107,Valença,1997,Pastagem,331.1293
+3306107,Valença,1997,Mosaico de usos,59.1849
+3306206,Vassouras,1997,Formação florestal,4.3055
+3306206,Vassouras,1997,Pastagem,321.7919
+3306206,Vassouras,1997,Mosaico de usos,10.1857
+3306305,Volta Redonda,1997,Formação florestal,33.1165
+3306305,Volta Redonda,1997,Silvicultura,0.0828
+3306305,Volta Redonda,1997,Pastagem,202.0750
+3306305,Volta Redonda,1997,Mosaico de usos,51.1431
+0,RH-III,1998,Formação florestal,71.6969
+0,RH-III,1998,Vegetação herbácea e arbustiva,3.9760
+0,RH-III,1998,Pastagem,1645.9904
+0,RH-III,1998,Mosaico de usos,159.0619
+3300308,Barra do Piraí,1998,Formação florestal,6.8752
+3300308,Barra do Piraí,1998,Pastagem,23.0980
+3300308,Barra do Piraí,1998,Mosaico de usos,3.0646
+3300407,Barra Mansa,1998,Formação florestal,3.9733
+3300407,Barra Mansa,1998,Pastagem,58.1577
+3300407,Barra Mansa,1998,Mosaico de usos,14.3145
+3300951,Comendador Levy Gasparian,1998,Formação florestal,0.9962
+3300951,Comendador Levy Gasparian,1998,Pastagem,135.3167
+3300951,Comendador Levy Gasparian,1998,Mosaico de usos,3.2377
+3302254,Itatiaia,1998,Vegetação herbácea e arbustiva,0.4969
+3302809,Mendes,1998,Pastagem,1.9864
+3303708,Paraíba do Sul,1998,Formação florestal,2.2393
+3303708,Paraíba do Sul,1998,Pastagem,208.9542
+3303708,Paraíba do Sul,1998,Mosaico de usos,12.7734
+3303856,Paty do Alferes,1998,Formação florestal,4.1412
+3303856,Paty do Alferes,1998,Pastagem,45.0634
+3303856,Paty do Alferes,1998,Mosaico de usos,2.0705
+3303955,Pinheiral,1998,Pastagem,3.3921
+3304128,Quatis,1998,Pastagem,14.4058
+3304128,Quatis,1998,Mosaico de usos,3.2286
+3304201,Resende,1998,Formação florestal,3.3145
+3304201,Resende,1998,Vegetação herbácea e arbustiva,3.2302
+3304201,Resende,1998,Pastagem,22.4222
+3304201,Resende,1998,Mosaico de usos,3.5624
+3304409,Rio Claro,1998,Pastagem,14.5473
+3304409,Rio Claro,1998,Mosaico de usos,1.1572
+3304508,Rio das Flores,1998,Formação florestal,13.3574
+3304508,Rio das Flores,1998,Pastagem,421.9829
+3304508,Rio das Flores,1998,Mosaico de usos,42.6420
+3306008,Três Rios,1998,Formação florestal,0.3319
+3306008,Três Rios,1998,Pastagem,108.3014
+3306008,Três Rios,1998,Mosaico de usos,5.6418
+3306107,Valença,1998,Formação florestal,20.7248
+3306107,Valença,1998,Vegetação herbácea e arbustiva,0.2488
+3306107,Valença,1998,Pastagem,169.9565
+3306107,Valença,1998,Mosaico de usos,25.8635
+3306206,Vassouras,1998,Formação florestal,14.0043
+3306206,Vassouras,1998,Pastagem,370.6648
+3306206,Vassouras,1998,Mosaico de usos,33.1488
+3306305,Volta Redonda,1998,Formação florestal,1.7388
+3306305,Volta Redonda,1998,Pastagem,47.7410
+3306305,Volta Redonda,1998,Mosaico de usos,8.3570
+0,RH-III,1999,Formação florestal,1073.9550
+0,RH-III,1999,Vegetação herbácea e arbustiva,22.6990
+0,RH-III,1999,Silvicultura,2.4839
+0,RH-III,1999,Pastagem,10265.3773
+0,RH-III,1999,Mosaico de usos,1623.5661
+3300308,Barra do Piraí,1999,Formação florestal,80.9203
+3300308,Barra do Piraí,1999,Pastagem,912.0168
+3300308,Barra do Piraí,1999,Mosaico de usos,35.6121
+3300407,Barra Mansa,1999,Formação florestal,91.7894
+3300407,Barra Mansa,1999,Vegetação herbácea e arbustiva,0.4970
+3300407,Barra Mansa,1999,Pastagem,1187.6307
+3300407,Barra Mansa,1999,Mosaico de usos,376.5568
+3300951,Comendador Levy Gasparian,1999,Formação florestal,77.8786
+3300951,Comendador Levy Gasparian,1999,Vegetação herbácea e arbustiva,0.4152
+3300951,Comendador Levy Gasparian,1999,Pastagem,572.5252
+3300951,Comendador Levy Gasparian,1999,Mosaico de usos,110.0078
+3302254,Itatiaia,1999,Formação florestal,12.0959
+3302254,Itatiaia,1999,Vegetação herbácea e arbustiva,1.9873
+3302254,Itatiaia,1999,Pastagem,121.1988
+3302254,Itatiaia,1999,Mosaico de usos,22.8638
+3302809,Mendes,1999,Pastagem,14.1532
+3302809,Mendes,1999,Mosaico de usos,0.0828
+3302908,Miguel Pereira,1999,Formação florestal,5.2152
+3302908,Miguel Pereira,1999,Pastagem,14.2394
+3302908,Miguel Pereira,1999,Mosaico de usos,4.4698
+3303708,Paraíba do Sul,1999,Formação florestal,128.2639
+3303708,Paraíba do Sul,1999,Pastagem,1141.3519
+3303708,Paraíba do Sul,1999,Mosaico de usos,128.1667
+3303856,Paty do Alferes,1999,Formação florestal,24.6828
+3303856,Paty do Alferes,1999,Pastagem,310.3241
+3303856,Paty do Alferes,1999,Mosaico de usos,26.3380
+3303955,Pinheiral,1999,Formação florestal,1.4066
+3303955,Pinheiral,1999,Pastagem,23.9959
+3303955,Pinheiral,1999,Mosaico de usos,0.2482
+3304003,Piraí,1999,Formação florestal,7.7741
+3304003,Piraí,1999,Pastagem,32.4970
+3304003,Piraí,1999,Mosaico de usos,1.2406
+3304110,Porto Real,1999,Pastagem,22.5200
+3304128,Quatis,1999,Formação florestal,9.9406
+3304128,Quatis,1999,Vegetação herbácea e arbustiva,6.9603
+3304128,Quatis,1999,Pastagem,123.3459
+3304128,Quatis,1999,Mosaico de usos,59.3843
+3304201,Resende,1999,Formação florestal,230.0030
+3304201,Resende,1999,Vegetação herbácea e arbustiva,8.4472
+3304201,Resende,1999,Pastagem,1066.3044
+3304201,Resende,1999,Mosaico de usos,330.1869
+3304508,Rio das Flores,1999,Formação florestal,104.7379
+3304508,Rio das Flores,1999,Pastagem,1180.1259
+3304508,Rio das Flores,1999,Mosaico de usos,129.8659
+3306008,Três Rios,1999,Formação florestal,35.1798
+3306008,Três Rios,1999,Pastagem,482.3018
+3306008,Três Rios,1999,Mosaico de usos,70.9428
+3306107,Valença,1999,Formação florestal,134.1134
+3306107,Valença,1999,Vegetação herbácea e arbustiva,4.3920
+3306107,Valença,1999,Pastagem,1108.2534
+3306107,Valença,1999,Mosaico de usos,146.3893
+3306206,Vassouras,1999,Formação florestal,89.4736
+3306206,Vassouras,1999,Pastagem,1483.7986
+3306206,Vassouras,1999,Mosaico de usos,94.2167
+3306305,Volta Redonda,1999,Formação florestal,40.4800
+3306305,Volta Redonda,1999,Silvicultura,2.4839
+3306305,Volta Redonda,1999,Pastagem,468.7941
+3306305,Volta Redonda,1999,Mosaico de usos,86.9937
+0,RH-III,2000,Formação florestal,101.8304
+0,RH-III,2000,Vegetação herbácea e arbustiva,13.9151
+0,RH-III,2000,Pastagem,2305.3373
+0,RH-III,2000,Mosaico de usos,468.2341
+0,RH-III,2000,Outras áreas não vegetadas,1.1606
+3300308,Barra do Piraí,2000,Formação florestal,15.4047
+3300308,Barra do Piraí,2000,Pastagem,211.4303
+3300308,Barra do Piraí,2000,Mosaico de usos,12.0926
+3300407,Barra Mansa,2000,Formação florestal,17.7172
+3300407,Barra Mansa,2000,Vegetação herbácea e arbustiva,0.3314
+3300407,Barra Mansa,2000,Pastagem,325.4439
+3300407,Barra Mansa,2000,Mosaico de usos,122.4123
+3300407,Barra Mansa,2000,Outras áreas não vegetadas,0.4136
+3300951,Comendador Levy Gasparian,2000,Formação florestal,0.1660
+3300951,Comendador Levy Gasparian,2000,Pastagem,30.0517
+3300951,Comendador Levy Gasparian,2000,Mosaico de usos,7.3887
+3302254,Itatiaia,2000,Vegetação herbácea e arbustiva,7.7844
+3302254,Itatiaia,2000,Pastagem,42.6214
+3302254,Itatiaia,2000,Mosaico de usos,1.5740
+3302908,Miguel Pereira,2000,Pastagem,0.7449
+3303708,Paraíba do Sul,2000,Formação florestal,5.3917
+3303708,Paraíba do Sul,2000,Vegetação herbácea e arbustiva,0.0830
+3303708,Paraíba do Sul,2000,Pastagem,299.4484
+3303708,Paraíba do Sul,2000,Mosaico de usos,61.5558
+3303856,Paty do Alferes,2000,Formação florestal,1.4073
+3303856,Paty do Alferes,2000,Pastagem,35.1199
+3303856,Paty do Alferes,2000,Mosaico de usos,0.9933
+3303955,Pinheiral,2000,Pastagem,6.6197
+3304003,Piraí,2000,Formação florestal,1.8197
+3304003,Piraí,2000,Pastagem,8.9308
+3304003,Piraí,2000,Mosaico de usos,0.0827
+3304110,Porto Real,2000,Pastagem,3.3122
+3304128,Quatis,2000,Formação florestal,0.4142
+3304128,Quatis,2000,Vegetação herbácea e arbustiva,2.7337
+3304128,Quatis,2000,Pastagem,50.6062
+3304128,Quatis,2000,Mosaico de usos,11.4306
+3304201,Resende,2000,Formação florestal,8.9362
+3304201,Resende,2000,Vegetação herbácea e arbustiva,2.1536
+3304201,Resende,2000,Pastagem,143.7712
+3304201,Resende,2000,Mosaico de usos,37.7584
+3304508,Rio das Flores,2000,Formação florestal,11.1219
+3304508,Rio das Flores,2000,Pastagem,158.8120
+3304508,Rio das Flores,2000,Mosaico de usos,18.3431
+3306008,Três Rios,2000,Formação florestal,2.4070
+3306008,Três Rios,2000,Pastagem,280.9848
+3306008,Três Rios,2000,Mosaico de usos,123.1277
+3306008,Três Rios,2000,Outras áreas não vegetadas,0.7470
+3306107,Valença,2000,Formação florestal,20.9797
+3306107,Valença,2000,Vegetação herbácea e arbustiva,0.8291
+3306107,Valença,2000,Pastagem,355.2310
+3306107,Valença,2000,Mosaico de usos,31.5820
+3306206,Vassouras,2000,Formação florestal,3.7282
+3306206,Vassouras,2000,Pastagem,245.2962
+3306206,Vassouras,2000,Mosaico de usos,8.8674
+3306305,Volta Redonda,2000,Formação florestal,12.3365
+3306305,Volta Redonda,2000,Pastagem,106.9125
+3306305,Volta Redonda,2000,Mosaico de usos,31.0254
+0,RH-III,2001,Formação florestal,857.2089
+0,RH-III,2001,Vegetação herbácea e arbustiva,553.2694
+0,RH-III,2001,Pastagem,11415.9605
+0,RH-III,2001,Agricultura,1.0765
+0,RH-III,2001,Mosaico de usos,1796.0319
+0,RH-III,2001,Outras áreas não vegetadas,8.4467
+3300308,Barra do Piraí,2001,Formação florestal,56.8005
+3300308,Barra do Piraí,2001,Pastagem,880.7772
+3300308,Barra do Piraí,2001,Mosaico de usos,100.7569
+3300407,Barra Mansa,2001,Formação florestal,111.1346
+3300407,Barra Mansa,2001,Vegetação herbácea e arbustiva,1.5741
+3300407,Barra Mansa,2001,Pastagem,1744.3708
+3300407,Barra Mansa,2001,Mosaico de usos,624.7791
+3300407,Barra Mansa,2001,Outras áreas não vegetadas,3.4746
+3300951,Comendador Levy Gasparian,2001,Formação florestal,9.9624
+3300951,Comendador Levy Gasparian,2001,Pastagem,519.7049
+3300951,Comendador Levy Gasparian,2001,Mosaico de usos,62.2632
+3302254,Itatiaia,2001,Formação florestal,53.0709
+3302254,Itatiaia,2001,Vegetação herbácea e arbustiva,181.6073
+3302254,Itatiaia,2001,Pastagem,311.9081
+3302254,Itatiaia,2001,Mosaico de usos,92.9776
+3302809,Mendes,2001,Formação florestal,1.1588
+3302809,Mendes,2001,Pastagem,35.5906
+3302809,Mendes,2001,Mosaico de usos,2.1516
+3302908,Miguel Pereira,2001,Formação florestal,2.4836
+3302908,Miguel Pereira,2001,Pastagem,8.1942
+3302908,Miguel Pereira,2001,Mosaico de usos,5.6294
+3303708,Paraíba do Sul,2001,Formação florestal,29.5308
+3303708,Paraíba do Sul,2001,Pastagem,1009.3435
+3303708,Paraíba do Sul,2001,Mosaico de usos,85.7697
+3303856,Paty do Alferes,2001,Formação florestal,5.1338
+3303856,Paty do Alferes,2001,Pastagem,157.0020
+3303856,Paty do Alferes,2001,Mosaico de usos,18.9663
+3303955,Pinheiral,2001,Formação florestal,5.2951
+3303955,Pinheiral,2001,Pastagem,216.2745
+3303955,Pinheiral,2001,Mosaico de usos,2.8953
+3304003,Piraí,2001,Formação florestal,13.1489
+3304003,Piraí,2001,Pastagem,243.6166
+3304003,Piraí,2001,Mosaico de usos,11.2467
+3304110,Porto Real,2001,Pastagem,96.7833
+3304110,Porto Real,2001,Mosaico de usos,4.3875
+3304128,Quatis,2001,Formação florestal,20.7115
+3304128,Quatis,2001,Vegetação herbácea e arbustiva,10.3588
+3304128,Quatis,2001,Pastagem,208.5050
+3304128,Quatis,2001,Mosaico de usos,90.0518
+3304201,Resende,2001,Formação florestal,290.3171
+3304201,Resende,2001,Vegetação herbácea e arbustiva,357.8232
+3304201,Resende,2001,Pastagem,1588.5504
+3304201,Resende,2001,Mosaico de usos,178.9875
+3304409,Rio Claro,2001,Formação florestal,5.2063
+3304409,Rio Claro,2001,Pastagem,32.0673
+3304409,Rio Claro,2001,Mosaico de usos,7.3550
+3304508,Rio das Flores,2001,Formação florestal,41.7241
+3304508,Rio das Flores,2001,Pastagem,717.1919
+3304508,Rio das Flores,2001,Mosaico de usos,52.3363
+3306008,Três Rios,2001,Formação florestal,7.2199
+3306008,Três Rios,2001,Pastagem,435.6468
+3306008,Três Rios,2001,Mosaico de usos,113.1779
+3306008,Três Rios,2001,Outras áreas não vegetadas,2.4893
+3306107,Valença,2001,Formação florestal,87.8843
+3306107,Valença,2001,Vegetação herbácea e arbustiva,1.9060
+3306107,Valença,2001,Pastagem,1407.4760
+3306107,Valença,2001,Mosaico de usos,166.6367
+3306206,Vassouras,2001,Formação florestal,86.8024
+3306206,Vassouras,2001,Pastagem,997.7424
+3306206,Vassouras,2001,Agricultura,1.0765
+3306206,Vassouras,2001,Mosaico de usos,66.3498
+3306305,Volta Redonda,2001,Formação florestal,29.6239
+3306305,Volta Redonda,2001,Pastagem,805.2151
+3306305,Volta Redonda,2001,Mosaico de usos,109.3135
+3306305,Volta Redonda,2001,Outras áreas não vegetadas,2.4828
+0,RH-III,2002,Formação florestal,355.0451
+0,RH-III,2002,Vegetação herbácea e arbustiva,55.4931
+0,RH-III,2002,Pastagem,3602.9900
+0,RH-III,2002,Agricultura,0.5793
+0,RH-III,2002,Mosaico de usos,697.2980
+0,RH-III,2002,Outras áreas não vegetadas,0.6620
+3300308,Barra do Piraí,2002,Formação florestal,26.7532
+3300308,Barra do Piraí,2002,Pastagem,192.9264
+3300308,Barra do Piraí,2002,Mosaico de usos,23.4404
+3300407,Barra Mansa,2002,Formação florestal,41.7937
+3300407,Barra Mansa,2002,Vegetação herbácea e arbustiva,0.7442
+3300407,Barra Mansa,2002,Pastagem,411.3407
+3300407,Barra Mansa,2002,Agricultura,0.5793
+3300407,Barra Mansa,2002,Mosaico de usos,133.4054
+3300407,Barra Mansa,2002,Outras áreas não vegetadas,0.6620
+3300951,Comendador Levy Gasparian,2002,Formação florestal,1.1624
+3300951,Comendador Levy Gasparian,2002,Vegetação herbácea e arbustiva,0.5812
+3300951,Comendador Levy Gasparian,2002,Pastagem,51.8083
+3300951,Comendador Levy Gasparian,2002,Mosaico de usos,14.2809
+3302254,Itatiaia,2002,Vegetação herbácea e arbustiva,14.8249
+3302254,Itatiaia,2002,Pastagem,25.6611
+3302254,Itatiaia,2002,Mosaico de usos,0.4140
+3302809,Mendes,2002,Formação florestal,0.6622
+3302809,Mendes,2002,Pastagem,19.6991
+3302908,Miguel Pereira,2002,Formação florestal,0.3311
+3302908,Miguel Pereira,2002,Mosaico de usos,1.9867
+3303708,Paraíba do Sul,2002,Formação florestal,35.0703
+3303708,Paraíba do Sul,2002,Pastagem,449.5479
+3303708,Paraíba do Sul,2002,Mosaico de usos,69.1750
+3303856,Paty do Alferes,2002,Formação florestal,3.8916
+3303856,Paty do Alferes,2002,Pastagem,69.4193
+3303856,Paty do Alferes,2002,Mosaico de usos,11.5916
+3303955,Pinheiral,2002,Formação florestal,0.4136
+3303955,Pinheiral,2002,Pastagem,16.7111
+3303955,Pinheiral,2002,Mosaico de usos,1.5718
+3304003,Piraí,2002,Formação florestal,3.7215
+3304003,Piraí,2002,Pastagem,23.1575
+3304003,Piraí,2002,Mosaico de usos,1.3232
+3304110,Porto Real,2002,Pastagem,14.3234
+3304128,Quatis,2002,Formação florestal,12.5071
+3304128,Quatis,2002,Vegetação herbácea e arbustiva,0.4972
+3304128,Quatis,2002,Pastagem,124.6474
+3304128,Quatis,2002,Mosaico de usos,15.9029
+3304201,Resende,2002,Formação florestal,40.0033
+3304201,Resende,2002,Vegetação herbácea e arbustiva,36.1107
+3304201,Resende,2002,Pastagem,337.0874
+3304201,Resende,2002,Mosaico de usos,80.6362
+3304508,Rio das Flores,2002,Formação florestal,16.6720
+3304508,Rio das Flores,2002,Pastagem,229.5073
+3304508,Rio das Flores,2002,Mosaico de usos,16.1732
+3306008,Três Rios,2002,Formação florestal,2.4061
+3306008,Três Rios,2002,Pastagem,235.4305
+3306008,Três Rios,2002,Mosaico de usos,126.0300
+3306107,Valença,2002,Formação florestal,142.5681
+3306107,Valença,2002,Vegetação herbácea e arbustiva,2.7349
+3306107,Valença,2002,Pastagem,834.3219
+3306107,Valença,2002,Mosaico de usos,155.6624
+3306206,Vassouras,2002,Formação florestal,20.8001
+3306206,Vassouras,2002,Pastagem,393.8275
+3306206,Vassouras,2002,Mosaico de usos,19.8899
+3306305,Volta Redonda,2002,Formação florestal,6.2887
+3306305,Volta Redonda,2002,Pastagem,173.5731
+3306305,Volta Redonda,2002,Mosaico de usos,25.8142
+0,RH-III,2003,Formação florestal,297.4148
+0,RH-III,2003,Vegetação herbácea e arbustiva,17.9772
+0,RH-III,2003,Pastagem,6110.6618
+0,RH-III,2003,Mosaico de usos,1112.7082
+0,RH-III,2003,Outras áreas não vegetadas,3.0616
+3300308,Barra do Piraí,2003,Formação florestal,27.0016
+3300308,Barra do Piraí,2003,Pastagem,382.5091
+3300308,Barra do Piraí,2003,Mosaico de usos,44.6253
+3300407,Barra Mansa,2003,Formação florestal,49.7352
+3300407,Barra Mansa,2003,Vegetação herbácea e arbustiva,1.4085
+3300407,Barra Mansa,2003,Pastagem,861.5680
+3300407,Barra Mansa,2003,Mosaico de usos,331.3756
+3300407,Barra Mansa,2003,Outras áreas não vegetadas,2.6478
+3300951,Comendador Levy Gasparian,2003,Formação florestal,0.2491
+3300951,Comendador Levy Gasparian,2003,Pastagem,30.2202
+3300951,Comendador Levy Gasparian,2003,Mosaico de usos,6.5585
+3302254,Itatiaia,2003,Formação florestal,13.5734
+3302254,Itatiaia,2003,Vegetação herbácea e arbustiva,1.3252
+3302254,Itatiaia,2003,Pastagem,155.0932
+3302254,Itatiaia,2003,Mosaico de usos,19.3721
+3302809,Mendes,2003,Formação florestal,0.5793
+3302809,Mendes,2003,Pastagem,38.9838
+3302809,Mendes,2003,Mosaico de usos,1.3242
+3303708,Paraíba do Sul,2003,Formação florestal,4.0635
+3303708,Paraíba do Sul,2003,Pastagem,717.4499
+3303708,Paraíba do Sul,2003,Mosaico de usos,82.5396
+3303856,Paty do Alferes,2003,Formação florestal,1.3247
+3303856,Paty do Alferes,2003,Pastagem,141.5733
+3303856,Paty do Alferes,2003,Mosaico de usos,2.8984
+3303955,Pinheiral,2003,Formação florestal,0.9099
+3303955,Pinheiral,2003,Pastagem,44.8474
+3303955,Pinheiral,2003,Mosaico de usos,1.2410
+3304003,Piraí,2003,Formação florestal,0.1654
+3304003,Piraí,2003,Pastagem,44.0021
+3304003,Piraí,2003,Mosaico de usos,1.9021
+3304110,Porto Real,2003,Pastagem,49.4237
+3304110,Porto Real,2003,Mosaico de usos,2.9801
+3304128,Quatis,2003,Formação florestal,7.1231
+3304128,Quatis,2003,Vegetação herbácea e arbustiva,3.1478
+3304128,Quatis,2003,Pastagem,92.5210
+3304128,Quatis,2003,Mosaico de usos,48.2886
+3304201,Resende,2003,Formação florestal,46.8820
+3304201,Resende,2003,Vegetação herbácea e arbustiva,7.2882
+3304201,Resende,2003,Pastagem,570.5134
+3304201,Resende,2003,Mosaico de usos,131.0735
+3304409,Rio Claro,2003,Pastagem,46.5365
+3304409,Rio Claro,2003,Mosaico de usos,8.2658
+3304508,Rio das Flores,2003,Formação florestal,6.3025
+3304508,Rio das Flores,2003,Pastagem,169.0674
+3304508,Rio das Flores,2003,Mosaico de usos,14.1017
+3306008,Três Rios,2003,Formação florestal,2.0746
+3306008,Três Rios,2003,Pastagem,484.8152
+3306008,Três Rios,2003,Mosaico de usos,149.1799
+3306107,Valença,2003,Formação florestal,118.8031
+3306107,Valença,2003,Vegetação herbácea e arbustiva,4.8075
+3306107,Valença,2003,Pastagem,970.0838
+3306107,Valença,2003,Mosaico de usos,167.8745
+3306206,Vassouras,2003,Formação florestal,7.1246
+3306206,Vassouras,2003,Pastagem,846.0957
+3306206,Vassouras,2003,Mosaico de usos,36.7108
+3306305,Volta Redonda,2003,Formação florestal,11.5028
+3306305,Volta Redonda,2003,Pastagem,465.3581
+3306305,Volta Redonda,2003,Mosaico de usos,62.3966
+3306305,Volta Redonda,2003,Outras áreas não vegetadas,0.4138
+0,RH-III,2004,Formação florestal,71.8318
+0,RH-III,2004,Vegetação herbácea e arbustiva,18.3032
+0,RH-III,2004,Pastagem,2659.4097
+0,RH-III,2004,Mosaico de usos,386.8343
+0,RH-III,2004,Outras áreas não vegetadas,0.6617
+3300308,Barra do Piraí,2004,Formação florestal,7.1203
+3300308,Barra do Piraí,2004,Pastagem,284.3553
+3300308,Barra do Piraí,2004,Mosaico de usos,10.2666
+3300407,Barra Mansa,2004,Formação florestal,12.9909
+3300407,Barra Mansa,2004,Vegetação herbácea e arbustiva,3.4784
+3300407,Barra Mansa,2004,Pastagem,219.5980
+3300407,Barra Mansa,2004,Mosaico de usos,89.6426
+3300951,Comendador Levy Gasparian,2004,Formação florestal,1.5776
+3300951,Comendador Levy Gasparian,2004,Pastagem,237.7821
+3300951,Comendador Levy Gasparian,2004,Mosaico de usos,14.3639
+3302254,Itatiaia,2004,Formação florestal,11.5968
+3302254,Itatiaia,2004,Vegetação herbácea e arbustiva,7.2054
+3302254,Itatiaia,2004,Pastagem,12.6617
+3302254,Itatiaia,2004,Mosaico de usos,12.0119
+3302809,Mendes,2004,Pastagem,2.6486
+3302809,Mendes,2004,Mosaico de usos,0.0828
+3302908,Miguel Pereira,2004,Pastagem,2.6487
+3303708,Paraíba do Sul,2004,Formação florestal,3.5662
+3303708,Paraíba do Sul,2004,Pastagem,383.1699
+3303708,Paraíba do Sul,2004,Mosaico de usos,89.6754
+3303856,Paty do Alferes,2004,Pastagem,24.1018
+3303856,Paty do Alferes,2004,Mosaico de usos,0.6624
+3303955,Pinheiral,2004,Formação florestal,1.9856
+3303955,Pinheiral,2004,Pastagem,66.3544
+3303955,Pinheiral,2004,Mosaico de usos,0.9926
+3303955,Pinheiral,2004,Outras áreas não vegetadas,0.6617
+3304003,Piraí,2004,Formação florestal,0.2482
+3304003,Piraí,2004,Pastagem,3.1431
+3304128,Quatis,2004,Vegetação herbácea e arbustiva,0.7455
+3304128,Quatis,2004,Pastagem,0.6627
+3304128,Quatis,2004,Mosaico de usos,1.2426
+3304201,Resende,2004,Formação florestal,2.9832
+3304201,Resende,2004,Vegetação herbácea e arbustiva,6.8737
+3304201,Resende,2004,Pastagem,35.1156
+3304201,Resende,2004,Mosaico de usos,6.8743
+3304508,Rio das Flores,2004,Formação florestal,4.3111
+3304508,Rio das Flores,2004,Pastagem,396.5426
+3304508,Rio das Flores,2004,Mosaico de usos,29.5241
+3306008,Três Rios,2004,Formação florestal,2.8208
+3306008,Três Rios,2004,Pastagem,196.7318
+3306008,Três Rios,2004,Mosaico de usos,61.4804
+3306107,Valença,2004,Formação florestal,14.9282
+3306107,Valença,2004,Pastagem,205.4115
+3306107,Valença,2004,Mosaico de usos,33.7337
+3306206,Vassouras,2004,Formação florestal,6.0473
+3306206,Vassouras,2004,Pastagem,527.1584
+3306206,Vassouras,2004,Mosaico de usos,27.5885
+3306305,Volta Redonda,2004,Formação florestal,1.6556
+3306305,Volta Redonda,2004,Pastagem,61.3236
+3306305,Volta Redonda,2004,Mosaico de usos,8.6925
+0,RH-III,2005,Formação florestal,52.0890
+0,RH-III,2005,Vegetação herbácea e arbustiva,32.9688
+0,RH-III,2005,Pastagem,1830.5416
+0,RH-III,2005,Mosaico de usos,414.2414
+0,RH-III,2005,Outras áreas não vegetadas,0.1659
+3300308,Barra do Piraí,2005,Formação florestal,1.9043
+3300308,Barra do Piraí,2005,Pastagem,188.9275
+3300308,Barra do Piraí,2005,Mosaico de usos,12.5870
+3300407,Barra Mansa,2005,Formação florestal,9.0222
+3300407,Barra Mansa,2005,Pastagem,238.2212
+3300407,Barra Mansa,2005,Mosaico de usos,129.0111
+3300951,Comendador Levy Gasparian,2005,Vegetação herbácea e arbustiva,0.5812
+3300951,Comendador Levy Gasparian,2005,Pastagem,87.0077
+3300951,Comendador Levy Gasparian,2005,Mosaico de usos,6.5592
+3302254,Itatiaia,2005,Formação florestal,1.1583
+3302254,Itatiaia,2005,Vegetação herbácea e arbustiva,8.9446
+3302254,Itatiaia,2005,Pastagem,69.8432
+3302254,Itatiaia,2005,Mosaico de usos,2.2341
+3302809,Mendes,2005,Formação florestal,0.0828
+3302809,Mendes,2005,Pastagem,4.6343
+3302809,Mendes,2005,Mosaico de usos,0.3310
+3303708,Paraíba do Sul,2005,Pastagem,107.6623
+3303708,Paraíba do Sul,2005,Mosaico de usos,60.2245
+3303856,Paty do Alferes,2005,Formação florestal,0.1656
+3303856,Paty do Alferes,2005,Pastagem,10.5200
+3303856,Paty do Alferes,2005,Mosaico de usos,1.0762
+3303955,Pinheiral,2005,Formação florestal,1.2412
+3303955,Pinheiral,2005,Pastagem,12.2459
+3303955,Pinheiral,2005,Mosaico de usos,2.7305
+3304003,Piraí,2005,Formação florestal,0.9096
+3304003,Piraí,2005,Pastagem,30.6812
+3304003,Piraí,2005,Mosaico de usos,3.0599
+3304110,Porto Real,2005,Pastagem,2.3179
+3304110,Porto Real,2005,Mosaico de usos,2.1524
+3304128,Quatis,2005,Formação florestal,0.4142
+3304128,Quatis,2005,Vegetação herbácea e arbustiva,0.6628
+3304128,Quatis,2005,Pastagem,22.1170
+3304128,Quatis,2005,Mosaico de usos,6.9594
+3304201,Resende,2005,Formação florestal,17.7140
+3304201,Resende,2005,Vegetação herbácea e arbustiva,17.8901
+3304201,Resende,2005,Pastagem,109.6542
+3304201,Resende,2005,Mosaico de usos,70.7603
+3304409,Rio Claro,2005,Pastagem,2.2312
+3304409,Rio Claro,2005,Mosaico de usos,0.7437
+3304508,Rio das Flores,2005,Formação florestal,7.5476
+3304508,Rio das Flores,2005,Pastagem,283.2440
+3304508,Rio das Flores,2005,Mosaico de usos,9.7040
+3306008,Três Rios,2005,Pastagem,41.7406
+3306008,Três Rios,2005,Mosaico de usos,44.1407
+3306008,Três Rios,2005,Outras áreas não vegetadas,0.0830
+3306107,Valença,2005,Formação florestal,4.3113
+3306107,Valença,2005,Vegetação herbácea e arbustiva,4.8901
+3306107,Valença,2005,Pastagem,154.0298
+3306107,Valença,2005,Mosaico de usos,18.5669
+3306107,Valença,2005,Outras áreas não vegetadas,0.0829
+3306206,Vassouras,2005,Formação florestal,3.7286
+3306206,Vassouras,2005,Pastagem,265.4788
+3306206,Vassouras,2005,Mosaico de usos,28.4217
+3306305,Volta Redonda,2005,Formação florestal,3.8893
+3306305,Volta Redonda,2005,Pastagem,199.9849
+3306305,Volta Redonda,2005,Mosaico de usos,14.9787
+0,RH-III,2006,Formação florestal,439.1685
+0,RH-III,2006,Vegetação herbácea e arbustiva,70.6543
+0,RH-III,2006,Pastagem,5661.9595
+0,RH-III,2006,Mosaico de usos,1575.2519
+0,RH-III,2006,Outras áreas não vegetadas,2.1540
+3300308,Barra do Piraí,2006,Formação florestal,16.7282
+3300308,Barra do Piraí,2006,Pastagem,225.1743
+3300308,Barra do Piraí,2006,Mosaico de usos,36.3444
+3300407,Barra Mansa,2006,Formação florestal,19.3648
+3300407,Barra Mansa,2006,Pastagem,468.0412
+3300407,Barra Mansa,2006,Mosaico de usos,295.0975
+3300407,Barra Mansa,2006,Outras áreas não vegetadas,0.9929
+3300951,Comendador Levy Gasparian,2006,Formação florestal,1.4945
+3300951,Comendador Levy Gasparian,2006,Pastagem,258.6928
+3300951,Comendador Levy Gasparian,2006,Mosaico de usos,35.4510
+3302254,Itatiaia,2006,Formação florestal,16.6470
+3302254,Itatiaia,2006,Vegetação herbácea e arbustiva,30.6436
+3302254,Itatiaia,2006,Pastagem,220.4033
+3302254,Itatiaia,2006,Mosaico de usos,66.5532
+3302809,Mendes,2006,Formação florestal,0.3310
+3302809,Mendes,2006,Pastagem,17.0502
+3302809,Mendes,2006,Mosaico de usos,0.1655
+3302908,Miguel Pereira,2006,Formação florestal,0.1655
+3302908,Miguel Pereira,2006,Pastagem,6.9536
+3302908,Miguel Pereira,2006,Mosaico de usos,0.7450
+3303708,Paraíba do Sul,2006,Formação florestal,49.5061
+3303708,Paraíba do Sul,2006,Pastagem,1072.7755
+3303708,Paraíba do Sul,2006,Mosaico de usos,231.2523
+3303708,Paraíba do Sul,2006,Outras áreas não vegetadas,1.0784
+3303856,Paty do Alferes,2006,Formação florestal,65.3600
+3303856,Paty do Alferes,2006,Pastagem,303.3754
+3303856,Paty do Alferes,2006,Mosaico de usos,104.1268
+3303955,Pinheiral,2006,Pastagem,33.5053
+3303955,Pinheiral,2006,Mosaico de usos,2.3168
+3304003,Piraí,2006,Formação florestal,6.2030
+3304003,Piraí,2006,Pastagem,42.6789
+3304003,Piraí,2006,Mosaico de usos,6.3688
+3304110,Porto Real,2006,Pastagem,1.3248
+3304110,Porto Real,2006,Mosaico de usos,3.6416
+3304128,Quatis,2006,Formação florestal,10.7654
+3304128,Quatis,2006,Vegetação herbácea e arbustiva,2.5691
+3304128,Quatis,2006,Pastagem,111.6189
+3304128,Quatis,2006,Mosaico de usos,64.6646
+3304201,Resende,2006,Formação florestal,75.9090
+3304201,Resende,2006,Vegetação herbácea e arbustiva,33.1302
+3304201,Resende,2006,Pastagem,375.1460
+3304201,Resende,2006,Mosaico de usos,130.7371
+3304409,Rio Claro,2006,Formação florestal,2.3136
+3304409,Rio Claro,2006,Pastagem,23.8016
+3304409,Rio Claro,2006,Mosaico de usos,6.6933
+3304508,Rio das Flores,2006,Formação florestal,18.6598
+3304508,Rio das Flores,2006,Pastagem,269.9393
+3304508,Rio das Flores,2006,Mosaico de usos,23.2230
+3306008,Três Rios,2006,Formação florestal,2.5720
+3306008,Três Rios,2006,Pastagem,278.7301
+3306008,Três Rios,2006,Mosaico de usos,128.1848
+3306107,Valença,2006,Formação florestal,93.7510
+3306107,Valença,2006,Vegetação herbácea e arbustiva,4.3114
+3306107,Valença,2006,Pastagem,908.8596
+3306107,Valença,2006,Mosaico de usos,239.8251
+3306206,Vassouras,2006,Formação florestal,48.3089
+3306206,Vassouras,2006,Pastagem,777.8586
+3306206,Vassouras,2006,Mosaico de usos,115.8632
+3306305,Volta Redonda,2006,Formação florestal,11.0886
+3306305,Volta Redonda,2006,Pastagem,266.0300
+3306305,Volta Redonda,2006,Mosaico de usos,83.9981
+3306305,Volta Redonda,2006,Outras áreas não vegetadas,0.0828
+0,RH-III,2007,Formação florestal,939.9495
+0,RH-III,2007,Vegetação herbácea e arbustiva,501.3436
+0,RH-III,2007,Silvicultura,0.5795
+0,RH-III,2007,Pastagem,6035.8234
+0,RH-III,2007,Agricultura,0.4141
+0,RH-III,2007,Mosaico de usos,1808.8168
+0,RH-III,2007,Outras áreas não vegetadas,0.6638
+3300308,Barra do Piraí,2007,Formação florestal,51.5863
+3300308,Barra do Piraí,2007,Pastagem,662.1650
+3300308,Barra do Piraí,2007,Mosaico de usos,76.0819
+3300407,Barra Mansa,2007,Formação florestal,62.1899
+3300407,Barra Mansa,2007,Vegetação herbácea e arbustiva,0.0829
+3300407,Barra Mansa,2007,Pastagem,392.0023
+3300407,Barra Mansa,2007,Mosaico de usos,310.1611
+3300951,Comendador Levy Gasparian,2007,Formação florestal,31.5472
+3300951,Comendador Levy Gasparian,2007,Vegetação herbácea e arbustiva,0.5812
+3300951,Comendador Levy Gasparian,2007,Pastagem,437.1729
+3300951,Comendador Levy Gasparian,2007,Mosaico de usos,93.3977
+3300951,Comendador Levy Gasparian,2007,Outras áreas não vegetadas,0.0830
+3302254,Itatiaia,2007,Vegetação herbácea e arbustiva,16.9782
+3302254,Itatiaia,2007,Pastagem,48.4160
+3302254,Itatiaia,2007,Mosaico de usos,3.1454
+3302809,Mendes,2007,Formação florestal,4.8835
+3302809,Mendes,2007,Pastagem,91.2136
+3302809,Mendes,2007,Mosaico de usos,5.4628
+3302908,Miguel Pereira,2007,Formação florestal,0.5795
+3302908,Miguel Pereira,2007,Pastagem,1.4900
+3302908,Miguel Pereira,2007,Mosaico de usos,0.4967
+3303708,Paraíba do Sul,2007,Formação florestal,95.8927
+3303708,Paraíba do Sul,2007,Vegetação herbácea e arbustiva,0.5810
+3303708,Paraíba do Sul,2007,Pastagem,934.9465
+3303708,Paraíba do Sul,2007,Mosaico de usos,313.7136
+3303708,Paraíba do Sul,2007,Outras áreas não vegetadas,0.0830
+3303856,Paty do Alferes,2007,Formação florestal,19.0458
+3303856,Paty do Alferes,2007,Pastagem,35.8589
+3303856,Paty do Alferes,2007,Agricultura,0.4141
+3303856,Paty do Alferes,2007,Mosaico de usos,12.4220
+3303955,Pinheiral,2007,Formação florestal,7.9411
+3303955,Pinheiral,2007,Pastagem,92.6612
+3303955,Pinheiral,2007,Mosaico de usos,6.8669
+3304003,Piraí,2007,Formação florestal,9.7571
+3304003,Piraí,2007,Pastagem,89.5660
+3304003,Piraí,2007,Mosaico de usos,16.3748
+3304110,Porto Real,2007,Pastagem,17.8002
+3304110,Porto Real,2007,Mosaico de usos,4.9668
+3304128,Quatis,2007,Formação florestal,9.7744
+3304128,Quatis,2007,Vegetação herbácea e arbustiva,2.9827
+3304128,Quatis,2007,Pastagem,171.0153
+3304128,Quatis,2007,Mosaico de usos,80.3385
+3304201,Resende,2007,Formação florestal,29.0799
+3304201,Resende,2007,Vegetação herbácea e arbustiva,474.2524
+3304201,Resende,2007,Pastagem,331.3260
+3304201,Resende,2007,Mosaico de usos,106.6622
+3304409,Rio Claro,2007,Formação florestal,0.0827
+3304409,Rio Claro,2007,Pastagem,1.2399
+3304409,Rio Claro,2007,Mosaico de usos,0.0827
+3304508,Rio das Flores,2007,Formação florestal,57.8241
+3304508,Rio das Flores,2007,Pastagem,339.7021
+3304508,Rio das Flores,2007,Mosaico de usos,77.4757
+3306008,Três Rios,2007,Formação florestal,24.5564
+3306008,Três Rios,2007,Pastagem,443.0985
+3306008,Três Rios,2007,Mosaico de usos,228.3293
+3306008,Três Rios,2007,Outras áreas não vegetadas,0.4978
+3306107,Valença,2007,Formação florestal,248.7905
+3306107,Valença,2007,Vegetação herbácea e arbustiva,5.8852
+3306107,Valença,2007,Pastagem,854.5763
+3306107,Valença,2007,Mosaico de usos,216.2536
+3306206,Vassouras,2007,Formação florestal,251.7536
+3306206,Vassouras,2007,Pastagem,739.3629
+3306206,Vassouras,2007,Mosaico de usos,187.6568
+3306305,Volta Redonda,2007,Formação florestal,34.6647
+3306305,Volta Redonda,2007,Silvicultura,0.5795
+3306305,Volta Redonda,2007,Pastagem,352.2098
+3306305,Volta Redonda,2007,Mosaico de usos,68.9281
+0,RH-III,2008,Formação florestal,8.7913
+0,RH-III,2008,Vegetação herbácea e arbustiva,38.9282
+0,RH-III,2008,Pastagem,618.1923
+0,RH-III,2008,Mosaico de usos,440.9075
+3300308,Barra do Piraí,2008,Pastagem,17.8800
+3300308,Barra do Piraí,2008,Mosaico de usos,2.6502
+3300407,Barra Mansa,2008,Pastagem,28.0549
+3300407,Barra Mansa,2008,Mosaico de usos,21.2618
+3300951,Comendador Levy Gasparian,2008,Pastagem,2.4075
+3300951,Comendador Levy Gasparian,2008,Mosaico de usos,1.1622
+3302254,Itatiaia,2008,Formação florestal,0.1655
+3302254,Itatiaia,2008,Vegetação herbácea e arbustiva,15.4876
+3302254,Itatiaia,2008,Pastagem,4.9663
+3302254,Itatiaia,2008,Mosaico de usos,3.8070
+3303708,Paraíba do Sul,2008,Formação florestal,3.4849
+3303708,Paraíba do Sul,2008,Pastagem,52.5070
+3303708,Paraíba do Sul,2008,Mosaico de usos,155.2116
+3303856,Paty do Alferes,2008,Pastagem,14.4178
+3303856,Paty do Alferes,2008,Mosaico de usos,2.1546
+3303955,Pinheiral,2008,Pastagem,15.1398
+3303955,Pinheiral,2008,Mosaico de usos,0.0828
+3304110,Porto Real,2008,Pastagem,0.9934
+3304110,Porto Real,2008,Mosaico de usos,0.3311
+3304128,Quatis,2008,Formação florestal,0.1657
+3304128,Quatis,2008,Vegetação herbácea e arbustiva,1.8224
+3304128,Quatis,2008,Pastagem,8.5311
+3304128,Quatis,2008,Mosaico de usos,6.3782
+3304201,Resende,2008,Formação florestal,1.6575
+3304201,Resende,2008,Vegetação herbácea e arbustiva,20.2919
+3304201,Resende,2008,Pastagem,31.6247
+3304201,Resende,2008,Mosaico de usos,9.5287
+3304508,Rio das Flores,2008,Formação florestal,0.1660
+3304508,Rio das Flores,2008,Pastagem,49.6147
+3304508,Rio das Flores,2008,Mosaico de usos,2.3234
+3306008,Três Rios,2008,Formação florestal,1.5763
+3306008,Três Rios,2008,Pastagem,185.6233
+3306008,Três Rios,2008,Mosaico de usos,200.4563
+3306107,Valença,2008,Formação florestal,1.4097
+3306107,Valença,2008,Vegetação herbácea e arbustiva,1.3262
+3306107,Valença,2008,Pastagem,80.4140
+3306107,Valença,2008,Mosaico de usos,18.9011
+3306206,Vassouras,2008,Formação florestal,0.1657
+3306206,Vassouras,2008,Pastagem,95.6476
+3306206,Vassouras,2008,Mosaico de usos,15.1688
+3306305,Volta Redonda,2008,Pastagem,30.3702
+3306305,Volta Redonda,2008,Mosaico de usos,1.4896
+0,RH-III,2009,Formação florestal,63.7648
+0,RH-III,2009,Vegetação herbácea e arbustiva,34.6189
+0,RH-III,2009,Pastagem,457.3114
+0,RH-III,2009,Mosaico de usos,225.9925
+0,RH-III,2009,Outras áreas não vegetadas,0.9100
+3300308,Barra do Piraí,2009,Formação florestal,0.9931
+3300308,Barra do Piraí,2009,Pastagem,19.2095
+3300308,Barra do Piraí,2009,Mosaico de usos,0.5795
+3300407,Barra Mansa,2009,Formação florestal,2.3166
+3300407,Barra Mansa,2009,Pastagem,22.9229
+3300407,Barra Mansa,2009,Mosaico de usos,22.5897
+3300407,Barra Mansa,2009,Outras áreas não vegetadas,0.9100
+3302254,Itatiaia,2009,Vegetação herbácea e arbustiva,17.3923
+3302254,Itatiaia,2009,Pastagem,5.2967
+3302809,Mendes,2009,Formação florestal,0.1655
+3302809,Mendes,2009,Pastagem,0.5793
+3303708,Paraíba do Sul,2009,Formação florestal,12.8601
+3303708,Paraíba do Sul,2009,Vegetação herbácea e arbustiva,0.2490
+3303708,Paraíba do Sul,2009,Pastagem,104.0911
+3303708,Paraíba do Sul,2009,Mosaico de usos,70.0112
+3303955,Pinheiral,2009,Formação florestal,0.4963
+3303955,Pinheiral,2009,Pastagem,0.4963
+3303955,Pinheiral,2009,Mosaico de usos,0.6617
+3304003,Piraí,2009,Formação florestal,0.7443
+3304003,Piraí,2009,Pastagem,28.3650
+3304003,Piraí,2009,Mosaico de usos,3.9697
+3304110,Porto Real,2009,Pastagem,2.3185
+3304128,Quatis,2009,Pastagem,3.8945
+3304128,Quatis,2009,Mosaico de usos,1.4082
+3304201,Resende,2009,Formação florestal,7.2938
+3304201,Resende,2009,Vegetação herbácea e arbustiva,16.6460
+3304201,Resende,2009,Pastagem,60.9964
+3304201,Resende,2009,Mosaico de usos,28.5919
+3304508,Rio das Flores,2009,Formação florestal,13.2755
+3304508,Rio das Flores,2009,Pastagem,37.1530
+3304508,Rio das Flores,2009,Mosaico de usos,6.3876
+3306008,Três Rios,2009,Pastagem,9.1272
+3306008,Três Rios,2009,Mosaico de usos,32.5233
+3306107,Valença,2009,Formação florestal,24.5435
+3306107,Valença,2009,Vegetação herbácea e arbustiva,0.3317
+3306107,Valença,2009,Pastagem,46.6911
+3306107,Valença,2009,Mosaico de usos,30.0967
+3306206,Vassouras,2009,Formação florestal,0.3313
+3306206,Vassouras,2009,Pastagem,99.2913
+3306206,Vassouras,2009,Mosaico de usos,26.7732
+3306305,Volta Redonda,2009,Formação florestal,0.7448
+3306305,Volta Redonda,2009,Pastagem,16.8785
+3306305,Volta Redonda,2009,Mosaico de usos,2.3999
+0,RH-III,2010,Formação florestal,145.0147
+0,RH-III,2010,Vegetação herbácea e arbustiva,700.9493
+0,RH-III,2010,Pastagem,4263.8863
+0,RH-III,2010,Mosaico de usos,1105.8802
+0,RH-III,2010,Outras áreas não vegetadas,3.1474
+3300308,Barra do Piraí,2010,Formação florestal,6.9561
+3300308,Barra do Piraí,2010,Pastagem,288.0714
+3300308,Barra do Piraí,2010,Mosaico de usos,38.6677
+3300407,Barra Mansa,2010,Formação florestal,12.9924
+3300407,Barra Mansa,2010,Pastagem,406.6383
+3300407,Barra Mansa,2010,Mosaico de usos,218.6773
+3300407,Barra Mansa,2010,Outras áreas não vegetadas,1.4067
+3300951,Comendador Levy Gasparian,2010,Pastagem,159.3160
+3300951,Comendador Levy Gasparian,2010,Mosaico de usos,21.9176
+3302254,Itatiaia,2010,Formação florestal,40.2527
+3302254,Itatiaia,2010,Vegetação herbácea e arbustiva,585.7406
+3302254,Itatiaia,2010,Pastagem,195.0855
+3302254,Itatiaia,2010,Mosaico de usos,70.5653
+3302809,Mendes,2010,Pastagem,2.8968
+3302809,Mendes,2010,Mosaico de usos,0.0828
+3303708,Paraíba do Sul,2010,Formação florestal,3.6487
+3303708,Paraíba do Sul,2010,Pastagem,371.3162
+3303708,Paraíba do Sul,2010,Mosaico de usos,192.2860
+3303856,Paty do Alferes,2010,Formação florestal,0.2484
+3303856,Paty do Alferes,2010,Pastagem,55.8355
+3303856,Paty do Alferes,2010,Mosaico de usos,4.8027
+3303955,Pinheiral,2010,Formação florestal,3.1445
+3303955,Pinheiral,2010,Pastagem,129.9063
+3303955,Pinheiral,2010,Mosaico de usos,9.5983
+3304003,Piraí,2010,Formação florestal,0.6618
+3304003,Piraí,2010,Pastagem,153.6135
+3304003,Piraí,2010,Mosaico de usos,21.3438
+3304110,Porto Real,2010,Pastagem,8.6100
+3304128,Quatis,2010,Formação florestal,2.1533
+3304128,Quatis,2010,Pastagem,94.4779
+3304128,Quatis,2010,Mosaico de usos,26.1704
+3304201,Resende,2010,Formação florestal,24.0066
+3304201,Resende,2010,Vegetação herbácea e arbustiva,113.6337
+3304201,Resende,2010,Pastagem,787.5458
+3304201,Resende,2010,Mosaico de usos,134.0740
+3304201,Resende,2010,Outras áreas não vegetadas,0.1657
+3304508,Rio das Flores,2010,Formação florestal,12.1061
+3304508,Rio das Flores,2010,Pastagem,277.7259
+3304508,Rio das Flores,2010,Mosaico de usos,25.6269
+3306008,Três Rios,2010,Formação florestal,1.2445
+3306008,Três Rios,2010,Pastagem,185.8765
+3306008,Três Rios,2010,Mosaico de usos,154.1573
+3306107,Valença,2010,Formação florestal,17.3250
+3306107,Valença,2010,Vegetação herbácea e arbustiva,1.5750
+3306107,Valença,2010,Pastagem,407.7535
+3306107,Valença,2010,Mosaico de usos,55.7033
+3306107,Valença,2010,Outras áreas não vegetadas,1.5751
+3306206,Vassouras,2010,Formação florestal,4.6371
+3306206,Vassouras,2010,Pastagem,387.8195
+3306206,Vassouras,2010,Mosaico de usos,41.6061
+3306305,Volta Redonda,2010,Formação florestal,15.6375
+3306305,Volta Redonda,2010,Pastagem,351.3978
+3306305,Volta Redonda,2010,Mosaico de usos,90.6007
+0,RH-III,2011,Formação florestal,970.5353
+0,RH-III,2011,Vegetação herbácea e arbustiva,71.2957
+0,RH-III,2011,Pastagem,15474.6057
+0,RH-III,2011,Agricultura,6.8754
+0,RH-III,2011,Mosaico de usos,2901.6518
+0,RH-III,2011,Outras áreas não vegetadas,0.8281
+3300308,Barra do Piraí,2011,Formação florestal,25.5007
+3300308,Barra do Piraí,2011,Pastagem,688.9196
+3300308,Barra do Piraí,2011,Mosaico de usos,86.3417
+3300308,Barra do Piraí,2011,Outras áreas não vegetadas,0.0827
+3300407,Barra Mansa,2011,Formação florestal,78.1374
+3300407,Barra Mansa,2011,Vegetação herbácea e arbustiva,13.0655
+3300407,Barra Mansa,2011,Pastagem,909.4161
+3300407,Barra Mansa,2011,Mosaico de usos,523.6695
+3300407,Barra Mansa,2011,Outras áreas não vegetadas,0.1655
+3300951,Comendador Levy Gasparian,2011,Formação florestal,5.4790
+3300951,Comendador Levy Gasparian,2011,Pastagem,383.2948
+3300951,Comendador Levy Gasparian,2011,Mosaico de usos,35.4487
+3302254,Itatiaia,2011,Formação florestal,20.8498
+3302254,Itatiaia,2011,Vegetação herbácea e arbustiva,12.6663
+3302254,Itatiaia,2011,Pastagem,649.2108
+3302254,Itatiaia,2011,Agricultura,1.0760
+3302254,Itatiaia,2011,Mosaico de usos,99.7901
+3302809,Mendes,2011,Formação florestal,1.4897
+3302809,Mendes,2011,Pastagem,7.2839
+3302809,Mendes,2011,Mosaico de usos,1.5727
+3302908,Miguel Pereira,2011,Formação florestal,0.6623
+3302908,Miguel Pereira,2011,Pastagem,14.4022
+3302908,Miguel Pereira,2011,Mosaico de usos,1.2416
+3303708,Paraíba do Sul,2011,Formação florestal,88.0541
+3303708,Paraíba do Sul,2011,Pastagem,2661.6571
+3303708,Paraíba do Sul,2011,Mosaico de usos,351.2770
+3303856,Paty do Alferes,2011,Formação florestal,21.6080
+3303856,Paty do Alferes,2011,Pastagem,287.3822
+3303856,Paty do Alferes,2011,Mosaico de usos,46.2074
+3303955,Pinheiral,2011,Formação florestal,3.8062
+3303955,Pinheiral,2011,Pastagem,229.5201
+3303955,Pinheiral,2011,Mosaico de usos,11.4183
+3304003,Piraí,2011,Formação florestal,20.0135
+3304003,Piraí,2011,Pastagem,176.4844
+3304003,Piraí,2011,Mosaico de usos,46.3179
+3304110,Porto Real,2011,Pastagem,96.4483
+3304110,Porto Real,2011,Mosaico de usos,1.4901
+3304128,Quatis,2011,Formação florestal,22.4500
+3304128,Quatis,2011,Vegetação herbácea e arbustiva,3.0651
+3304128,Quatis,2011,Pastagem,183.2190
+3304128,Quatis,2011,Mosaico de usos,66.9278
+3304128,Quatis,2011,Outras áreas não vegetadas,0.4142
+3304201,Resende,2011,Formação florestal,95.2836
+3304201,Resende,2011,Vegetação herbácea e arbustiva,23.2629
+3304201,Resende,2011,Pastagem,1170.8322
+3304201,Resende,2011,Agricultura,2.8140
+3304201,Resende,2011,Mosaico de usos,247.8222
+3304201,Resende,2011,Outras áreas não vegetadas,0.1657
+3304409,Rio Claro,2011,Formação florestal,0.4133
+3304409,Rio Claro,2011,Pastagem,7.5217
+3304409,Rio Claro,2011,Mosaico de usos,2.4797
+3304508,Rio das Flores,2011,Formação florestal,100.5168
+3304508,Rio das Flores,2011,Pastagem,1248.2865
+3304508,Rio das Flores,2011,Mosaico de usos,194.7264
+3306008,Três Rios,2011,Formação florestal,4.2312
+3306008,Três Rios,2011,Pastagem,281.9744
+3306008,Três Rios,2011,Mosaico de usos,175.8109
+3306107,Valença,2011,Formação florestal,280.2231
+3306107,Valença,2011,Vegetação herbácea e arbustiva,19.2359
+3306107,Valença,2011,Pastagem,2854.6895
+3306107,Valença,2011,Agricultura,2.9854
+3306107,Valença,2011,Mosaico de usos,571.8386
+3306206,Vassouras,2011,Formação florestal,177.1561
+3306206,Vassouras,2011,Pastagem,2743.4982
+3306206,Vassouras,2011,Mosaico de usos,292.3719
+3306305,Volta Redonda,2011,Formação florestal,24.6605
+3306305,Volta Redonda,2011,Pastagem,880.5647
+3306305,Volta Redonda,2011,Mosaico de usos,144.8994
+0,RH-III,2012,Formação florestal,83.6431
+0,RH-III,2012,Vegetação herbácea e arbustiva,16.2348
+0,RH-III,2012,Silvicultura,0.5795
+0,RH-III,2012,Pastagem,1462.2707
+0,RH-III,2012,Mosaico de usos,449.8282
+3300308,Barra do Piraí,2012,Formação florestal,0.7452
+3300308,Barra do Piraí,2012,Pastagem,75.5816
+3300308,Barra do Piraí,2012,Mosaico de usos,13.1608
+3300407,Barra Mansa,2012,Formação florestal,1.3246
+3300407,Barra Mansa,2012,Pastagem,99.2226
+3300407,Barra Mansa,2012,Mosaico de usos,46.0139
+3300951,Comendador Levy Gasparian,2012,Formação florestal,6.2270
+3300951,Comendador Levy Gasparian,2012,Vegetação herbácea e arbustiva,0.5812
+3300951,Comendador Levy Gasparian,2012,Pastagem,35.4522
+3300951,Comendador Levy Gasparian,2012,Mosaico de usos,29.3919
+3302254,Itatiaia,2012,Formação florestal,0.2485
+3302254,Itatiaia,2012,Vegetação herbácea e arbustiva,5.2177
+3302254,Itatiaia,2012,Pastagem,14.2353
+3302254,Itatiaia,2012,Mosaico de usos,2.4013
+3302809,Mendes,2012,Pastagem,1.3241
+3303708,Paraíba do Sul,2012,Formação florestal,0.9954
+3303708,Paraíba do Sul,2012,Pastagem,105.6795
+3303708,Paraíba do Sul,2012,Mosaico de usos,58.2322
+3303856,Paty do Alferes,2012,Pastagem,15.3299
+3303856,Paty do Alferes,2012,Mosaico de usos,0.4141
+3303955,Pinheiral,2012,Formação florestal,0.7447
+3303955,Pinheiral,2012,Pastagem,28.2905
+3303955,Pinheiral,2012,Mosaico de usos,4.9644
+3304003,Piraí,2012,Pastagem,15.4678
+3304003,Piraí,2012,Mosaico de usos,3.8056
+3304128,Quatis,2012,Formação florestal,6.2083
+3304128,Quatis,2012,Pastagem,17.3842
+3304128,Quatis,2012,Mosaico de usos,13.4936
+3304201,Resende,2012,Formação florestal,7.1224
+3304201,Resende,2012,Vegetação herbácea e arbustiva,10.4359
+3304201,Resende,2012,Pastagem,57.0340
+3304201,Resende,2012,Mosaico de usos,19.5409
+3304508,Rio das Flores,2012,Formação florestal,25.0536
+3304508,Rio das Flores,2012,Pastagem,544.2778
+3304508,Rio das Flores,2012,Mosaico de usos,69.4348
+3306008,Três Rios,2012,Pastagem,62.9766
+3306008,Três Rios,2012,Mosaico de usos,67.3695
+3306107,Valença,2012,Formação florestal,30.7506
+3306107,Valença,2012,Pastagem,278.7725
+3306107,Valença,2012,Mosaico de usos,81.1340
+3306206,Vassouras,2012,Formação florestal,1.4084
+3306206,Vassouras,2012,Pastagem,76.1591
+3306206,Vassouras,2012,Mosaico de usos,6.9608
+3306305,Volta Redonda,2012,Formação florestal,2.8143
+3306305,Volta Redonda,2012,Silvicultura,0.5795
+3306305,Volta Redonda,2012,Pastagem,35.0828
+3306305,Volta Redonda,2012,Mosaico de usos,33.5102
+0,RH-III,2013,Formação florestal,16.7372
+0,RH-III,2013,Vegetação herbácea e arbustiva,40.8303
+0,RH-III,2013,Pastagem,578.5530
+0,RH-III,2013,Mosaico de usos,130.0575
+0,RH-III,2013,Outras áreas não vegetadas,4.3860
+3300308,Barra do Piraí,2013,Formação florestal,0.4971
+3300308,Barra do Piraí,2013,Pastagem,11.5886
+3300308,Barra do Piraí,2013,Mosaico de usos,0.9939
+3300407,Barra Mansa,2013,Formação florestal,1.2416
+3300407,Barra Mansa,2013,Pastagem,34.9338
+3300407,Barra Mansa,2013,Mosaico de usos,22.8432
+3300951,Comendador Levy Gasparian,2013,Pastagem,3.9839
+3302254,Itatiaia,2013,Formação florestal,0.4966
+3302254,Itatiaia,2013,Vegetação herbácea e arbustiva,8.0337
+3302254,Itatiaia,2013,Pastagem,33.6836
+3302254,Itatiaia,2013,Mosaico de usos,12.4147
+3302809,Mendes,2013,Formação florestal,0.1655
+3302809,Mendes,2013,Pastagem,2.9797
+3302809,Mendes,2013,Mosaico de usos,0.1655
+3303708,Paraíba do Sul,2013,Pastagem,89.7975
+3303708,Paraíba do Sul,2013,Mosaico de usos,7.8776
+3303856,Paty do Alferes,2013,Pastagem,17.6412
+3303856,Paty do Alferes,2013,Mosaico de usos,0.6624
+3303955,Pinheiral,2013,Pastagem,1.9861
+3304003,Piraí,2013,Pastagem,2.3165
+3304110,Porto Real,2013,Pastagem,4.0576
+3304128,Quatis,2013,Formação florestal,0.7460
+3304128,Quatis,2013,Pastagem,13.5800
+3304128,Quatis,2013,Mosaico de usos,2.5670
+3304201,Resende,2013,Formação florestal,9.4485
+3304201,Resende,2013,Vegetação herbácea e arbustiva,32.7966
+3304201,Resende,2013,Pastagem,135.3073
+3304201,Resende,2013,Mosaico de usos,42.8974
+3304201,Resende,2013,Outras áreas não vegetadas,4.3860
+3304508,Rio das Flores,2013,Formação florestal,1.1607
+3304508,Rio das Flores,2013,Pastagem,55.3871
+3304508,Rio das Flores,2013,Mosaico de usos,2.1557
+3306008,Três Rios,2013,Pastagem,14.6021
+3306008,Três Rios,2013,Mosaico de usos,25.9684
+3306107,Valença,2013,Formação florestal,0.6634
+3306107,Valença,2013,Pastagem,46.0180
+3306107,Valença,2013,Mosaico de usos,1.4099
+3306206,Vassouras,2013,Formação florestal,0.9115
+3306206,Vassouras,2013,Pastagem,89.4285
+3306206,Vassouras,2013,Mosaico de usos,6.2136
+3306305,Volta Redonda,2013,Formação florestal,1.4063
+3306305,Volta Redonda,2013,Pastagem,21.2614
+3306305,Volta Redonda,2013,Mosaico de usos,3.8883
+0,RH-III,2014,Formação florestal,832.5145
+0,RH-III,2014,Vegetação herbácea e arbustiva,71.3872
+0,RH-III,2014,Silvicultura,1.7379
+0,RH-III,2014,Pastagem,10023.2714
+0,RH-III,2014,Mosaico de usos,1555.9279
+0,RH-III,2014,Outras áreas não vegetadas,7.9434
+3300308,Barra do Piraí,2014,Formação florestal,31.6254
+3300308,Barra do Piraí,2014,Silvicultura,1.7379
+3300308,Barra do Piraí,2014,Pastagem,402.9716
+3300308,Barra do Piraí,2014,Mosaico de usos,38.6588
+3300407,Barra Mansa,2014,Formação florestal,17.1213
+3300407,Barra Mansa,2014,Pastagem,514.4872
+3300407,Barra Mansa,2014,Mosaico de usos,203.2363
+3300407,Barra Mansa,2014,Outras áreas não vegetadas,2.2334
+3300951,Comendador Levy Gasparian,2014,Formação florestal,48.7340
+3300951,Comendador Levy Gasparian,2014,Vegetação herbácea e arbustiva,0.7473
+3300951,Comendador Levy Gasparian,2014,Pastagem,592.7486
+3300951,Comendador Levy Gasparian,2014,Mosaico de usos,61.1877
+3302254,Itatiaia,2014,Formação florestal,0.2483
+3302254,Itatiaia,2014,Vegetação herbácea e arbustiva,12.8372
+3302254,Itatiaia,2014,Pastagem,133.4274
+3302254,Itatiaia,2014,Mosaico de usos,9.8491
+3302809,Mendes,2014,Formação florestal,3.3932
+3302809,Mendes,2014,Pastagem,50.2421
+3302809,Mendes,2014,Mosaico de usos,3.8904
+3302908,Miguel Pereira,2014,Formação florestal,0.5794
+3302908,Miguel Pereira,2014,Pastagem,2.7314
+3302908,Miguel Pereira,2014,Mosaico de usos,2.7314
+3303708,Paraíba do Sul,2014,Formação florestal,76.1491
+3303708,Paraíba do Sul,2014,Vegetação herbácea e arbustiva,1.5769
+3303708,Paraíba do Sul,2014,Pastagem,1604.5593
+3303708,Paraíba do Sul,2014,Mosaico de usos,242.8830
+3303856,Paty do Alferes,2014,Formação florestal,21.7853
+3303856,Paty do Alferes,2014,Pastagem,186.3934
+3303856,Paty do Alferes,2014,Mosaico de usos,30.8095
+3303955,Pinheiral,2014,Formação florestal,5.6242
+3303955,Pinheiral,2014,Pastagem,84.7111
+3303955,Pinheiral,2014,Mosaico de usos,1.6542
+3304003,Piraí,2014,Formação florestal,72.1198
+3304003,Piraí,2014,Pastagem,186.8386
+3304003,Piraí,2014,Mosaico de usos,56.2452
+3304128,Quatis,2014,Formação florestal,22.7672
+3304128,Quatis,2014,Pastagem,261.8604
+3304128,Quatis,2014,Mosaico de usos,87.7527
+3304201,Resende,2014,Formação florestal,29.2403
+3304201,Resende,2014,Vegetação herbácea e arbustiva,55.3970
+3304201,Resende,2014,Pastagem,623.1256
+3304201,Resende,2014,Mosaico de usos,93.2105
+3304201,Resende,2014,Outras áreas não vegetadas,5.7100
+3304409,Rio Claro,2014,Formação florestal,0.1653
+3304409,Rio Claro,2014,Pastagem,34.5490
+3304409,Rio Claro,2014,Mosaico de usos,8.0999
+3304508,Rio das Flores,2014,Formação florestal,115.1935
+3304508,Rio das Flores,2014,Pastagem,1172.9601
+3304508,Rio das Flores,2014,Mosaico de usos,100.6842
+3306008,Três Rios,2014,Formação florestal,8.7121
+3306008,Três Rios,2014,Pastagem,357.8861
+3306008,Três Rios,2014,Mosaico de usos,152.4932
+3306107,Valença,2014,Formação florestal,133.4819
+3306107,Valença,2014,Vegetação herbácea e arbustiva,0.8289
+3306107,Valença,2014,Pastagem,1393.0413
+3306107,Valença,2014,Mosaico de usos,152.6318
+3306206,Vassouras,2014,Formação florestal,226.7902
+3306206,Vassouras,2014,Pastagem,2119.8056
+3306206,Vassouras,2014,Mosaico de usos,239.9081
+3306305,Volta Redonda,2014,Formação florestal,18.7841
+3306305,Volta Redonda,2014,Pastagem,300.9327
+3306305,Volta Redonda,2014,Mosaico de usos,70.0021
+0,RH-III,2015,Formação florestal,110.3165
+0,RH-III,2015,Vegetação herbácea e arbustiva,75.7812
+0,RH-III,2015,Pastagem,1864.7545
+0,RH-III,2015,Mosaico de usos,673.1949
+0,RH-III,2015,Outras áreas não vegetadas,4.7170
+3300308,Barra do Piraí,2015,Formação florestal,0.8280
+3300308,Barra do Piraí,2015,Pastagem,75.9033
+3300308,Barra do Piraí,2015,Mosaico de usos,0.9932
+3300407,Barra Mansa,2015,Formação florestal,3.9743
+3300407,Barra Mansa,2015,Pastagem,179.5741
+3300407,Barra Mansa,2015,Mosaico de usos,42.0394
+3300951,Comendador Levy Gasparian,2015,Formação florestal,0.2491
+3300951,Comendador Levy Gasparian,2015,Pastagem,25.7391
+3300951,Comendador Levy Gasparian,2015,Mosaico de usos,3.2382
+3302254,Itatiaia,2015,Formação florestal,0.3309
+3302254,Itatiaia,2015,Vegetação herbácea e arbustiva,18.7978
+3302254,Itatiaia,2015,Pastagem,67.0268
+3302254,Itatiaia,2015,Mosaico de usos,3.8892
+3302809,Mendes,2015,Pastagem,10.5933
+3302908,Miguel Pereira,2015,Formação florestal,0.0828
+3302908,Miguel Pereira,2015,Pastagem,0.1656
+3303708,Paraíba do Sul,2015,Formação florestal,35.5871
+3303708,Paraíba do Sul,2015,Pastagem,343.4852
+3303708,Paraíba do Sul,2015,Mosaico de usos,222.0609
+3303856,Paty do Alferes,2015,Formação florestal,9.1942
+3303856,Paty do Alferes,2015,Pastagem,34.0339
+3303856,Paty do Alferes,2015,Mosaico de usos,15.0703
+3303955,Pinheiral,2015,Formação florestal,3.8874
+3303955,Pinheiral,2015,Pastagem,53.2678
+3303955,Pinheiral,2015,Mosaico de usos,7.1133
+3304003,Piraí,2015,Formação florestal,2.5635
+3304003,Piraí,2015,Pastagem,43.4976
+3304003,Piraí,2015,Mosaico de usos,2.3156
+3304110,Porto Real,2015,Pastagem,15.0671
+3304110,Porto Real,2015,Mosaico de usos,2.8146
+3304128,Quatis,2015,Formação florestal,10.1915
+3304128,Quatis,2015,Pastagem,24.8515
+3304128,Quatis,2015,Mosaico de usos,16.0718
+3304201,Resende,2015,Formação florestal,1.8217
+3304201,Resende,2015,Vegetação herbácea e arbustiva,54.4966
+3304201,Resende,2015,Pastagem,152.8680
+3304201,Resende,2015,Mosaico de usos,18.8752
+3304201,Resende,2015,Outras áreas não vegetadas,4.7170
+3304409,Rio Claro,2015,Pastagem,7.6861
+3304409,Rio Claro,2015,Mosaico de usos,3.0577
+3304508,Rio das Flores,2015,Pastagem,31.1077
+3304508,Rio das Flores,2015,Mosaico de usos,1.1610
+3306008,Três Rios,2015,Formação florestal,10.8683
+3306008,Três Rios,2015,Pastagem,218.7098
+3306008,Três Rios,2015,Mosaico de usos,259.3545
+3306107,Valença,2015,Formação florestal,20.3096
+3306107,Valença,2015,Vegetação herbácea e arbustiva,2.4869
+3306107,Valença,2015,Pastagem,175.3127
+3306107,Valença,2015,Mosaico de usos,31.6703
+3306206,Vassouras,2015,Formação florestal,4.7195
+3306206,Vassouras,2015,Pastagem,297.4888
+3306206,Vassouras,2015,Mosaico de usos,17.6473
+3306305,Volta Redonda,2015,Formação florestal,5.7087
+3306305,Volta Redonda,2015,Pastagem,108.3763
+3306305,Volta Redonda,2015,Mosaico de usos,25.8225
+0,RH-III,2016,Formação florestal,60.6066
+0,RH-III,2016,Vegetação herbácea e arbustiva,53.9812
+0,RH-III,2016,Pastagem,2393.4808
+0,RH-III,2016,Agricultura,0.5788
+0,RH-III,2016,Mosaico de usos,432.8018
+0,RH-III,2016,Outras áreas não vegetadas,3.6412
+3300308,Barra do Piraí,2016,Formação florestal,5.3822
+3300308,Barra do Piraí,2016,Pastagem,97.4501
+3300308,Barra do Piraí,2016,Mosaico de usos,10.1015
+3300407,Barra Mansa,2016,Formação florestal,11.2570
+3300407,Barra Mansa,2016,Pastagem,356.3816
+3300407,Barra Mansa,2016,Mosaico de usos,128.0248
+3300951,Comendador Levy Gasparian,2016,Formação florestal,0.7471
+3300951,Comendador Levy Gasparian,2016,Pastagem,27.7279
+3300951,Comendador Levy Gasparian,2016,Mosaico de usos,3.8186
+3302254,Itatiaia,2016,Formação florestal,7.6115
+3302254,Itatiaia,2016,Vegetação herbácea e arbustiva,10.4329
+3302254,Itatiaia,2016,Pastagem,179.7235
+3302254,Itatiaia,2016,Mosaico de usos,13.9006
+3302908,Miguel Pereira,2016,Pastagem,6.7889
+3302908,Miguel Pereira,2016,Mosaico de usos,0.2484
+3303708,Paraíba do Sul,2016,Formação florestal,0.3315
+3303708,Paraíba do Sul,2016,Pastagem,64.7801
+3303708,Paraíba do Sul,2016,Mosaico de usos,27.9573
+3303856,Paty do Alferes,2016,Pastagem,51.4535
+3303856,Paty do Alferes,2016,Mosaico de usos,0.9935
+3303955,Pinheiral,2016,Formação florestal,0.6620
+3303955,Pinheiral,2016,Pastagem,102.6862
+3303955,Pinheiral,2016,Mosaico de usos,2.8137
+3304003,Piraí,2016,Formação florestal,3.3915
+3304003,Piraí,2016,Pastagem,47.7205
+3304003,Piraí,2016,Mosaico de usos,5.2943
+3304110,Porto Real,2016,Pastagem,9.8523
+3304110,Porto Real,2016,Mosaico de usos,1.4900
+3304128,Quatis,2016,Formação florestal,1.2431
+3304128,Quatis,2016,Vegetação herbácea e arbustiva,0.1657
+3304128,Quatis,2016,Pastagem,42.4167
+3304128,Quatis,2016,Mosaico de usos,18.3129
+3304201,Resende,2016,Formação florestal,8.4412
+3304201,Resende,2016,Vegetação herbácea e arbustiva,39.8188
+3304201,Resende,2016,Pastagem,507.1919
+3304201,Resende,2016,Agricultura,0.5788
+3304201,Resende,2016,Mosaico de usos,61.5790
+3304201,Resende,2016,Outras áreas não vegetadas,3.6412
+3304409,Rio Claro,2016,Pastagem,14.4628
+3304409,Rio Claro,2016,Mosaico de usos,5.5371
+3304508,Rio das Flores,2016,Formação florestal,0.1659
+3304508,Rio das Flores,2016,Pastagem,27.7152
+3304508,Rio das Flores,2016,Mosaico de usos,0.8301
+3306008,Três Rios,2016,Formação florestal,1.6592
+3306008,Três Rios,2016,Pastagem,56.7515
+3306008,Três Rios,2016,Mosaico de usos,45.5477
+3306107,Valença,2016,Formação florestal,12.5164
+3306107,Valença,2016,Vegetação herbácea e arbustiva,3.5637
+3306107,Valença,2016,Pastagem,319.0668
+3306107,Valença,2016,Mosaico de usos,61.7527
+3306206,Vassouras,2016,Formação florestal,0.3313
+3306206,Vassouras,2016,Pastagem,76.8808
+3306206,Vassouras,2016,Mosaico de usos,3.3143
+3306305,Volta Redonda,2016,Formação florestal,6.8664
+3306305,Volta Redonda,2016,Pastagem,404.4302
+3306305,Volta Redonda,2016,Mosaico de usos,41.2853
+0,RH-III,2017,Formação florestal,204.1711
+0,RH-III,2017,Vegetação herbácea e arbustiva,52.3488
+0,RH-III,2017,Pastagem,4949.3435
+0,RH-III,2017,Agricultura,0.0827
+0,RH-III,2017,Mosaico de usos,955.3889
+0,RH-III,2017,Outras áreas não vegetadas,5.8815
+3300308,Barra do Piraí,2017,Formação florestal,11.5950
+3300308,Barra do Piraí,2017,Pastagem,150.2018
+3300308,Barra do Piraí,2017,Mosaico de usos,11.5946
+3300407,Barra Mansa,2017,Formação florestal,25.0801
+3300407,Barra Mansa,2017,Vegetação herbácea e arbustiva,1.0750
+3300407,Barra Mansa,2017,Pastagem,462.7655
+3300407,Barra Mansa,2017,Agricultura,0.0827
+3300407,Barra Mansa,2017,Mosaico de usos,163.4456
+3300407,Barra Mansa,2017,Outras áreas não vegetadas,0.0828
+3300951,Comendador Levy Gasparian,2017,Formação florestal,4.2340
+3300951,Comendador Levy Gasparian,2017,Pastagem,251.8784
+3300951,Comendador Levy Gasparian,2017,Mosaico de usos,19.5099
+3300951,Comendador Levy Gasparian,2017,Outras áreas não vegetadas,1.8265
+3302254,Itatiaia,2017,Formação florestal,9.1863
+3302254,Itatiaia,2017,Vegetação herbácea e arbustiva,14.4101
+3302254,Itatiaia,2017,Pastagem,406.9753
+3302254,Itatiaia,2017,Mosaico de usos,98.1502
+3302809,Mendes,2017,Pastagem,4.8007
+3302809,Mendes,2017,Mosaico de usos,0.1655
+3302908,Miguel Pereira,2017,Formação florestal,0.5794
+3302908,Miguel Pereira,2017,Pastagem,3.3113
+3302908,Miguel Pereira,2017,Mosaico de usos,1.0761
+3303708,Paraíba do Sul,2017,Formação florestal,12.3573
+3303708,Paraíba do Sul,2017,Vegetação herbácea e arbustiva,0.8300
+3303708,Paraíba do Sul,2017,Pastagem,673.4606
+3303708,Paraíba do Sul,2017,Mosaico de usos,62.8717
+3303856,Paty do Alferes,2017,Formação florestal,3.0653
+3303856,Paty do Alferes,2017,Pastagem,170.7307
+3303856,Paty do Alferes,2017,Mosaico de usos,17.3882
+3303955,Pinheiral,2017,Formação florestal,0.0827
+3303955,Pinheiral,2017,Pastagem,24.4869
+3303955,Pinheiral,2017,Mosaico de usos,2.0681
+3304003,Piraí,2017,Formação florestal,0.2482
+3304003,Piraí,2017,Pastagem,37.3020
+3304003,Piraí,2017,Mosaico de usos,3.3089
+3304110,Porto Real,2017,Formação florestal,0.9104
+3304110,Porto Real,2017,Pastagem,21.1117
+3304110,Porto Real,2017,Mosaico de usos,5.9593
+3304128,Quatis,2017,Formação florestal,8.9458
+3304128,Quatis,2017,Vegetação herbácea e arbustiva,4.9720
+3304128,Quatis,2017,Pastagem,129.3723
+3304128,Quatis,2017,Mosaico de usos,56.6595
+3304201,Resende,2017,Formação florestal,17.6435
+3304201,Resende,2017,Vegetação herbácea e arbustiva,26.8338
+3304201,Resende,2017,Pastagem,788.6150
+3304201,Resende,2017,Mosaico de usos,217.4921
+3304201,Resende,2017,Outras áreas não vegetadas,3.9722
+3304409,Rio Claro,2017,Pastagem,4.2977
+3304409,Rio Claro,2017,Mosaico de usos,1.4047
+3304508,Rio das Flores,2017,Formação florestal,16.8384
+3304508,Rio das Flores,2017,Pastagem,377.0751
+3304508,Rio das Flores,2017,Mosaico de usos,31.0231
+3306008,Três Rios,2017,Formação florestal,0.6638
+3306008,Três Rios,2017,Pastagem,260.5811
+3306008,Três Rios,2017,Mosaico de usos,93.1720
+3306107,Valença,2017,Formação florestal,88.4363
+3306107,Valença,2017,Vegetação herbácea e arbustiva,4.2280
+3306107,Valença,2017,Pastagem,827.3835
+3306107,Valença,2017,Mosaico de usos,105.1161
+3306206,Vassouras,2017,Formação florestal,0.0828
+3306206,Vassouras,2017,Pastagem,154.8748
+3306206,Vassouras,2017,Mosaico de usos,7.7904
+3306305,Volta Redonda,2017,Formação florestal,4.2220
+3306305,Volta Redonda,2017,Pastagem,200.1192
+3306305,Volta Redonda,2017,Mosaico de usos,57.1928
+0,RH-III,2018,Formação florestal,33.0576
+0,RH-III,2018,Vegetação herbácea e arbustiva,84.0652
+0,RH-III,2018,Pastagem,1084.1339
+0,RH-III,2018,Mosaico de usos,255.2888
+0,RH-III,2018,Outras áreas não vegetadas,2.7309
+3300308,Barra do Piraí,2018,Formação florestal,0.5800
+3300308,Barra do Piraí,2018,Pastagem,59.7650
+3300308,Barra do Piraí,2018,Mosaico de usos,1.7399
+3300407,Barra Mansa,2018,Formação florestal,2.4855
+3300407,Barra Mansa,2018,Pastagem,48.4001
+3300407,Barra Mansa,2018,Mosaico de usos,14.0665
+3300951,Comendador Levy Gasparian,2018,Pastagem,4.1515
+3302254,Itatiaia,2018,Vegetação herbácea e arbustiva,27.1653
+3302254,Itatiaia,2018,Pastagem,36.6622
+3302254,Itatiaia,2018,Mosaico de usos,8.5247
+3302809,Mendes,2018,Formação florestal,0.4139
+3302809,Mendes,2018,Pastagem,81.4506
+3302809,Mendes,2018,Mosaico de usos,1.5727
+3303708,Paraíba do Sul,2018,Formação florestal,0.6637
+3303708,Paraíba do Sul,2018,Pastagem,115.9656
+3303708,Paraíba do Sul,2018,Mosaico de usos,61.7200
+3303856,Paty do Alferes,2018,Formação florestal,1.0766
+3303856,Paty do Alferes,2018,Pastagem,67.0247
+3303856,Paty do Alferes,2018,Mosaico de usos,12.9197
+3303856,Paty do Alferes,2018,Outras áreas não vegetadas,0.0828
+3303955,Pinheiral,2018,Pastagem,74.6331
+3303955,Pinheiral,2018,Mosaico de usos,0.2482
+3304003,Piraí,2018,Formação florestal,4.7966
+3304003,Piraí,2018,Pastagem,31.8406
+3304003,Piraí,2018,Mosaico de usos,9.9242
+3304110,Porto Real,2018,Pastagem,1.3250
+3304110,Porto Real,2018,Mosaico de usos,1.4078
+3304128,Quatis,2018,Formação florestal,3.6451
+3304128,Quatis,2018,Vegetação herbácea e arbustiva,0.4142
+3304128,Quatis,2018,Pastagem,27.1715
+3304128,Quatis,2018,Mosaico de usos,20.2965
+3304201,Resende,2018,Formação florestal,6.9623
+3304201,Resende,2018,Vegetação herbácea e arbustiva,56.4857
+3304201,Resende,2018,Pastagem,174.8426
+3304201,Resende,2018,Mosaico de usos,38.4330
+3304201,Resende,2018,Outras áreas não vegetadas,2.6481
+3304508,Rio das Flores,2018,Pastagem,39.7252
+3304508,Rio das Flores,2018,Mosaico de usos,1.2448
+3306008,Três Rios,2018,Formação florestal,0.4148
+3306008,Três Rios,2018,Pastagem,52.5199
+3306008,Três Rios,2018,Mosaico de usos,64.1328
+3306107,Valença,2018,Formação florestal,9.3677
+3306107,Valença,2018,Pastagem,89.2024
+3306107,Valença,2018,Mosaico de usos,10.7790
+3306206,Vassouras,2018,Formação florestal,2.4861
+3306206,Vassouras,2018,Pastagem,110.6982
+3306206,Vassouras,2018,Mosaico de usos,3.3146
+3306305,Volta Redonda,2018,Formação florestal,0.1654
+3306305,Volta Redonda,2018,Pastagem,68.7557
+3306305,Volta Redonda,2018,Mosaico de usos,4.9644
+0,RH-III,2019,Formação florestal,61.7440
+0,RH-III,2019,Vegetação herbácea e arbustiva,33.2115
+0,RH-III,2019,Silvicultura,0.0830
+0,RH-III,2019,Pastagem,3231.0108
+0,RH-III,2019,Mosaico de usos,509.1394
+0,RH-III,2019,Outras áreas não vegetadas,3.6455
+3300308,Barra do Piraí,2019,Formação florestal,4.3884
+3300308,Barra do Piraí,2019,Pastagem,150.2284
+3300308,Barra do Piraí,2019,Mosaico de usos,6.8713
+3300407,Barra Mansa,2019,Formação florestal,8.4392
+3300407,Barra Mansa,2019,Vegetação herbácea e arbustiva,0.6615
+3300407,Barra Mansa,2019,Pastagem,153.7269
+3300407,Barra Mansa,2019,Mosaico de usos,49.9000
+3300951,Comendador Levy Gasparian,2019,Formação florestal,5.5617
+3300951,Comendador Levy Gasparian,2019,Vegetação herbácea e arbustiva,0.5812
+3300951,Comendador Levy Gasparian,2019,Pastagem,344.3721
+3300951,Comendador Levy Gasparian,2019,Mosaico de usos,9.5469
+3300951,Comendador Levy Gasparian,2019,Outras áreas não vegetadas,1.2454
+3302254,Itatiaia,2019,Formação florestal,0.7449
+3302254,Itatiaia,2019,Vegetação herbácea e arbustiva,8.8617
+3302254,Itatiaia,2019,Pastagem,52.8900
+3302254,Itatiaia,2019,Mosaico de usos,7.0358
+3302908,Miguel Pereira,2019,Pastagem,3.0634
+3303708,Paraíba do Sul,2019,Formação florestal,13.5228
+3303708,Paraíba do Sul,2019,Silvicultura,0.0830
+3303708,Paraíba do Sul,2019,Pastagem,568.0884
+3303708,Paraíba do Sul,2019,Mosaico de usos,62.9650
+3303856,Paty do Alferes,2019,Formação florestal,1.6563
+3303856,Paty do Alferes,2019,Pastagem,151.1814
+3303856,Paty do Alferes,2019,Mosaico de usos,7.0392
+3303955,Pinheiral,2019,Formação florestal,0.4137
+3303955,Pinheiral,2019,Pastagem,27.1382
+3303955,Pinheiral,2019,Mosaico de usos,2.4821
+3304003,Piraí,2019,Formação florestal,0.0827
+3304003,Piraí,2019,Pastagem,7.2763
+3304110,Porto Real,2019,Pastagem,11.0941
+3304110,Porto Real,2019,Mosaico de usos,0.0828
+3304128,Quatis,2019,Formação florestal,1.8223
+3304128,Quatis,2019,Vegetação herbácea e arbustiva,0.3314
+3304128,Quatis,2019,Pastagem,54.1586
+3304128,Quatis,2019,Mosaico de usos,18.1372
+3304201,Resende,2019,Formação florestal,4.6373
+3304201,Resende,2019,Vegetação herbácea e arbustiva,22.3611
+3304201,Resende,2019,Pastagem,167.7570
+3304201,Resende,2019,Mosaico de usos,101.5808
+3304201,Resende,2019,Outras áreas não vegetadas,2.4001
+3304508,Rio das Flores,2019,Formação florestal,0.9954
+3304508,Rio das Flores,2019,Pastagem,95.1411
+3304508,Rio das Flores,2019,Mosaico de usos,2.7361
+3306008,Três Rios,2019,Formação florestal,0.3319
+3306008,Três Rios,2019,Pastagem,536.2049
+3306008,Três Rios,2019,Mosaico de usos,132.3340
+3306107,Valença,2019,Formação florestal,14.6767
+3306107,Valença,2019,Vegetação herbácea e arbustiva,0.4146
+3306107,Valença,2019,Pastagem,424.6113
+3306107,Valença,2019,Mosaico de usos,94.6805
+3306206,Vassouras,2019,Formação florestal,2.4023
+3306206,Vassouras,2019,Pastagem,400.9240
+3306206,Vassouras,2019,Mosaico de usos,8.1207
+3306305,Volta Redonda,2019,Formação florestal,2.0684
+3306305,Volta Redonda,2019,Pastagem,83.1547
+3306305,Volta Redonda,2019,Mosaico de usos,5.6269
+0,RH-III,2020,Formação florestal,157.4692
+0,RH-III,2020,Vegetação herbácea e arbustiva,70.8763
+0,RH-III,2020,Pastagem,6390.0305
+0,RH-III,2020,Agricultura,0.0828
+0,RH-III,2020,Mosaico de usos,811.3851
+0,RH-III,2020,Outras áreas não vegetadas,6.2897
+3300308,Barra do Piraí,2020,Formação florestal,1.9040
+3300308,Barra do Piraí,2020,Pastagem,309.2399
+3300308,Barra do Piraí,2020,Mosaico de usos,15.4802
+3300407,Barra Mansa,2020,Formação florestal,12.2457
+3300407,Barra Mansa,2020,Pastagem,568.3500
+3300407,Barra Mansa,2020,Mosaico de usos,145.3880
+3300407,Barra Mansa,2020,Outras áreas não vegetadas,0.1655
+3300951,Comendador Levy Gasparian,2020,Formação florestal,0.9132
+3300951,Comendador Levy Gasparian,2020,Pastagem,153.4020
+3300951,Comendador Levy Gasparian,2020,Mosaico de usos,4.1508
+3302254,Itatiaia,2020,Formação florestal,16.1388
+3302254,Itatiaia,2020,Vegetação herbácea e arbustiva,18.1353
+3302254,Itatiaia,2020,Pastagem,322.9203
+3302254,Itatiaia,2020,Agricultura,0.0828
+3302254,Itatiaia,2020,Mosaico de usos,92.9333
+3302809,Mendes,2020,Formação florestal,0.2483
+3302809,Mendes,2020,Pastagem,20.1133
+3302809,Mendes,2020,Mosaico de usos,0.9105
+3302908,Miguel Pereira,2020,Formação florestal,0.0828
+3302908,Miguel Pereira,2020,Pastagem,0.0828
+3302908,Miguel Pereira,2020,Mosaico de usos,0.0828
+3303708,Paraíba do Sul,2020,Formação florestal,5.9718
+3303708,Paraíba do Sul,2020,Pastagem,1071.7979
+3303708,Paraíba do Sul,2020,Mosaico de usos,53.0860
+3303856,Paty do Alferes,2020,Formação florestal,6.5427
+3303856,Paty do Alferes,2020,Pastagem,179.4092
+3303856,Paty do Alferes,2020,Mosaico de usos,22.2810
+3303955,Pinheiral,2020,Formação florestal,4.5509
+3303955,Pinheiral,2020,Pastagem,205.2693
+3303955,Pinheiral,2020,Mosaico de usos,8.6053
+3304003,Piraí,2020,Formação florestal,6.4491
+3304003,Piraí,2020,Pastagem,238.2986
+3304003,Piraí,2020,Mosaico de usos,5.5397
+3304110,Porto Real,2020,Pastagem,83.6958
+3304110,Porto Real,2020,Mosaico de usos,9.1062
+3304128,Quatis,2020,Formação florestal,8.2822
+3304128,Quatis,2020,Vegetação herbácea e arbustiva,0.6629
+3304128,Quatis,2020,Pastagem,148.9967
+3304128,Quatis,2020,Mosaico de usos,49.2828
+3304201,Resende,2020,Formação florestal,48.7164
+3304201,Resende,2020,Vegetação herbácea e arbustiva,51.6634
+3304201,Resende,2020,Pastagem,1366.3486
+3304201,Resende,2020,Mosaico de usos,237.8549
+3304201,Resende,2020,Outras áreas não vegetadas,6.0414
+3304409,Rio Claro,2020,Formação florestal,0.3305
+3304409,Rio Claro,2020,Pastagem,4.2152
+3304409,Rio Claro,2020,Mosaico de usos,3.0574
+3304508,Rio das Flores,2020,Formação florestal,5.4732
+3304508,Rio das Flores,2020,Pastagem,311.6554
+3304508,Rio das Flores,2020,Mosaico de usos,25.4593
+3306008,Três Rios,2020,Formação florestal,0.4977
+3306008,Três Rios,2020,Pastagem,268.1128
+3306008,Três Rios,2020,Mosaico de usos,38.2476
+3306107,Valença,2020,Formação florestal,20.4809
+3306107,Valença,2020,Vegetação herbácea e arbustiva,0.4146
+3306107,Valença,2020,Pastagem,346.9225
+3306107,Valença,2020,Mosaico de usos,42.5377
+3306206,Vassouras,2020,Formação florestal,16.4065
+3306206,Vassouras,2020,Pastagem,503.7334
+3306206,Vassouras,2020,Mosaico de usos,31.7307
+3306305,Volta Redonda,2020,Formação florestal,2.2343
+3306305,Volta Redonda,2020,Pastagem,287.4669
+3306305,Volta Redonda,2020,Mosaico de usos,25.6510
+3306305,Volta Redonda,2020,Outras áreas não vegetadas,0.0828
+0,RH-III,2021,Formação florestal,23.2820
+0,RH-III,2021,Vegetação herbácea e arbustiva,43.3989
+0,RH-III,2021,Silvicultura,0.1656
+0,RH-III,2021,Pastagem,1521.3031
+0,RH-III,2021,Mosaico de usos,296.7698
+0,RH-III,2021,Outras áreas não vegetadas,4.4693
+3300308,Barra do Piraí,2021,Pastagem,19.7832
+3300308,Barra do Piraí,2021,Mosaico de usos,5.2145
+3300407,Barra Mansa,2021,Formação florestal,3.1473
+3300407,Barra Mansa,2021,Pastagem,131.7369
+3300407,Barra Mansa,2021,Mosaico de usos,12.3323
+3300951,Comendador Levy Gasparian,2021,Pastagem,6.4748
+3302254,Itatiaia,2021,Vegetação herbácea e arbustiva,23.9349
+3302254,Itatiaia,2021,Pastagem,17.7942
+3302254,Itatiaia,2021,Mosaico de usos,0.9105
+3302809,Mendes,2021,Pastagem,61.6672
+3302809,Mendes,2021,Mosaico de usos,0.2483
+3303708,Paraíba do Sul,2021,Formação florestal,0.9125
+3303708,Paraíba do Sul,2021,Pastagem,335.0621
+3303708,Paraíba do Sul,2021,Mosaico de usos,50.7671
+3303856,Paty do Alferes,2021,Formação florestal,1.1598
+3303856,Paty do Alferes,2021,Pastagem,67.4360
+3303856,Paty do Alferes,2021,Mosaico de usos,2.5681
+3303955,Pinheiral,2021,Pastagem,12.0804
+3303955,Pinheiral,2021,Mosaico de usos,0.4138
+3304003,Piraí,2021,Pastagem,16.2952
+3304003,Piraí,2021,Mosaico de usos,3.5574
+3304128,Quatis,2021,Formação florestal,0.5800
+3304128,Quatis,2021,Vegetação herbácea e arbustiva,0.5801
+3304128,Quatis,2021,Pastagem,13.5786
+3304128,Quatis,2021,Mosaico de usos,11.7597
+3304201,Resende,2021,Formação florestal,3.1471
+3304201,Resende,2021,Vegetação herbácea e arbustiva,18.8839
+3304201,Resende,2021,Silvicultura,0.1656
+3304201,Resende,2021,Pastagem,209.2075
+3304201,Resende,2021,Mosaico de usos,82.3001
+3304201,Resende,2021,Outras áreas não vegetadas,4.4693
+3304508,Rio das Flores,2021,Pastagem,7.1303
+3304508,Rio das Flores,2021,Mosaico de usos,0.3317
+3306008,Três Rios,2021,Formação florestal,0.0830
+3306008,Três Rios,2021,Pastagem,99.8957
+3306008,Três Rios,2021,Mosaico de usos,72.1812
+3306107,Valença,2021,Formação florestal,6.1368
+3306107,Valença,2021,Pastagem,136.8806
+3306107,Valença,2021,Mosaico de usos,21.7268
+3306206,Vassouras,2021,Formação florestal,8.0327
+3306206,Vassouras,2021,Pastagem,307.0144
+3306206,Vassouras,2021,Mosaico de usos,25.5909
+3306305,Volta Redonda,2021,Formação florestal,0.0828
+3306305,Volta Redonda,2021,Pastagem,79.2660
+3306305,Volta Redonda,2021,Mosaico de usos,6.8674
+0,RH-III,2022,Formação florestal,127.7289
+0,RH-III,2022,Vegetação herbácea e arbustiva,122.0635
+0,RH-III,2022,Silvicultura,0.6624
+0,RH-III,2022,Pastagem,3776.4523
+0,RH-III,2022,Agricultura,1.7381
+0,RH-III,2022,Mosaico de usos,975.0563
+0,RH-III,2022,Outras áreas não vegetadas,2.7314
+3300308,Barra do Piraí,2022,Formação florestal,16.2306
+3300308,Barra do Piraí,2022,Pastagem,172.8783
+3300308,Barra do Piraí,2022,Mosaico de usos,43.3890
+3300407,Barra Mansa,2022,Formação florestal,11.9200
+3300407,Barra Mansa,2022,Vegetação herbácea e arbustiva,8.1866
+3300407,Barra Mansa,2022,Pastagem,475.6561
+3300407,Barra Mansa,2022,Agricultura,0.4964
+3300407,Barra Mansa,2022,Mosaico de usos,106.1861
+3300951,Comendador Levy Gasparian,2022,Formação florestal,1.9925
+3300951,Comendador Levy Gasparian,2022,Pastagem,80.0373
+3300951,Comendador Levy Gasparian,2022,Mosaico de usos,10.4603
+3302254,Itatiaia,2022,Formação florestal,4.8012
+3302254,Itatiaia,2022,Vegetação herbácea e arbustiva,25.1768
+3302254,Itatiaia,2022,Pastagem,330.4868
+3302254,Itatiaia,2022,Agricultura,0.4138
+3302254,Itatiaia,2022,Mosaico de usos,29.4696
+3302908,Miguel Pereira,2022,Pastagem,1.9865
+3302908,Miguel Pereira,2022,Mosaico de usos,1.9869
+3303708,Paraíba do Sul,2022,Formação florestal,39.5727
+3303708,Paraíba do Sul,2022,Pastagem,506.7470
+3303708,Paraíba do Sul,2022,Mosaico de usos,128.5758
+3303856,Paty do Alferes,2022,Formação florestal,0.4143
+3303856,Paty do Alferes,2022,Pastagem,164.5548
+3303856,Paty do Alferes,2022,Mosaico de usos,4.8054
+3303955,Pinheiral,2022,Pastagem,21.4263
+3303955,Pinheiral,2022,Mosaico de usos,0.3309
+3304003,Piraí,2022,Pastagem,61.3691
+3304110,Porto Real,2022,Pastagem,1.2417
+3304110,Porto Real,2022,Mosaico de usos,8.7749
+3304128,Quatis,2022,Formação florestal,7.0421
+3304128,Quatis,2022,Pastagem,83.6883
+3304128,Quatis,2022,Mosaico de usos,25.8507
+3304201,Resende,2022,Formação florestal,24.6929
+3304201,Resende,2022,Vegetação herbácea e arbustiva,88.7000
+3304201,Resende,2022,Silvicultura,0.6624
+3304201,Resende,2022,Pastagem,562.0489
+3304201,Resende,2022,Agricultura,0.8279
+3304201,Resende,2022,Mosaico de usos,392.6287
+3304201,Resende,2022,Outras áreas não vegetadas,2.6487
+3304409,Rio Claro,2022,Pastagem,5.7026
+3304508,Rio das Flores,2022,Pastagem,48.1201
+3304508,Rio das Flores,2022,Mosaico de usos,2.9046
+3306008,Três Rios,2022,Formação florestal,4.0654
+3306008,Três Rios,2022,Pastagem,148.7805
+3306008,Três Rios,2022,Mosaico de usos,114.0807
+3306107,Valença,2022,Formação florestal,12.6085
+3306107,Valença,2022,Pastagem,383.0698
+3306107,Valença,2022,Mosaico de usos,32.7672
+3306206,Vassouras,2022,Formação florestal,0.7459
+3306206,Vassouras,2022,Pastagem,344.6291
+3306206,Vassouras,2022,Mosaico de usos,10.9402
+3306305,Volta Redonda,2022,Formação florestal,3.6428
+3306305,Volta Redonda,2022,Pastagem,384.0292
+3306305,Volta Redonda,2022,Mosaico de usos,61.9051
+3306305,Volta Redonda,2022,Outras áreas não vegetadas,0.0828
+0,RH-III,2023,Formação florestal,34.0666
+0,RH-III,2023,Vegetação herbácea e arbustiva,38.6787
+0,RH-III,2023,Pastagem,2104.5280
+0,RH-III,2023,Agricultura,0.6623
+0,RH-III,2023,Mosaico de usos,617.4800
+0,RH-III,2023,Outras áreas não vegetadas,6.8685
+3300308,Barra do Piraí,2023,Formação florestal,1.9041
+3300308,Barra do Piraí,2023,Pastagem,134.9510
+3300308,Barra do Piraí,2023,Mosaico de usos,8.8567
+3300407,Barra Mansa,2023,Formação florestal,2.6468
+3300407,Barra Mansa,2023,Pastagem,111.1841
+3300407,Barra Mansa,2023,Mosaico de usos,21.3467
+3300407,Barra Mansa,2023,Outras áreas não vegetadas,0.2482
+3300951,Comendador Levy Gasparian,2023,Formação florestal,1.3279
+3300951,Comendador Levy Gasparian,2023,Pastagem,125.0984
+3300951,Comendador Levy Gasparian,2023,Mosaico de usos,1.5774
+3302254,Itatiaia,2023,Vegetação herbácea e arbustiva,7.4538
+3302254,Itatiaia,2023,Pastagem,16.3895
+3302254,Itatiaia,2023,Mosaico de usos,2.6489
+3302908,Miguel Pereira,2023,Pastagem,1.2417
+3302908,Miguel Pereira,2023,Mosaico de usos,0.0828
+3303708,Paraíba do Sul,2023,Formação florestal,2.2398
+3303708,Paraíba do Sul,2023,Pastagem,246.9344
+3303708,Paraíba do Sul,2023,Mosaico de usos,115.2224
+3303856,Paty do Alferes,2023,Formação florestal,3.1464
+3303856,Paty do Alferes,2023,Pastagem,46.3861
+3303856,Paty do Alferes,2023,Mosaico de usos,7.7014
+3303955,Pinheiral,2023,Pastagem,3.7236
+3303955,Pinheiral,2023,Mosaico de usos,1.7377
+3304003,Piraí,2023,Pastagem,0.9924
+3304128,Quatis,2023,Formação florestal,1.3251
+3304128,Quatis,2023,Pastagem,18.7910
+3304128,Quatis,2023,Mosaico de usos,10.8535
+3304201,Resende,2023,Formação florestal,5.3040
+3304201,Resende,2023,Vegetação herbácea e arbustiva,30.8103
+3304201,Resende,2023,Pastagem,321.9416
+3304201,Resende,2023,Agricultura,0.6623
+3304201,Resende,2023,Mosaico de usos,152.6759
+3304201,Resende,2023,Outras áreas não vegetadas,6.6203
+3304409,Rio Claro,2023,Pastagem,5.2071
+3304508,Rio das Flores,2023,Formação florestal,2.6536
+3304508,Rio das Flores,2023,Pastagem,183.6100
+3304508,Rio das Flores,2023,Mosaico de usos,3.9801
+3306008,Três Rios,2023,Formação florestal,8.5478
+3306008,Três Rios,2023,Pastagem,319.3911
+3306008,Três Rios,2023,Mosaico de usos,195.3946
+3306107,Valença,2023,Formação florestal,2.6535
+3306107,Valença,2023,Vegetação herbácea e arbustiva,0.4146
+3306107,Valença,2023,Pastagem,164.3992
+3306107,Valença,2023,Mosaico de usos,26.0363
+3306206,Vassouras,2023,Formação florestal,0.9937
+3306206,Vassouras,2023,Pastagem,213.5629
+3306206,Vassouras,2023,Mosaico de usos,20.2949
+3306305,Volta Redonda,2023,Formação florestal,1.3239
+3306305,Volta Redonda,2023,Pastagem,190.7240
+3306305,Volta Redonda,2023,Mosaico de usos,49.0708
+0,RH-III,2024,Formação florestal,1292.3452
+0,RH-III,2024,Vegetação herbácea e arbustiva,509.2873
+0,RH-III,2024,Silvicultura,6.5394
+0,RH-III,2024,Pastagem,8503.0935
+0,RH-III,2024,Agricultura,0.3312
+0,RH-III,2024,Mosaico de usos,2430.2172
+0,RH-III,2024,Outras áreas não vegetadas,7.1169
+3300308,Barra do Piraí,2024,Formação florestal,38.9216
+3300308,Barra do Piraí,2024,Pastagem,315.0119
+3300308,Barra do Piraí,2024,Mosaico de usos,35.5124
+3300407,Barra Mansa,2024,Formação florestal,78.9046
+3300407,Barra Mansa,2024,Vegetação herbácea e arbustiva,0.4142
+3300407,Barra Mansa,2024,Silvicultura,1.7395
+3300407,Barra Mansa,2024,Pastagem,773.2224
+3300407,Barra Mansa,2024,Mosaico de usos,264.4818
+3300951,Comendador Levy Gasparian,2024,Formação florestal,1.9095
+3300951,Comendador Levy Gasparian,2024,Pastagem,63.3452
+3300951,Comendador Levy Gasparian,2024,Mosaico de usos,3.6535
+3302254,Itatiaia,2024,Formação florestal,17.4618
+3302254,Itatiaia,2024,Vegetação herbácea e arbustiva,69.3228
+3302254,Itatiaia,2024,Pastagem,480.7598
+3302254,Itatiaia,2024,Mosaico de usos,55.0345
+3302809,Mendes,2024,Formação florestal,0.1655
+3302809,Mendes,2024,Pastagem,9.1874
+3302809,Mendes,2024,Mosaico de usos,1.2416
+3302908,Miguel Pereira,2024,Pastagem,0.9104
+3303708,Paraíba do Sul,2024,Formação florestal,19.4127
+3303708,Paraíba do Sul,2024,Pastagem,580.6865
+3303708,Paraíba do Sul,2024,Mosaico de usos,116.2936
+3303856,Paty do Alferes,2024,Formação florestal,47.2828
+3303856,Paty do Alferes,2024,Pastagem,328.0979
+3303856,Paty do Alferes,2024,Mosaico de usos,54.4861
+3303955,Pinheiral,2024,Formação florestal,2.8128
+3303955,Pinheiral,2024,Pastagem,85.3034
+3303955,Pinheiral,2024,Mosaico de usos,3.8054
+3304003,Piraí,2024,Formação florestal,98.9049
+3304003,Piraí,2024,Pastagem,323.3232
+3304003,Piraí,2024,Mosaico de usos,34.2349
+3304110,Porto Real,2024,Pastagem,40.4071
+3304110,Porto Real,2024,Mosaico de usos,0.8280
+3304128,Quatis,2024,Formação florestal,80.6592
+3304128,Quatis,2024,Vegetação herbácea e arbustiva,3.3964
+3304128,Quatis,2024,Pastagem,568.3590
+3304128,Quatis,2024,Mosaico de usos,206.6301
+3304201,Resende,2024,Formação florestal,133.7130
+3304201,Resende,2024,Vegetação herbácea e arbustiva,430.7660
+3304201,Resende,2024,Silvicultura,4.7999
+3304201,Resende,2024,Pastagem,1121.5915
+3304201,Resende,2024,Agricultura,0.3312
+3304201,Resende,2024,Mosaico de usos,498.7270
+3304201,Resende,2024,Outras áreas não vegetadas,7.1169
+3304508,Rio das Flores,2024,Formação florestal,27.9464
+3304508,Rio das Flores,2024,Pastagem,479.3852
+3304508,Rio das Flores,2024,Mosaico de usos,45.7776
+3306008,Três Rios,2024,Formação florestal,6.6380
+3306008,Três Rios,2024,Pastagem,280.7040
+3306008,Três Rios,2024,Mosaico de usos,157.7236
+3306107,Valença,2024,Formação florestal,650.7157
+3306107,Valença,2024,Vegetação herbácea e arbustiva,5.3879
+3306107,Valença,2024,Pastagem,1942.7785
+3306107,Valença,2024,Mosaico de usos,770.8993
+3306206,Vassouras,2024,Formação florestal,74.0654
+3306206,Vassouras,2024,Pastagem,604.8521
+3306206,Vassouras,2024,Mosaico de usos,56.3352
+3306305,Volta Redonda,2024,Formação florestal,12.8313
+3306305,Volta Redonda,2024,Pastagem,505.1680
+3306305,Volta Redonda,2024,Mosaico de usos,124.5526
