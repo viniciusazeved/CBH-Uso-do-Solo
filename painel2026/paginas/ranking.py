@@ -16,8 +16,8 @@ from .. import ranking_util as ru
 from ..estilo import fmt, pct
 
 INTRO = ("Os municípios com os melhores resultados de uso e cobertura do solo na sua porção da RH-III, nos mandatos de "
-         "2017 a 2020 e de 2021 a 2024, em três frentes ligadas ao tema do XI Simpósio Água Boa, Restaurar para "
-         "Abastecer: proteger a floresta, restaurar o que foi aberto e recuperar a beira dos rios.")
+         "2017 a 2020 e de 2021 a 2024, em três frentes: proteger a floresta, restaurar o que foi aberto e recuperar "
+         "a beira dos rios.")
 HASHES = [("Protocolo v1.1, 14/10/2026", "4d185f25ab516e0544defff489bd8d3bff3ab6f7d8cedbf3a97f1cc32f11b066"),
           ("Adendo 1, 15/10/2026", "84939fa11e05d069c8d7454016f93b4e035e6551fe3c955dc71e3c5fa1b4a7ae"),
           ("Adendo 2, 15/10/2026", "0076d456ac06af727cbd74c22b71561011c9deaa2db4d9f316c5fb9e5ffd1a96")]
@@ -66,6 +66,8 @@ def metodo() -> None:
 def destaques(t: pd.DataFrame) -> None:
     dec = ru.decisao()
     st.subheader("Os municípios em destaque")
+    st.markdown(":orange-badge[Resultado provisório] pela metodologia abaixo (três frentes, quatro indicadores e "
+                "seus pesos), sujeito à conferência dos dados pelos municípios.")
     cols = st.columns(len(dec["destaques"]), gap="medium")
     for col, m in zip(cols, dec["destaques"]):
         linha = t[t["municipio"] == m].iloc[0]
@@ -184,8 +186,8 @@ def pagina() -> None:
     st.title("Ranking Ambiental CBH-MPS 2026")
     st.markdown(INTRO)
     if not dados.ranking_disponivel():
-        st.info("O resultado do Ranking Ambiental CBH-MPS 2026 será anunciado no XI Simpósio Água Boa, em 30 de outubro "
-                "de 2026, no SESC Barra Mansa.", icon=":material/event:")
+        st.info("O resultado do Ranking Ambiental CBH-MPS 2026 será divulgado depois que os municípios conferirem os "
+                "seus dados. Abaixo, a metodologia.", icon=":material/event:")
         metodo()
         return
     t = ru.tabela()

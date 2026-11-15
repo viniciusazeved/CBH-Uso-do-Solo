@@ -1,7 +1,7 @@
 """Leitura dos dados do painel, da pasta painel_dados/ (montada pelo pipeline/24_dados_painel.py).
 
 O Ranking Ambiental 2026 só aparece quando painel_dados/ranking/ existe: a versão pública do repositório
-não leva essa pasta antes do anúncio no XI Simpósio Água Boa (30/10/2026).
+só leva essa pasta quando o comitê decide divulgar o resultado.
 """
 
 from __future__ import annotations

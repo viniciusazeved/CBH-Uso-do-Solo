@@ -1,4 +1,4 @@
-"""Painel do XI Simpósio Água Boa (30/10/2026): uso e cobertura do solo na RH-III, 1985 a 2025, e Ranking
+"""Painel do GT SIGA do CBH-MPS: uso e cobertura do solo na RH-III, 1985 a 2025, e Ranking
 Ambiental CBH-MPS 2026. Produto do GT SIGA do CBH-MPS.
 
 Dados em painel_dados/ (pipeline/24_dados_painel.py). A página do ranking só mostra resultado quando
@@ -43,6 +43,6 @@ paginas = {
 navegacao = st.navigation(paginas)
 with st.sidebar:
     st.image(str(LOGO), width=180)
-    st.caption("Produto do GT SIGA do Comitê de Bacias Hidrográficas do Médio Paraíba do Sul (CBH-MPS). "
-               "XI Simpósio Água Boa, 30 de outubro de 2026.")
+    st.caption("Produto do GT SIGA do Comitê de Bacias Hidrográficas do Médio Paraíba do Sul (CBH-MPS), em "
+               "parceria com o GT Monitoramento.")
 navegacao.run()
