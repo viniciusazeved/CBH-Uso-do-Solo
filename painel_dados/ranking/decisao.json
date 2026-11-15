@@ -1,0 +1,23 @@
+{
+ "tipo": "destaques_sem_ordem",
+ "destaques": [
+  "Itatiaia",
+  "Pinheiral",
+  "Rio das Flores"
+ ],
+ "cod_ibge": [
+  3302254,
+  3303955,
+  3304508
+ ],
+ "freq_top3": {
+  "Pinheiral": 0.957,
+  "Itatiaia": 0.944,
+  "Rio das Flores": 0.803
+ },
+ "mencao_honrosa_4o": [],
+ "freq_ordem_modal": 0.1866,
+ "n_cenarios": 5000,
+ "semente": 20261030,
+ "taxa_regional_p1": 0.28418138247341473
+}

@@ -41,7 +41,8 @@ def pagina() -> None:
         "Lapig/UFG ([apêndice metodológico da Mata Atlântica, Coleção 11, seção 7.1]"
         "(https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/Atlantic-Forest-Appendix-ATBD-Collection-11.pdf)).")
     st.markdown(
-        "Limites que valem para todo o painel: com pixel de 30 m, mancha menor que cerca de 1 ha some; eucalipto adulto "
+        "Limites que valem para todo o painel: o pixel tem 30 m (0,09 ha) e o filtro do MapBiomas descarta mudança isolada "
+        "menor que 6 pixels, cerca de 0,5 ha; eucalipto adulto "
         "pode cair como floresta no Rio de Janeiro; campo sujo e pasto se confundem; e o último ano da série é "
         "provisório.")
 
