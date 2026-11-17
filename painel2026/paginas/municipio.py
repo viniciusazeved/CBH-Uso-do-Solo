@@ -122,6 +122,9 @@ def secao_ranking(cod: int, m: str) -> None:
     st.subheader(f"Ranking Ambiental CBH-MPS 2026: resultados na porção de {m} na RH-III")
     if r["elegivel"]:
         situacao = f"**{int(r['posicao_caso_base'])}º no caso-base**, índice {fmt(r['indice_caso_base'], 1)}."
+        emp = ru.empates(t).get(cod)
+        if emp:
+            situacao += f" Empate técnico ({emp}), decidido pela menor taxa de supressão."
     else:
         situacao = "**Porção pequena na RH-III**, fora da ordenação (menos de 5.000 ha na bacia)."
     st.markdown("Situação: " + situacao + (f" Entre os três primeiros em {pct(100 * r['freq_top3'])} dos "

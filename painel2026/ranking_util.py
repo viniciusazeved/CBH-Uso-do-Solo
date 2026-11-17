@@ -56,6 +56,26 @@ def postos(linha: pd.Series) -> dict[str, float] | None:
     return {k: float(linha[f"posto_{k}"]) for k in ("P1", "R1", "A1", "A2")}
 
 
+def empates(t: pd.DataFrame) -> dict[int, str]:
+    """Rótulo do empate técnico de cada elegível (índices a menos de 2 pontos do vizinho de posição), como "1º e 2º" ou
+    "5º ao 7º". Quem não está empatado com ninguém fica de fora."""
+    e = t[t["elegivel"]].sort_values("posicao_caso_base").reset_index(drop=True)
+    grupos, atual = [], [0]
+    for i in range(1, len(e)):
+        if abs(e.loc[i, "indice_caso_base"] - e.loc[i - 1, "indice_caso_base"]) < 2:
+            atual.append(i)
+        else:
+            grupos.append(atual)
+            atual = [i]
+    grupos.append(atual)
+    rotulos = {}
+    for g in (g for g in grupos if len(g) > 1):
+        a, b = int(e.loc[g[0], "posicao_caso_base"]), int(e.loc[g[-1], "posicao_caso_base"])
+        for i in g:
+            rotulos[int(e.loc[i, "cod_ibge"])] = f"{a}º e {b}º" if b == a + 1 else f"{a}º ao {b}º"
+    return rotulos
+
+
 def posto_txt(p: float) -> str:
     return f"{fmt(p, 1)}º" if p % 1 else f"{int(p)}º"
 

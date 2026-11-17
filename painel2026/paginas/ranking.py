@@ -106,16 +106,16 @@ def robustez(t: pd.DataFrame) -> None:
 def tabela_faixas(t: pd.DataFrame) -> None:
     med = ru.medianas(t)
     st.subheader("Classificação dos 16 municípios")
-    st.markdown("Posição e índice do caso-base. Diferença menor que 2 pontos é empate técnico, e dentro do empate fica à "
-                "frente quem tem a menor taxa de supressão (regra do protocolo): é o caso de Rio das Flores e Pinheiral "
-                "(1º e 2º), de Piraí, Volta Redonda e Paraíba do Sul (5º a 7º), de Resende, Vassouras e Comendador Levy "
-                "Gasparian (9º a 11º) e de Porto Real e Barra Mansa (13º e 14º). Cada indicador vem comparado à mediana "
+    st.markdown("Posição e índice do caso-base. Índices a menos de 2 pontos um do outro são empate técnico, e dentro do "
+                "empate fica à frente quem tem a menor taxa de supressão (regra do protocolo); a coluna Empate técnico diz "
+                "quais posições estão empatadas: 1º e 2º, 5º ao 7º, 9º ao 11º e 13º e 14º. Cada indicador vem comparado à mediana "
                 "dos 16: ▲ melhor que a mediana, ▼ pior. Os três municípios de porção pequena na RH-III vêm à parte, fora "
                 "da ordenação: com menos de 5.000 ha na bacia, uma única propriedade muda as taxas. O critério é a área "
                 "dentro da bacia, não a fração do município: Piraí e Três Rios, também só em parte na RH-III, têm mais de "
                 "9 mil ha nela.")
     grupos = [("Do 1º ao 16º no caso-base", t[t["elegivel"]].sort_values("posicao_caso_base")),
               (TITULO_FAIXA["Porção pequena na RH-III"], t[~t["elegivel"]])]
+    emp = ru.empates(t)
     for titulo, sub in grupos:
         linhas = []
         for _, r in sub.iterrows():
@@ -125,6 +125,7 @@ def tabela_faixas(t: pd.DataFrame) -> None:
             lin["Município"] = r["municipio"]
             if pd.notna(r.get("indice_caso_base")):
                 lin["Índice"] = fmt(r["indice_caso_base"], 1)
+                lin["Empate técnico"] = emp.get(int(r["cod_ibge"]), "")
             for col, frente, _, _, casas, menor in ru.INDICADORES:
                 lin[f"{col} ({frente})"] = f"{fmt(r[col], casas)} {ru.SIMBOLO[ru.comparar(r[col], med[col], menor)]}"
             if r["elegivel"]:
