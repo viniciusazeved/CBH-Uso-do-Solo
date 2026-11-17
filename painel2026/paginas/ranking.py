@@ -106,7 +106,7 @@ def destaques(t: pd.DataFrame) -> None:
         p = ru.postos(linha)
         with col.container(border=True):
             st.markdown(f"### {int(linha['posicao_caso_base'])}º {linha['municipio']}")
-            st.metric("Índice no caso-base", fmt(linha["indice_caso_base"], 1),
+            st.metric("Índice no caso-base, de 0 a 100", fmt(linha["indice_caso_base"], 1),
                       f"entre os três primeiros em {pct(100 * linha['freq_top3'])} dos {fmt(dec['n_cenarios'])} cenários",
                       delta_color="off", delta_arrow="off")
             st.markdown(f"Posição entre os 16 em cada indicador: Proteger {ru.posto_txt(p['P1'])}, Restaurar "
@@ -115,9 +115,9 @@ def destaques(t: pd.DataFrame) -> None:
     a, b = tres.iloc[0], tres.iloc[1]
     dif = b["indice_caso_base"] - a["indice_caso_base"]
     if 0 < dif < 2:     # empate técnico com o de trás tendo índice maior: a regra do protocolo vai à vista
-        st.info(f"**Por que {a['municipio']} está à frente de {b['municipio']}.** Os dois estão em empate técnico: o índice "
-                f"difere em {'menos de meio ponto' if dif < 0.5 else 'menos de 2 pontos'} ({fmt(a['indice_caso_base'], 1)} e "
-                f"{fmt(b['indice_caso_base'], 1)}). Pela regra do protocolo, fixada antes dos resultados, dentro do empate "
+        st.info(f"**Por que {a['municipio']} está à frente de {b['municipio']}.** Empate técnico é diferença de índice "
+                f"menor que 2 pontos; aqui, de {'menos de meio ponto' if dif < 0.5 else 'menos de 2 pontos'} "
+                f"({fmt(a['indice_caso_base'], 1)} e {fmt(b['indice_caso_base'], 1)}). Pela regra do protocolo, fixada antes dos resultados, dentro do empate "
                 f"fica à frente quem tem a menor taxa de supressão de floresta: {a['municipio']}, com "
                 f"{fmt(a['P1'], 3)}% ao ano, contra {fmt(b['P1'], 3)}% de {b['municipio']}.", icon=":material/balance:")
     st.caption(f"Resultados na porção de cada município na RH-III, nos mandatos de 2017 a 2020 e de 2021 a 2024 "
@@ -146,10 +146,10 @@ def tabela_faixas(t: pd.DataFrame) -> None:
     st.subheader("Classificação dos 16 municípios")
     st.markdown("Posição e índice do caso-base. Índices a menos de 2 pontos um do outro são empate técnico, e dentro do "
                 "empate fica à frente quem tem a menor taxa de supressão de floresta (regra do protocolo); por isso, num "
-                "empate, quem está à frente pode ter índice menor. A coluna Empate técnico diz quais posições estão "
-                "empatadas: 1º e 2º, 5º ao 7º, 9º ao 11º e 13º e 14º. A coluna Entre os 3 primeiros mostra em quantas das "
-                "5.000 vezes em que o cálculo foi refeito, variando pesos, janelas e a forma de pontuar, o município ficou "
-                "entre os três primeiros. Cada indicador vem comparado à mediana "
+                "empate, quem está à frente pode ter índice menor. O índice vai de 0 a 100. A coluna Empate técnico entre "
+                "diz quais posições estão empatadas entre si: 1º e 2º, 5º ao 7º, 9º ao 11º e 13º e 14º. A coluna Entre os 3 "
+                "primeiros mostra em quantos dos 5.000 cenários (o cálculo refeito variando pesos, janelas e a forma de "
+                "pontuar) o município ficou entre os três primeiros. Cada indicador vem comparado à mediana "
                 "dos 16: ▲ melhor que a mediana, ▼ pior. Os três municípios de porção pequena na RH-III vêm à parte, fora "
                 "da ordenação: com menos de 5.000 ha na bacia, uma única propriedade muda as taxas. O critério é a área "
                 "dentro da bacia, não a fração do município: Piraí e Três Rios, também só em parte na RH-III, têm mais de "
@@ -165,12 +165,12 @@ def tabela_faixas(t: pd.DataFrame) -> None:
                 lin["Posição"] = f"{int(r['posicao_caso_base'])}º"
             lin["Município"] = r["municipio"]
             if pd.notna(r.get("indice_caso_base")):
-                lin["Índice"] = fmt(r["indice_caso_base"], 1)
-                lin["Empate técnico"] = emp.get(int(r["cod_ibge"]), "")
+                lin["Índice (0 a 100)"] = fmt(r["indice_caso_base"], 1)
+                lin["Empate técnico entre"] = emp.get(int(r["cod_ibge"]), "")
             for col, frente, _, _, casas, menor in ru.INDICADORES:
                 lin[f"{col} ({frente})"] = f"{fmt(r[col], casas)} {ru.SIMBOLO[ru.comparar(r[col], med[col], menor)]}"
             if r["elegivel"]:
-                lin["Entre os 3 primeiros"] = pct(100 * r["freq_top3"])
+                lin["Entre os 3 primeiros (% dos cenários)"] = pct(100 * r["freq_top3"])
             linhas.append(lin)
         st.markdown(f"**{titulo}**")
         st.dataframe(pd.DataFrame(linhas), hide_index=True, width="stretch", height=35 * (len(linhas) + 1) + 3,
