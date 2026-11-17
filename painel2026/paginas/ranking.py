@@ -1,8 +1,8 @@
 """Ranking Ambiental CBH-MPS 2026: destaques, robustez, faixas, auditoria e método.
 
-Sem painel_dados/ranking/decisao.json, a página mostra só o método e a data do anúncio. A publicação não traz índice
-nem posição do caso-base: os destaques saem sem ordem e as demais elegíveis em ordem alfabética (protocolo, seções 6
-e 7)."""
+Sem painel_dados/ranking/decisao.json, a página mostra só o método e a data do anúncio. Os três destaques saem sem
+ordem (protocolo, seção 7); do 4º ao 16º, posição e índice do caso-base com a regra de empate técnico (decisão do
+coordenador do GT SIGA, 17/11/2026)."""
 
 from __future__ import annotations
 
@@ -79,8 +79,9 @@ def destaques(t: pd.DataFrame) -> None:
             st.markdown(f"Posto entre os 16 em cada indicador: Proteger {ru.posto_txt(p['P1'])}, Restaurar "
                         f"{ru.posto_txt(p['R1'])}, Abastecer {ru.posto_txt(p['A1'])} (recuperação ripária) e "
                         f"{ru.posto_txt(p['A2'])} (cobertura ripária).")
-    st.caption(f"Em ordem alfabética. Resultados na porção de cada município na RH-III, medidos de 2015 a 2024 "
-               f"(supressão de 2017 a 2024; regeneração das coortes de 2017 a 2022 que continuou floresta até 2025). Pela "
+    st.caption(f"Resultados na porção de cada município na RH-III, nos mandatos de 2017 a 2020 e de 2021 a 2024 "
+               f"(supressão de 2017 a 2024; regeneração das coortes de 2017 a 2022 que continuou floresta até 2025; beira "
+               f"dos rios comparada entre 2015 e 2024). Pela "
                f"regra do protocolo, o pódio só sai em ordem quando a ordem do caso-base é a mais frequente em pelo menos "
                f"metade dos cenários; a ordem mais frequente apareceu em {pct(100 * dec['freq_ordem_modal'])} deles, e por "
                f"isso os três aparecem sem ordem.")
@@ -102,22 +103,34 @@ def robustez(t: pd.DataFrame) -> None:
 def tabela_faixas(t: pd.DataFrame) -> None:
     med = ru.medianas(t)
     st.subheader("Todos os municípios")
-    st.markdown("Os 16 elegíveis aparecem em três faixas, sempre em ordem alfabética: os destaques, os três seguintes no "
-                "caso-base e os demais. Cada indicador vem comparado à mediana dos 16 elegíveis: ▲ melhor que a mediana, "
-                "▼ pior. Os três municípios de porção pequena vêm à parte.")
-    for faixa in ru.FAIXAS:
-        sub = t[t["faixa"] == faixa]
+    st.markdown("Os três destaques vêm sem ordem. Do 4º ao 16º, a posição e o índice do caso-base: diferença menor que 2 "
+                "pontos é empate técnico, e dentro do empate fica à frente quem tem a menor taxa de supressão (regra do "
+                "protocolo). Cada indicador vem comparado à mediana dos 16 elegíveis: ▲ melhor que a mediana, ▼ pior. Os "
+                "três municípios de porção pequena na RH-III vêm à parte, fora da ordenação: com menos de 5.000 ha na "
+                "bacia, uma única propriedade muda as taxas. O critério é a área dentro da bacia, não a fração do "
+                "município: Piraí e Três Rios, também só em parte na RH-III, têm mais de 9 mil ha nela.")
+    grupos = [("Destaques, sem ordem", t[t["faixa"] == "Destaque"]),
+              ("Do 4º ao 16º no caso-base",
+               t[t["elegivel"] & (t["faixa"] != "Destaque")].sort_values("posicao_caso_base")),
+              (TITULO_FAIXA["Porção pequena na RH-III"], t[~t["elegivel"]])]
+    for titulo, sub in grupos:
         linhas = []
         for _, r in sub.iterrows():
-            lin = {"Município": r["municipio"]}
+            lin = {}
+            if pd.notna(r.get("posicao_caso_base")):
+                lin["Posição"] = f"{int(r['posicao_caso_base'])}º"
+            lin["Município"] = r["municipio"]
+            if pd.notna(r.get("indice_caso_base")):
+                lin["Índice"] = fmt(r["indice_caso_base"], 1)
             for col, frente, _, _, casas, menor in ru.INDICADORES:
                 lin[f"{col} ({frente})"] = f"{fmt(r[col], casas)} {ru.SIMBOLO[ru.comparar(r[col], med[col], menor)]}"
             if r["elegivel"]:
                 lin["Entre os 3 primeiros"] = pct(100 * r["freq_top3"])
             linhas.append(lin)
-        st.markdown(f"**{TITULO_FAIXA[faixa]}**")
+        st.markdown(f"**{titulo}**")
         st.dataframe(pd.DataFrame(linhas), hide_index=True, width="stretch", height=35 * (len(linhas) + 1) + 3,
-                     column_config={"Município": st.column_config.TextColumn(pinned=True, width="medium")})
+                     column_config={"Posição": st.column_config.TextColumn(pinned=True, width="small"),
+                                    "Município": st.column_config.TextColumn(pinned=True, width="medium")})
     trav = [f"{r['municipio']} {ru.travas(r)}" for _, r in t.iterrows() if ru.travas(r)]
     if trav:
         st.markdown("**Travas no caso-base.** " + ". ".join(trav) + ". Nos cenários em que a trava vale, o município fica "

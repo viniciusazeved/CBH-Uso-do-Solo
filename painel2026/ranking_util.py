@@ -1,6 +1,7 @@
 """Contas da página do Ranking Ambiental 2026, iguais às das fichas técnicas (pipeline/20_fichas_contraditorio.py):
 mediana dos 16 elegíveis e comparação com a mediana. As faixas do protocolo (seção 6) chegam prontas na publicação
-(painel_dados/ranking/indicadores_19_publicacao.csv), que não traz índice nem posição do caso-base."""
+(painel_dados/ranking/indicadores_19_publicacao.csv), com posição e índice do caso-base só do 4º ao 16º; os três
+destaques saem sem ordem."""
 
 from __future__ import annotations
 

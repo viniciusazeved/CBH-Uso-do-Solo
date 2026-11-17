@@ -120,8 +120,14 @@ def secao_ranking(cod: int, m: str) -> None:
     r = t.set_index("cod_ibge").loc[cod]
     med = ru.medianas(t)
     st.subheader(f"Ranking Ambiental CBH-MPS 2026: resultados na porção de {m} na RH-III")
-    st.markdown(f"Faixa: **{r['faixa']}**." + (f" Entre os três primeiros em {pct(100 * r['freq_top3'])} dos "
-                                                f"{fmt(ru.decisao()['n_cenarios'])} cenários." if r["elegivel"] else ""))
+    if r["faixa"] == "Destaque":
+        situacao = "**Destaque** (os três destaques não têm ordem entre si)."
+    elif r["elegivel"]:
+        situacao = f"**{int(r['posicao_caso_base'])}º no caso-base**, índice {fmt(r['indice_caso_base'], 1)}."
+    else:
+        situacao = "**Porção pequena na RH-III**, fora da ordenação (menos de 5.000 ha na bacia)."
+    st.markdown("Situação: " + situacao + (f" Entre os três primeiros em {pct(100 * r['freq_top3'])} dos "
+                                           f"{fmt(ru.decisao()['n_cenarios'])} cenários." if r["elegivel"] else ""))
     linhas = [{"Indicador": f"{col}. {frente}: {nome_}", "Unidade e sentido": un, "Valor": fmt(r[col], casas),
                "Mediana dos 16 elegíveis": fmt(med[col], casas), "Comparação": ru.comparar(r[col], med[col], menor)}
               for col, frente, nome_, un, casas, menor in ru.INDICADORES]
