@@ -193,7 +193,7 @@ def ripario(rip: pd.DataFrame, cod: int = 0, altura: int = 400) -> go.Figure:
                                      text=[f"{fmt(r.loc[ano, col], 1)}%"], textposition=posicao,
                                      textfont={"size": 15, "color": TINTA}, hoverinfo="skip"))
     topo = max(50.0, float(r[["nativa_zona_pct", "nativa_nascentes_pct"]].max().max()) * 1.2)
-    fig.update_yaxes(ticksuffix="%", range=[0, min(topo, 100)], title="vegetação nativa (% da zona)")
+    fig.update_yaxes(ticksuffix="%", range=[0, min(topo, 100)], title="vegetação nativa (% da faixa)")
     fig.update_xaxes(range=[1978, 2030], dtick=5)
     fig.update_layout(hovermode="x unified")
     return base(fig, altura)

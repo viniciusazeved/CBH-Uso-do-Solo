@@ -18,7 +18,7 @@ INDICADORES = [
     ("A2", "Abastecer", "Cobertura nativa ripária em 2024", "% da faixa; maior é melhor", 1, False),
 ]
 SIMBOLO = {"melhor que a mediana": "▲", "pior que a mediana": "▼", "igual à mediana": "="}
-FAIXAS = ["Destaque", "4º ao 6º no caso-base", "Demais elegíveis", "Porção pequena na RH-III"]
+FAIXAS = ["1º ao 3º", "4º ao 6º", "7º ao 16º", "Porção pequena na RH-III"]
 
 
 def tabela() -> pd.DataFrame:

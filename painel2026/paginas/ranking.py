@@ -21,30 +21,60 @@ INTRO = ("Os municípios com os melhores resultados de uso e cobertura do solo n
 HASHES = [("Protocolo v1.1, 14/10/2026", "4d185f25ab516e0544defff489bd8d3bff3ab6f7d8cedbf3a97f1cc32f11b066"),
           ("Adendo 1, 15/10/2026", "84939fa11e05d069c8d7454016f93b4e035e6551fe3c955dc71e3c5fa1b4a7ae"),
           ("Adendo 2, 15/10/2026", "0076d456ac06af727cbd74c22b71561011c9deaa2db4d9f316c5fb9e5ffd1a96")]
-TITULO_FAIXA = {"Destaque": "Destaques", "4º ao 6º no caso-base": "Do 4º ao 6º no caso-base",
-                "Demais elegíveis": "Demais elegíveis",
+TITULO_FAIXA = {"1º ao 3º": "Do 1º ao 3º", "4º ao 6º": "Do 4º ao 6º", "7º ao 16º": "Do 7º ao 16º",
                 "Porção pequena na RH-III": "Porção pequena na RH-III (concorrem a menção especial)"}
 
 
 def metodo() -> None:
     st.subheader("O que o ranking mede")
     c = st.columns(3, gap="medium")
-    frentes = [("Proteger", "35%", "Taxa de supressão de floresta, em % ao ano, de 2017 a 2024. Menor é melhor."),
-               ("Restaurar", "35%", "Pasto, lavoura ou mosaico que virou floresta de 2017 a 2022 e continuou floresta "
-                                    "até 2025, em proporção à área que havia para restaurar."),
-               ("Abastecer", "30%", "20%: quanto da faixa dos rios e nascentes que estava sem vegetação nativa em 2015 "
-                                    "foi recuperado até 2024. 10%: vegetação nativa na mesma faixa em 2024.")]
+    frentes = [("Proteger", "35%", "P1, supressão de floresta: taxa em % ao ano, de 2017 a 2024. Menor é melhor."),
+               ("Restaurar", "35%", "R1, regeneração persistente: pasto, lavoura ou mosaico que virou floresta de 2017 a "
+                                    "2022 e continuou floresta até 2025, em proporção à área que havia para restaurar."),
+               ("Abastecer", "30%", "A1, 20%: quanto da faixa dos rios e nascentes que estava sem vegetação nativa em "
+                                    "2015 foi recuperado até 2024. A2, 10%: vegetação nativa na mesma faixa em 2024.")]
     for col, (titulo, peso, texto) in zip(c, frentes):
         with col.container(border=True):
             st.markdown(f"**{titulo}** · peso {peso}")
             st.markdown(texto)
+    st.markdown("**Janelas de tempo.** O período é o dos dois últimos mandatos municipais, 2017 a 2020 e 2021 a 2024; cada "
+                "frente usa o que o satélite consegue confirmar.")
+    st.markdown("| Frente | Janela | Por quê |\n|---|---|---|\n"
+                "| Proteger | Derrubada de floresta que se manteve, somada de 2017 a 2024 | Só conta a derrubada em floresta "
+                "que existia nos dois anos anteriores e que seguiu sem floresta no ano seguinte; o mapa de 2025 só confirma as "
+                "derrubadas de 2024. As derrubadas de 2025 ficam fora da soma: o registro do último ano ainda está incompleto "
+                "(18% de um ano normal). |\n"
+                "| Restaurar | Regeneração de 2017 a 2022, confirmada em 2023, 2024 e 2025 | Capoeira de um ou dois anos pode "
+                "ser roçada de novo. Só conta a mata nova que seguiu floresta nos três anos; a que surgiu em 2023 e 2024 entra "
+                "na próxima edição. |\n"
+                "| Abastecer | Retrato de antes (2014 a 2016) e de depois (2023 a 2025) | Compara a vegetação nativa na faixa "
+                "dos rios e nascentes antes e depois dos mandatos; cada retrato usa a classe mais frequente em três anos, o "
+                "que reduz o erro de um ano isolado. |")
+    st.caption("Testado: mudando só a janela (Proteger de 2015 ou de 2019 a 2024; Restaurar de 2015 ou de 2019 a 2022), os "
+               "mesmos três municípios continuam nos três primeiros lugares em todos os casos.")
+    st.markdown("**Cálculo, passo a passo.** 1) Posição: em cada indicador, os 16 municípios com 5.000 ha ou mais na RH-III "
+                "vão do melhor ao pior. 2) Pontos = 100 × (16 − posição) ÷ 15: o 1º recebe 100 e o 16º recebe 0; cada posição "
+                "vale 6,7 pontos. 3) Índice: soma dos pontos com os pesos 35% Proteger, 35% Restaurar, 20% e 10% Abastecer; "
+                "é o índice do caso-base. 4) O cálculo é refeito em 5.000 cenários, variando a forma de pontuar, os pesos, as "
+                "janelas e outras escolhas do método: robusto é ficar entre os três primeiros em 80% ou mais. Exemplo de um "
+                "município hipotético:")
+    ui.tabela(pd.DataFrame([("Proteger: supressão de floresta", "10º", 40.0, "35%", 14.0),
+                            ("Restaurar: regeneração persistente", "1º", 100.0, "35%", 35.0),
+                            ("Abastecer: recuperação ripária", "7º", 60.0, "20%", 12.0),
+                            ("Abastecer: cobertura ripária", "5º", 73.3, "10%", 7.3),
+                            ("Índice do município hipotético", "", None, "", 68.3)],
+                           columns=["Indicador", "Posição", "Pontos", "Peso", "Contribuição"]),
+              {"Pontos": 1, "Contribuição": 1})
     st.markdown("**Como pontua.** Em cada um dos quatro indicadores, os 16 municípios com pelo menos 5.000 ha na RH-III "
-                "recebem um posto, que vira pontos de 0 a 100; o índice soma os pontos com pesos 35, 35, 20 e 10. "
-                "Diferença de índice menor que 2 pontos é empate técnico, decidido pelo menor P1 e depois pelo maior A1. "
-                "Rio Claro, Miguel Pereira e Mendes têm porção pequena na bacia, onde uma única propriedade muda a taxa: "
-                "têm os indicadores calculados e publicados e concorrem a menção especial.")
-    st.markdown("**Travas.** Num cenário, não entra entre os três primeiros quem perdeu mais de 0,5% da floresta ou "
-                "teve supressão acima de 1,5 vez a taxa da bacia naquele cenário.")
+                "recebem uma posição, do melhor ao pior, que vira pontos de 0 a 100; o índice soma os pontos com pesos 35, "
+                "35, 20 e 10: é o índice do caso-base. Diferença de índice menor que 2 pontos é empate técnico: fica à frente "
+                "quem tem a menor taxa de supressão de floresta e, se ela também empatar, a maior recuperação ripária. "
+                "Rio Claro, Miguel Pereira e Mendes têm porção pequena na bacia (menos de 5.000 ha), onde uma única "
+                "propriedade muda a taxa: ficam fora da ordenação, têm os indicadores calculados e publicados e concorrem a "
+                "menção especial. O critério é a área dentro da bacia, não a fração do município: Piraí (10,4 mil ha, 21% do "
+                "município) e Três Rios (9,7 mil ha, 30%) entram.")
+    st.markdown("**Travas.** Num cenário, não entra entre os três primeiros quem teve perda líquida de mais de 0,5% da "
+                "floresta entre 2015 e 2024 ou supressão acima de 1,5 vez a taxa da bacia naquele cenário.")
     st.markdown("**Território avaliado.** A porção de cada município na RH-III, sem os parques federais e estaduais "
                 "(Parque Nacional do Itatiaia e Parques Estaduais da Serra da Concórdia e da Pedra Selada), sem a "
                 "silvicultura provável e sem água: fica o território que município e proprietários manejam.")
@@ -79,13 +109,13 @@ def destaques(t: pd.DataFrame) -> None:
             st.metric("Índice no caso-base", fmt(linha["indice_caso_base"], 1),
                       f"entre os três primeiros em {pct(100 * linha['freq_top3'])} dos {fmt(dec['n_cenarios'])} cenários",
                       delta_color="off", delta_arrow="off")
-            st.markdown(f"Posto entre os 16 em cada indicador: Proteger {ru.posto_txt(p['P1'])}, Restaurar "
+            st.markdown(f"Posição entre os 16 em cada indicador: Proteger {ru.posto_txt(p['P1'])}, Restaurar "
                         f"{ru.posto_txt(p['R1'])}, Abastecer {ru.posto_txt(p['A1'])} (recuperação ripária) e "
                         f"{ru.posto_txt(p['A2'])} (cobertura ripária).")
     st.caption(f"Resultados na porção de cada município na RH-III, nos mandatos de 2017 a 2020 e de 2021 a 2024 "
                f"(supressão de 2017 a 2024; regeneração das coortes de 2017 a 2022 que continuou floresta até 2025; beira "
                f"dos rios comparada entre 2015 e 2024). Ordem pelo índice do caso-base: Rio das Flores e Pinheiral ficam "
-               f"a 0,3 ponto, empate técnico, e o desempate pela menor taxa de supressão põe Rio das Flores em 1º. Os três "
+               f"a menos de meio ponto, empate técnico, e o desempate pela menor taxa de supressão põe Rio das Flores em 1º. Os três "
                f"ficam entre os três primeiros em 80% ou mais dos {fmt(dec['n_cenarios'])} cenários; a ordem entre eles "
                f"muda conforme o cenário, e a mais frequente apareceu em {pct(100 * dec['freq_ordem_modal'])} deles.")
     arq = dados.DIR / "ranking" / "mencoes.json"
@@ -189,7 +219,7 @@ def auditoria() -> None:
 
 def downloads() -> None:
     st.subheader("Dados do ranking")
-    arquivos = [("indicadores_19_publicacao.csv", "Indicadores, faixas e território avaliado dos 19"),
+    arquivos = [("indicadores_19_publicacao.csv", "Indicadores, classificação e território avaliado dos 19"),
                 ("robustez_familias.csv", "Robustez por família de fator"),
                 ("fatores_pm_publicacao.csv", "Correção do Restaurar por município"),
                 ("indicadores_antes_da_correcao.csv", "Indicadores antes da correção")]
