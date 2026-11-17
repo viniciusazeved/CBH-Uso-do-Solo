@@ -120,9 +120,7 @@ def secao_ranking(cod: int, m: str) -> None:
     r = t.set_index("cod_ibge").loc[cod]
     med = ru.medianas(t)
     st.subheader(f"Ranking Ambiental CBH-MPS 2026: resultados na porção de {m} na RH-III")
-    if r["faixa"] == "Destaque":
-        situacao = "**Destaque** (os três destaques não têm ordem entre si)."
-    elif r["elegivel"]:
+    if r["elegivel"]:
         situacao = f"**{int(r['posicao_caso_base'])}º no caso-base**, índice {fmt(r['indice_caso_base'], 1)}."
     else:
         situacao = "**Porção pequena na RH-III**, fora da ordenação (menos de 5.000 ha na bacia)."

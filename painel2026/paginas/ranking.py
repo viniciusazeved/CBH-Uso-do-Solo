@@ -1,8 +1,8 @@
 """Ranking Ambiental CBH-MPS 2026: destaques, robustez, faixas, auditoria e método.
 
-Sem painel_dados/ranking/decisao.json, a página mostra só o método e a data do anúncio. Os três destaques saem sem
-ordem (protocolo, seção 7); do 4º ao 16º, posição e índice do caso-base com a regra de empate técnico (decisão do
-coordenador do GT SIGA, 17/11/2026)."""
+Sem painel_dados/ranking/decisao.json, a página mostra só o método e a data do anúncio. Classificação do 1º ao 16º pelo
+índice do caso-base, com a regra de empate técnico (decisão do coordenador do GT SIGA, 17/11/2026); a frequência entre
+os três primeiros nos 5.000 cenários vai ao lado, como medida de robustez."""
 
 from __future__ import annotations
 
@@ -31,9 +31,9 @@ def metodo() -> None:
     c = st.columns(3, gap="medium")
     frentes = [("Proteger", "35%", "Taxa de supressão de floresta, em % ao ano, de 2017 a 2024. Menor é melhor."),
                ("Restaurar", "35%", "Pasto, lavoura ou mosaico que virou floresta de 2017 a 2022 e continuou floresta "
-                                    "até 2025, relativo ao que havia para restaurar."),
-               ("Abastecer", "30%", "Quanto do déficit de vegetação nativa na beira dos rios e nascentes foi recuperado "
-                                    "de 2015 a 2024 (20%) e quanto dessa faixa tem vegetação nativa em 2024 (10%).")]
+                                    "até 2025, em proporção à área que havia para restaurar."),
+               ("Abastecer", "30%", "20%: quanto da faixa dos rios e nascentes que estava sem vegetação nativa em 2015 "
+                                    "foi recuperado até 2024. 10%: vegetação nativa na mesma faixa em 2024.")]
     for col, (titulo, peso, texto) in zip(c, frentes):
         with col.container(border=True):
             st.markdown(f"**{titulo}** · peso {peso}")
@@ -54,8 +54,10 @@ def metodo() -> None:
                 "os 19 municípios. O resultado foi testado em 5.000 cenários sorteados, variando normalização, pesos, "
                 "janelas, compostos, máscaras, unidades de conservação, faixa ripária, forma do A1, relevo e a incerteza "
                 "da correção: conta a frequência com que cada município fica entre os três primeiros, e 80% ou mais é "
-                "resultado robusto. O pódio só sai em ordem se a ordem do caso-base for a mais frequente em pelo menos "
-                "metade dos cenários; com menos de três municípios robustos, as vagas restantes seguem a ordem do caso-base.")
+                "resultado robusto. A classificação segue o índice do caso-base, com a regra de empate técnico. O "
+                "protocolo previa os três primeiros sem ordem quando a ordem mais frequente nos cenários ficasse abaixo "
+                "da metade (ela apareceu em 18,7%); por decisão do coordenador do GT SIGA, de 17/11/2026, a classificação "
+                "é publicada completa, do 1º ao 16º, com a frequência ao lado.")
     with st.expander("Códigos de verificação (SHA-256)"):
         st.markdown("\n".join(f"- {nome_}: `{h}`" for nome_, h in HASHES))
     ui.nota("O ranking mede resultados no território, observados por satélite; não mede políticas nem atribui autoria. "
@@ -65,26 +67,27 @@ def metodo() -> None:
 
 def destaques(t: pd.DataFrame) -> None:
     dec = ru.decisao()
-    st.subheader("Os municípios em destaque")
+    st.subheader("Os três primeiros")
     st.markdown(":orange-badge[Resultado provisório] pela metodologia abaixo (três frentes, quatro indicadores e "
                 "seus pesos), sujeito à conferência dos dados pelos municípios.")
-    cols = st.columns(len(dec["destaques"]), gap="medium")
-    for col, m in zip(cols, dec["destaques"]):
-        linha = t[t["municipio"] == m].iloc[0]
+    tres = t[t["elegivel"]].sort_values("posicao_caso_base").head(3)
+    cols = st.columns(3, gap="medium")
+    for col, (_, linha) in zip(cols, tres.iterrows()):
         p = ru.postos(linha)
         with col.container(border=True):
-            st.markdown(f"### {m}")
-            st.metric("Entre os três primeiros", pct(100 * linha["freq_top3"]), f"dos {fmt(dec['n_cenarios'])} cenários",
+            st.markdown(f"### {int(linha['posicao_caso_base'])}º {linha['municipio']}")
+            st.metric("Índice no caso-base", fmt(linha["indice_caso_base"], 1),
+                      f"entre os três primeiros em {pct(100 * linha['freq_top3'])} dos {fmt(dec['n_cenarios'])} cenários",
                       delta_color="off", delta_arrow="off")
             st.markdown(f"Posto entre os 16 em cada indicador: Proteger {ru.posto_txt(p['P1'])}, Restaurar "
                         f"{ru.posto_txt(p['R1'])}, Abastecer {ru.posto_txt(p['A1'])} (recuperação ripária) e "
                         f"{ru.posto_txt(p['A2'])} (cobertura ripária).")
     st.caption(f"Resultados na porção de cada município na RH-III, nos mandatos de 2017 a 2020 e de 2021 a 2024 "
                f"(supressão de 2017 a 2024; regeneração das coortes de 2017 a 2022 que continuou floresta até 2025; beira "
-               f"dos rios comparada entre 2015 e 2024). Pela "
-               f"regra do protocolo, o pódio só sai em ordem quando a ordem do caso-base é a mais frequente em pelo menos "
-               f"metade dos cenários; a ordem mais frequente apareceu em {pct(100 * dec['freq_ordem_modal'])} deles, e por "
-               f"isso os três aparecem sem ordem.")
+               f"dos rios comparada entre 2015 e 2024). Ordem pelo índice do caso-base: Rio das Flores e Pinheiral ficam "
+               f"a 0,3 ponto, empate técnico, e o desempate pela menor taxa de supressão põe Rio das Flores em 1º. Os três "
+               f"ficam entre os três primeiros em 80% ou mais dos {fmt(dec['n_cenarios'])} cenários; a ordem entre eles "
+               f"muda conforme o cenário, e a mais frequente apareceu em {pct(100 * dec['freq_ordem_modal'])} deles.")
     arq = dados.DIR / "ranking" / "mencoes.json"
     if arq.exists():          # decisão do comitê; só entra quando o arquivo existe
         men = json.loads(arq.read_text(encoding="utf-8"))
@@ -102,16 +105,16 @@ def robustez(t: pd.DataFrame) -> None:
 
 def tabela_faixas(t: pd.DataFrame) -> None:
     med = ru.medianas(t)
-    st.subheader("Todos os municípios")
-    st.markdown("Os três destaques vêm sem ordem. Do 4º ao 16º, a posição e o índice do caso-base: diferença menor que 2 "
-                "pontos é empate técnico, e dentro do empate fica à frente quem tem a menor taxa de supressão (regra do "
-                "protocolo). Cada indicador vem comparado à mediana dos 16 elegíveis: ▲ melhor que a mediana, ▼ pior. Os "
-                "três municípios de porção pequena na RH-III vêm à parte, fora da ordenação: com menos de 5.000 ha na "
-                "bacia, uma única propriedade muda as taxas. O critério é a área dentro da bacia, não a fração do "
-                "município: Piraí e Três Rios, também só em parte na RH-III, têm mais de 9 mil ha nela.")
-    grupos = [("Destaques, sem ordem", t[t["faixa"] == "Destaque"]),
-              ("Do 4º ao 16º no caso-base",
-               t[t["elegivel"] & (t["faixa"] != "Destaque")].sort_values("posicao_caso_base")),
+    st.subheader("Classificação dos 16 municípios")
+    st.markdown("Posição e índice do caso-base. Diferença menor que 2 pontos é empate técnico, e dentro do empate fica à "
+                "frente quem tem a menor taxa de supressão (regra do protocolo): é o caso de Rio das Flores e Pinheiral "
+                "(1º e 2º), de Piraí, Volta Redonda e Paraíba do Sul (5º a 7º), de Resende, Vassouras e Comendador Levy "
+                "Gasparian (9º a 11º) e de Porto Real e Barra Mansa (13º e 14º). Cada indicador vem comparado à mediana "
+                "dos 16: ▲ melhor que a mediana, ▼ pior. Os três municípios de porção pequena na RH-III vêm à parte, fora "
+                "da ordenação: com menos de 5.000 ha na bacia, uma única propriedade muda as taxas. O critério é a área "
+                "dentro da bacia, não a fração do município: Piraí e Três Rios, também só em parte na RH-III, têm mais de "
+                "9 mil ha nela.")
+    grupos = [("Do 1º ao 16º no caso-base", t[t["elegivel"]].sort_values("posicao_caso_base")),
               (TITULO_FAIXA["Porção pequena na RH-III"], t[~t["elegivel"]])]
     for titulo, sub in grupos:
         linhas = []

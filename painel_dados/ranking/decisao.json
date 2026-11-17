@@ -19,5 +19,24 @@
  "freq_ordem_modal": 0.1866,
  "n_cenarios": 5000,
  "semente": 20261030,
- "taxa_regional_p1": 0.28418138247341473
+ "taxa_regional_p1": 0.28418138247341473,
+ "ordem_publicada": [
+  "Rio das Flores",
+  "Pinheiral",
+  "Itatiaia",
+  "Quatis",
+  "Piraí",
+  "Volta Redonda",
+  "Paraíba do Sul",
+  "Três Rios",
+  "Resende",
+  "Vassouras",
+  "Comendador Levy Gasparian",
+  "Barra do Piraí",
+  "Porto Real",
+  "Barra Mansa",
+  "Valença",
+  "Paty do Alferes"
+ ],
+ "criterio_ordem": "índice do caso-base com a regra de empate técnico do protocolo (seção 7); classificação completa publicada por decisão do coordenador do GT SIGA em 17/11/2026"
 }
