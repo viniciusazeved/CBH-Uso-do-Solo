@@ -1,7 +1,7 @@
 """Ranking Ambiental CBH-MPS 2026: destaques, robustez, faixas, auditoria e método.
 
 Sem painel_dados/ranking/decisao.json, a página mostra só o método e a data do anúncio. Classificação do 1º ao 16º pelo
-índice do caso-base, com os empates técnicos sinalizados (decisão da coordenação do GT SIGA, 17/11/2026); a frequência entre
+índice do caso-base, com a regra de empate técnico do protocolo (decisão da coordenação do GT SIGA, 17/11/2026); a frequência entre
 os três primeiros nos 5.000 cenários vai ao lado, como medida de robustez."""
 
 from __future__ import annotations
@@ -67,8 +67,8 @@ def metodo() -> None:
               {"Pontos": 1, "Contribuição": 1})
     st.markdown("**Como pontua.** Em cada um dos quatro indicadores, os 16 municípios com pelo menos 5.000 ha na RH-III "
                 "recebem uma posição, do melhor ao pior, que vira pontos de 0 a 100; o índice soma os pontos com pesos 35, "
-                "35, 20 e 10: é o índice do caso-base, e a classificação segue a ordem do índice. Diferença de índice menor "
-                "que 2 pontos é empate técnico: os municípios ficam na ordem do índice, com o empate sinalizado. "
+                "35, 20 e 10: é o índice do caso-base. Diferença de índice menor que 2 pontos é empate técnico: fica à frente "
+                "quem tem a menor taxa de supressão de floresta e, se ela também empatar, a maior recuperação ripária. "
                 "Rio Claro, Miguel Pereira e Mendes têm porção pequena na bacia (menos de 5.000 ha), onde uma única "
                 "propriedade muda a taxa: ficam fora da ordenação, têm os indicadores calculados e publicados e concorrem a "
                 "menção especial. O critério é a área dentro da bacia, não a fração do município: Piraí (10,4 mil ha, 21% do "
@@ -84,11 +84,10 @@ def metodo() -> None:
                 "os 19 municípios. O resultado foi testado em 5.000 cenários sorteados, variando normalização, pesos, "
                 "janelas, compostos, máscaras, unidades de conservação, faixa ripária, forma do A1, relevo e a incerteza "
                 "da correção: conta a frequência com que cada município fica entre os três primeiros, e 80% ou mais é "
-                "resultado robusto. A classificação segue a ordem do índice do caso-base, com os empates técnicos "
-                "sinalizados. O protocolo previa os três primeiros sem ordem quando a ordem mais frequente nos cenários "
-                "ficasse abaixo da metade (ela apareceu em 18,7%) e o desempate de empates técnicos pela menor supressão; por "
-                "decisão da coordenação do GT SIGA, de 17/11/2026, a classificação é publicada completa, do 1º ao 16º, na "
-                "ordem do índice, com os empates sinalizados e a frequência ao lado.")
+                "resultado robusto. A classificação segue o índice do caso-base, com a regra de empate técnico do "
+                "protocolo. O protocolo previa os três primeiros sem ordem quando a ordem mais frequente nos cenários "
+                "ficasse abaixo da metade (ela apareceu em 18,7%); por decisão da coordenação do GT SIGA, de 17/11/2026, a "
+                "classificação é publicada completa, do 1º ao 16º, com a frequência ao lado.")
     with st.expander("Códigos de verificação (SHA-256)"):
         st.markdown("\n".join(f"- {nome_}: `{h}`" for nome_, h in HASHES))
     ui.nota("O ranking mede resultados no território, observados por satélite; não mede políticas nem atribui autoria. "
@@ -113,10 +112,18 @@ def destaques(t: pd.DataFrame) -> None:
             st.markdown(f"Posição entre os 16 em cada indicador: Proteger {ru.posto_txt(p['P1'])}, Restaurar "
                         f"{ru.posto_txt(p['R1'])}, Abastecer {ru.posto_txt(p['A1'])} (recuperação ripária) e "
                         f"{ru.posto_txt(p['A2'])} (cobertura ripária).")
+    a, b = tres.iloc[0], tres.iloc[1]
+    dif = b["indice_caso_base"] - a["indice_caso_base"]
+    if 0 < dif < 2:     # empate técnico com o de trás tendo índice maior: a regra do protocolo vai à vista
+        st.info(f"**Por que {a['municipio']} está à frente de {b['municipio']}.** Os dois estão em empate técnico: o índice "
+                f"difere em {'menos de meio ponto' if dif < 0.5 else 'menos de 2 pontos'} ({fmt(a['indice_caso_base'], 1)} e "
+                f"{fmt(b['indice_caso_base'], 1)}). Pela regra do protocolo, fixada antes dos resultados, dentro do empate "
+                f"fica à frente quem tem a menor taxa de supressão de floresta: {a['municipio']}, com "
+                f"{fmt(a['P1'], 3)}% ao ano, contra {fmt(b['P1'], 3)}% de {b['municipio']}.", icon=":material/balance:")
     st.caption(f"Resultados na porção de cada município na RH-III, nos mandatos de 2017 a 2020 e de 2021 a 2024 "
                f"(supressão de 2017 a 2024; regeneração das coortes de 2017 a 2022 que continuou floresta até 2025; beira "
-               f"dos rios comparada entre 2015 e 2024). Ordem pelo índice do caso-base: Pinheiral e Rio das Flores ficam "
-               f"a menos de meio ponto, empate técnico. Os três "
+               f"dos rios comparada entre 2015 e 2024). Ordem pelo índice do caso-base, com a regra de empate técnico do "
+               f"protocolo. Os três "
                f"ficam entre os três primeiros em 80% ou mais dos {fmt(dec['n_cenarios'])} cenários; a ordem entre eles "
                f"muda conforme o cenário, e a mais frequente apareceu em {pct(100 * dec['freq_ordem_modal'])} deles.")
     arq = dados.DIR / "ranking" / "mencoes.json"
@@ -137,9 +144,10 @@ def robustez(t: pd.DataFrame) -> None:
 def tabela_faixas(t: pd.DataFrame) -> None:
     med = ru.medianas(t)
     st.subheader("Classificação dos 16 municípios")
-    st.markdown("Posição e índice do caso-base, na ordem do índice. Índices a menos de 2 pontos um do outro são empate "
-                "técnico: a diferença é pequena demais para separar os municípios, e a coluna Empate técnico diz quais "
-                "posições estão empatadas: 1º e 2º, 5º ao 7º, 9º ao 11º e 13º e 14º. Cada indicador vem comparado à mediana "
+    st.markdown("Posição e índice do caso-base. Índices a menos de 2 pontos um do outro são empate técnico, e dentro do "
+                "empate fica à frente quem tem a menor taxa de supressão de floresta (regra do protocolo); por isso, num "
+                "empate, quem está à frente pode ter índice menor. A coluna Empate técnico diz quais posições estão "
+                "empatadas: 1º e 2º, 5º ao 7º, 9º ao 11º e 13º e 14º. Cada indicador vem comparado à mediana "
                 "dos 16: ▲ melhor que a mediana, ▼ pior. Os três municípios de porção pequena na RH-III vêm à parte, fora "
                 "da ordenação: com menos de 5.000 ha na bacia, uma única propriedade muda as taxas. O critério é a área "
                 "dentro da bacia, não a fração do município: Piraí e Três Rios, também só em parte na RH-III, têm mais de "
