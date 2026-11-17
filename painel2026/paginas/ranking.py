@@ -86,7 +86,7 @@ def metodo() -> None:
                 "da correção: conta a frequência com que cada município fica entre os três primeiros, e 80% ou mais é "
                 "resultado robusto. A classificação segue o índice do caso-base, com a regra de empate técnico. O "
                 "protocolo previa os três primeiros sem ordem quando a ordem mais frequente nos cenários ficasse abaixo "
-                "da metade (ela apareceu em 18,7%); por decisão do coordenador do GT SIGA, de 17/11/2026, a classificação "
+                "da metade (ela apareceu em 18,7%); por decisão da coordenação do GT SIGA, de 17/11/2026, a classificação "
                 "é publicada completa, do 1º ao 16º, com a frequência ao lado.")
     with st.expander("Códigos de verificação (SHA-256)"):
         st.markdown("\n".join(f"- {nome_}: `{h}`" for nome_, h in HASHES))
