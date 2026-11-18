@@ -1,4 +1,4 @@
-# Dependências do painel do GT SIGA (CBH-MPS) no Streamlit Cloud; revisado em 17/11/2026 (classificação pela regra do protocolo, termos explicados e áreas nos mapas, versão final)
+# Dependências do painel do GT SIGA (CBH-MPS) no Streamlit Cloud; revisado em 17/11/2026 (classificação pela regra do protocolo, termos explicados e áreas nos mapas revisadas, versão final)
 streamlit>=1.55.0,<1.67
 streamlit-folium
 folium>=0.20.0

@@ -148,9 +148,9 @@ def secao_ranking(cod: int, m: str) -> None:
     st.markdown("**Nos mapas do território avaliado**")
     st.markdown(
         f"- Mata nova que se manteve (surgiu de 2017 a 2022 em pasto, lavoura ou mosaico e seguiu floresta em 2023, 2024 "
-        f"e 2025): **{fmt(ar['mata_nova_ha'], 0)} ha** no mapa; o Restaurar desconta {fmt(100 * ar['p_m'], 0)}%, parte que "
-        f"a conferência em imagens de alta resolução apontou como plantio ou erro do mapa.\n"
-        f"- Floresta derrubada que não voltou, de 2017 a 2024: **{fmt(ar['derrubada_ha'], 0)} ha**.\n"
+        f"e 2025): **{fmt(ar['mata_nova_ha'], 0)} ha** no mapa; o Restaurar desconta {fmt(100 * ar['p_m'], 0)}%, estimados "
+        f"por amostra conferida em imagens de alta resolução como plantio ou erro do mapa.\n"
+        f"- Floresta derrubada de 2017 a 2024 que seguiu sem floresta: **{fmt(ar['derrubada_ha'], 0)} ha**.\n"
         f"- Floresta: {fmt(ar['floresta_2015_ha'], 0)} ha em 2015 e {fmt(ar['floresta_2024_ha'], 0)} ha em 2024.\n"
         f"- Vegetação nativa na faixa ripária: {fmt(ar['nativa_faixa_2015_pct'], 1)}% em 2015 e "
         f"{fmt(ar['nativa_faixa_2024_pct'], 1)}% em 2024.")
