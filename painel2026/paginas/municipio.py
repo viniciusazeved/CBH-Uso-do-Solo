@@ -144,6 +144,16 @@ def secao_ranking(cod: int, m: str) -> None:
     if ru.travas(r):
         st.warning(f"Trava no caso-base: {m} {ru.travas(r)}. Nos cenários em que a trava vale, o município fica fora "
                    "dos três primeiros.", icon=":material/block:")
+    ar = dados.ranking("areas_territorio_19.csv").set_index("cod_ibge").loc[cod]
+    st.markdown("**Nos mapas do território avaliado**")
+    st.markdown(
+        f"- Mata nova que se manteve (surgiu de 2017 a 2022 em pasto, lavoura ou mosaico e seguiu floresta em 2023, 2024 "
+        f"e 2025): **{fmt(ar['mata_nova_ha'], 0)} ha** no mapa; o Restaurar desconta {fmt(100 * ar['p_m'], 0)}%, parte que "
+        f"a conferência em imagens de alta resolução apontou como plantio ou erro do mapa.\n"
+        f"- Floresta derrubada que não voltou, de 2017 a 2024: **{fmt(ar['derrubada_ha'], 0)} ha**.\n"
+        f"- Floresta: {fmt(ar['floresta_2015_ha'], 0)} ha em 2015 e {fmt(ar['floresta_2024_ha'], 0)} ha em 2024.\n"
+        f"- Vegetação nativa na faixa ripária: {fmt(ar['nativa_faixa_2015_pct'], 1)}% em 2015 e "
+        f"{fmt(ar['nativa_faixa_2024_pct'], 1)}% em 2024.")
     st.markdown("**Território avaliado**")
     terr = pd.DataFrame([("Porção do município na RH-III", r["recorte_rh3_ha"]),
                          ("Retirado: parques federais e estaduais", r["retirado_uc_ha"]),
